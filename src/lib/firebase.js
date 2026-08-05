@@ -21,13 +21,13 @@ import { getDatabase, ref, get, set, push, update, remove, onValue } from "fireb
 // (Sonra istəsən daha sərt PIN-əsaslı qaydalara keçirərik.)
 
 const firebaseConfig = {
-  apiKey: "REPLACE_ME",
-  authDomain: "repetitor-crm.firebaseapp.com",
-  databaseURL: "https://repetitor-crm-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "repetitor-crm",
-  storageBucket: "repetitor-crm.appspot.com",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME",
+  apiKey: "AIzaSyCyHPpvIuUZszE4krjv3bY4zfRBMr-U-bE",
+  authDomain: "reperitor.firebaseapp.com",
+  databaseURL: "https://reperitor-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "reperitor",
+  storageBucket: "reperitor.firebasestorage.app",
+  messagingSenderId: "627833200270",
+  appId: "1:627833200270:web:53253682b4bf33f5c5f3df",
 };
 
 export const app = initializeApp(firebaseConfig);
