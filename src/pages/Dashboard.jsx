@@ -16,6 +16,18 @@ const TABS = [
   { id: "davamiyyet", label: "Davamiyyət", icon: ClipboardCheck },
 ];
 
+const AZ_MONTHS = ["Yanvar", "Fevral", "Mart", "Aprel", "May", "İyun", "İyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"];
+
+function paymentMonthOptions() {
+  const now = new Date();
+  const opts = [];
+  for (let i = -3; i <= 9; i++) {
+    const d = new Date(now.getFullYear(), now.getMonth() + i, 1);
+    opts.push(`${AZ_MONTHS[d.getMonth()]} ${d.getFullYear()}`);
+  }
+  return opts;
+}
+
 function useCollection(tenantId, node) {
   const [items, setItems] = useState({});
   useEffect(() => {
@@ -240,12 +252,16 @@ function SagirdlerTab({ tenantId }) {
 /* ---------------- ÖDƏNİŞLƏR ---------------- */
 function OdenishlerTab({ tenantId }) {
   const payments = useCollection(tenantId, "odenishler");
+  const students = useCollection(tenantId, "sagirdler");
   const [open, setOpen] = useState(false);
   const [form, setForm] = useState({ sagird: "", mebleg: "", ay: "", status: "odenilib" });
 
+  const studentNames = Object.values(students).map((s) => s.ad).filter(Boolean);
+  const months = paymentMonthOptions();
+
   async function addPayment(e) {
     e.preventDefault();
-    if (!form.sagird || !form.mebleg) return;
+    if (!form.sagird || !form.mebleg || !form.ay) return;
     const r = push(ref(db, tenantPath(tenantId, "odenishler")));
     await set(r, { ...form, tarix: Date.now() });
     setForm({ sagird: "", mebleg: "", ay: "", status: "odenilib" });
@@ -260,12 +276,27 @@ function OdenishlerTab({ tenantId }) {
     await remove(ref(db, tenantPath(tenantId, "odenishler", id)));
   }
 
-  const list = Object.entries(payments);
-  const total = list.reduce((sum, [, p]) => (p.status === "odenilib" ? sum + Number(p.mebleg || 0) : sum), 0);
+  const list = Object.entries(payments).sort((a, b) => (b[1].tarix || 0) - (a[1].tarix || 0));
+  const totalPeriod = list.reduce((sum, [, p]) => (p.status === "odenilib" ? sum + Number(p.mebleg || 0) : sum), 0);
+
+  const byMonth = {};
+  list.forEach(([, p]) => {
+    if (p.status !== "odenilib" || !p.ay) return;
+    byMonth[p.ay] = (byMonth[p.ay] || 0) + Number(p.mebleg || 0);
+  });
+  const monthlyReport = Object.entries(byMonth).sort((a, b) => months.indexOf(b[0]) - months.indexOf(a[0]));
 
   return (
     <div>
-      <SectionHeader title="Ödənişlər" desc={`Bu ay toplam: ${total} AZN`}>
+      <div className="card p-6 mb-6 flex items-center justify-between bg-ink">
+        <div>
+          <p className="text-xs text-white/50 font-mono uppercase tracking-wide">Dövr ərzində ümumi gəlir</p>
+          <p className="font-display text-3xl font-semibold text-gold mt-1">{totalPeriod} AZN</p>
+        </div>
+        <Wallet className="text-gold/30" size={40} />
+      </div>
+
+      <SectionHeader title="Ödənişlər" desc={`${list.length} qeyd`}>
         <button onClick={() => setOpen((v) => !v)} className="btn-primary !py-2.5 !px-5 text-sm">
           <Plus size={16} /> Ödəniş qeyd et
         </button>
@@ -273,9 +304,15 @@ function OdenishlerTab({ tenantId }) {
 
       {open && (
         <form onSubmit={addPayment} className="card p-5 mb-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-3 items-end">
-          <Input label="Şagird" value={form.sagird} onChange={(v) => setForm({ ...form, sagird: v })} placeholder="Nihad Əliyev" />
+          <Select
+            label="Şagird"
+            value={form.sagird}
+            onChange={(v) => setForm({ ...form, sagird: v })}
+            options={studentNames}
+            placeholder={studentNames.length ? "Şagird seç" : "Əvvəlcə şagird əlavə et"}
+          />
           <Input label="Məbləğ (AZN)" value={form.mebleg} onChange={(v) => setForm({ ...form, mebleg: v })} placeholder="80" />
-          <Input label="Ay" value={form.ay} onChange={(v) => setForm({ ...form, ay: v })} placeholder="Avqust 2026" />
+          <Select label="Ay" value={form.ay} onChange={(v) => setForm({ ...form, ay: v })} options={months} placeholder="Ay seç" />
           <button type="submit" className="btn-primary !py-3 justify-center text-sm">Yadda saxla</button>
         </form>
       )}
@@ -283,7 +320,7 @@ function OdenishlerTab({ tenantId }) {
       {list.length === 0 ? (
         <EmptyState text="Hələ ödəniş qeydi yoxdur." />
       ) : (
-        <div className="card divide-y divide-black/5">
+        <div className="card divide-y divide-black/5 mb-8">
           {list.map(([id, p]) => (
             <div key={id} className="flex items-center justify-between px-5 py-4">
               <div>
@@ -308,73 +345,109 @@ function OdenishlerTab({ tenantId }) {
           ))}
         </div>
       )}
+
+      {monthlyReport.length > 0 && (
+        <div>
+          <h3 className="font-display text-lg font-semibold text-slateink mb-3">Aylıq gəlir hesabatı</h3>
+          <div className="card divide-y divide-black/5">
+            {monthlyReport.map(([ay, sum]) => (
+              <div key={ay} className="flex items-center justify-between px-5 py-3">
+                <span className="text-sm text-slateink/70">{ay}</span>
+                <span className="font-mono text-sm font-semibold text-emerald">{sum} AZN</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
 
 /* ---------------- DAVAMİYYƏT ---------------- */
 function DavamiyyetTab({ tenantId }) {
-  const records = useCollection(tenantId, "davamiyyet");
-  const [open, setOpen] = useState(false);
-  const [form, setForm] = useState({ sagird: "", tarix: "", geldi: true });
+  const students = useCollection(tenantId, "sagirdler");
+  const records = useCollection(tenantId, "davamiyyet"); // { [sagirdId]: { [YYYY-MM-DD]: true } }
+  const now = new Date();
+  const [year, setYear] = useState(now.getFullYear());
+  const [month, setMonth] = useState(now.getMonth());
 
-  async function addRecord(e) {
-    e.preventDefault();
-    if (!form.sagird || !form.tarix) return;
-    const r = push(ref(db, tenantPath(tenantId, "davamiyyet")));
-    await set(r, form);
-    setForm({ sagird: "", tarix: "", geldi: true });
-    setOpen(false);
+  const studentList = Object.entries(students);
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const days = Array.from({ length: daysInMonth }, (_, i) => i + 1);
+  const monthPrefix = `${year}-${String(month + 1).padStart(2, "0")}`;
+
+  function dateKey(day) {
+    return `${monthPrefix}-${String(day).padStart(2, "0")}`;
   }
 
-  async function del(id) {
-    await remove(ref(db, tenantPath(tenantId, "davamiyyet", id)));
+  async function toggle(sagirdId, day) {
+    const key = dateKey(day);
+    const current = !!records[sagirdId]?.[key];
+    await set(ref(db, tenantPath(tenantId, "davamiyyet", sagirdId, key)), !current);
   }
 
-  const list = Object.entries(records).sort((a, b) => (b[1].tarix || "").localeCompare(a[1].tarix || ""));
+  function monthCount(sagirdId) {
+    const rec = records[sagirdId] || {};
+    return Object.entries(rec).filter(([k, v]) => v && k.startsWith(monthPrefix)).length;
+  }
 
   return (
     <div>
-      <SectionHeader title="Davamiyyət" desc="Dərsə gəlib-gəlməmə qeydiyyatı">
-        <button onClick={() => setOpen((v) => !v)} className="btn-primary !py-2.5 !px-5 text-sm">
-          <Plus size={16} /> Qeyd əlavə et
-        </button>
-      </SectionHeader>
-
-      {open && (
-        <form onSubmit={addRecord} className="card p-5 mb-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-3 items-end">
-          <Input label="Şagird" value={form.sagird} onChange={(v) => setForm({ ...form, sagird: v })} placeholder="Nihad Əliyev" />
-          <Input label="Tarix" value={form.tarix} onChange={(v) => setForm({ ...form, tarix: v })} placeholder="2026-08-05" />
-          <Select
-            label="Vəziyyət"
-            value={form.geldi ? "geldi" : "gelmedi"}
-            onChange={(v) => setForm({ ...form, geldi: v === "geldi" })}
-            options={["geldi", "gelmedi"]}
-          />
-          <button type="submit" className="btn-primary !py-3 justify-center text-sm">Yadda saxla</button>
-        </form>
-      )}
-
-      {list.length === 0 ? (
-        <EmptyState text="Hələ davamiyyət qeydi yoxdur." />
-      ) : (
-        <div className="card divide-y divide-black/5">
-          {list.map(([id, r]) => (
-            <div key={id} className="flex items-center justify-between px-5 py-4">
-              <div>
-                <p className="font-medium text-slateink">{r.sagird}</p>
-                <p className="text-xs text-slateink/50 font-mono">{r.tarix}</p>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${r.geldi ? "bg-emerald/10 text-emerald" : "bg-coral/10 text-coral"}`}>
-                  {r.geldi ? "Gəldi" : "Gəlmədi"}
-                </span>
-                <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2">
-                  <Trash2 size={16} />
-                </button>
-              </div>
-            </div>
+      <div className="flex flex-wrap items-end justify-between gap-4 mb-6">
+        <div>
+          <h2 className="font-display text-2xl font-semibold text-slateink">Davamiyyət</h2>
+          <p className="text-slateink/50 text-sm mt-1">Kvadrata bas — dərsə gəlib-gəlməməni işarələ</p>
+        </div>
+        <select
+          value={month}
+          onChange={(e) => setMonth(Number(e.target.value))}
+          className="bg-paper border border-black/10 rounded-lg px-3 py-2.5 text-sm text-slateink focus:outline-none focus:border-gold/60 transition-all"
+        >
+          {AZ_MONTHS.map((m, i) => (
+            <option key={m} value={i}>{m} {year}</option>
           ))}
+        </select>
+      </div>
+
+      {studentList.length === 0 ? (
+        <EmptyState text="Əvvəlcə şagird əlavə et ki, davamiyyəti izləyə biləsən." />
+      ) : (
+        <div className="card overflow-x-auto">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-black/5">
+                <th className="text-left px-4 py-3 font-medium text-slateink/60 sticky left-0 bg-white">Şagird</th>
+                {days.map((d) => (
+                  <th key={d} className="px-1.5 py-3 font-mono text-[10px] text-slateink/40 text-center">{d}</th>
+                ))}
+                <th className="px-3 py-3 font-medium text-slateink/60 text-right whitespace-nowrap">Ay ərzində</th>
+              </tr>
+            </thead>
+            <tbody>
+              {studentList.map(([id, s]) => (
+                <tr key={id} className="border-b border-black/5 last:border-0">
+                  <td className="px-4 py-2.5 font-medium text-slateink whitespace-nowrap sticky left-0 bg-white">{s.ad}</td>
+                  {days.map((d) => {
+                    const checked = !!records[id]?.[dateKey(d)];
+                    return (
+                      <td key={d} className="px-1.5 py-2.5 text-center">
+                        <button
+                          onClick={() => toggle(id, d)}
+                          aria-label={checked ? "Gəldi" : "Gəlmədi"}
+                          className={`w-5 h-5 rounded-md border transition-colors ${
+                            checked ? "bg-emerald border-emerald" : "bg-paper border-black/15 hover:border-emerald/50"
+                          }`}
+                        />
+                      </td>
+                    );
+                  })}
+                  <td className="px-3 py-2.5 text-right font-mono text-xs font-semibold text-emerald whitespace-nowrap">
+                    {monthCount(id)} dərs
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       )}
     </div>
@@ -397,7 +470,7 @@ function Input({ label, value, onChange, placeholder }) {
   );
 }
 
-function Select({ label, value, onChange, options }) {
+function Select({ label, value, onChange, options, placeholder }) {
   return (
     <label className="block">
       <span className="text-xs font-medium text-slateink/50 mb-1.5 block">{label}</span>
@@ -407,6 +480,7 @@ function Select({ label, value, onChange, options }) {
         className="w-full bg-paper border border-black/10 rounded-lg px-3 py-2.5 text-sm text-slateink
         focus:outline-none focus:border-gold/60 transition-all"
       >
+        {placeholder && <option value="">{placeholder}</option>}
         {options.map((o) => (
           <option key={o} value={o}>{o}</option>
         ))}
