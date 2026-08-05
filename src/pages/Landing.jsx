@@ -81,12 +81,12 @@ export default function Landing() {
           style={{ y: contentY, opacity: contentOpacity }}
           className="relative z-10 h-full container-px max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center"
         >
-          <div className="pt-16 lg:pt-0">
+          <div className="pt-14 sm:pt-16 lg:pt-0">
             <motion.span
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="inline-flex items-center gap-2 text-xs font-mono tracking-wide uppercase text-gold/90 bg-gold/10 border border-gold/20 rounded-full px-3 py-1.5 mb-6"
+              className="inline-flex items-center gap-2 text-[10px] sm:text-xs font-mono tracking-wide uppercase text-gold/90 bg-gold/10 border border-gold/20 rounded-full px-3 py-1.5 mb-4 sm:mb-6"
             >
               <Sparkles size={12} /> Repetitorlar üçün idarəetmə sistemi
             </motion.span>
@@ -95,7 +95,7 @@ export default function Landing() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1 }}
-              className="font-display text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.08] text-white font-semibold"
+              className="font-display text-[1.9rem] sm:text-5xl lg:text-[3.4rem] leading-[1.1] text-white font-semibold"
             >
               Dərslərini, şagirdlərini,<br />
               gəlirini — <span className="text-gold italic">bir dəftərdə</span> topla.
@@ -105,7 +105,7 @@ export default function Landing() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="mt-6 text-white/70 text-lg max-w-lg"
+              className="mt-3 sm:mt-6 text-white/70 text-sm sm:text-lg max-w-lg"
             >
               Kağız dəftər və Excel-dən yorulmusan? Qruplarını, şagirdlərini,
               ödənişlərini və davamiyyəti tək bir ekrandan izlə — hər dəyişiklik
@@ -116,12 +116,12 @@ export default function Landing() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3 }}
-              className="mt-9 flex flex-wrap items-center gap-4"
+              className="mt-5 sm:mt-9 flex flex-wrap items-center gap-3 sm:gap-4"
             >
-              <Link to="/qeydiyyat" className="btn-primary">
+              <Link to="/qeydiyyat" className="btn-primary !px-5 !py-2.5 text-sm sm:!px-6 sm:!py-3 sm:text-base">
                 Pulsuz sınaq başlat <ArrowRight size={16} />
               </Link>
-              <Link to="/giris" className="btn-ghost">
+              <Link to="/giris" className="btn-ghost !px-5 !py-2.5 text-sm sm:!px-6 sm:!py-3 sm:text-base">
                 Artıq hesabım var
               </Link>
             </motion.div>
