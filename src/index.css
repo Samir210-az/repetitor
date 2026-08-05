@@ -23,6 +23,7 @@
   }
   .status-dot { @apply w-2.5 h-2.5 rounded-full animate-pulseDot; }
   .card { @apply bg-white rounded-2xl border border-black/5 shadow-[0_2px_20px_-6px_rgba(18,23,43,0.08)]; }
+  .card-dark { @apply bg-ink rounded-2xl border border-white/5 shadow-[0_10px_35px_-12px_rgba(18,23,43,0.55)]; }
 }
 
 @media (prefers-reduced-motion: reduce) {

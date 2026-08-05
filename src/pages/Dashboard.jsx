@@ -180,26 +180,26 @@ function QruplarTab({ tenantId }) {
           {list.map(([id, g]) => {
             const members = studentList.filter(([, s]) => s.qrupId === id);
             return (
-              <div key={id} className="card overflow-hidden">
+              <div key={id} className="card-dark overflow-hidden">
                 <div className="flex items-center gap-3 p-1">
                   <div className="flex-1" onClick={() => cycleStatus(id, g.status)}>
                     <div className="cursor-pointer">
-                      <StatusBoard groups={[g]} />
+                      <StatusBoard groups={[g]} compact />
                     </div>
                   </div>
-                  <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2 mr-2">
+                  <button onClick={() => del(id)} className="text-white/25 hover:text-coral transition-colors p-2 mr-2">
                     <Trash2 size={16} />
                   </button>
                 </div>
-                <div className="px-4 pb-3 pt-1 flex flex-wrap items-center gap-1.5 border-t border-black/5 mt-1">
-                  <span className="text-[11px] text-slateink/40 font-mono uppercase mr-1">
+                <div className="px-4 pb-3 pt-1 flex flex-wrap items-center gap-1.5 border-t border-white/10 mt-1">
+                  <span className="text-[11px] text-white/35 font-mono uppercase mr-1">
                     {members.length} şagird:
                   </span>
                   {members.length === 0 ? (
-                    <span className="text-xs text-slateink/30">Hələ şagird əlavə olunmayıb</span>
+                    <span className="text-xs text-white/25">Hələ şagird əlavə olunmayıb</span>
                   ) : (
                     members.map(([sid, s]) => (
-                      <span key={sid} className="text-xs bg-paper border border-black/10 rounded-full px-2.5 py-1 text-slateink/70">
+                      <span key={sid} className="text-xs bg-white/5 border border-white/10 rounded-full px-2.5 py-1 text-white/70">
                         {s.ad}
                       </span>
                     ))
@@ -275,25 +275,25 @@ function SagirdlerTab({ tenantId }) {
       {list.length === 0 ? (
         <EmptyState text="Hələ şagird yoxdur. İlk şagirdini əlavə et." />
       ) : (
-        <div className="card divide-y divide-black/5">
+        <div className="card-dark divide-y divide-white/10">
           {list.map(([id, s]) => (
             <div key={id} className="flex items-center justify-between gap-3 px-5 py-4">
               <div className="min-w-0">
-                <p className="font-medium text-slateink">{s.ad}</p>
-                <p className="text-xs text-slateink/50 truncate">{s.sinif} {s.valideyn && `· ${s.valideyn}`} {s.qeyd && `· ${s.qeyd}`}</p>
+                <p className="font-medium text-white">{s.ad}</p>
+                <p className="text-xs text-white/45 truncate">{s.sinif} {s.valideyn && `· ${s.valideyn}`} {s.qeyd && `· ${s.qeyd}`}</p>
               </div>
               <div className="flex items-center gap-2 shrink-0">
                 <select
                   value={s.qrupId || ""}
                   onChange={(e) => setStudentGroup(id, e.target.value)}
-                  className="bg-paper border border-black/10 rounded-full px-3 py-1.5 text-xs text-slateink/70 focus:outline-none focus:border-gold/60 max-w-[160px]"
+                  className="bg-white/5 border border-white/10 rounded-full px-3 py-1.5 text-xs text-white/70 focus:outline-none focus:border-gold/60 max-w-[160px]"
                 >
-                  <option value="">Qrupsuz</option>
+                  <option value="" className="text-slateink">Qrupsuz</option>
                   {groupList.map(([gid, g]) => (
-                    <option key={gid} value={gid}>{groupLabel(g)}</option>
+                    <option key={gid} value={gid} className="text-slateink">{groupLabel(g)}</option>
                   ))}
                 </select>
-                <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2">
+                <button onClick={() => del(id)} className="text-white/25 hover:text-coral transition-colors p-2">
                   <Trash2 size={16} />
                 </button>
               </div>
@@ -344,7 +344,7 @@ function OdenishlerTab({ tenantId }) {
 
   return (
     <div>
-      <div className="card p-6 mb-6 flex items-center justify-between bg-ink">
+      <div className="card-dark p-6 mb-6 flex items-center justify-between">
         <div>
           <p className="text-xs text-white/50 font-mono uppercase tracking-wide">Dövr ərzində ümumi gəlir</p>
           <p className="font-display text-3xl font-semibold text-gold mt-1">{totalPeriod} AZN</p>
@@ -376,24 +376,24 @@ function OdenishlerTab({ tenantId }) {
       {list.length === 0 ? (
         <EmptyState text="Hələ ödəniş qeydi yoxdur." />
       ) : (
-        <div className="card divide-y divide-black/5 mb-8">
+        <div className="card-dark divide-y divide-white/10 mb-8">
           {list.map(([id, p]) => (
             <div key={id} className="flex items-center justify-between px-5 py-4">
               <div>
-                <p className="font-medium text-slateink">{p.sagird}</p>
-                <p className="text-xs text-slateink/50 font-mono">{p.mebleg} AZN · {p.ay}</p>
+                <p className="font-medium text-white">{p.sagird}</p>
+                <p className="text-xs text-white/45 font-mono">{p.mebleg} AZN · {p.ay}</p>
               </div>
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => toggleStatus(id, p.status)}
                   className={`text-xs font-semibold px-2.5 py-1 rounded-full flex items-center gap-1 transition-colors ${
-                    p.status === "odenilib" ? "bg-emerald/10 text-emerald" : "bg-coral/10 text-coral"
+                    p.status === "odenilib" ? "bg-emerald/15 text-emerald" : "bg-coral/15 text-coral"
                   }`}
                 >
                   {p.status === "odenilib" ? <Check size={12} /> : <X size={12} />}
                   {p.status === "odenilib" ? "Ödənilib" : "Borclu"}
                 </button>
-                <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2">
+                <button onClick={() => del(id)} className="text-white/25 hover:text-coral transition-colors p-2">
                   <Trash2 size={16} />
                 </button>
               </div>
@@ -405,10 +405,10 @@ function OdenishlerTab({ tenantId }) {
       {monthlyReport.length > 0 && (
         <div>
           <h3 className="font-display text-lg font-semibold text-slateink mb-3">Aylıq gəlir hesabatı</h3>
-          <div className="card divide-y divide-black/5">
+          <div className="card-dark divide-y divide-white/10">
             {monthlyReport.map(([ay, sum]) => (
               <div key={ay} className="flex items-center justify-between px-5 py-3">
-                <span className="text-sm text-slateink/70">{ay}</span>
+                <span className="text-sm text-white/60">{ay}</span>
                 <span className="font-mono text-sm font-semibold text-emerald">{sum} AZN</span>
               </div>
             ))}
@@ -468,21 +468,21 @@ function DavamiyyetTab({ tenantId }) {
       {studentList.length === 0 ? (
         <EmptyState text="Əvvəlcə şagird əlavə et ki, davamiyyəti izləyə biləsən." />
       ) : (
-        <div className="card overflow-x-auto">
+        <div className="card-dark overflow-x-auto">
           <table className="w-full text-sm border-collapse">
             <thead>
-              <tr className="border-b border-black/5">
-                <th className="text-left px-4 py-3 font-medium text-slateink/60 sticky left-0 bg-white">Şagird</th>
+              <tr className="border-b border-white/10">
+                <th className="text-left px-4 py-3 font-medium text-white/50 sticky left-0 bg-ink">Şagird</th>
                 {days.map((d) => (
-                  <th key={d} className="px-1.5 py-3 font-mono text-[10px] text-slateink/40 text-center">{d}</th>
+                  <th key={d} className="px-1.5 py-3 font-mono text-[10px] text-white/30 text-center">{d}</th>
                 ))}
-                <th className="px-3 py-3 font-medium text-slateink/60 text-right whitespace-nowrap">Ay ərzində</th>
+                <th className="px-3 py-3 font-medium text-white/50 text-right whitespace-nowrap">Ay ərzində</th>
               </tr>
             </thead>
             <tbody>
               {studentList.map(([id, s]) => (
-                <tr key={id} className="border-b border-black/5 last:border-0">
-                  <td className="px-4 py-2.5 font-medium text-slateink whitespace-nowrap sticky left-0 bg-white">{s.ad}</td>
+                <tr key={id} className="border-b border-white/10 last:border-0">
+                  <td className="px-4 py-2.5 font-medium text-white whitespace-nowrap sticky left-0 bg-ink">{s.ad}</td>
                   {days.map((d) => {
                     const checked = !!records[id]?.[dateKey(d)];
                     return (
@@ -491,7 +491,7 @@ function DavamiyyetTab({ tenantId }) {
                           onClick={() => toggle(id, d)}
                           aria-label={checked ? "Gəldi" : "Gəlmədi"}
                           className={`w-5 h-5 rounded-md border transition-colors ${
-                            checked ? "bg-emerald border-emerald" : "bg-paper border-black/15 hover:border-emerald/50"
+                            checked ? "bg-emerald border-emerald" : "bg-white/5 border-white/15 hover:border-emerald/50"
                           }`}
                         />
                       </td>
@@ -547,8 +547,8 @@ function Select({ label, value, onChange, options, placeholder }) {
 
 function EmptyState({ text }) {
   return (
-    <div className="card p-12 text-center">
-      <p className="text-slateink/40 text-sm">{text}</p>
+    <div className="card-dark p-12 text-center">
+      <p className="text-white/35 text-sm">{text}</p>
     </div>
   );
 }
