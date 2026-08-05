@@ -35,7 +35,7 @@ export default function Landing() {
         <div className="absolute bottom-32 right-[20%] w-32 h-32 rounded-full bg-emerald/20 blur-2xl animate-floaty2" />
         <div className="absolute top-1/3 left-[6%] w-16 h-16 rounded-full bg-lilac/20 blur-xl animate-floaty2" />
 
-        <div className="relative z-10 h-full container-px max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+        <div className="relative z-10 h-full container-px max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-start lg:items-center">
           <div className="pt-14 sm:pt-16 lg:pt-0">
             <motion.span
               initial={{ opacity: 0, y: 12 }}
