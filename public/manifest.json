@@ -1,0 +1,19 @@
+{
+  "name": "Repetitor CRM",
+  "short_name": "Repetitor",
+  "description": "Repetitorlar üçün idarəetmə sistemi — qruplar, şagirdlər, ödənişlər, davamiyyət.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#12172B",
+  "theme_color": "#12172B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
