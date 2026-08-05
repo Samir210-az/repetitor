@@ -9,8 +9,8 @@ import Nav from "../components/Nav.jsx";
 import Footer from "../components/Footer.jsx";
 import StatusBoard from "../components/StatusBoard.jsx";
 
-const HERO_IMG = "https://images.unsplash.com/photo-1698954634383-eba274a1b1c7?auto=format&fit=crop&w=1800&q=80";
-const DESK_IMG = "https://images.unsplash.com/photo-1769794371055-54436b54577e?auto=format&fit=crop&w=1400&q=80";
+const HERO_IMG = "https://images.pexels.com/photos/6550408/pexels-photo-6550408.jpeg?auto=compress&cs=tinysrgb&w=1800&q=80";
+const DESK_IMG = "https://images.pexels.com/photos/5797899/pexels-photo-5797899.jpeg?auto=compress&cs=tinysrgb&w=1400&q=80";
 
 const demoGroups = [
   { gunler: "B.e - Ç.ax - Cümə", saat: "14:30–16:30", seviyye: "8-9", forma: "Online", status: "dolub" },
