@@ -123,8 +123,13 @@ function SectionHeader({ title, desc, children }) {
 }
 
 /* ---------------- QRUPLAR ---------------- */
+function groupLabel(g) {
+  return `${g.gunler || "?"} · ${g.saat || "?"}${g.seviyye ? ` (${g.seviyye})` : ""}`;
+}
+
 function QruplarTab({ tenantId }) {
   const groups = useCollection(tenantId, "qruplar");
+  const students = useCollection(tenantId, "sagirdler");
   const [open, setOpen] = useState(false);
   const [form, setForm] = useState({ gunler: "", saat: "", seviyye: "", forma: "Online", status: "boş" });
 
@@ -148,6 +153,7 @@ function QruplarTab({ tenantId }) {
   }
 
   const list = Object.entries(groups);
+  const studentList = Object.entries(students);
 
   return (
     <div>
@@ -170,19 +176,38 @@ function QruplarTab({ tenantId }) {
       {list.length === 0 ? (
         <EmptyState text="Hələ qrup yoxdur. İlk qrupunu əlavə et." />
       ) : (
-        <div className="space-y-2">
-          {list.map(([id, g]) => (
-            <div key={id} className="flex items-center gap-3">
-              <div className="flex-1" onClick={() => cycleStatus(id, g.status)}>
-                <div className="cursor-pointer">
-                  <StatusBoard groups={[g]} />
+        <div className="space-y-3">
+          {list.map(([id, g]) => {
+            const members = studentList.filter(([, s]) => s.qrupId === id);
+            return (
+              <div key={id} className="card overflow-hidden">
+                <div className="flex items-center gap-3 p-1">
+                  <div className="flex-1" onClick={() => cycleStatus(id, g.status)}>
+                    <div className="cursor-pointer">
+                      <StatusBoard groups={[g]} />
+                    </div>
+                  </div>
+                  <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2 mr-2">
+                    <Trash2 size={16} />
+                  </button>
+                </div>
+                <div className="px-4 pb-3 pt-1 flex flex-wrap items-center gap-1.5 border-t border-black/5 mt-1">
+                  <span className="text-[11px] text-slateink/40 font-mono uppercase mr-1">
+                    {members.length} şagird:
+                  </span>
+                  {members.length === 0 ? (
+                    <span className="text-xs text-slateink/30">Hələ şagird əlavə olunmayıb</span>
+                  ) : (
+                    members.map(([sid, s]) => (
+                      <span key={sid} className="text-xs bg-paper border border-black/10 rounded-full px-2.5 py-1 text-slateink/70">
+                        {s.ad}
+                      </span>
+                    ))
+                  )}
                 </div>
               </div>
-              <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2">
-                <Trash2 size={16} />
-              </button>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
@@ -192,16 +217,23 @@ function QruplarTab({ tenantId }) {
 /* ---------------- ŞAGİRDLƏR ---------------- */
 function SagirdlerTab({ tenantId }) {
   const students = useCollection(tenantId, "sagirdler");
+  const groups = useCollection(tenantId, "qruplar");
   const [open, setOpen] = useState(false);
-  const [form, setForm] = useState({ ad: "", sinif: "", valideyn: "", qeyd: "" });
+  const [form, setForm] = useState({ ad: "", sinif: "", valideyn: "", qeyd: "", qrupId: "" });
+
+  const groupList = Object.entries(groups);
 
   async function addStudent(e) {
     e.preventDefault();
     if (!form.ad) return;
     const r = push(ref(db, tenantPath(tenantId, "sagirdler")));
     await set(r, { ...form, elave_tarixi: Date.now() });
-    setForm({ ad: "", sinif: "", valideyn: "", qeyd: "" });
+    setForm({ ad: "", sinif: "", valideyn: "", qeyd: "", qrupId: "" });
     setOpen(false);
+  }
+
+  async function setStudentGroup(studentId, qrupId) {
+    await set(ref(db, tenantPath(tenantId, "sagirdler", studentId, "qrupId")), qrupId);
   }
 
   async function del(id) {
@@ -222,8 +254,20 @@ function SagirdlerTab({ tenantId }) {
         <form onSubmit={addStudent} className="card p-5 mb-6 grid sm:grid-cols-2 lg:grid-cols-5 gap-3 items-end">
           <Input label="Ad Soyad" value={form.ad} onChange={(v) => setForm({ ...form, ad: v })} placeholder="Nihad Əliyev" />
           <Input label="Sinif" value={form.sinif} onChange={(v) => setForm({ ...form, sinif: v })} placeholder="9-A" />
+          <label className="block">
+            <span className="text-xs font-medium text-slateink/50 mb-1.5 block">Qrup</span>
+            <select
+              value={form.qrupId}
+              onChange={(e) => setForm({ ...form, qrupId: e.target.value })}
+              className="w-full bg-paper border border-black/10 rounded-lg px-3 py-2.5 text-sm text-slateink focus:outline-none focus:border-gold/60 transition-all"
+            >
+              <option value="">Qrup seç (ixtiyari)</option>
+              {groupList.map(([id, g]) => (
+                <option key={id} value={id}>{groupLabel(g)}</option>
+              ))}
+            </select>
+          </label>
           <Input label="Valideyn nömrəsi" value={form.valideyn} onChange={(v) => setForm({ ...form, valideyn: v })} placeholder="055 xxx xx xx" />
-          <Input label="Qeyd" value={form.qeyd} onChange={(v) => setForm({ ...form, qeyd: v })} placeholder="İxtiyari" />
           <button type="submit" className="btn-primary !py-3 justify-center text-sm">Yadda saxla</button>
         </form>
       )}
@@ -233,14 +277,26 @@ function SagirdlerTab({ tenantId }) {
       ) : (
         <div className="card divide-y divide-black/5">
           {list.map(([id, s]) => (
-            <div key={id} className="flex items-center justify-between px-5 py-4">
-              <div>
+            <div key={id} className="flex items-center justify-between gap-3 px-5 py-4">
+              <div className="min-w-0">
                 <p className="font-medium text-slateink">{s.ad}</p>
-                <p className="text-xs text-slateink/50">{s.sinif} {s.valideyn && `· ${s.valideyn}`} {s.qeyd && `· ${s.qeyd}`}</p>
+                <p className="text-xs text-slateink/50 truncate">{s.sinif} {s.valideyn && `· ${s.valideyn}`} {s.qeyd && `· ${s.qeyd}`}</p>
               </div>
-              <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2">
-                <Trash2 size={16} />
-              </button>
+              <div className="flex items-center gap-2 shrink-0">
+                <select
+                  value={s.qrupId || ""}
+                  onChange={(e) => setStudentGroup(id, e.target.value)}
+                  className="bg-paper border border-black/10 rounded-full px-3 py-1.5 text-xs text-slateink/70 focus:outline-none focus:border-gold/60 max-w-[160px]"
+                >
+                  <option value="">Qrupsuz</option>
+                  {groupList.map(([gid, g]) => (
+                    <option key={gid} value={gid}>{groupLabel(g)}</option>
+                  ))}
+                </select>
+                <button onClick={() => del(id)} className="text-slateink/30 hover:text-coral transition-colors p-2">
+                  <Trash2 size={16} />
+                </button>
+              </div>
             </div>
           ))}
         </div>
