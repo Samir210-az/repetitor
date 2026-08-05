@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-paper text-slateink font-body antialiased;
+  }
+  ::selection { background: #E8B04B; color: #12172B; }
+}
+
+@layer components {
+  .container-px { @apply px-6 md:px-10 lg:px-16; }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-gold text-ink font-semibold px-6 py-3 rounded-full
+    hover:bg-[#f0c06a] transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(232,176,75,0.6)]
+    hover:shadow-[0_12px_40px_-8px_rgba(232,176,75,0.8)] hover:-translate-y-0.5;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 border border-white/20 text-white/90 px-6 py-3 rounded-full
+    hover:border-white/50 hover:bg-white/5 transition-all duration-300;
+  }
+  .status-dot { @apply w-2.5 h-2.5 rounded-full animate-pulseDot; }
+  .card { @apply bg-white rounded-2xl border border-black/5 shadow-[0_2px_20px_-6px_rgba(18,23,43,0.08)]; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
