@@ -34,8 +34,8 @@ async function callGroq(fenn, sinif, count, avoidNote) {
       Authorization: `Bearer ${GK()}`,
     },
     body: JSON.stringify({
-      model: "deepseek-r1-distill-llama-70b",
-      reasoning_format: "hidden",
+      model: "openai/gpt-oss-120b",
+      reasoning_effort: "high",
       messages: [
         { role: "system", content: buildSystemPrompt(count) },
         { role: "user", content: user },
