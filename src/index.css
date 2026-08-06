@@ -29,3 +29,12 @@
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
 }
+
+@media print {
+  body * { visibility: hidden; }
+  #printable-test, #printable-test * { visibility: visible; }
+  #printable-test { position: absolute; top: 0; left: 0; width: 100%; padding: 0; }
+  #printable-test .no-print { visibility: hidden !important; display: none !important; }
+  #printable-test .correct-answer { background-color: transparent !important; border-color: #ddd !important; }
+  #printable-test .card { break-inside: avoid; box-shadow: none; border: 1px solid #ddd; }
+}

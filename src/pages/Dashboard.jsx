@@ -3,10 +3,12 @@ import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   GraduationCap, Users, CalendarClock, Wallet, ClipboardCheck,
-  LogOut, Plus, Trash2, Check, X, Lock,
+  LogOut, Plus, Trash2, Check, X, Lock, FileQuestion, Sparkles,
+  Printer, ChevronLeft, Loader2,
 } from "lucide-react";
 import { db, ref, onValue, push, set, remove, tenantPath } from "../lib/firebase.js";
 import { getSession, clearSession } from "../lib/session.js";
+import { generateTest } from "../lib/ai.js";
 import StatusBoard from "../components/StatusBoard.jsx";
 
 const TABS = [
@@ -14,6 +16,7 @@ const TABS = [
   { id: "sagirdler", label: "Şagirdlər", icon: Users },
   { id: "odenishler", label: "Ödənişlər", icon: Wallet },
   { id: "davamiyyet", label: "Davamiyyət", icon: ClipboardCheck },
+  { id: "testler", label: "Testlər", icon: FileQuestion },
 ];
 
 const AZ_MONTHS = ["Yanvar", "Fevral", "Mart", "Aprel", "May", "İyun", "İyul", "Avqust", "Sentyabr", "Oktyabr", "Noyabr", "Dekabr"];
@@ -121,6 +124,7 @@ export default function Dashboard() {
             {tab === "sagirdler" && <SagirdlerTab tenantId={session.tenantId} />}
             {tab === "odenishler" && <OdenishlerTab tenantId={session.tenantId} />}
             {tab === "davamiyyet" && <DavamiyyetTab tenantId={session.tenantId} />}
+            {tab === "testler" && <TestlerTab tenantId={session.tenantId} fenn={session.profile?.fenn} />}
           </motion.div>
         </AnimatePresence>
       </main>
@@ -555,6 +559,147 @@ function DavamiyyetTab({ tenantId }) {
           </table>
         </div>
       )}
+    </div>
+  );
+}
+
+/* ---------------- TESTLƏR ---------------- */
+function TestlerTab({ tenantId, fenn }) {
+  const tests = useCollection(tenantId, "testler");
+  const [sinif, setSinif] = useState("");
+  const [sualSayi, setSualSayi] = useState(60);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [openId, setOpenId] = useState(null);
+
+  const list = Object.entries(tests).sort((a, b) => (b[1].yaradilib || 0) - (a[1].yaradilib || 0));
+
+  async function handleGenerate(e) {
+    e.preventDefault();
+    if (!sinif || !fenn) {
+      setError("Sinif daxil et.");
+      return;
+    }
+    setLoading(true);
+    setError("");
+    try {
+      const suallar = await generateTest({ fenn, sinif, sualSayi: Number(sualSayi) || 60 });
+      const r = push(ref(db, tenantPath(tenantId, "testler")));
+      await set(r, {
+        baslik: `${sinif}-ci sinif ${fenn} — ${suallar.length} sual`,
+        sinif,
+        fenn,
+        yaradilib: Date.now(),
+        suallar,
+      });
+      setOpenId(r.key);
+      setSinif("");
+    } catch (err) {
+      setError(err.message || "AI test hazırlaya bilmədi. Yenidən sına.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function del(id) {
+    await remove(ref(db, tenantPath(tenantId, "testler", id)));
+    if (openId === id) setOpenId(null);
+  }
+
+  if (openId && tests[openId]) {
+    return <TestDetail test={tests[openId]} onBack={() => setOpenId(null)} onDelete={() => del(openId)} />;
+  }
+
+  return (
+    <div>
+      <SectionHeader title="Testlər" desc={fenn ? `Fənn: ${fenn} (sənin qeydiyyat fənnin)` : "Testlər"} />
+
+      <form onSubmit={handleGenerate} className="card p-5 mb-6">
+        <div className="flex items-center gap-2 mb-4 text-slateink/70 text-sm font-medium">
+          <Sparkles size={16} className="text-gold" /> AI ilə test hazırla
+        </div>
+        <div className="grid sm:grid-cols-3 gap-3 items-end">
+          <Input label="Sinif" value={sinif} onChange={setSinif} placeholder="7" />
+          <Input label="Sual sayı" value={String(sualSayi)} onChange={(v) => setSualSayi(v.replace(/\D/g, ""))} placeholder="60" />
+          <button type="submit" disabled={loading} className="btn-primary !py-3 justify-center text-sm">
+            {loading ? <Loader2 className="animate-spin" size={16} /> : "Test hazırla"}
+          </button>
+        </div>
+        <p className="text-xs text-slateink/40 mt-3">
+          Fənn avtomatik sənin qeydiyyat fənnindən götürülür ({fenn || "—"}) — dəyişmək olmaz.
+        </p>
+        {error && <p className="text-coral text-sm mt-3 bg-coral/10 rounded-lg px-3 py-2">{error}</p>}
+      </form>
+
+      {list.length === 0 ? (
+        <EmptyState text="Hələ test yaradılmayıb. Yuxarıdan ilk testini AI ilə hazırla." />
+      ) : (
+        <div className="card-dark divide-y divide-white/10">
+          {list.map(([id, t]) => (
+            <div key={id} className="flex items-center justify-between px-5 py-4">
+              <button onClick={() => setOpenId(id)} className="text-left min-w-0">
+                <p className="font-medium text-white truncate">{t.baslik}</p>
+                <p className="text-xs text-white/45 mt-0.5">{t.suallar?.length || 0} sual</p>
+              </button>
+              <button onClick={() => del(id)} className="text-white/25 hover:text-coral transition-colors p-2 shrink-0">
+                <Trash2 size={16} />
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function TestDetail({ test, onBack, onDelete }) {
+  return (
+    <div>
+      <div className="flex items-center justify-between gap-3 mb-6 no-print">
+        <button onClick={onBack} className="flex items-center gap-1.5 text-slateink/60 hover:text-slateink text-sm">
+          <ChevronLeft size={16} /> Geri
+        </button>
+        <div className="flex items-center gap-2">
+          <button onClick={() => window.print()} className="btn-primary !py-2.5 !px-5 text-sm">
+            <Printer size={16} /> Çap et
+          </button>
+          <button onClick={onDelete} className="text-slateink/30 hover:text-coral transition-colors p-2">
+            <Trash2 size={16} />
+          </button>
+        </div>
+      </div>
+
+      <div id="printable-test">
+        <h2 className="font-display text-xl font-semibold text-slateink mb-1">{test.baslik}</h2>
+        <p className="text-xs text-slateink/40 font-mono mb-6 no-print">
+          Cavab açarı yalnız bu ekranda görünür — çap edəndə gizlənir.
+        </p>
+        <div className="space-y-5">
+          {(test.suallar || []).map((q, i) => (
+            <div key={i} className="card p-4">
+              <p className="font-medium text-slateink mb-3">{i + 1}. {q.sual}</p>
+              <div className="grid sm:grid-cols-2 gap-2">
+                {(q["seçimler"] || q.secimler || []).map((opt, oi) => {
+                  const isCorrect = oi === q.duzgun;
+                  return (
+                    <div
+                      key={oi}
+                      className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
+                        isCorrect ? "border-emerald/40 bg-emerald/5 correct-answer" : "border-black/10"
+                      }`}
+                    >
+                      <span className="text-slateink/80">
+                        {String.fromCharCode(65 + oi)}) {opt}
+                      </span>
+                      {isCorrect && <Check size={14} className="text-emerald shrink-0 no-print" />}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
