@@ -11,11 +11,19 @@ export default function SuperAdmin() {
   const [pin, setPin] = useState("");
   const [error, setError] = useState("");
   const [tenants, setTenants] = useState({});
+  const [dbError, setDbError] = useState("");
 
   useEffect(() => {
     if (!authed) return;
     const r = ref(db, "repetitor/tenants");
-    const unsub = onValue(r, (snap) => setTenants(snap.val() || {}));
+    const unsub = onValue(
+      r,
+      (snap) => {
+        setDbError("");
+        setTenants(snap.val() || {});
+      },
+      (err) => setDbError(err.message || String(err))
+    );
     return () => unsub();
   }, [authed]);
 
@@ -79,6 +87,16 @@ export default function SuperAdmin() {
       </header>
 
       <main className="container-px max-w-7xl mx-auto py-10">
+        {dbError && (
+          <div className="card-dark border-coral/30 p-5 mb-6">
+            <p className="text-coral text-sm font-semibold mb-1">Firebase icazə xətası</p>
+            <p className="text-white/50 text-xs font-mono break-all">{dbError}</p>
+            <p className="text-white/40 text-xs mt-2">
+              Firebase Console → Realtime Database → Rules bölməsində "tenants" səviyyəsinə
+              <code className="text-gold"> .read: true </code> əlavə et.
+            </p>
+          </div>
+        )}
         {list.length === 0 ? (
           <div className="card-dark p-12 text-center">
             <p className="text-white/35 text-sm">Hələ qeydiyyatdan keçən repetitor yoxdur.</p>
