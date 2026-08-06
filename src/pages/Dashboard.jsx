@@ -96,7 +96,25 @@ export default function Dashboard() {
             <LogOut size={15} /> Çıxış
           </button>
         </div>
-        <div className="container-px max-w-7xl mx-auto flex gap-1 overflow-x-auto pb-0">
+        {/* Mobil: rəngli kvadrat/pill grid */}
+        <div className="container-px max-w-7xl mx-auto grid grid-cols-2 gap-2 py-3 sm:hidden">
+          {TABS.map((t) => (
+            <button
+              key={t.id}
+              onClick={() => setTab(t.id)}
+              className={`flex items-center justify-center gap-2 px-3 py-3 rounded-full text-sm font-semibold transition-all ${
+                tab === t.id
+                  ? "bg-gold text-ink shadow-[0_6px_20px_-6px_rgba(232,176,75,0.6)]"
+                  : "bg-white/[0.06] text-white/70 border border-white/10"
+              } ${TABS.length % 2 === 1 && t.id === TABS[TABS.length - 1].id ? "col-span-2" : ""}`}
+            >
+              <t.icon size={16} /> {t.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Desktop: üfüqi tab sırası */}
+        <div className="container-px max-w-7xl mx-auto hidden sm:flex gap-1 overflow-x-auto pb-0">
           {TABS.map((t) => (
             <button
               key={t.id}
