@@ -37,11 +37,22 @@ export default function SuperAdmin() {
     }
   }
 
+  const [writeError, setWriteError] = useState("");
+  const [busyId, setBusyId] = useState(null);
+
   async function extend(tenantId, currentAccessUntil, days) {
-    const base = currentAccessUntil && currentAccessUntil > Date.now() ? currentAccessUntil : Date.now();
-    await set(ref(db, `repetitor/tenants/${tenantId}/profil/access_until`), base + days * DAY);
-    const plan = days >= 365 ? "illik" : days >= 28 ? "aylıq" : "sınaq";
-    await set(ref(db, `repetitor/tenants/${tenantId}/profil/plan`), plan);
+    setBusyId(`${tenantId}-${days}`);
+    setWriteError("");
+    try {
+      const base = currentAccessUntil && currentAccessUntil > Date.now() ? currentAccessUntil : Date.now();
+      await set(ref(db, `repetitor/tenants/${tenantId}/profil/access_until`), base + days * DAY);
+      const plan = days >= 365 ? "illik" : days >= 28 ? "aylıq" : "sınaq";
+      await set(ref(db, `repetitor/tenants/${tenantId}/profil/plan`), plan);
+    } catch (err) {
+      setWriteError(err.message || String(err));
+    } finally {
+      setBusyId(null);
+    }
   }
 
   if (!authed) {
@@ -97,6 +108,12 @@ export default function SuperAdmin() {
             </p>
           </div>
         )}
+        {writeError && (
+          <div className="card-dark border-coral/30 p-5 mb-6">
+            <p className="text-coral text-sm font-semibold mb-1">Uzatma alınmadı</p>
+            <p className="text-white/50 text-xs font-mono break-all">{writeError}</p>
+          </div>
+        )}
         {list.length === 0 ? (
           <div className="card-dark p-12 text-center">
             <p className="text-white/35 text-sm">Hələ qeydiyyatdan keçən repetitor yoxdur.</p>
@@ -126,21 +143,24 @@ export default function SuperAdmin() {
                   <div className="flex items-center gap-2 shrink-0">
                     <button
                       onClick={() => extend(id, until, 7)}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 hover:border-gold/50 hover:text-gold transition-colors flex items-center gap-1"
+                      disabled={busyId === `${id}-7`}
+                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 hover:border-gold/50 hover:text-gold transition-colors flex items-center gap-1 disabled:opacity-40"
                     >
-                      <Plus size={12} /> 7 gün
+                      <Plus size={12} /> {busyId === `${id}-7` ? "..." : "7 gün"}
                     </button>
                     <button
                       onClick={() => extend(id, until, 30)}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 hover:border-gold/50 hover:text-gold transition-colors flex items-center gap-1"
+                      disabled={busyId === `${id}-30`}
+                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 hover:border-gold/50 hover:text-gold transition-colors flex items-center gap-1 disabled:opacity-40"
                     >
-                      <Plus size={12} /> 1 ay
+                      <Plus size={12} /> {busyId === `${id}-30` ? "..." : "1 ay"}
                     </button>
                     <button
                       onClick={() => extend(id, until, 365)}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 transition-colors flex items-center gap-1"
+                      disabled={busyId === `${id}-365`}
+                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 transition-colors flex items-center gap-1 disabled:opacity-40"
                     >
-                      <Plus size={12} /> 1 il
+                      <Plus size={12} /> {busyId === `${id}-365` ? "..." : "1 il"}
                     </button>
                   </div>
                 </div>
