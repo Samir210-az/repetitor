@@ -32,7 +32,8 @@ export default function SuperAdmin() {
   async function extend(tenantId, currentAccessUntil, days) {
     const base = currentAccessUntil && currentAccessUntil > Date.now() ? currentAccessUntil : Date.now();
     await set(ref(db, `repetitor/tenants/${tenantId}/profil/access_until`), base + days * DAY);
-    await set(ref(db, `repetitor/tenants/${tenantId}/profil/plan`), days >= 28 ? "aylıq" : "sınaq");
+    const plan = days >= 365 ? "illik" : days >= 28 ? "aylıq" : "sınaq";
+    await set(ref(db, `repetitor/tenants/${tenantId}/profil/plan`), plan);
   }
 
   if (!authed) {
@@ -118,10 +119,10 @@ export default function SuperAdmin() {
                       <Plus size={12} /> 1 ay
                     </button>
                     <button
-                      onClick={() => extend(id, until, 90)}
+                      onClick={() => extend(id, until, 365)}
                       className="text-xs font-semibold px-3 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 transition-colors flex items-center gap-1"
                     >
-                      <Plus size={12} /> 3 ay
+                      <Plus size={12} /> 1 il
                     </button>
                   </div>
                 </div>
