@@ -10,13 +10,13 @@ const GK = () =>
 const BATCH_SIZE = 12; // TPM limitinə görə hər sorğuda maksimum bu qədər sual istənir
 
 function buildSystemPrompt(count) {
-  return `Sən Azərbaycanda 20 illik təcrübəyə malik, MEB (Təhsil Nazirliyi) kurikulumunu əzbər bilən, dərsliklər üçün test yazan peşəkar müəllim-metodikstsən. Vəzifən — real məktəb/dərslik testlərinə tam bənzəyən suallar hazırlamaqdır, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
+  return `Sən Azərbaycanda 20 illik təcrübəyə malik, DİM (Dövlət İmtahan Mərkəzi) formatında abituriyent hazırlığı testləri yazan peşəkar müəllim-metodikstsən. Vəzifən — real DİM test kitabçalarına tam bənzəyən, yüksək çətinlikli suallar hazırlamaqdır, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
 
 QAYDALAR:
-1. Suallar Azərbaycan Respublikası Təhsil Nazirliyinin həmin sinif üçün təsdiqlədiyi kurikulum mövzularına dəqiq uyğun olsun.
-2. Sual üslubu real məktəb test kitabçalarındakı kimi təbii, qısa və birbaşa olsun. "Aşağıdakılardan hansı doğrudur?" kimi bir qəlibi təkrar-təkrar işlətmə — sual formalarını müxtəlifləşdir.
-3. Heç bir metadanışıq, izah, üzrxahlıq, "Qeyd:" kimi əlavə cümlə yazma — birbaşa suallara keç.
-4. Səhv variantlar real, məntiqli səhv ehtimalları olsun — açıq-aşkar gülünc variantlar yazma.
+1. Bu testlər YALNIZ 9, 10 və 11-ci siniflər üçündür — DİM (Dövlət İmtahan Mərkəzi) / abituriyent hazırlığı SƏVİYYƏSİNDƏ olmalıdır. Sadə əzbər/tərif sualları YAZMA. Hər sual real DİM test kitabçalarındakı kimi çoxaddımlı olsun: tətbiq, analiz, hesablama zənciri, müqayisə və ya sintez tələb etsin. Şagird sualı birbaşa dərslikdən "tanıyıb" cavablandıra bilməməlidir — düşünüb həll etməlidir.
+2. Suallar Azərbaycan Respublikası Təhsil Nazirliyinin həmin sinif üçün təsdiqlədiyi kurikulum mövzularına dəqiq uyğun olsun (kurikulumdan kənara çıxma, amma mövzunun ən çətin, ən dərin tətbiqini soruş).
+3. Sual üslubu real DİM/abituriyent test kitabçalarındakı kimi təbii, dəqiq və birbaşa olsun. "Aşağıdakılardan hansı doğrudur?" kimi bir qəlibi təkrar-təkrar işlətmə — sual formalarını müxtəlifləşdir (hesablama, tətbiqi məsələ, qraf/sxem üzrə interpretasiya, səbəb-nəticə, müqayisəli analiz).
+4. Səhv variantlar (distraktorlar) məhz DİM səviyyəsinə uyğun — tələbənin hesablamada, düsturun tətbiqində və ya anlayış qarışıqlığında edə biləcəyi real səhvləri əks etdirsin, açıq-aşkar gülünc olmasın.
 5. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun.
 6. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə bir dənə əskik.
 7. Yalnız SAF JSON qaytar, başqa heç nə yazma (izah, markdown, kod bloku işarəsi olmasın). JSON formatı dəqiq belə olmalıdır:
@@ -25,7 +25,7 @@ QAYDALAR:
 }
 
 async function callGroq(fenn, sinif, count, avoidNote) {
-  const user = `Azərbaycan Təhsil Nazirliyinin ${sinif}-ci sinif kurikulumuna uyğun, ${fenn} fənni üzrə tam olaraq ${count} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün. Real dərslik/test kitabçası səviyyəsində, təbii Azərbaycan dilində yaz.${avoidNote || ""}`;
+  const user = `Azərbaycan Təhsil Nazirliyinin ${sinif}-ci sinif kurikulumuna uyğun, ${fenn} fənni üzrə DİM (abituriyent) səviyyəsində tam olaraq ${count} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün. Suallar sadə əzbər yox, real DİM imtahanındakı kimi çətin, çoxaddımlı və analitik olsun. Təbii Azərbaycan dilində yaz.${avoidNote || ""}`;
 
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
