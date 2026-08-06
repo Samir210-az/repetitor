@@ -8,11 +8,19 @@ const GK = () =>
     .join("");
 
 export async function generateTest({ fenn, sinif, sualSayi }) {
-  const system = `Sən Azərbaycan təhsil sistemi üzrə peşəkar test tərtibatçısısan. Yalnız SAF JSON qaytar, başqa heç nə yazma (izah, markdown, kod bloku işarəsi olmasın). JSON formatı dəqiq belə olmalıdır:
-{"suallar":[{"sual":"sual mətni","seçimler":["A variantı","B variantı","C variantı","D variantı"],"duzgun":0}]}
-"duzgun" sahəsi 0-3 arası indeksdir (seçimlər array-indeksi), yalnız BİR düzgün cavab olmalıdır. Suallar həmin sinif səviyyəsinə və fənnə tam uyğun, elmi cəhətdən dəqiq və Azərbaycan dilində olmalıdır.`;
+  const system = `Sən Azərbaycanda 20 illik təcrübəyə malik, MEB (Təhsil Nazirliyi) kurikulumunu əzbər bilən, dərsliklər üçün test yazan peşəkar müəllim-metodikstsən. Vəzifən — real məktəb/dərslik testlərinə tam bənzəyən suallar hazırlamaqdır, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
 
-  const user = `${sinif}-ci sinif ${fenn} fənni üzrə ${sualSayi} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün.`;
+QAYDALAR:
+1. Suallar Azərbaycan Respublikası Təhsil Nazirliyinin həmin sinif üçün təsdiqlədiyi kurikulum mövzularına dəqiq uyğun olsun (mücərrəd, ümumi, xarici sistemlərə aid mövzulardan yox, məhz Azərbaycan dərsliklərindəki mövzulardan).
+2. Sual üslubu real məktəb test kitabçalarındakı kimi təbii, qısa və birbaşa olsun. "Aşağıdakılardan hansı doğrudur?" kimi bir qəlibi təkrar-təkrar işlətmə — sual formalarını müxtəlifləşdir (tərif sualı, hesablama, tətbiq, müqayisə, səbəb-nəticə və s.).
+3. Heç bir metadanışıq, izah, üzrxahlıq, "Qeyd:", "Aşağıda test verilmişdir:" kimi əlavə cümlə yazma — birbaşa suallara keç.
+4. Səhv variantlar (distraktorlar) real, məntiqli səhv ehtimalları olsun (məs. hesablama xətası, oxşar termin qarışıqlığı) — açıq-aşkar gülünc və ya heç uyğun olmayan variantlar yazma.
+5. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun, tərcümə hissi verməsin.
+6. Yalnız SAF JSON qaytar, başqa heç nə yazma (izah, markdown, kod bloku işarəsi olmasın). JSON formatı dəqiq belə olmalıdır:
+{"suallar":[{"sual":"sual mətni","seçimler":["A variantı","B variantı","C variantı","D variantı"],"duzgun":0}]}
+"duzgun" sahəsi 0-3 arası indeksdir (seçimlər array-indeksi), yalnız BİR düzgün cavab olmalıdır.`;
+
+  const user = `Azərbaycan Təhsil Nazirliyinin ${sinif}-ci sinif kurikulumuna uyğun, ${fenn} fənni üzrə ${sualSayi} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün. Real dərslik/test kitabçası səviyyəsində, təbii Azərbaycan dilində yaz.`;
 
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
