@@ -7,7 +7,7 @@ const GK = () =>
     .map((c) => String.fromCharCode(c.charCodeAt(0) ^ _k))
     .join("");
 
-const BATCH_SIZE = 12; // TPM limitinə görə hər sorğuda maksimum bu qədər sual istənir
+const BATCH_SIZE = 8; // reasoning modeli daxili "düşünmə" üçün daha çox token istifadə etdiyinə görə partiya kiçildildi
 
 function buildSystemPrompt(count) {
   return `Sən Azərbaycanda 20 illik təcrübəyə malik, DİM (Dövlət İmtahan Mərkəzi) formatında abituriyent hazırlığı testləri yazan peşəkar müəllim-metodikstsən. Vəzifən — real DİM test kitabçalarına tam bənzəyən, yüksək çətinlikli suallar hazırlamaqdır, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
@@ -34,14 +34,15 @@ async function callGroq(fenn, sinif, count, avoidNote) {
       Authorization: `Bearer ${GK()}`,
     },
     body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
+      model: "deepseek-r1-distill-llama-70b",
+      reasoning_format: "hidden",
       messages: [
         { role: "system", content: buildSystemPrompt(count) },
         { role: "user", content: user },
       ],
       response_format: { type: "json_object" },
       temperature: 0.6,
-      max_tokens: Math.min(6000, count * 200 + 500),
+      max_tokens: Math.min(8000, count * 400 + 2000),
     }),
   });
 
@@ -52,7 +53,8 @@ async function callGroq(fenn, sinif, count, avoidNote) {
 
   const data = await res.json();
   const raw = data.choices?.[0]?.message?.content || "{}";
-  const cleaned = raw.replace(/```json|```/g, "").trim();
+  const withoutThink = raw.replace(/<think>[\s\S]*?<\/think>/gi, "").trim();
+  const cleaned = withoutThink.replace(/```json|```/g, "").trim();
   const parsed = JSON.parse(cleaned);
   if (!Array.isArray(parsed.suallar)) return [];
   return parsed.suallar;
