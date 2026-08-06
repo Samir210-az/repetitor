@@ -748,7 +748,7 @@ function TestlerTab({ tenantId, fenn }) {
               <GraduationCap size={16} /> Sınaq imtahanı
             </button>
             {pickerOpen && (
-              <div className="absolute right-0 top-full mt-2 w-72 card p-2 z-20 shadow-2xl">
+              <div className="absolute left-0 sm:right-0 sm:left-auto top-full mt-2 w-[min(18rem,calc(100vw-3rem))] card p-2 z-20 shadow-2xl">
                 <p className="text-xs text-slateink/40 px-3 pt-1 pb-2">Hansı testlə imtahan keçirəcəksən?</p>
                 <div className="max-h-72 overflow-y-auto">
                   {list.map(([id, t]) => (
