@@ -689,6 +689,7 @@ function TestlerTab({ tenantId, fenn }) {
   const [progress, setProgress] = useState(null);
   const [error, setError] = useState("");
   const [openId, setOpenId] = useState(null);
+  const [pickerOpen, setPickerOpen] = useState(false);
 
   const list = Object.entries(tests).sort((a, b) => (b[1].yaradilib || 0) - (a[1].yaradilib || 0));
 
@@ -737,7 +738,37 @@ function TestlerTab({ tenantId, fenn }) {
 
   return (
     <div>
-      <SectionHeader title="Testlər" desc={fenn ? `Fənn: ${fenn} (sənin qeydiyyat fənnin)` : "Testlər"} />
+      <SectionHeader title="Testlər" desc={fenn ? `Fənn: ${fenn} (sənin qeydiyyat fənnin)` : "Testlər"}>
+        {list.length > 0 && (
+          <div className="relative">
+            <button
+              onClick={() => setPickerOpen((v) => !v)}
+              className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-emerald text-white hover:bg-emerald/90 transition-colors"
+            >
+              <GraduationCap size={16} /> Sınaq imtahanı
+            </button>
+            {pickerOpen && (
+              <div className="absolute right-0 top-full mt-2 w-72 card p-2 z-20 shadow-2xl">
+                <p className="text-xs text-slateink/40 px-3 pt-1 pb-2">Hansı testlə imtahan keçirəcəksən?</p>
+                <div className="max-h-72 overflow-y-auto">
+                  {list.map(([id, t]) => (
+                    <button
+                      key={id}
+                      onClick={() => {
+                        setPickerOpen(false);
+                        setOpenId(id);
+                      }}
+                      className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-paper transition-colors text-sm text-slateink"
+                    >
+                      {t.baslik}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </SectionHeader>
 
       <form onSubmit={handleGenerate} className="card p-5 mb-6">
         <div className="flex items-center gap-2 mb-4 text-slateink/70 text-sm font-medium">
@@ -817,13 +848,22 @@ function TestDetail({ test, tenantId, testId, onBack, onDelete }) {
 
   return (
     <div>
-      <div className="flex items-center justify-between gap-3 mb-6 no-print">
+      <div className="flex items-center justify-between gap-3 mb-6 no-print flex-wrap">
         <button onClick={onBack} className="flex items-center gap-1.5 text-slateink/60 hover:text-slateink text-sm">
           <ChevronLeft size={16} /> Geri
         </button>
-        <div className="flex items-center gap-2">
-          <button onClick={shareLink} className="btn-ghost !text-slateink !border-black/15 !py-2.5 !px-4 text-sm">
-            <Share2 size={16} /> {copied ? "Kopyalandı!" : "Link paylaş"}
+        <div className="flex items-center gap-2 flex-wrap">
+          <button
+            onClick={shareLink}
+            className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-emerald text-white hover:bg-emerald/90 transition-colors"
+          >
+            <Share2 size={16} />
+            {copied ? "Kopyalandı!" : (
+              <>
+                <span className="sm:hidden">İmtahan linki</span>
+                <span className="hidden sm:inline">Sınaq imtahanının linkini paylaş</span>
+              </>
+            )}
           </button>
           <button onClick={() => window.print()} className="btn-primary !py-2.5 !px-5 text-sm">
             <Printer size={16} /> Çap et
