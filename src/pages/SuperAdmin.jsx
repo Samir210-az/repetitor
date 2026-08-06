@@ -39,15 +39,19 @@ export default function SuperAdmin() {
 
   const [writeError, setWriteError] = useState("");
   const [busyId, setBusyId] = useState(null);
+  const [doneId, setDoneId] = useState(null);
 
   async function extend(tenantId, currentAccessUntil, days) {
-    setBusyId(`${tenantId}-${days}`);
+    const key = `${tenantId}-${days}`;
+    setBusyId(key);
     setWriteError("");
     try {
       const base = currentAccessUntil && currentAccessUntil > Date.now() ? currentAccessUntil : Date.now();
       await set(ref(db, `repetitor/tenants/${tenantId}/profil/access_until`), base + days * DAY);
       const plan = days >= 365 ? "illik" : days >= 28 ? "aylıq" : "sınaq";
       await set(ref(db, `repetitor/tenants/${tenantId}/profil/plan`), plan);
+      setDoneId(key);
+      setTimeout(() => setDoneId((cur) => (cur === key ? null : cur)), 1500);
     } catch (err) {
       setWriteError(err.message || String(err));
     } finally {
@@ -144,23 +148,29 @@ export default function SuperAdmin() {
                     <button
                       onClick={() => extend(id, until, 7)}
                       disabled={busyId === `${id}-7`}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 hover:border-gold/50 hover:text-gold transition-colors flex items-center gap-1 disabled:opacity-40"
+                      className={`text-xs font-semibold px-3 py-1.5 rounded-full border transition-colors flex items-center gap-1 disabled:opacity-40 ${
+                        doneId === `${id}-7` ? "bg-emerald/15 border-emerald/40 text-emerald" : "bg-white/5 border-white/10 text-white/70 active:border-gold/50 active:text-gold"
+                      }`}
                     >
-                      <Plus size={12} /> {busyId === `${id}-7` ? "..." : "7 gün"}
+                      <Plus size={12} /> {busyId === `${id}-7` ? "..." : doneId === `${id}-7` ? "✓ Oldu" : "7 gün"}
                     </button>
                     <button
                       onClick={() => extend(id, until, 30)}
                       disabled={busyId === `${id}-30`}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 hover:border-gold/50 hover:text-gold transition-colors flex items-center gap-1 disabled:opacity-40"
+                      className={`text-xs font-semibold px-3 py-1.5 rounded-full border transition-colors flex items-center gap-1 disabled:opacity-40 ${
+                        doneId === `${id}-30` ? "bg-emerald/15 border-emerald/40 text-emerald" : "bg-white/5 border-white/10 text-white/70 active:border-gold/50 active:text-gold"
+                      }`}
                     >
-                      <Plus size={12} /> {busyId === `${id}-30` ? "..." : "1 ay"}
+                      <Plus size={12} /> {busyId === `${id}-30` ? "..." : doneId === `${id}-30` ? "✓ Oldu" : "1 ay"}
                     </button>
                     <button
                       onClick={() => extend(id, until, 365)}
                       disabled={busyId === `${id}-365`}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-full bg-gold/10 border border-gold/30 text-gold hover:bg-gold/20 transition-colors flex items-center gap-1 disabled:opacity-40"
+                      className={`text-xs font-semibold px-3 py-1.5 rounded-full border transition-colors flex items-center gap-1 disabled:opacity-40 ${
+                        doneId === `${id}-365` ? "bg-emerald/15 border-emerald/40 text-emerald" : "bg-gold/10 border-gold/30 text-gold hover:bg-gold/20"
+                      }`}
                     >
-                      <Plus size={12} /> {busyId === `${id}-365` ? "..." : "1 il"}
+                      <Plus size={12} /> {busyId === `${id}-365` ? "..." : doneId === `${id}-365` ? "✓ Oldu" : "1 il"}
                     </button>
                   </div>
                 </div>
