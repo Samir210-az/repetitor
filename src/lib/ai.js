@@ -7,6 +7,8 @@ const GK = () =>
     .map((c) => String.fromCharCode(c.charCodeAt(0) ^ _k))
     .join("");
 
+const BATCH_SIZE = 12; // TPM limitinə görə hər sorğuda maksimum bu qədər sual istənir
+
 function buildSystemPrompt(count) {
   return `Sən Azərbaycanda 20 illik təcrübəyə malik, MEB (Təhsil Nazirliyi) kurikulumunu əzbər bilən, dərsliklər üçün test yazan peşəkar müəllim-metodikstsən. Vəzifən — real məktəb/dərslik testlərinə tam bənzəyən suallar hazırlamaqdır, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
 
@@ -16,7 +18,7 @@ QAYDALAR:
 3. Heç bir metadanışıq, izah, üzrxahlıq, "Qeyd:" kimi əlavə cümlə yazma — birbaşa suallara keç.
 4. Səhv variantlar real, məntiqli səhv ehtimalları olsun — açıq-aşkar gülünc variantlar yazma.
 5. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun.
-6. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə bir dənə əskik. Yazmadan əvvəl özün üçün sualları 1-dən ${count}-a qədər nömrələ və ${count}-cü sualdan sonra dərhal dayan, əlavə heç nə yazma.
+6. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə bir dənə əskik.
 7. Yalnız SAF JSON qaytar, başqa heç nə yazma (izah, markdown, kod bloku işarəsi olmasın). JSON formatı dəqiq belə olmalıdır:
 {"suallar":[{"sual":"sual mətni","seçimler":["A variantı","B variantı","C variantı","D variantı"],"duzgun":0}]}
 "suallar" array-i tam olaraq ${count} element daşımalıdır. "duzgun" sahəsi 0-3 arası indeksdir, yalnız BİR düzgün cavab olmalıdır.`;
@@ -39,7 +41,7 @@ async function callGroq(fenn, sinif, count, avoidNote) {
       ],
       response_format: { type: "json_object" },
       temperature: 0.6,
-      max_tokens: Math.min(28000, count * 180 + 600),
+      max_tokens: Math.min(6000, count * 200 + 500),
     }),
   });
 
@@ -56,24 +58,42 @@ async function callGroq(fenn, sinif, count, avoidNote) {
   return parsed.suallar;
 }
 
-export async function generateTest({ fenn, sinif, sualSayi }) {
-  const target = Number(sualSayi) || 60;
-  let suallar = await callGroq(fenn, sinif, target);
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
 
-  // Say uyğun gəlmirsə, çatışmayan qədər əlavə sorğu göndər (maksimum 3 cəhd)
+export async function generateTest({ fenn, sinif, sualSayi, onProgress }) {
+  const target = Number(sualSayi) || 60;
+  let suallar = [];
   let attempts = 0;
-  while (suallar.length < target && attempts < 3) {
-    const missing = target - suallar.length;
-    const avoidNote = ` Diqqət: bu, əvvəlki ${suallar.length} sualın DAVAMIDIR — mövzuları təkrarlamadan yeni ${missing} sual yaz.`;
-    const extra = await callGroq(fenn, sinif, missing, avoidNote);
-    suallar = suallar.concat(extra);
+  const maxAttempts = Math.ceil(target / BATCH_SIZE) + 3;
+
+  while (suallar.length < target && attempts < maxAttempts) {
+    const remaining = target - suallar.length;
+    const batch = Math.min(BATCH_SIZE, remaining);
+    const avoidNote =
+      suallar.length > 0
+        ? ` Diqqət: bu, əvvəlki ${suallar.length} sualın DAVAMIDIR — mövzuları təkrarlamadan yeni ${batch} sual yaz.`
+        : "";
+    try {
+      const extra = await callGroq(fenn, sinif, batch, avoidNote);
+      suallar = suallar.concat(extra);
+      if (onProgress) onProgress(suallar.length, target);
+    } catch (err) {
+      // TPM limitinə dəysə, bir az gözləyib yenidən sına
+      if (String(err.message).includes("429") || String(err.message).includes("413")) {
+        await sleep(2500);
+      } else if (suallar.length === 0 && attempts === maxAttempts - 1) {
+        throw err;
+      }
+    }
     attempts += 1;
+    if (suallar.length < target) await sleep(600); // ardıcıl sorğular arası kiçik fasilə (TPM üçün)
   }
 
   if (suallar.length === 0) {
     throw new Error("AI cavabında suallar tapılmadı, yenidən sına.");
   }
 
-  // Tam olaraq tələb olunan sayda kəs (artıq gələrsə kəsilir, azdırsa əldə olanla davam edir)
   return suallar.slice(0, target);
 }

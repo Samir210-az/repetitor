@@ -569,6 +569,7 @@ function TestlerTab({ tenantId, fenn }) {
   const [sinif, setSinif] = useState("");
   const [sualSayi, setSualSayi] = useState(60);
   const [loading, setLoading] = useState(false);
+  const [progress, setProgress] = useState(null);
   const [error, setError] = useState("");
   const [openId, setOpenId] = useState(null);
 
@@ -582,8 +583,14 @@ function TestlerTab({ tenantId, fenn }) {
     }
     setLoading(true);
     setError("");
+    setProgress({ done: 0, total: Number(sualSayi) || 60 });
     try {
-      const suallar = await generateTest({ fenn, sinif, sualSayi: Number(sualSayi) || 60 });
+      const suallar = await generateTest({
+        fenn,
+        sinif,
+        sualSayi: Number(sualSayi) || 60,
+        onProgress: (done, total) => setProgress({ done, total }),
+      });
       const r = push(ref(db, tenantPath(tenantId, "testler")));
       await set(r, {
         baslik: `${sinif}-ci sinif ${fenn} — ${suallar.length} sual`,
@@ -598,6 +605,7 @@ function TestlerTab({ tenantId, fenn }) {
       setError(err.message || "AI test hazırlaya bilmədi. Yenidən sına.");
     } finally {
       setLoading(false);
+      setProgress(null);
     }
   }
 
@@ -628,6 +636,20 @@ function TestlerTab({ tenantId, fenn }) {
         <p className="text-xs text-slateink/40 mt-3">
           Fənn avtomatik sənin qeydiyyat fənnindən götürülür ({fenn || "—"}) — dəyişmək olmaz.
         </p>
+        {progress && (
+          <div className="mt-3">
+            <div className="flex items-center justify-between text-xs text-slateink/50 mb-1.5">
+              <span>Hazırlanır...</span>
+              <span className="font-mono">{progress.done} / {progress.total}</span>
+            </div>
+            <div className="h-1.5 w-full bg-black/5 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-gold transition-all duration-500"
+                style={{ width: `${Math.min(100, (progress.done / progress.total) * 100)}%` }}
+              />
+            </div>
+          </div>
+        )}
         {error && <p className="text-coral text-sm mt-3 bg-coral/10 rounded-lg px-3 py-2">{error}</p>}
       </form>
 
