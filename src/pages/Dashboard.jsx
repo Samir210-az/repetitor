@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   GraduationCap, Users, CalendarClock, Wallet, ClipboardCheck,
   LogOut, Plus, Trash2, Check, X, Lock, FileQuestion, Sparkles,
-  Printer, ChevronLeft, Loader2,
+  Printer, ChevronLeft, Loader2, Share2, TrendingUp,
 } from "lucide-react";
 import { db, ref, onValue, push, set, remove, tenantPath } from "../lib/firebase.js";
 import { getSession, clearSession } from "../lib/session.js";
@@ -273,6 +273,7 @@ function SagirdlerTab({ tenantId }) {
   const groups = useCollection(tenantId, "qruplar");
   const [open, setOpen] = useState(false);
   const [form, setForm] = useState({ ad: "", sinif: "", valideyn: "", qeyd: "", qrupId: "" });
+  const [openStudentId, setOpenStudentId] = useState(null);
 
   const groupList = Object.entries(groups);
 
@@ -294,6 +295,17 @@ function SagirdlerTab({ tenantId }) {
   }
 
   const list = Object.entries(students);
+
+  if (openStudentId && students[openStudentId]) {
+    return (
+      <StudentDetail
+        tenantId={tenantId}
+        studentId={openStudentId}
+        student={students[openStudentId]}
+        onBack={() => setOpenStudentId(null)}
+      />
+    );
+  }
 
   return (
     <div>
@@ -331,10 +343,10 @@ function SagirdlerTab({ tenantId }) {
         <div className="card-dark divide-y divide-white/10">
           {list.map(([id, s]) => (
             <div key={id} className="flex items-center justify-between gap-3 px-5 py-4">
-              <div className="min-w-0">
-                <p className="font-medium text-white">{s.ad}</p>
+              <button onClick={() => setOpenStudentId(id)} className="min-w-0 text-left flex-1">
+                <p className="font-medium text-white hover:text-gold transition-colors">{s.ad}</p>
                 <p className="text-xs text-white/45 truncate">{s.sinif} {s.valideyn && `· ${s.valideyn}`} {s.qeyd && `· ${s.qeyd}`}</p>
-              </div>
+              </button>
               <div className="flex items-center gap-2 shrink-0">
                 <select
                   value={s.qrupId || ""}
@@ -353,6 +365,93 @@ function SagirdlerTab({ tenantId }) {
             </div>
           ))}
         </div>
+      )}
+    </div>
+  );
+}
+
+function StudentDetail({ tenantId, studentId, student, onBack }) {
+  const neticeler = useCollection(tenantId, `sagirdler/${studentId}/neticeler`);
+  const results = Object.entries(neticeler).sort((a, b) => (a[1].tarix || 0) - (b[1].tarix || 0));
+  const [openResultId, setOpenResultId] = useState(null);
+
+  if (openResultId && neticeler[openResultId]) {
+    const r = neticeler[openResultId];
+    return (
+      <div>
+        <button onClick={() => setOpenResultId(null)} className="flex items-center gap-1.5 text-slateink/60 hover:text-slateink text-sm mb-6">
+          <ChevronLeft size={16} /> Geri
+        </button>
+        <div className="card-dark p-6 text-center mb-6">
+          <p className="text-white/50 text-sm font-mono uppercase tracking-wide mb-2">{r.baslik}</p>
+          <p className="font-display text-4xl font-bold text-gold mb-1">{r.bal}/{r.cemi}</p>
+          <p className="text-white/60 text-sm">{r.faiz}% · {new Date(r.tarix).toLocaleString("az-AZ")}</p>
+        </div>
+        <div className="space-y-3">
+          {(r.cavablar || []).map((c, i) => (
+            <div key={i} className="card p-4">
+              <p className="font-medium text-slateink mb-2">{i + 1}. {c.sual}</p>
+              <div className="grid sm:grid-cols-2 gap-2">
+                {(c.secimler || []).map((opt, oi) => {
+                  const isRight = oi === c.duzgun;
+                  const isPicked = oi === c.secilen;
+                  return (
+                    <div
+                      key={oi}
+                      className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
+                        isRight ? "border-emerald/40 bg-emerald/5" : isPicked ? "border-coral/40 bg-coral/5" : "border-black/10"
+                      }`}
+                    >
+                      <span className="text-slateink/80">{String.fromCharCode(65 + oi)}) {opt}</span>
+                      {isRight && <Check size={14} className="text-emerald shrink-0" />}
+                      {isPicked && !isRight && <X size={14} className="text-coral shrink-0" />}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <button onClick={onBack} className="flex items-center gap-1.5 text-slateink/60 hover:text-slateink text-sm mb-6">
+        <ChevronLeft size={16} /> Geri
+      </button>
+      <SectionHeader title={student.ad} desc={`${student.sinif || "—"} · İmtahan tarixçəsi`} />
+
+      {results.length === 0 ? (
+        <EmptyState text="Bu şagird hələ heç bir imtahan verməyib." />
+      ) : (
+        <>
+          <div className="card-dark p-5 mb-6 flex items-center gap-3">
+            <TrendingUp size={20} className="text-gold shrink-0" />
+            <p className="text-white/70 text-sm">
+              {results.length} imtahan verib · Orta nəticə:{" "}
+              <span className="text-gold font-semibold">
+                {Math.round(results.reduce((s, [, r]) => s + (r.faiz || 0), 0) / results.length)}%
+              </span>
+            </p>
+          </div>
+          <div className="card-dark divide-y divide-white/10">
+            {results.map(([id, r]) => (
+              <button key={id} onClick={() => setOpenResultId(id)} className="w-full flex items-center justify-between px-5 py-4 text-left">
+                <div>
+                  <p className="text-white font-medium text-sm">{r.baslik}</p>
+                  <p className="text-white/40 text-xs font-mono">{new Date(r.tarix).toLocaleString("az-AZ")}</p>
+                </div>
+                <span className={`text-sm font-mono font-semibold px-2.5 py-1 rounded-full shrink-0 ${
+                  r.faiz >= 60 ? "bg-emerald/15 text-emerald" : "bg-coral/15 text-coral"
+                }`}>
+                  {r.bal}/{r.cemi} · {r.faiz}%
+                </span>
+              </button>
+            ))}
+          </div>
+        </>
       )}
     </div>
   );
@@ -615,7 +714,7 @@ function TestlerTab({ tenantId, fenn }) {
   }
 
   if (openId && tests[openId]) {
-    return <TestDetail test={tests[openId]} onBack={() => setOpenId(null)} onDelete={() => del(openId)} />;
+    return <TestDetail test={tests[openId]} tenantId={tenantId} testId={openId} onBack={() => setOpenId(null)} onDelete={() => del(openId)} />;
   }
 
   return (
@@ -674,7 +773,30 @@ function TestlerTab({ tenantId, fenn }) {
   );
 }
 
-function TestDetail({ test, onBack, onDelete }) {
+function TestDetail({ test, tenantId, testId, onBack, onDelete }) {
+  const neticeler = useCollection(tenantId, `testler/${testId}/neticeler`);
+  const [copied, setCopied] = useState(false);
+  const link = `${window.location.origin}/imtahan/${tenantId}/${testId}`;
+  const results = Object.entries(neticeler).sort((a, b) => (b[1].tarix || 0) - (a[1].tarix || 0));
+
+  async function shareLink() {
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: test.baslik, text: "İmtahan linki", url: link });
+        return;
+      } catch {
+        // istifadəçi ləğv etdi, kopyalamaya keç
+      }
+    }
+    try {
+      await navigator.clipboard.writeText(link);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      window.prompt("Linki kopyala:", link);
+    }
+  }
+
   return (
     <div>
       <div className="flex items-center justify-between gap-3 mb-6 no-print">
@@ -682,6 +804,9 @@ function TestDetail({ test, onBack, onDelete }) {
           <ChevronLeft size={16} /> Geri
         </button>
         <div className="flex items-center gap-2">
+          <button onClick={shareLink} className="btn-ghost !text-slateink !border-black/15 !py-2.5 !px-4 text-sm">
+            <Share2 size={16} /> {copied ? "Kopyalandı!" : "Link paylaş"}
+          </button>
           <button onClick={() => window.print()} className="btn-primary !py-2.5 !px-5 text-sm">
             <Printer size={16} /> Çap et
           </button>
@@ -690,6 +815,29 @@ function TestDetail({ test, onBack, onDelete }) {
           </button>
         </div>
       </div>
+
+      {results.length > 0 && (
+        <div className="card-dark p-5 mb-6 no-print">
+          <p className="text-white/70 text-sm font-medium mb-4 flex items-center gap-2">
+            <ClipboardCheck size={16} className="text-gold" /> Nəticələr ({results.length})
+          </p>
+          <div className="divide-y divide-white/10">
+            {results.map(([sid, r]) => (
+              <div key={sid} className="flex items-center justify-between py-3">
+                <div>
+                  <p className="text-white font-medium text-sm">{r.ad}</p>
+                  <p className="text-white/40 text-xs font-mono">{new Date(r.tarix).toLocaleString("az-AZ")}</p>
+                </div>
+                <span className={`text-sm font-mono font-semibold px-2.5 py-1 rounded-full ${
+                  r.faiz >= 60 ? "bg-emerald/15 text-emerald" : "bg-coral/15 text-coral"
+                }`}>
+                  {r.bal}/{r.cemi} · {r.faiz}%
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       <div id="printable-test">
         <h2 className="font-display text-xl font-semibold text-slateink mb-1">{test.baslik}</h2>

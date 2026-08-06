@@ -3,6 +3,7 @@ import Landing from "./pages/Landing.jsx";
 import Auth from "./pages/Auth.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import SuperAdmin from "./pages/SuperAdmin.jsx";
+import ExamTake from "./pages/ExamTake.jsx";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/giris" element={<Auth />} />
         <Route path="/panel" element={<Dashboard />} />
         <Route path="/master" element={<SuperAdmin />} />
+        <Route path="/imtahan/:tenantId/:testId" element={<ExamTake />} />
       </Routes>
     </BrowserRouter>
   );
