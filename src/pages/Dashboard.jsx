@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   GraduationCap, Users, CalendarClock, Wallet, ClipboardCheck,
-  LogOut, Plus, Trash2, Check, X,
+  LogOut, Plus, Trash2, Check, X, Lock,
 } from "lucide-react";
 import { db, ref, onValue, push, set, remove, tenantPath } from "../lib/firebase.js";
 import { getSession, clearSession } from "../lib/session.js";
@@ -39,10 +39,22 @@ function useCollection(tenantId, node) {
   return items;
 }
 
+function useProfil(tenantId) {
+  const [profil, setProfil] = useState(null);
+  useEffect(() => {
+    if (!tenantId) return;
+    const r = ref(db, tenantPath(tenantId, "profil"));
+    const unsub = onValue(r, (snap) => setProfil(snap.val()));
+    return () => unsub();
+  }, [tenantId]);
+  return profil;
+}
+
 export default function Dashboard() {
   const navigate = useNavigate();
   const [session, setSession] = useState(null);
   const [tab, setTab] = useState("qruplar");
+  const profil = useProfil(session?.tenantId);
 
   useEffect(() => {
     const s = getSession();
@@ -58,6 +70,12 @@ export default function Dashboard() {
   function handleLogout() {
     clearSession();
     navigate("/");
+  }
+
+  const expired = profil && profil.access_until && Date.now() > profil.access_until;
+
+  if (expired) {
+    return <TrialExpired ad={profil.ad} onLogout={handleLogout} />;
   }
 
   return (
@@ -106,6 +124,37 @@ export default function Dashboard() {
           </motion.div>
         </AnimatePresence>
       </main>
+    </div>
+  );
+}
+
+function TrialExpired({ ad, onLogout }) {
+  const waMessage = encodeURIComponent(`Salam, mən ${ad || "repetitor"}. Repetitor CRM sınaq müddətim bitib, abunə olmaq istəyirəm.`);
+  return (
+    <div className="min-h-screen bg-ink flex items-center justify-center container-px py-16 relative overflow-hidden">
+      <div className="absolute top-1/4 -left-20 w-72 h-72 rounded-full bg-gold/10 blur-3xl animate-floaty" />
+      <div className="absolute bottom-0 -right-20 w-80 h-80 rounded-full bg-coral/10 blur-3xl animate-floaty2" />
+      <div className="relative z-10 w-full max-w-md text-center">
+        <div className="w-16 h-16 rounded-2xl bg-coral/10 border border-coral/20 flex items-center justify-center mx-auto mb-6">
+          <Lock className="text-coral" size={26} />
+        </div>
+        <h1 className="font-display text-2xl font-semibold text-white mb-3">Sınaq müddətin bitib</h1>
+        <p className="text-white/50 text-sm mb-8 leading-relaxed">
+          {ad ? `${ad}, ` : ""}7 günlük pulsuz sınaq müddətin başa çatıb. Davam etmək üçün abunə ol —
+          şagirdlərinin, qruplarının və ödənişlərinin bütün datası qorunub saxlanılır.
+        </p>
+        <a
+          href={`https://wa.me/994552107111?text=${waMessage}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-primary w-full justify-center !py-3 mb-3"
+        >
+          WhatsApp ilə əlaqə saxla
+        </a>
+        <button onClick={onLogout} className="text-white/40 hover:text-white text-sm transition-colors">
+          Çıxış et
+        </button>
+      </div>
     </div>
   );
 }

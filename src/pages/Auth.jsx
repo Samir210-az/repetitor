@@ -37,12 +37,15 @@ export default function Auth() {
         return;
       }
       const tenantId = `${slugify(ad)}-${phoneKey.slice(-4)}`;
+      const trialDays = 7;
       await set(ref(db, tenantPath(tenantId, "profil")), {
         ad,
         fenn,
         telefon,
         pin,
         yaradilib: Date.now(),
+        access_until: Date.now() + trialDays * 24 * 60 * 60 * 1000,
+        plan: "sınaq",
       });
       await set(indexRef, tenantId);
       saveSession(tenantId, { ad, fenn });
