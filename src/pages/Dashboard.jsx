@@ -142,7 +142,7 @@ export default function Dashboard() {
             {tab === "sagirdler" && <SagirdlerTab tenantId={session.tenantId} />}
             {tab === "odenishler" && <OdenishlerTab tenantId={session.tenantId} />}
             {tab === "davamiyyet" && <DavamiyyetTab tenantId={session.tenantId} />}
-            {tab === "testler" && <TestlerTab tenantId={session.tenantId} fenn={session.profile?.fenn} />}
+            {tab === "testler" && <TestlerTab tenantId={session.tenantId} fenn={session.profile?.fenn} repetitorAd={session.profile?.ad} />}
           </motion.div>
         </AnimatePresence>
       </main>
@@ -413,20 +413,38 @@ function StudentDetail({ tenantId, studentId, student, onBack }) {
                 {(c.secimler || []).map((opt, oi) => {
                   const isRight = oi === c.duzgun;
                   const isPicked = oi === c.secilen;
+                  const wrongPick = isPicked && !isRight;
                   return (
                     <div
                       key={oi}
-                      className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
-                        isRight ? "border-emerald/40 bg-emerald/5" : isPicked ? "border-coral/40 bg-coral/5" : "border-black/10"
+                      className={`text-sm rounded-lg px-3 py-2.5 border-2 flex items-center justify-between gap-2 ${
+                        isRight
+                          ? "border-emerald bg-emerald/10"
+                          : wrongPick
+                          ? "border-coral bg-coral/10"
+                          : "border-black/10"
                       }`}
                     >
-                      <span className="text-slateink/80">{String.fromCharCode(65 + oi)}) {opt}</span>
-                      {isRight && <Check size={14} className="text-emerald shrink-0" />}
-                      {isPicked && !isRight && <X size={14} className="text-coral shrink-0" />}
+                      <span className={`${isRight || wrongPick ? "font-medium" : ""} text-slateink/80`}>
+                        {String.fromCharCode(65 + oi)}) {opt}
+                      </span>
+                      {isRight && (
+                        <span className="flex items-center gap-1 text-emerald text-xs font-semibold shrink-0">
+                          <Check size={14} /> Düzgün
+                        </span>
+                      )}
+                      {wrongPick && (
+                        <span className="flex items-center gap-1 text-coral text-xs font-semibold shrink-0">
+                          <X size={14} /> Sənin cavabın
+                        </span>
+                      )}
                     </div>
                   );
                 })}
               </div>
+              {c.secilen === null && (
+                <p className="text-xs text-coral/70 mt-2">Bu suala cavab verilməyib.</p>
+              )}
             </div>
           ))}
         </div>
@@ -681,7 +699,7 @@ function DavamiyyetTab({ tenantId }) {
 }
 
 /* ---------------- TESTLƏR ---------------- */
-function TestlerTab({ tenantId, fenn }) {
+function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const tests = useCollection(tenantId, "testler");
   const [sinif, setSinif] = useState("");
   const [sualSayi, setSualSayi] = useState(60);
@@ -733,7 +751,7 @@ function TestlerTab({ tenantId, fenn }) {
   }
 
   if (openId && tests[openId]) {
-    return <TestDetail test={tests[openId]} tenantId={tenantId} testId={openId} onBack={() => setOpenId(null)} onDelete={() => del(openId)} />;
+    return <TestDetail test={tests[openId]} tenantId={tenantId} testId={openId} repetitorAd={repetitorAd} onBack={() => setOpenId(null)} onDelete={() => del(openId)} />;
   }
 
   return (
@@ -822,7 +840,7 @@ function TestlerTab({ tenantId, fenn }) {
   );
 }
 
-function TestDetail({ test, tenantId, testId, onBack, onDelete }) {
+function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
   const neticeler = useCollection(tenantId, `testler/${testId}/neticeler`);
   const [copied, setCopied] = useState(false);
   const link = `${window.location.origin}/imtahan/${tenantId}/${testId}`;
@@ -898,7 +916,13 @@ function TestDetail({ test, tenantId, testId, onBack, onDelete }) {
       )}
 
       <div id="printable-test">
-        <h2 className="font-display text-xl font-semibold text-slateink mb-1">{test.baslik}</h2>
+        <div className="flex items-center justify-between gap-3 mb-1 pb-3 border-b border-black/10">
+          <div>
+            <p className="text-xs text-slateink/50 font-mono">Repetitor: <span className="text-slateink/80 font-semibold">{repetitorAd || "—"}</span></p>
+            <p className="text-xs text-slateink/50 font-mono">{new Date().toLocaleDateString("az-AZ")} · {new Date().toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}</p>
+          </div>
+        </div>
+        <h2 className="font-display text-xl font-semibold text-slateink mt-4 mb-1">{test.baslik}</h2>
         <p className="text-xs text-slateink/40 font-mono mb-6 no-print">
           Cavab açarı yalnız bu ekranda görünür — çap edəndə gizlənir.
         </p>

@@ -19,6 +19,8 @@ export default function ExamTake() {
   const [loadError, setLoadError] = useState("");
   const [test, setTest] = useState(null);
   const [students, setStudents] = useState({});
+  const [profil, setProfil] = useState(null);
+  const [openedAt] = useState(Date.now());
 
   const [sagirdId, setSagirdId] = useState("");
   const [formError, setFormError] = useState("");
@@ -42,6 +44,8 @@ export default function ExamTake() {
         setTest(testSnap.val());
         const studSnap = await get(ref(db, tenantPath(tenantId, "sagirdler")));
         setStudents(studSnap.val() || {});
+        const profSnap = await get(ref(db, tenantPath(tenantId, "profil")));
+        setProfil(profSnap.val() || null);
       } catch (e) {
         setLoadError("Yüklənmə xətası: " + e.message);
       } finally {
@@ -149,7 +153,10 @@ export default function ExamTake() {
           <div className="card-dark p-8 text-center mb-6">
             <p className="text-white/50 text-sm font-mono uppercase tracking-wide mb-2">{result.baslik}</p>
             <p className="font-display text-5xl font-bold text-gold mb-1">{result.bal}/{result.cemi}</p>
-            <p className="text-white/60">{result.faiz}% doğru cavab</p>
+            <p className="text-white/60 mb-3">{result.faiz}% doğru cavab</p>
+            <p className="text-white/30 text-xs font-mono">
+              Repetitor: {profil?.ad || "—"} · {new Date(result.tarix).toLocaleDateString("az-AZ")} {new Date(result.tarix).toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}
+            </p>
           </div>
           <p className="text-slateink/50 text-sm mb-4">Cavab açarı:</p>
           <div className="space-y-3">
@@ -160,20 +167,32 @@ export default function ExamTake() {
                   {c.secimler.map((opt, oi) => {
                     const isPicked = oi === c.secilen;
                     const isRight = oi === c.duzgun;
+                    const wrongPick = isPicked && !isRight;
                     return (
                       <div
                         key={oi}
-                        className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
-                          isRight ? "border-emerald/40 bg-emerald/5" : isPicked ? "border-coral/40 bg-coral/5" : "border-black/10"
+                        className={`text-sm rounded-lg px-3 py-2.5 border-2 flex items-center justify-between gap-2 ${
+                          isRight ? "border-emerald bg-emerald/10" : wrongPick ? "border-coral bg-coral/10" : "border-black/10"
                         }`}
                       >
-                        <span className="text-slateink/80">{String.fromCharCode(65 + oi)}) {opt}</span>
-                        {isRight && <CheckCircle2 size={14} className="text-emerald shrink-0" />}
-                        {isPicked && !isRight && <XCircle size={14} className="text-coral shrink-0" />}
+                        <span className={`${isRight || wrongPick ? "font-medium" : ""} text-slateink/80`}>
+                          {String.fromCharCode(65 + oi)}) {opt}
+                        </span>
+                        {isRight && (
+                          <span className="flex items-center gap-1 text-emerald text-xs font-semibold shrink-0">
+                            <CheckCircle2 size={14} /> Düzgün
+                          </span>
+                        )}
+                        {wrongPick && (
+                          <span className="flex items-center gap-1 text-coral text-xs font-semibold shrink-0">
+                            <XCircle size={14} /> Sənin cavabın
+                          </span>
+                        )}
                       </div>
                     );
                   })}
                 </div>
+                {c.secilen === null && <p className="text-xs text-coral/70 mt-2">Bu suala cavab vermədin.</p>}
               </div>
             ))}
           </div>
@@ -248,6 +267,9 @@ export default function ExamTake() {
           Repetitor İmtahan
         </div>
         <p className="text-white/50 text-sm text-center mb-1">{test?.baslik}</p>
+        <p className="text-white/30 text-xs text-center mb-1 font-mono">
+          Repetitor: {profil?.ad || "—"} · {new Date(openedAt).toLocaleDateString("az-AZ")} {new Date(openedAt).toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}
+        </p>
         <p className="text-white/30 text-xs text-center mb-6 flex items-center justify-center gap-1.5">
           <Clock size={12} /> 60 dəqiqə vaxtın var, 1 cəhd haqqın var
         </p>
