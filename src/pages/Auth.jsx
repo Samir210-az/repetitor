@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { GraduationCap, ArrowRight, Loader2 } from "lucide-react";
 import { db, ref, set, get, tenantPath } from "../lib/firebase.js";
 import { saveSession, slugify } from "../lib/session.js";
+import { trackVisit } from "../lib/analytics.js";
 
 const cleanPhone = (p) => p.replace(/[^\d]/g, "");
 
@@ -11,6 +12,11 @@ export default function Auth() {
   const location = useLocation();
   const isRegister = location.pathname.includes("qeydiyyat");
   const navigate = useNavigate();
+
+  useEffect(() => {
+    trackVisit(isRegister ? "Qeydiyyat" : "Giriş");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const [ad, setAd] = useState("");
   const [fenn, setFenn] = useState("");

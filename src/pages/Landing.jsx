@@ -1,9 +1,11 @@
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, Sparkles } from "lucide-react";
 import Nav from "../components/Nav.jsx";
 import Footer from "../components/Footer.jsx";
 import StatusBoard from "../components/StatusBoard.jsx";
+import { trackVisit } from "../lib/analytics.js";
 
 const HERO_IMG = "https://images.pexels.com/photos/6550408/pexels-photo-6550408.jpeg?auto=compress&cs=tinysrgb&w=1800&q=80";
 
@@ -13,6 +15,10 @@ const demoGroups = [
 ];
 
 export default function Landing() {
+  useEffect(() => {
+    trackVisit("Ana səhifə");
+  }, []);
+
   return (
     <div className="bg-paper">
       <Nav />
