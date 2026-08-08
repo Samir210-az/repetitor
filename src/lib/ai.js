@@ -7,7 +7,7 @@ const GK = () =>
     .map((c) => String.fromCharCode(c.charCodeAt(0) ^ _k))
     .join("");
 
-const BATCH_SIZE = 10;
+const BATCH_SIZE = 8;
 
 function buildSystemPrompt(count) {
   return `Sən Azərbaycanda 20 illik təcrübəyə malik, DİM (Dövlət İmtahan Mərkəzi) formatında abituriyent hazırlığı testləri yazan peşəkar müəllim-metodikstsən. Vəzifən — real DİM test kitabçalarına tam bənzəyən, yüksək çətinlikli suallar hazırlamaqdır, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
@@ -20,7 +20,7 @@ QAYDALAR:
 5. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun.
 6. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə bir dənə əskik.
 7. Yalnız SAF JSON qaytar, başqa heç nə yazma (izah, markdown, kod bloku işarəsi, "Budur test:" kimi giriş cümləsi olmasın). JSON formatı dəqiq belə olmalıdır:
-{"suallar":[{"sual":"sual mətni","seçimler":["A variantı","B variantı","C variantı","D variantı"],"duzgun":0}]}
+{"suallar":[{"sual":"sual mətni","secimler":["A variantı","B variantı","C variantı","D variantı"],"duzgun":0}]}
 "suallar" array-i tam olaraq ${count} element daşımalıdır. "duzgun" sahəsi 0-3 arası indeksdir, yalnız BİR düzgün cavab olmalıdır.`;
 }
 
@@ -76,7 +76,7 @@ export async function generateTest({ fenn, sinif, sualSayi, onProgress }) {
   let suallar = [];
   let attempts = 0;
   let lastError = null;
-  const maxAttempts = Math.ceil(target / BATCH_SIZE) + 4;
+  const maxAttempts = Math.ceil(target / BATCH_SIZE) + 20;
 
   while (suallar.length < target && attempts < maxAttempts) {
     const remaining = target - suallar.length;
