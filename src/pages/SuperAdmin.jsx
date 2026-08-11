@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Lock, GraduationCap, Plus, Phone, Eye, MapPin, Monitor, Trash2, Pencil, Save, X } from "lucide-react";
-import { db, ref, onValue, set, remove } from "../lib/firebase.js";
+import { db, ref, onValue, set, remove, push } from "../lib/firebase.js";
 
 const ADMIN_PIN = "AL2026EA";
 const DAY = 24 * 60 * 60 * 1000;
