@@ -149,7 +149,56 @@ function sleep(ms) {
 
 const BATCH_SIZE = 8;
 
-export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress }) {
+function buildCritiquePrompt(fenn, sinif, suallar) {
+  return `Sən ciddi, tənqidi bir metodik-redaktorsan. Aşağıda ${sinif}-ci sinif ${fenn} fənni üzrə hazırlanmış test sualları JSON formatında verilib. Hər sualı diqqətlə yoxla:
+1. UYDURMA yoxla: mövcud olmayan termin, əsər, fakt, tarix, düstur varmı? Varsa, o sualı TAM DƏYİŞ (eyni mövzuda, real fakta əsaslanan yeni sualla əvəz et).
+2. TƏKRAR yoxla: eyni cavab variantları, eyni sual başlanğıcı çox təkrarlanırmı? Varsa, təkrarlanan sualları dəyişdirib müxtəflifləşdir.
+3. SƏVİYYƏ yoxla: hər hansı sual həddindən artıq sadə (yalnız "X nədir?" tipli əzbər) sualdırmı? Varsa, DİM səviyyəsinə uyğun çətinləşdir (hesablama/təhlil/müqayisə tələb etsin).
+4. Düzgün cavab indeksinin ("duzgun") doğru olduğunu təsdiqlə, səhvdirsə düzəlt.
+Dəyişməyə ehtiyac olmayan güclü sualları OLDUĞU KİMİ saxla — hər şeyi dəyişmə, yalnız zəif olanları.
+
+Sualların sayı və JSON strukturu DƏYİŞMƏMƏLİDİR.
+
+Sullar:
+${JSON.stringify(suallar)}
+
+Yalnız düzəldilmiş tam JSON qaytar, başqa heç nə yazma. Format:
+{"suallar":[{"sual":"...","secimler":["...","...","...","..."],"duzgun":0}]}`;
+}
+
+async function critiqueAndFix(fenn, sinif, suallar) {
+  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${GK()}`,
+    },
+    body: JSON.stringify({
+      model: "llama-3.3-70b-versatile",
+      messages: [{ role: "user", content: buildCritiquePrompt(fenn, sinif, suallar) }],
+      response_format: { type: "json_object" },
+      temperature: 0.4,
+      max_tokens: Math.min(8000, suallar.length * 250 + 800),
+    }),
+  });
+
+  if (!res.ok) throw new Error(`Tənqid mərhələsi uğursuz (${res.status})`);
+
+  const data = await res.json();
+  const raw = data.choices?.[0]?.message?.content || "{}";
+  const cleaned = raw.replace(/```json|```/g, "").trim();
+  const parsed = JSON.parse(cleaned);
+  if (!Array.isArray(parsed.suallar) || parsed.suallar.length !== suallar.length) {
+    throw new Error("Tənqid mərhələsi say uyğunsuzluğu");
+  }
+  return parsed.suallar.map((q) => ({
+    ...q,
+    secimler: Array.isArray(q.secimler) ? q.secimler.map(stripOptionPrefix) : q.secimler,
+    sual: typeof q.sual === "string" ? q.sual.trim() : q.sual,
+  }));
+}
+
+export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress, onStage }) {
   const target = Number(sualSayi) || 60;
   let suallar = [];
   let attempts = 0;
@@ -181,5 +230,13 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
     throw lastError || new Error("AI cavabında suallar tapılmadı, yenidən sına.");
   }
 
-  return suallar.slice(0, target);
+  const finalSuallar = suallar.slice(0, target);
+
+  // Özünü tənqid mərhələsi — uğursuz olsa, orijinal nəticə ilə davam et (test bloklanmır)
+  if (onStage) onStage("checking");
+  try {
+    return await critiqueAndFix(fenn, sinif, finalSuallar);
+  } catch {
+    return finalSuallar;
+  }
 }

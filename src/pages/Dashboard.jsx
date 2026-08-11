@@ -799,6 +799,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         movzular: movzular.trim() || null,
         onProgress: (done, total) => setProgress({ done, total }),
         onStage: (s) => setStage(s),
+        onStage: (s) => setStage(s),
       });
       const r = push(ref(db, tenantPath(tenantId, "testler")));
       await set(r, {
@@ -903,8 +904,8 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         {progress && (
           <div className="mt-3">
             <div className="flex items-center justify-between text-xs text-slateink/50 mb-1.5">
-              <span>Hazırlanır...</span>
-              <span className="font-mono">{progress.done} / {progress.total}</span>
+              <span>{stage === "checking" ? "Nəticə yoxlanılır (özünü tənqid)..." : "Hazırlanır..."}</span>
+              <span className="font-mono">{stage === "checking" ? "✓" : `${progress.done} / ${progress.total}`}</span>
             </div>
             <div className="h-1.5 w-full bg-black/5 rounded-full overflow-hidden">
               <div
