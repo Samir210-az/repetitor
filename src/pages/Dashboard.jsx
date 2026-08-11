@@ -42,6 +42,17 @@ function useCollection(tenantId, node) {
   return items;
 }
 
+function useSharedCollection(absolutePath) {
+  const [items, setItems] = useState({});
+  useEffect(() => {
+    if (!absolutePath) return;
+    const r = ref(db, absolutePath);
+    const unsub = onValue(r, (snap) => setItems(snap.val() || {}));
+    return () => unsub();
+  }, [absolutePath]);
+  return items;
+}
+
 function useProfil(tenantId) {
   const [profil, setProfil] = useState(null);
   useEffect(() => {
@@ -751,6 +762,10 @@ function DavamiyyetTab({ tenantId }) {
 
 /* ---------------- TESTLƏR ---------------- */
 function TestlerTab({ tenantId, fenn, repetitorAd }) {
+  const bankKey = (fenn || "").trim().toLowerCase();
+  const bank = useSharedCollection(bankKey ? `repetitor/sualBanki/${bankKey}` : null);
+  const [bankPickerOpen, setBankPickerOpen] = useState(false);
+  const [bankLoading, setBankLoading] = useState(false);
   const tests = useCollection(tenantId, "testler");
   const groups = useCollection(tenantId, "qruplar");
   const [sinif, setSinif] = useState("");
@@ -832,35 +847,80 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
   return (
     <div>
       <SectionHeader title="Testlər" desc={fenn ? `Fənn: ${fenn} (sənin qeydiyyat fənnin)` : "Testlər"}>
-        {list.length > 0 && (
-          <div className="relative">
-            <button
-              onClick={() => setPickerOpen((v) => !v)}
-              className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-emerald text-white hover:bg-emerald/90 transition-colors"
-            >
-              <GraduationCap size={16} /> Sınaq imtahanı
-            </button>
-            {pickerOpen && (
-              <div className="absolute left-0 sm:right-0 sm:left-auto top-full mt-2 w-[min(18rem,calc(100vw-3rem))] card p-2 z-20 shadow-2xl">
-                <p className="text-xs text-slateink/40 px-3 pt-1 pb-2">Hansı testlə imtahan keçirəcəksən?</p>
-                <div className="max-h-72 overflow-y-auto">
-                  {list.map(([id, t]) => (
-                    <button
-                      key={id}
-                      onClick={() => {
-                        setPickerOpen(false);
-                        setOpenId(id);
-                      }}
-                      className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-paper transition-colors text-sm text-slateink"
-                    >
-                      {t.baslik}
-                    </button>
-                  ))}
+        <div className="flex flex-wrap gap-2">
+          {Object.keys(bank).length > 0 && (
+            <div className="relative">
+              <button
+                onClick={() => setBankPickerOpen((v) => !v)}
+                className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-lilac text-white hover:opacity-90 transition-opacity"
+              >
+                <FileQuestion size={16} /> Hazır bankdan seç
+              </button>
+              {bankPickerOpen && (
+                <div className="absolute left-0 top-full mt-2 w-[min(20rem,calc(100vw-3rem))] card p-2 z-20 shadow-2xl">
+                  <p className="text-xs text-slateink/40 px-3 pt-1 pb-2">
+                    Bizim özümüz hazırladığımız, öncədən yoxlanılmış suallar — dərhal əlavə olunur.
+                  </p>
+                  <div className="max-h-72 overflow-y-auto">
+                    {Object.entries(bank).map(([id, t]) => (
+                      <button
+                        key={id}
+                        disabled={bankLoading}
+                        onClick={async () => {
+                          setBankLoading(true);
+                          const r = push(ref(db, tenantPath(tenantId, "testler")));
+                          await set(r, {
+                            baslik: t.baslik,
+                            sinif: t.sinif,
+                            fenn: t.fenn,
+                            yaradilib: Date.now(),
+                            mənbə: "bank",
+                            suallar: t.suallar,
+                          });
+                          setBankPickerOpen(false);
+                          setBankLoading(false);
+                          setOpenId(r.key);
+                        }}
+                        className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-paper transition-colors text-sm text-slateink"
+                      >
+                        {t.baslik}
+                      </button>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
-          </div>
-        )}
+              )}
+            </div>
+          )}
+          {list.length > 0 && (
+            <div className="relative">
+              <button
+                onClick={() => setPickerOpen((v) => !v)}
+                className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-emerald text-white hover:bg-emerald/90 transition-colors"
+              >
+                <GraduationCap size={16} /> Sınaq imtahanı
+              </button>
+              {pickerOpen && (
+                <div className="absolute left-0 sm:right-0 sm:left-auto top-full mt-2 w-[min(18rem,calc(100vw-3rem))] card p-2 z-20 shadow-2xl">
+                  <p className="text-xs text-slateink/40 px-3 pt-1 pb-2">Hansı testlə imtahan keçirəcəksən?</p>
+                  <div className="max-h-72 overflow-y-auto">
+                    {list.map(([id, t]) => (
+                      <button
+                        key={id}
+                        onClick={() => {
+                          setPickerOpen(false);
+                          setOpenId(id);
+                        }}
+                        className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-paper transition-colors text-sm text-slateink"
+                      >
+                        {t.baslik}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
       </SectionHeader>
 
       <form onSubmit={handleGenerate} className="card p-5 mb-6">

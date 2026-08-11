@@ -331,8 +331,110 @@ export default function SuperAdmin() {
 
         {tab === "ziyaretciler" && <VisitorsList visits={visits} />}
 
+        <SeedBankTool />
         <DiagnosticPing />
       </main>
+    </div>
+  );
+}
+
+const FIZIKA_11_BANK = {
+  baslik: "11-ci sinif Fizika — Elektrik yükü və kondensatorlar (Hazır bank)",
+  sinif: "11",
+  fenn: "Fizika",
+  suallar: [
+    {
+      sual: "İki nöqtəvi yük bir-birindən 3 sm məsafədə yerləşib və aralarında 90 N qüvvə ilə təsirləşir. Məsafə 9 sm-ə qədər artırılsa, qüvvə neçə dəfə azalar?",
+      secimler: ["3 dəfə", "6 dəfə", "9 dəfə", "27 dəfə"],
+      duzgun: 2,
+    },
+    {
+      sual: "Sahə intensivliyi E = 5·10⁴ N/C olan bircins elektrik sahəsinə q = 2·10⁻⁶ Kl yük yerləşdirilib. Yükə təsir edən qüvvə nə qədərdir?",
+      secimler: ["0,1 N", "0,2 N", "1 N", "2,5 N"],
+      duzgun: 0,
+    },
+    {
+      sual: "Plastinalarının sahəsi 0,02 m², aralarındakı məsafə 1 mm olan hava dolu yastı kondensatorun tutumu təxminən nə qədərdir? (ε₀ = 8,85·10⁻¹² F/m)",
+      secimler: ["≈17,7 pF", "≈177 pF", "≈1,77 nF", "≈17,7 nF"],
+      duzgun: 0,
+    },
+    {
+      sual: "C₁ = 2 mkF və C₂ = 3 mkF kondensatorları ardıcıl birləşdirilib. Ümumi tutum nə qədərdir?",
+      secimler: ["1,2 mkF", "1,5 mkF", "5 mkF", "6 mkF"],
+      duzgun: 0,
+    },
+    {
+      sual: "C₁ = 2 mkF və C₂ = 3 mkF kondensatorları paralel birləşdirilsə, ardıcıl birləşməyə nisbətən ümumi tutum neçə dəfə böyük olar?",
+      secimler: ["1,5 dəfə", "2,5 dəfə", "≈4,17 dəfə", "5 dəfə"],
+      duzgun: 2,
+    },
+    {
+      sual: "Tutumu 4 mkF olan kondensator U = 100 V-a qədər yüklənib. Kondensatorda toplanan enerji nə qədərdir?",
+      secimler: ["0,01 C", "0,02 C", "0,02 C", "0,02 J"],
+      duzgun: 3,
+    },
+    {
+      sual: "Yastı kondensatorun plastinaları arasına, tutumu artırmaq üçün, hansı dəyişiklik edilməlidir?",
+      secimler: [
+        "Plastinalar arası məsafəni artırmaq",
+        "Plastinaların sahəsini azaltmaq",
+        "Plastinalar arasına dielektrik daxil etmək",
+        "Plastinaları uzaqlaşdırıb sahəni azaltmaq",
+      ],
+      duzgun: 2,
+    },
+    {
+      sual: "Kondensator batareyaya qoşulub tam yükləndikdən sonra batareyadan ayrılır. Plastinalar arası məsafə iki dəfə artırılsa, yük dəyişmədən qalarsa, gərginlik necə dəyişər?",
+      secimler: ["Dəyişməz", "2 dəfə azalar", "2 dəfə artar", "4 dəfə artar"],
+      duzgun: 2,
+    },
+    {
+      sual: "q₁ = +4·10⁻⁶ Kl və q₂ = −2·10⁻⁶ Kl yükləri arasındakı məsafə 6 sm-dir. Aralarındakı qarşılıqlı təsir qüvvəsinin xarakteri necədir?",
+      secimler: [
+        "İtələmə qüvvəsi, çünki hər ikisi eyni işarəlidir",
+        "Cəzbetmə qüvvəsi, çünki əks işarəlidirlər",
+        "Qüvvə yaranmır, çünki yüklər fərqli böyüklükdədir",
+        "İtələmə qüvvəsi, çünki böyük yük üstünlük təşkil edir",
+      ],
+      duzgun: 1,
+    },
+    {
+      sual: "3 saniyə ərzində naqilin en kəsiyindən 6 Kl yük keçib. Naqildəki cərəyan şiddəti nə qədərdir?",
+      secimler: ["0,5 A", "2 A", "3 A", "18 A"],
+      duzgun: 1,
+    },
+    {
+      sual: "Müqaviməti 5 Ω olan naqilin uclarına 20 V gərginlik verilib. Naqildən 4 dəqiqə ərzində keçən yükün miqdarı nə qədərdir?",
+      secimler: ["16 Kl", "80 Kl", "240 Kl", "960 Kl"],
+      duzgun: 2,
+    },
+    {
+      sual: "İki eyni nöqtəvi yük bir-birindən r məsafəsində F qüvvəsi ilə təsirləşir. Hər iki yükün böyüklüyü 3 dəfə azaldılsa, qüvvə neçə dəfə dəyişər?",
+      secimler: ["3 dəfə azalar", "6 dəfə azalar", "9 dəfə azalar", "dəyişməz"],
+      duzgun: 2,
+    },
+  ],
+};
+
+function SeedBankTool() {
+  const [status, setStatus] = useState("");
+  async function seed() {
+    setStatus("Yazılır...");
+    try {
+      const r = push(ref(db, "repetitor/sualBanki/fizika"));
+      await set(r, { ...FIZIKA_11_BANK, yaradilib: Date.now() });
+      setStatus("✅ Əlavə olundu: " + r.key);
+    } catch (err) {
+      setStatus("❌ Xəta: " + err.message);
+    }
+  }
+  return (
+    <div className="card-dark p-5 mt-6">
+      <p className="text-white/60 text-sm mb-3">📚 Sual bankına ilkin dəst əlavə et (Fizika-11, 12 sual)</p>
+      <button onClick={seed} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+        Bankı doldur
+      </button>
+      {status && <p className="text-xs font-mono text-white/70 mt-3">{status}</p>}
     </div>
   );
 }
