@@ -1,5 +1,3 @@
-import { GEK } from "./geminiCheck.js";
-
 const LITERATURE_KEYWORDS = ["ədəbiyyat", "literature"];
 const LANGUAGE_KEYWORDS = ["dil", "language"];
 const OTHER_HUMANITIES_KEYWORDS = [
@@ -71,20 +69,11 @@ async function callGemini(fenn, sinif, count, movzular, priorSuallar) {
 
   const prompt = buildSystemPrompt(count, fenn, sinif, movzular) + priorNote;
 
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "x-goog-api-key": GEK() },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          responseMimeType: "application/json",
-          temperature: 0.8,
-        },
-      }),
-    }
-  );
+  const res = await fetch("/api/gemini", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ prompt, temperature: 0.8 }),
+  });
 
   if (!res.ok) {
     const errText = await res.text();

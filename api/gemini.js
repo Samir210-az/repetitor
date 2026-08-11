@@ -1,0 +1,52 @@
+// Vercel serverless function — Gemini API-ni server tərəfdən çağırır ki,
+// brauzerin CORS məhdudiyyətinə düşməsin.
+
+const _gd = "VkY5VnUvRVkhWyFEcnNmRyZnQ31TSDpSRTp2J0ZSdH0hXFlFdmZDICU6bV9hU3VCWiBEQXA=";
+const _gk = 23;
+function GEK() {
+  return Buffer.from(_gd, "base64")
+    .toString("latin1")
+    .split("")
+    .map((c) => String.fromCharCode(c.charCodeAt(0) ^ _gk))
+    .join("");
+}
+
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    res.status(405).json({ error: "Yalnız POST" });
+    return;
+  }
+
+  try {
+    const { prompt, temperature } = req.body || {};
+    if (!prompt) {
+      res.status(400).json({ error: "prompt lazımdır" });
+      return;
+    }
+
+    const upstream = await fetch(
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-goog-api-key": GEK(),
+        },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            responseMimeType: "application/json",
+            temperature: temperature ?? 0.8,
+          },
+        }),
+      }
+    );
+
+    const text = await upstream.text();
+    res.status(upstream.status);
+    res.setHeader("Content-Type", "application/json");
+    res.send(text);
+  } catch (err) {
+    res.status(500).json({ error: String(err && err.message ? err.message : err) });
+  }
+}
