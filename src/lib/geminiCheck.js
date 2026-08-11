@@ -1,7 +1,7 @@
 // Embedded API access (eyni obfuscation üsulu)
 const _gd = "VkY5VnUvRVkhWyFEcnNmRyZnQ31TSDpSRTp2J0ZSdH0hXFlFdmZDICU6bV9hU3VCWiBEQXA=";
 const _gk = 23;
-const GEK = () =>
+export const GEK = () =>
   atob(_gd)
     .split("")
     .map((c) => String.fromCharCode(c.charCodeAt(0) ^ _gk))
