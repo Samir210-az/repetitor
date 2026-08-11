@@ -708,6 +708,21 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const [error, setError] = useState("");
   const [openId, setOpenId] = useState(null);
   const [pickerOpen, setPickerOpen] = useState(false);
+  const [movzular, setMovzular] = useState("");
+  const [movzularSaved, setMovzularSaved] = useState(false);
+
+  useEffect(() => {
+    if (!tenantId) return;
+    const r = ref(db, tenantPath(tenantId, "movzular"));
+    const unsub = onValue(r, (snap) => setMovzular(snap.val() || ""));
+    return () => unsub();
+  }, [tenantId]);
+
+  async function saveMovzular() {
+    await set(ref(db, tenantPath(tenantId, "movzular")), movzular);
+    setMovzularSaved(true);
+    setTimeout(() => setMovzularSaved(false), 1500);
+  }
 
   const list = Object.entries(tests).sort((a, b) => (b[1].yaradilib || 0) - (a[1].yaradilib || 0));
 
@@ -725,6 +740,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         fenn,
         sinif,
         sualSayi: Number(sualSayi) || 60,
+        movzular: movzular.trim() || null,
         onProgress: (done, total) => setProgress({ done, total }),
       });
       const r = push(ref(db, tenantPath(tenantId, "testler")));
@@ -799,6 +815,22 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
             {loading ? <Loader2 className="animate-spin" size={16} /> : "Test hazırla"}
           </button>
         </div>
+
+        <label className="block mt-4">
+          <span className="text-xs font-medium text-slateink/50 mb-1.5 block">
+            Keçdiyin mövzular (ixtiyari — yazsan, AI yalnız bunlardan sual qurar)
+          </span>
+          <textarea
+            value={movzular}
+            onChange={(e) => setMovzular(e.target.value)}
+            onBlur={saveMovzular}
+            rows={2}
+            placeholder="Məs: Alkanlar, Alkenlər, Nomenklatura qaydaları, Karbohidrogenlərin izomerliyi..."
+            className="w-full bg-paper border border-black/10 rounded-lg px-3 py-2.5 text-sm text-slateink focus:outline-none focus:border-gold/60 transition-all resize-none"
+          />
+          {movzularSaved && <span className="text-xs text-emerald mt-1 block">✓ Yadda saxlanıldı</span>}
+        </label>
+
         <p className="text-xs text-slateink/40 mt-3">
           Fənn avtomatik sənin qeydiyyat fənnindən götürülür ({fenn || "—"}) — dəyişmək olmaz.
         </p>

@@ -9,23 +9,53 @@ const GK = () =>
 
 const BATCH_SIZE = 8;
 
-function buildSystemPrompt(count) {
+const HUMANITIES_KEYWORDS = [
+  "dil", "ədəbiyyat", "tarix", "coğrafiya", "fəlsəfə", "hüquq", "ingilis",
+  "rus", "alman", "fransız", "ərəb", "din", "cəmiyyət",
+];
+
+function isHumanities(fenn) {
+  const f = (fenn || "").toLowerCase();
+  return HUMANITIES_KEYWORDS.some((k) => f.includes(k));
+}
+
+function difficultyRule(fenn) {
+  if (isHumanities(fenn)) {
+    return `Bu, humanitar fəndir (${fenn}). Çətinliyi HESABLAMA yolu ilə yox, DƏRİNLİK yolu ilə qur: mətn təhlili, müəllif fikrinin şərhi, iki əsər/hadisə arasında müqayisə, qayda/qanunun tətbiqi konkret nümunə üzərində, səbəb-nəticə əlaqəsi. Sadə "kim yazıb / nə vaxt olub" tipli əzbər sual yazma, amma HEÇ VAXT mövcud olmayan əsər, hadisə, termin və ya "fakt" UYDURMA — yalnız real, tanınmış, məktəb dərsliklərində keçən məzmundan istifadə et.`;
+  }
+  return `Bu, dəqiq/təbiət elmi fənnidir (${fenn}). Hər sual real DİM test kitabçalarındakı kimi çoxaddımlı olsun: tətbiq, analiz, hesablama zənciri, düsturun tətbiqi, müqayisə və ya sintez tələb etsin. Şagird sualı birbaşa dərslikdən "tanıyıb" cavablandıra bilməməlidir — özü addım-addım düşünüb həll etməlidir.`;
+}
+
+function buildSystemPrompt(count, fenn, movzular) {
+  const topicScope = movzular
+    ? `\n\nMÖVZU MƏHDUDİYYƏTİ (ÇOX VACİB): Repetitor yalnız bu mövzuları keçib: "${movzular}". YALNIZ bu mövzulardan sual yaz. Bu siyahıda olmayan mövzudan sual YAZMA, hətta kurikuluma aid olsa belə.`
+    : "";
+
   return `Sən Azərbaycanda 20 illik təcrübəyə malik, DİM (Dövlət İmtahan Mərkəzi) formatında abituriyent hazırlığı testləri yazan peşəkar müəllim-metodikstsən. Vəzifən — real DİM test kitabçalarına tam bənzəyən, yüksək çətinlikli suallar hazırlamaqdır, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
 
 QAYDALAR:
-1. Bu testlər YALNIZ 9, 10 və 11-ci siniflər üçündür — DİM (Dövlət İmtahan Mərkəzi) / abituriyent hazırlığı SƏVİYYƏSİNDƏ olmalıdır. Sadə əzbər/tərif sualları YAZMA. Hər sual real DİM test kitabçalarındakı kimi çoxaddımlı olsun: tətbiq, analiz, hesablama zənciri, müqayisə və ya sintez tələb etsin. Şagird sualı birbaşa dərslikdən "tanıyıb" cavablandıra bilməməlidir — özü addım-addım düşünüb həll etməlidir. Sualı yazmazdan əvvəl öz ağlında onu necə həll edəcəyini fikirləş, sonra elə bir sual qur ki, bu həll prosesini tələb etsin.
-2. Suallar Azərbaycan Respublikası Təhsil Nazirliyinin həmin sinif üçün təsdiqlədiyi kurikulum mövzularına dəqiq uyğun olsun (kurikulumdan kənara çıxma, amma mövzunun ən çətin, ən dərin tətbiqini soruş).
-3. Sual üslubu real DİM/abituriyent test kitabçalarındakı kimi təbii, dəqiq və birbaşa olsun. "Aşağıdakılardan hansı doğrudur?" kimi bir qəlibi təkrar-təkrar işlətmə — sual formalarını müxtəlifləşdir (hesablama, tətbiqi məsələ, qraf/sxem üzrə interpretasiya, səbəb-nəticə, müqayisəli analiz).
-4. Səhv variantlar (distraktorlar) məhz DİM səviyyəsinə uyğun — tələbənin hesablamada, düsturun tətbiqində və ya anlayış qarışıqlığında edə biləcəyi real səhvləri əks etdirsin, açıq-aşkar gülünc olmasın.
-5. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun.
-6. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə bir dənə əskik.
-7. Yalnız SAF JSON qaytar, başqa heç nə yazma (izah, markdown, kod bloku işarəsi, "Budur test:" kimi giriş cümləsi olmasın). JSON formatı dəqiq belə olmalıdır:
-{"suallar":[{"sual":"sual mətni","secimler":["A variantı","B variantı","C variantı","D variantı"],"duzgun":0}]}
+1. Bu testlər 8, 9, 10 və 11-ci siniflər üçündür — DİM (Dövlət İmtahan Mərkəzi) / abituriyent hazırlığı SƏVİYYƏSİNDƏ olmalıdır. Sadə əzbər sualları YAZMA.
+2. ${difficultyRule(fenn)}
+3. ÇOX VACİB — UYDURMA QADAĞASI: Əgər hər hansı fakt, tarix, əsər adı, termin, düstur və ya hadisədən TAM ƏMİN DEYİLSƏNSƏ, onu İŞLƏTMƏ. Uydurma/mövcud olmayan termin, əsər, hadisə yazmaqdansa, o sualı YAZMA və əvəzinə əmin olduğun başqa bir alt-mövzudan sual qur. Dəqiqlik həmişə çətinlikdən üstündür.
+4. Suallar Azərbaycan Respublikası Təhsil Nazirliyinin həmin sinif üçün təsdiqlədiyi kurikulum mövzularına dəqiq uyğun olsun.${topicScope}
+5. Sual üslubu real DİM/abituriyent test kitabçalarındakı kimi təbii, dəqiq və birbaşa olsun. "Aşağıdakılardan hansı doğrudur?" kimi bir qəlibi təkrar-təkrar işlətmə — sual formalarını müxtəlifləşdir.
+6. Səhv variantlar real, məntiqli səhv ehtimalları olsun, açıq-aşkar gülünc olmasın.
+7. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun.
+8. ÇOX VACİB — FORMAT QAYDASI: "secimler" massivindəki HƏR bir variant YALNIZ təmiz mətn olsun. Variantın əvvəlinə "A)", "B)", "1.", "-" kimi heç bir hərf/rəqəm/işarə ƏLAVƏ ETMƏ — bunu sistem özü avtomatik əlavə edəcək. Səhv nümunə: "A) Bakı" — DOĞRU nümunə: "Bakı".
+9. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə bir dənə əskik.
+10. Yalnız SAF JSON qaytar, başqa heç nə yazma. JSON formatı dəqiq belə olmalıdır:
+{"suallar":[{"sual":"sual mətni","secimler":["variant mətni","variant mətni","variant mətni","variant mətni"],"duzgun":0}]}
 "suallar" array-i tam olaraq ${count} element daşımalıdır. "duzgun" sahəsi 0-3 arası indeksdir, yalnız BİR düzgün cavab olmalıdır.`;
 }
 
-async function callGroq(fenn, sinif, count, avoidNote) {
-  const user = `Azərbaycan Təhsil Nazirliyinin ${sinif}-ci sinif kurikulumuna uyğun, ${fenn} fənni üzrə DİM (abituriyent) səviyyəsində tam olaraq ${count} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün. Suallar sadə əzbər yox, real DİM imtahanındakı kimi çətin, çoxaddımlı və analitik olsun. Təbii Azərbaycan dilində yaz.${avoidNote || ""}`;
+// Ehtiyat təhlükəsizlik: AI hər ehtimala qarşı "A) " kimi prefiks qoysa, təmizlə
+function stripOptionPrefix(text) {
+  if (typeof text !== "string") return text;
+  return text.replace(/^\s*[A-DA-Dа-г]\s*[).:-]\s*/i, "").trim();
+}
+
+async function callGroq(fenn, sinif, count, movzular, avoidNote) {
+  const user = `Azərbaycan Təhsil Nazirliyinin ${sinif}-ci sinif kurikulumuna uyğun, ${fenn} fənni üzrə DİM (abituriyent) səviyyəsində tam olaraq ${count} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün. Təbii Azərbaycan dilində yaz.${avoidNote || ""}`;
 
   const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
@@ -36,11 +66,11 @@ async function callGroq(fenn, sinif, count, avoidNote) {
     body: JSON.stringify({
       model: "llama-3.3-70b-versatile",
       messages: [
-        { role: "system", content: buildSystemPrompt(count) },
+        { role: "system", content: buildSystemPrompt(count, fenn, movzular) },
         { role: "user", content: user },
       ],
       response_format: { type: "json_object" },
-      temperature: 0.7,
+      temperature: 0.5,
       max_tokens: Math.min(6000, count * 220 + 500),
     }),
   });
@@ -64,14 +94,20 @@ async function callGroq(fenn, sinif, count, avoidNote) {
   if (!Array.isArray(parsed.suallar)) {
     throw new Error(`AI cavabında "suallar" array-i yoxdur: ${cleaned.slice(0, 200)}`);
   }
-  return parsed.suallar;
+
+  // Təmizləmə: hər ehtimala qarşı prefiksləri sil
+  return parsed.suallar.map((q) => ({
+    ...q,
+    secimler: Array.isArray(q.secimler) ? q.secimler.map(stripOptionPrefix) : q.secimler,
+    sual: typeof q.sual === "string" ? q.sual.trim() : q.sual,
+  }));
 }
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-export async function generateTest({ fenn, sinif, sualSayi, onProgress }) {
+export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress }) {
   const target = Number(sualSayi) || 60;
   let suallar = [];
   let attempts = 0;
@@ -86,7 +122,7 @@ export async function generateTest({ fenn, sinif, sualSayi, onProgress }) {
         ? ` Diqqət: bu, əvvəlki ${suallar.length} sualın DAVAMIDIR — mövzuları təkrarlamadan yeni ${batch} sual yaz.`
         : "";
     try {
-      const extra = await callGroq(fenn, sinif, batch, avoidNote);
+      const extra = await callGroq(fenn, sinif, batch, movzular, avoidNote);
       suallar = suallar.concat(extra);
       if (onProgress) onProgress(suallar.length, target);
     } catch (err) {
