@@ -29,23 +29,39 @@ export default async function handler(req, res) {
       return;
     }
 
-    const upstream = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "x-goog-api-key": GEK(),
-        },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: {
-            responseMimeType: "application/json",
-            temperature: temperature ?? 0.8,
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 25000);
+    const startedAt = Date.now();
+
+    let upstream;
+    try {
+      upstream = await fetch(
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "x-goog-api-key": GEK(),
           },
-        }),
-      }
-    );
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }],
+            generationConfig: {
+              responseMimeType: "application/json",
+              temperature: temperature ?? 0.8,
+            },
+          }),
+          signal: controller.signal,
+        }
+      );
+    } catch (fetchErr) {
+      clearTimeout(timeoutId);
+      const elapsed = Date.now() - startedAt;
+      res.status(502).json({
+        error: `Google-a çıxış sorğusu uğursuz oldu (${elapsed}ms sonra): ${fetchErr.name} — ${fetchErr.message}`,
+      });
+      return;
+    }
+    clearTimeout(timeoutId);
 
     const text = await upstream.text();
     res.status(upstream.status);
