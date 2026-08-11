@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Lock, GraduationCap, Plus, Phone, Eye, MapPin, Monitor } from "lucide-react";
-import { db, ref, onValue, set } from "../lib/firebase.js";
+import { Lock, GraduationCap, Plus, Phone, Eye, MapPin, Monitor, Trash2, Pencil, Save, X } from "lucide-react";
+import { db, ref, onValue, set, remove } from "../lib/firebase.js";
 
 const ADMIN_PIN = "AL2026EA";
 const DAY = 24 * 60 * 60 * 1000;
@@ -61,6 +61,61 @@ export default function SuperAdmin() {
       await set(ref(db, `repetitor/tenants/${tenantId}/profil/plan`), plan);
       setDoneId(key);
       setTimeout(() => setDoneId((cur) => (cur === key ? null : cur)), 1500);
+    } catch (err) {
+      setWriteError(err.message || String(err));
+    } finally {
+      setBusyId(null);
+    }
+  }
+
+  async function deleteTenant(tenantId, telefon) {
+    if (!window.confirm("Bu repetitoru silmək istədiyinə əminsən? Bütün datası (şagird, qrup, test və s.) həmişəlik silinəcək.")) {
+      return;
+    }
+    setBusyId(`del-${tenantId}`);
+    setWriteError("");
+    try {
+      await remove(ref(db, `repetitor/tenants/${tenantId}`));
+      if (telefon) {
+        const phoneKey = telefon.replace(/[^\d]/g, "");
+        await remove(ref(db, `repetitor/phone_index/${phoneKey}`));
+      }
+    } catch (err) {
+      setWriteError(err.message || String(err));
+    } finally {
+      setBusyId(null);
+    }
+  }
+
+  const [editId, setEditId] = useState(null);
+  const [editForm, setEditForm] = useState({ ad: "", fenn: "", telefon: "", pin: "" });
+
+  function startEdit(tenantId, profil) {
+    setEditId(tenantId);
+    setEditForm({
+      ad: profil.ad || "",
+      fenn: profil.fenn || "",
+      telefon: profil.telefon || "",
+      pin: profil.pin || "",
+    });
+  }
+
+  async function saveEdit(tenantId, oldTelefon) {
+    setBusyId(`edit-${tenantId}`);
+    setWriteError("");
+    try {
+      await set(ref(db, `repetitor/tenants/${tenantId}/profil/ad`), editForm.ad);
+      await set(ref(db, `repetitor/tenants/${tenantId}/profil/fenn`), editForm.fenn);
+      await set(ref(db, `repetitor/tenants/${tenantId}/profil/telefon`), editForm.telefon);
+      await set(ref(db, `repetitor/tenants/${tenantId}/profil/pin`), editForm.pin);
+
+      const newPhoneKey = editForm.telefon.replace(/[^\d]/g, "");
+      const oldPhoneKey = (oldTelefon || "").replace(/[^\d]/g, "");
+      if (newPhoneKey && newPhoneKey !== oldPhoneKey) {
+        if (oldPhoneKey) await remove(ref(db, `repetitor/phone_index/${oldPhoneKey}`));
+        await set(ref(db, `repetitor/phone_index/${newPhoneKey}`), tenantId);
+      }
+      setEditId(null);
     } catch (err) {
       setWriteError(err.message || String(err));
     } finally {
@@ -159,6 +214,55 @@ export default function SuperAdmin() {
                 const until = p.access_until;
                 const daysLeft = until ? Math.ceil((until - Date.now()) / DAY) : null;
                 const expired = until && Date.now() > until;
+
+                if (editId === id) {
+                  return (
+                    <div key={id} className="px-5 py-4 space-y-2 bg-white/[0.03]">
+                      <div className="grid sm:grid-cols-2 gap-2">
+                        <input
+                          value={editForm.ad}
+                          onChange={(e) => setEditForm({ ...editForm, ad: e.target.value })}
+                          placeholder="Ad Soyad"
+                          className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder:text-white/25 focus:outline-none focus:border-gold/60"
+                        />
+                        <input
+                          value={editForm.fenn}
+                          onChange={(e) => setEditForm({ ...editForm, fenn: e.target.value })}
+                          placeholder="Fənn"
+                          className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder:text-white/25 focus:outline-none focus:border-gold/60"
+                        />
+                        <input
+                          value={editForm.telefon}
+                          onChange={(e) => setEditForm({ ...editForm, telefon: e.target.value })}
+                          placeholder="Telefon"
+                          className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder:text-white/25 focus:outline-none focus:border-gold/60"
+                        />
+                        <input
+                          value={editForm.pin}
+                          onChange={(e) => setEditForm({ ...editForm, pin: e.target.value })}
+                          placeholder="PIN"
+                          className="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder:text-white/25 focus:outline-none focus:border-gold/60"
+                        />
+                      </div>
+                      <div className="flex items-center gap-2 pt-1">
+                        <button
+                          onClick={() => saveEdit(id, p.telefon)}
+                          disabled={busyId === `edit-${id}`}
+                          className="text-xs font-semibold px-3 py-1.5 rounded-full bg-emerald text-white flex items-center gap-1 disabled:opacity-40"
+                        >
+                          <Save size={12} /> {busyId === `edit-${id}` ? "Saxlanılır..." : "Yadda saxla"}
+                        </button>
+                        <button
+                          onClick={() => setEditId(null)}
+                          className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/60 flex items-center gap-1"
+                        >
+                          <X size={12} /> Ləğv et
+                        </button>
+                      </div>
+                    </div>
+                  );
+                }
+
                 return (
                   <div key={id} className="flex flex-wrap items-center justify-between gap-4 px-5 py-4">
                     <div className="min-w-0">
@@ -174,7 +278,7 @@ export default function SuperAdmin() {
                           : "Müddət təyin olunmayıb"}
                       </p>
                     </div>
-                    <div className="flex items-center gap-2 shrink-0">
+                    <div className="flex items-center gap-2 shrink-0 flex-wrap">
                       <button
                         onClick={() => extend(id, until, 7)}
                         disabled={busyId === `${id}-7`}
@@ -201,6 +305,21 @@ export default function SuperAdmin() {
                         }`}
                       >
                         <Plus size={12} /> {busyId === `${id}-365` ? "..." : doneId === `${id}-365` ? "✓ Oldu" : "1 il"}
+                      </button>
+                      <button
+                        onClick={() => startEdit(id, p)}
+                        className="text-white/40 hover:text-gold transition-colors p-2"
+                        title="Redaktə et"
+                      >
+                        <Pencil size={15} />
+                      </button>
+                      <button
+                        onClick={() => deleteTenant(id, p.telefon)}
+                        disabled={busyId === `del-${id}`}
+                        className="text-white/40 hover:text-coral transition-colors p-2 disabled:opacity-40"
+                        title="Sil"
+                      >
+                        <Trash2 size={15} />
                       </button>
                     </div>
                   </div>
