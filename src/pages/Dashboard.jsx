@@ -764,7 +764,7 @@ function DavamiyyetTab({ tenantId }) {
 function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const bankKey = (fenn || "").trim().toLowerCase();
   const bank = useSharedCollection(bankKey ? `repetitor/sualBanki/${bankKey}` : null);
-  const [bankPickerOpen, setBankPickerOpen] = useState(false);
+  const [bankMsg, setBankMsg] = useState("");
   const [bankLoading, setBankLoading] = useState(false);
   const tests = useCollection(tenantId, "testler");
   const groups = useCollection(tenantId, "qruplar");
@@ -851,43 +851,48 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
           {Object.keys(bank).length > 0 && (
             <div className="relative">
               <button
-                onClick={() => setBankPickerOpen((v) => !v)}
-                className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-lilac text-white hover:opacity-90 transition-opacity"
+                onClick={async () => {
+                  if (!sinif.trim()) {
+                    setBankMsg("Əvvəlcə yuxarıda sinif yaz.");
+                    return;
+                  }
+                  const matched = Object.entries(bank).filter(([, q]) => {
+                    if (String(q.sinif) !== sinif.trim()) return false;
+                    if (!movzular) return true;
+                    return movzular.toLowerCase().includes((q.movzu || "").toLowerCase());
+                  });
+                  if (matched.length === 0) {
+                    setBankMsg(`Bu sinif/mövzular üçün bankda uyğun sual tapılmadı.`);
+                    return;
+                  }
+                  setBankLoading(true);
+                  const suallarFromBank = matched.map(([, q]) => ({
+                    sual: q.sual,
+                    secimler: q.secimler,
+                    duzgun: q.duzgun,
+                  }));
+                  const r = push(ref(db, tenantPath(tenantId, "testler")));
+                  await set(r, {
+                    baslik: `${sinif}-ci sinif ${fenn} — Hazır bank (${suallarFromBank.length} sual)`,
+                    sinif,
+                    fenn,
+                    yaradilib: Date.now(),
+                    mənbə: "bank",
+                    suallar: suallarFromBank,
+                  });
+                  setBankLoading(false);
+                  setBankMsg("");
+                  setOpenId(r.key);
+                }}
+                disabled={bankLoading}
+                className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-lilac text-white hover:opacity-90 transition-opacity disabled:opacity-50"
               >
-                <FileQuestion size={16} /> Hazır bankdan seç
+                <FileQuestion size={16} /> {bankLoading ? "Hazırlanır..." : "Hazır bankdan seç"}
               </button>
-              {bankPickerOpen && (
-                <div className="absolute left-0 top-full mt-2 w-[min(20rem,calc(100vw-3rem))] card p-2 z-20 shadow-2xl">
-                  <p className="text-xs text-slateink/40 px-3 pt-1 pb-2">
-                    Bizim özümüz hazırladığımız, öncədən yoxlanılmış suallar — dərhal əlavə olunur.
-                  </p>
-                  <div className="max-h-72 overflow-y-auto">
-                    {Object.entries(bank).map(([id, t]) => (
-                      <button
-                        key={id}
-                        disabled={bankLoading}
-                        onClick={async () => {
-                          setBankLoading(true);
-                          const r = push(ref(db, tenantPath(tenantId, "testler")));
-                          await set(r, {
-                            baslik: t.baslik,
-                            sinif: t.sinif,
-                            fenn: t.fenn,
-                            yaradilib: Date.now(),
-                            mənbə: "bank",
-                            suallar: t.suallar,
-                          });
-                          setBankPickerOpen(false);
-                          setBankLoading(false);
-                          setOpenId(r.key);
-                        }}
-                        className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-paper transition-colors text-sm text-slateink"
-                      >
-                        {t.baslik}
-                      </button>
-                    ))}
-                  </div>
-                </div>
+              {bankMsg && (
+                <p className="absolute left-0 top-full mt-2 w-[min(18rem,calc(100vw-3rem))] text-xs text-coral bg-coral/10 rounded-lg px-3 py-2">
+                  {bankMsg}
+                </p>
               )}
             </div>
           )}
