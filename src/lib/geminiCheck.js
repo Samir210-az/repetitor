@@ -30,10 +30,10 @@ Yalnız düzəldilmiş tam JSON qaytar, başqa heç nə yazma (izah, markdown ol
 
 export async function verifyWithGemini(fenn, sinif, suallar) {
   const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${GEK()}`,
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent`,
     {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", "x-goog-api-key": GEK() },
       body: JSON.stringify({
         contents: [{ parts: [{ text: buildCheckPrompt(fenn, sinif, suallar) }] }],
         generationConfig: {
