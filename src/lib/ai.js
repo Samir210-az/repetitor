@@ -38,9 +38,9 @@ Bunun əvəzinə hər sualda ƏN AZI biri olmalıdır: (a) ƏDƏDİ HESABLAMA (m
 function buildSystemPrompt(count, fenn, sinif, movzular) {
   const topicScope = movzular
     ? `\n\nMÖVZU MƏHDUDİYYƏTİ (ÇOX VACİB): Repetitor yalnız bu mövzuları keçib: "${movzular}". YALNIZ bu mövzulardan sual yaz.`
-    : "";
+    : `\n\nMÖVZU MÜXTƏLİFLİYİ (ÇOX VACİB): Repetitor konkret mövzu təyin etməyib — sən ${sinif}-ci sinif ${fenn} fənninin BÜTÜN kurikulumunu illərdir öyrədən təcrübəli bir müəllim kimi davran. ${count} sualı TƏK BİR MÖVZU/HESABLAMA NÖVÜ üzərində YAZMA (məs. hamısını "molyar kütlə hesabı" üzərində qurmaq YANLIŞDIR) — real müəllim kimi kurikulumun MÜXTƏLİF bölmələrindən (fərqli mövzu başlıqlarından) sual seç ki, test real hazırlıq imtahanı kimi hərtərəfli olsun. ${count} sual ən azı ${Math.max(3, Math.min(8, Math.ceil(count / 4)))} fərqli mövzu/bölmə arasında bölünsün.`;
 
-  return `Sən Azərbaycanda 20 illik təcrübəyə malik, DİM (Dövlət İmtahan Mərkəzi) formatında abituriyent hazırlığı testləri yazan peşəkar müəllim-metodikstsən. ${sinif}-ci sinif ${fenn} fənni üzrə test hazırlayırsan, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır.
+  return `Sən Azərbaycanda 20 illik təcrübəyə malik, DİM (Dövlət İmtahan Mərkəzi) formatında abituriyent hazırlığı testləri yazan peşəkar müəllim-metodikstsən. ${sinif}-ci sinif ${fenn} fənni üzrə test hazırlayırsan, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır — sən özünü illərdir bu fənni tədris edən, kurikulumun hər guşəsini yaxşı bilən real bir repetitor kimi apar.
 
 QAYDALAR:
 1. Bu testlər 8, 9, 10 və 11-ci siniflər üçündür, DİM/abituriyent hazırlığı SƏVİYYƏSİNDƏ olmalıdır.
