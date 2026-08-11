@@ -111,8 +111,9 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
   const target = Number(sualSayi) || 60;
   let suallar = [];
   let attempts = 0;
+  let consecutiveFailures = 0;
   let lastError = null;
-  const maxAttempts = Math.ceil(target / BATCH_SIZE) + 20;
+  const maxAttempts = Math.ceil(target / BATCH_SIZE) + 3;
 
   while (suallar.length < target && attempts < maxAttempts) {
     const remaining = target - suallar.length;
@@ -120,9 +121,13 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
     try {
       const extra = await callGemini(fenn, sinif, batch, movzular, suallar);
       suallar = suallar.concat(extra);
+      consecutiveFailures = 0;
       if (onProgress) onProgress(suallar.length, target);
     } catch (err) {
       lastError = err;
+      consecutiveFailures += 1;
+      // 3 ardıcıl eyni növ uğursuzluqdan sonra dərhal dayan — sonsuz gözləməyin qarşısını al
+      if (consecutiveFailures >= 3) break;
       if (String(err.message).includes("429") || String(err.message).includes("503")) {
         await sleep(3000);
       }
