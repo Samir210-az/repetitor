@@ -18,9 +18,14 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { prompt, temperature } = req.body || {};
+    const { prompt, temperature, mock } = req.body || {};
     if (!prompt) {
       res.status(400).json({ error: "prompt lazımdır" });
+      return;
+    }
+
+    if (mock) {
+      res.status(200).json({ mockOk: true, gekLength: GEK().length });
       return;
     }
 

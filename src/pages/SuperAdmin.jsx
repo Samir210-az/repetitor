@@ -339,7 +339,9 @@ export default function SuperAdmin() {
 
 function DiagnosticPing() {
   const [result, setResult] = useState("");
+  const [result2, setResult2] = useState("");
   const [loading, setLoading] = useState(false);
+  const [loading2, setLoading2] = useState(false);
 
   async function test() {
     setLoading(true);
@@ -359,13 +361,40 @@ function DiagnosticPing() {
     }
   }
 
+  async function testMock() {
+    setLoading2(true);
+    setResult2("");
+    try {
+      const res = await fetch("/api/gemini", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: "test", mock: true }),
+      });
+      const data = await res.json();
+      setResult2("✅ UĞURLU: " + JSON.stringify(data));
+    } catch (err) {
+      setResult2("❌ XƏTA: " + (err.name || "") + " — " + (err.message || String(err)));
+    } finally {
+      setLoading2(false);
+    }
+  }
+
   return (
-    <div className="card-dark p-5 mt-6">
-      <p className="text-white/60 text-sm mb-3">🔧 Diaqnostik: server bağlantısını yoxla</p>
-      <button onClick={test} disabled={loading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
-        {loading ? "Yoxlanılır..." : "Ping test et"}
-      </button>
-      {result && <p className="text-xs font-mono text-white/70 mt-3 break-all">{result}</p>}
+    <div className="card-dark p-5 mt-6 space-y-4">
+      <div>
+        <p className="text-white/60 text-sm mb-3">🔧 Test 1: Ümumi server bağlantısı (Google-suz)</p>
+        <button onClick={test} disabled={loading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+          {loading ? "Yoxlanılır..." : "Ping test et"}
+        </button>
+        {result && <p className="text-xs font-mono text-white/70 mt-3 break-all">{result}</p>}
+      </div>
+      <div className="pt-3 border-t border-white/10">
+        <p className="text-white/60 text-sm mb-3">🔧 Test 2: gemini.js (Google-a getmədən, açar oxuma testi)</p>
+        <button onClick={testMock} disabled={loading2} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+          {loading2 ? "Yoxlanılır..." : "Mock test et"}
+        </button>
+        {result2 && <p className="text-xs font-mono text-white/70 mt-3 break-all">{result2}</p>}
+      </div>
     </div>
   );
 }
