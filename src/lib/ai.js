@@ -37,7 +37,8 @@ function difficultyRule(fenn) {
   if (cat === "humanitar") {
     return `Bu, humanitar fəndir (${fenn}). Çətinliyi DƏRİNLİK yolu ilə qur: hadisələrin təhlili, səbəb-nəticə əlaqəsi, müqayisə, qaydanın konkret nümunə üzərində tətbiqi. Sadə əzbər sual yazma, amma HEÇ VAXT mövcud olmayan hadisə, tarix və ya "fakt" UYDURMA — yalnız real, tanınmış, məktəb dərsliklərində keçən məzmundan istifadə et.`;
   }
-  return `Bu, dəqiq/təbiət elmi fənnidir (${fenn}). Hər sual real DİM test kitabçalarındakı kimi çoxaddımlı olsun: tətbiq, analiz, hesablama zənciri, düsturun tətbiqi, müqayisə və ya sintez tələb etsin. Şagird sualı birbaşa dərslikdən "tanıyıb" cavablandıra bilməməlidir — özü addım-addım düşünüb həll etməlidir.`;
+  return `Bu, dəqiq/təbiət elmi fənnidir (${fenn}). QƏTİ QADAĞAN NÜMUNƏLƏR (bu tip sual YAZMA): "X nədir?", "X-in tərkibində hansı elementlər var?", "X neçə növə bölünür?", "X-in funksiyaları hansılardır?" — bunlar sadə tərif sualıdır, DİM səviyyəsi DEYİL.
+Bunun əvəzinə hər sualda ƏN AZI biri olmalıdır: (a) ƏDƏDİ HESABLAMA (molyar kütlə, faiz tərkibi, kimyəvi tənliyin balanslaşdırılması, stoxiometrik hesablama, məsafə/sürət/qüvvə hesabı və s. — konkret ƏDƏDLƏRLƏ), (b) çoxaddımlı məntiqi zəncir (bir neyi tapmaq üçün əvvəlcə başqa bir şeyi tapmaq lazımdır), (c) iki və ya daha çox anlayışın birləşdirilməsi (məs. bir mövzunun formulunu başqa mövzunun konsepti ilə birləşdirmək). MÖVZU nə qədər dar olsa da (məsələn tək bir mövzu — "Zülallar" kimi), çətinlik SƏVİYYƏSİ HEÇ VAXT aşağı düşməməlidir — dar mövzu daxilində hesablama/analiz variantları tap (məs. Zülallar mövzusunda: amin turşusu sayından molekul kütləsini hesabla, hidroliz tənliyini balanslaşdır, peptid rabitəsi sayını hesabla və s.). Şagird sualı birbaşa dərslikdən "tanıyıb" cavablandıra bilməməlidir — özü addım-addım hesablayıb həll etməlidir.`;
 }
 
 function buildSystemPrompt(count, fenn, movzular) {
