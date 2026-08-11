@@ -710,6 +710,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const [pickerOpen, setPickerOpen] = useState(false);
   const [movzular, setMovzular] = useState("");
   const [movzularSaved, setMovzularSaved] = useState(false);
+  const [stage, setStage] = useState("");
 
   useEffect(() => {
     if (!tenantId) return;
@@ -735,6 +736,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
     setLoading(true);
     setError("");
     setProgress({ done: 0, total: Number(sualSayi) || 60 });
+    setStage("generating");
     try {
       const suallar = await generateTest({
         fenn,
@@ -742,6 +744,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         sualSayi: Number(sualSayi) || 60,
         movzular: movzular.trim() || null,
         onProgress: (done, total) => setProgress({ done, total }),
+        onStage: (s) => setStage(s),
       });
       const r = push(ref(db, tenantPath(tenantId, "testler")));
       await set(r, {
@@ -758,6 +761,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
     } finally {
       setLoading(false);
       setProgress(null);
+      setStage("");
     }
   }
 
@@ -837,13 +841,13 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         {progress && (
           <div className="mt-3">
             <div className="flex items-center justify-between text-xs text-slateink/50 mb-1.5">
-              <span>Hazırlanır...</span>
-              <span className="font-mono">{progress.done} / {progress.total}</span>
+              <span>{stage === "checking" ? "Gemini ilə fakt yoxlanılır..." : "Hazırlanır..."}</span>
+              <span className="font-mono">{stage === "checking" ? "✓" : `${progress.done} / ${progress.total}`}</span>
             </div>
             <div className="h-1.5 w-full bg-black/5 rounded-full overflow-hidden">
               <div
-                className="h-full bg-gold transition-all duration-500"
-                style={{ width: `${Math.min(100, (progress.done / progress.total) * 100)}%` }}
+                className={`h-full transition-all duration-500 ${stage === "checking" ? "bg-emerald animate-pulse w-full" : "bg-gold"}`}
+                style={stage === "checking" ? {} : { width: `${Math.min(100, (progress.done / progress.total) * 100)}%` }}
               />
             </div>
           </div>

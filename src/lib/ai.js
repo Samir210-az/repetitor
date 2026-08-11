@@ -1,3 +1,5 @@
+import { verifyWithGemini } from "./geminiCheck.js";
+
 // Embedded API access (digər layihələrdəki eyni üsul)
 const _d = "dmJ6Tn8hJkNUekd3ZWRBJnJDJEAkIXVoRlZ1aHMiV0h3KWRWQlNYenljJlNoXHR4IydQJlJzZWI=";
 const _k = 17;
@@ -107,7 +109,7 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress }) {
+export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress, onStage }) {
   const target = Number(sualSayi) || 60;
   let suallar = [];
   let attempts = 0;
@@ -139,5 +141,21 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
     throw lastError || new Error("AI cavabında suallar tapılmadı, yenidən sına.");
   }
 
-  return suallar.slice(0, target);
+  const finalSuallar = suallar.slice(0, target);
+
+  // 2-ci qat: Gemini ilə fakt-yoxlama (uğursuz olsa, orijinal nəticə qalır — test bloklanmır)
+  if (onStage) onStage("checking");
+  try {
+    const checked = await verifyWithGemini(fenn, sinif, finalSuallar);
+    if (Array.isArray(checked) && checked.length === finalSuallar.length) {
+      return checked.map((q) => ({
+        ...q,
+        secimler: Array.isArray(q.secimler) ? q.secimler.map(stripOptionPrefix) : q.secimler,
+      }));
+    }
+  } catch {
+    // Gemini əlçatan deyilsə və ya xəta versə, Groq nəticəsi ilə davam et
+  }
+
+  return finalSuallar;
 }
