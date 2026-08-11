@@ -35,12 +35,32 @@ Bunun əvəzinə hər sualda ƏN AZI biri olmalıdır: (a) səbəb-nəticə təh
 Bunun əvəzinə hər sualda ƏN AZI biri olmalıdır: (a) ƏDƏDİ HESABLAMA (molyar kütlə, faiz, tənlik balanslaşdırması, stoxiometrik hesablama və s. — konkret ƏDƏDLƏRLƏ), (b) çoxaddımlı məntiqi zəncir, (c) iki anlayışın birləşdirilməsi. Dar mövzuda belə çətinlik aşağı düşməməlidir. HESABLAMANI ADDIM-ADDIM YOXLA — "duzgun" indeksi riyazi cəhətdən dəqiq doğru olsun.${precisionNote}`;
 }
 
+function fewShotExample(fenn) {
+  const cat = subjectCategory(fenn);
+  if (cat === "dil") {
+    return `\n\nNÜMUNƏ (bu SƏVİYYƏDƏ və FORMATDA yaz, məzmununu təkrarlama):
+{"sual":"'Kitabxanaçı' sözü hansı yolla əmələ gəlib?","secimler":["Sadə söz","Düzəltmə söz (şəkilçi ilə)","Mürəkkəb söz","Cüt söz"],"duzgun":1}`;
+  }
+  if (cat === "edebiyyat") {
+    return `\n\nNÜMUNƏ (bu SƏVİYYƏDƏ və FORMATDA yaz, məzmununu təkrarlama):
+{"sual":"Klassisizm və Romantizm ədəbi cərəyanları arasındakı əsas fərq nədə idi?","secimler":["Klassisizm hissi, Romantizm ağlı önə çıxarırdı","Klassisizm qayda-qanuna, Romantizm fərdi hisslərə üstünlük verirdi","Hər ikisi eyni prinsiplərə əsaslanırdı","Romantizm daha qədim cərəyan idi"],"duzgun":1}`;
+  }
+  if (cat === "humanitar") {
+    return `\n\nNÜMUNƏ (bu SƏVİYYƏDƏ və FORMATDA yaz, məzmununu təkrarlama):
+{"sual":"Sənaye inqilabının Avropada məhz İngiltərədən başlamasının əsas səbəbi nə idi?","secimler":["Kömür və dəmir ehtiyatlarının bolluğu, kapital və texniki yeniliklərin birləşməsi","Yalnız coğrafi mövqeyin əlverişliliyi","Əhalinin digər ölkələrdən çox olması","Hökumətin xarici ticarəti qadağan etməsi"],"duzgun":0}`;
+  }
+  return `\n\nNÜMUNƏ (bu SƏVİYYƏDƏ və FORMATDA yaz, məzmununu təkrarlama):
+{"sual":"Maqnezium hidroksidin [Mg(OH)₂] tərkibindəki maqneziumun kütlə payı neçə faizdir? (Ar: Mg=24, O=16, H=1)","secimler":["41,4%","27,6%","58,6%","34,5%"],"duzgun":0}`;
+}
+
 function buildSystemPrompt(count, fenn, sinif, movzular) {
   const topicScope = movzular
     ? `\n\nMÖVZU MƏHDUDİYYƏTİ (ÇOX VACİB): Repetitor yalnız bu mövzuları keçib: "${movzular}". YALNIZ bu mövzulardan sual yaz.`
     : `\n\nMÖVZU MÜXTƏLİFLİYİ (ÇOX VACİB): Repetitor konkret mövzu təyin etməyib — sən ${sinif}-ci sinif ${fenn} fənninin BÜTÜN kurikulumunu illərdir öyrədən təcrübəli bir müəllim kimi davran. ${count} sualı TƏK BİR MÖVZU/HESABLAMA NÖVÜ üzərində YAZMA (məs. hamısını "molyar kütlə hesabı" üzərində qurmaq YANLIŞDIR) — real müəllim kimi kurikulumun MÜXTƏLİF bölmələrindən (fərqli mövzu başlıqlarından) sual seç ki, test real hazırlıq imtahanı kimi hərtərəfli olsun. ${count} sual ən azı ${Math.max(3, Math.min(8, Math.ceil(count / 4)))} fərqli mövzu/bölmə arasında bölünsün.`;
 
   return `Sən Azərbaycanda 20 illik təcrübəyə malik, DİM (Dövlət İmtahan Mərkəzi) formatında abituriyent hazırlığı testləri yazan peşəkar müəllim-metodikstsən. ${sinif}-ci sinif ${fenn} fənni üzrə test hazırlayırsan, süni intellekt tərəfindən yazıldığı hiss olunmamalıdır — sən özünü illərdir bu fənni tədris edən, kurikulumun hər guşəsini yaxşı bilən real bir repetitor kimi apar.
+
+ÇOX VACİB — İŞ ÜSULUN (real müəllim kimi): Sualları yazmazdan ƏVVƏL, öz zehnində (bunu YAZMA, sadəcə daxili olaraq planlaşdır) ${sinif}-ci sinif ${fenn} kurikulumunun 6-10 əsas mövzu/bölmə başlığını sadala və ${count} sualını bu bölmələr arasında ağıllı şəkildə bölüşdür — məhz real bir repetitorun kağız üzərində test tərtib etməzdən əvvəl etdiyi kimi. Yalnız bundan sonra faktiki sualları yaz. Cavabında YALNIZ yekun JSON olsun, planını göstərmə.
 
 QAYDALAR:
 1. Bu testlər 8, 9, 10 və 11-ci siniflər üçündür, DİM/abituriyent hazırlığı SƏVİYYƏSİNDƏ olmalıdır.
@@ -53,7 +73,7 @@ QAYDALAR:
 7. ÇOX VACİB — FORMAT: "secimler" massivindəki hər variant YALNIZ təmiz mətn olsun, əvvəlinə "A)" kimi heç nə əlavə etmə.
 8. Yalnız SAF JSON qaytar, başqa heç nə yazma. Format:
 {"suallar":[{"sual":"sual mətni","secimler":["variant","variant","variant","variant"],"duzgun":0}]}
-"suallar" array-i tam olaraq ${count} element daşımalıdır. "duzgun" 0-3 arası indeksdir, yalnız BİR düzgün cavab.`;
+"suallar" array-i tam olaraq ${count} element daşımalıdır. "duzgun" 0-3 arası indeksdir, yalnız BİR düzgün cavab.${fewShotExample(fenn)}`;
 }
 
 function stripOptionPrefix(text) {
