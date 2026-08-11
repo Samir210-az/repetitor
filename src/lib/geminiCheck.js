@@ -12,6 +12,7 @@ function buildCheckPrompt(fenn, sinif, suallar) {
 
 VƏZİFƏN:
 Hər sualı diqqətlə yoxla:
+0. FƏN SƏRHƏDİ (ÇOX VACİB): "${fenn}" fənninin növünü müəyyən et. Əgər bu DİL (qrammatika) fənnidirsə (Ana dili, Azərbaycan dili, İngilis dili və s.), suallar YALNIZ qrammatika/orfoqrafiya/sintaksis/morfologiya/lüğət üzərində olmalıdır — əgər hər hansı sual ədəbi əsər, şair, yazıçı və ya əsərin məzmunu haqqındadırsa (yəni ƏDƏBİYYAT fənninə aiddir, DİL fənninə yox), bu, SƏHV FƏNDƏNDİR — sualı TAM DƏYİŞ, əvəzinə real qrammatika sualı yaz. Əksinə, əgər fənn ƏDƏBİYYAT-dırsa, suallar əsərlərin təhlili üzərində olmalıdır, sadəcə qrammatika sualı olmamalıdır.
 1. Sualda istifadə olunan hər hansı termin, əsər adı, tarixi fakt, düstur və ya hadisə REAL və DOĞRUDURMU? Uydurma/mövcud olmayan bir şey varsa (məs. mövcud olmayan dilçilik termini, olmayan əsər, səhv tarix, səhv düstur), o sualı TAM DƏYİŞ — eyni mövzuda, amma yalnız real və dəqiq faktlara əsaslanan yeni sualla əvəz et.
 2. Düzgün cavab indeksinin ("duzgun") doğru olduğunu təsdiqlə, səhvdirsə düzəlt.
 3. Sual mətnində məntiqi qeyri-müəyyənlik və ya birdən çox düzgün cavab ehtimalı varsa, sualı aydınlaşdır.

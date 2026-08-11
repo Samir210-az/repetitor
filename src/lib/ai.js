@@ -11,19 +11,31 @@ const GK = () =>
 
 const BATCH_SIZE = 8;
 
-const HUMANITIES_KEYWORDS = [
-  "dil", "ədəbiyyat", "tarix", "coğrafiya", "fəlsəfə", "hüquq", "ingilis",
-  "rus", "alman", "fransız", "ərəb", "din", "cəmiyyət",
+const LITERATURE_KEYWORDS = ["ədəbiyyat", "literature"];
+const LANGUAGE_KEYWORDS = ["dil", "language"];
+const OTHER_HUMANITIES_KEYWORDS = [
+  "tarix", "coğrafiya", "fəlsəfə", "hüquq", "din", "cəmiyyət",
 ];
 
-function isHumanities(fenn) {
+function subjectCategory(fenn) {
   const f = (fenn || "").toLowerCase();
-  return HUMANITIES_KEYWORDS.some((k) => f.includes(k));
+  if (LITERATURE_KEYWORDS.some((k) => f.includes(k))) return "edebiyyat";
+  if (LANGUAGE_KEYWORDS.some((k) => f.includes(k))) return "dil";
+  if (OTHER_HUMANITIES_KEYWORDS.some((k) => f.includes(k))) return "humanitar";
+  return "stem";
 }
 
 function difficultyRule(fenn) {
-  if (isHumanities(fenn)) {
-    return `Bu, humanitar fəndir (${fenn}). Çətinliyi HESABLAMA yolu ilə yox, DƏRİNLİK yolu ilə qur: mətn təhlili, müəllif fikrinin şərhi, iki əsər/hadisə arasında müqayisə, qayda/qanunun tətbiqi konkret nümunə üzərində, səbəb-nəticə əlaqəsi. Sadə "kim yazıb / nə vaxt olub" tipli əzbər sual yazma, amma HEÇ VAXT mövcud olmayan əsər, hadisə, termin və ya "fakt" UYDURMA — yalnız real, tanınmış, məktəb dərsliklərində keçən məzmundan istifadə et.`;
+  const cat = subjectCategory(fenn);
+
+  if (cat === "dil") {
+    return `Bu, DİL (qrammatika) fənnidir (${fenn}) — bu, ƏDƏBİYYAT DEYİL, ƏSƏR/ŞAİR/YAZIÇI SUALI YAZMA. Yalnız dilin öz qaydaları üzərində sual qur: orfoqrafiya (yazı qaydaları), sintaksis (cümlə quruluşu), morfologiya (söz növləri, şəkilçilər), punktuasiya (durğu işarələri), fonetika (səs, hərf), söz birləşmələri, nitq hissələri, sözlərin düzgün işlədilməsi. Əgər fənn xarici dildirsə (İngilis/Rus/Alman/Fransız/Ərəb dili), o dilin öz qrammatikası, lüğəti və cümlə qurluşu üzərində sual qur. Heç bir halda ədəbi əsərin məzmunu, müəllifi və ya qəhrəmanları haqqında sual YAZMA.`;
+  }
+  if (cat === "edebiyyat") {
+    return `Bu, ƏDƏBİYYAT fənnidir (${fenn}). Çətinliyi DƏRİNLİK yolu ilə qur: mətn təhlili, müəllif fikrinin şərhi, iki əsər arasında müqayisə, obrazın xarakteri, əsərin ideyası. Sadə "kim yazıb / nə vaxt olub" tipli əzbər sual yazma, amma HEÇ VAXT mövcud olmayan əsər, obraz və ya "fakt" UYDURMA — yalnız real, tanınmış, məktəb dərsliklərində keçən əsərlərdən istifadə et. Eyni əsəri/obrazı dəfələrlə təkrarlama, müxtəlif əsərlərdən sual qur.`;
+  }
+  if (cat === "humanitar") {
+    return `Bu, humanitar fəndir (${fenn}). Çətinliyi DƏRİNLİK yolu ilə qur: hadisələrin təhlili, səbəb-nəticə əlaqəsi, müqayisə, qaydanın konkret nümunə üzərində tətbiqi. Sadə əzbər sual yazma, amma HEÇ VAXT mövcud olmayan hadisə, tarix və ya "fakt" UYDURMA — yalnız real, tanınmış, məktəb dərsliklərində keçən məzmundan istifadə et.`;
   }
   return `Bu, dəqiq/təbiət elmi fənnidir (${fenn}). Hər sual real DİM test kitabçalarındakı kimi çoxaddımlı olsun: tətbiq, analiz, hesablama zənciri, düsturun tətbiqi, müqayisə və ya sintez tələb etsin. Şagird sualı birbaşa dərslikdən "tanıyıb" cavablandıra bilməməlidir — özü addım-addım düşünüb həll etməlidir.`;
 }
