@@ -223,6 +223,27 @@ function QruplarTab({ tenantId }) {
     await remove(ref(db, tenantPath(tenantId, "qruplar", id)));
   }
 
+  const [mesgeleInputs, setMesgeleInputs] = useState({});
+
+  async function addMesgele(groupId) {
+    const movzu = (mesgeleInputs[groupId] || "").trim();
+    if (!movzu) return;
+    const today = new Date();
+    const tarix = today.toISOString().slice(0, 10);
+    const r = push(ref(db, tenantPath(tenantId, "qruplar", groupId, "mesgeleler")));
+    await set(r, { tarix, movzu, elave_edildi: Date.now() });
+    setMesgeleInputs((m) => ({ ...m, [groupId]: "" }));
+  }
+
+  function fmtTarix(tarix) {
+    try {
+      const [y, m, d] = tarix.split("-");
+      return `${d}.${m}`;
+    } catch {
+      return tarix;
+    }
+  }
+
   const list = Object.entries(groups);
   const studentList = Object.entries(students);
 
@@ -274,6 +295,36 @@ function QruplarTab({ tenantId }) {
                         {s.ad}
                       </span>
                     ))
+                  )}
+                </div>
+
+                <div className="px-4 pb-4 pt-2 border-t border-white/10">
+                  <p className="text-[11px] text-white/35 font-mono uppercase mb-2">Bu gün nə keçdin?</p>
+                  <div className="flex items-center gap-2">
+                    <input
+                      value={mesgeleInputs[id] || ""}
+                      onChange={(e) => setMesgeleInputs((m) => ({ ...m, [id]: e.target.value }))}
+                      onKeyDown={(e) => e.key === "Enter" && addMesgele(id)}
+                      placeholder="Məs: Alkanlar"
+                      className="flex-1 bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white placeholder:text-white/25 focus:outline-none focus:border-gold/60"
+                    />
+                    <button
+                      onClick={() => addMesgele(id)}
+                      className="bg-gold text-ink text-sm font-semibold px-3 py-2 rounded-lg shrink-0"
+                    >
+                      <Plus size={16} />
+                    </button>
+                  </div>
+                  {g.mesgeleler && Object.keys(g.mesgeleler).length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 mt-3">
+                      {Object.entries(g.mesgeleler)
+                        .sort((a, b) => (b[1].elave_edildi || 0) - (a[1].elave_edildi || 0))
+                        .map(([mid, m]) => (
+                          <span key={mid} className="text-xs bg-emerald/10 border border-emerald/20 rounded-full px-2.5 py-1 text-emerald/90">
+                            {fmtTarix(m.tarix)} — {m.movzu}
+                          </span>
+                        ))}
+                    </div>
                   )}
                 </div>
               </div>
@@ -701,6 +752,7 @@ function DavamiyyetTab({ tenantId }) {
 /* ---------------- TESTLƏR ---------------- */
 function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const tests = useCollection(tenantId, "testler");
+  const groups = useCollection(tenantId, "qruplar");
   const [sinif, setSinif] = useState("");
   const [sualSayi, setSualSayi] = useState(60);
   const [loading, setLoading] = useState(false);
@@ -708,22 +760,24 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const [error, setError] = useState("");
   const [openId, setOpenId] = useState(null);
   const [pickerOpen, setPickerOpen] = useState(false);
-  const [movzular, setMovzular] = useState("");
-  const [movzularSaved, setMovzularSaved] = useState(false);
   const [stage, setStage] = useState("");
 
-  useEffect(() => {
-    if (!tenantId) return;
-    const r = ref(db, tenantPath(tenantId, "movzular"));
-    const unsub = onValue(r, (snap) => setMovzular(snap.val() || ""));
-    return () => unsub();
-  }, [tenantId]);
-
-  async function saveMovzular() {
-    await set(ref(db, tenantPath(tenantId, "movzular")), movzular);
-    setMovzularSaved(true);
-    setTimeout(() => setMovzularSaved(false), 1500);
-  }
+  // Sinifə uyğun qruplardan keçilmiş mövzuları avtomatik topla
+  const movzular = (() => {
+    if (!sinif.trim()) return "";
+    const sinifToken = sinif.trim();
+    const matchingGroups = Object.values(groups).filter((g) => {
+      const tokens = (g.seviyye || "").split(/[^0-9]+/).filter(Boolean);
+      return tokens.includes(sinifToken);
+    });
+    const topics = [];
+    matchingGroups.forEach((g) => {
+      Object.values(g.mesgeleler || {}).forEach((m) => {
+        if (m.movzu && !topics.includes(m.movzu)) topics.push(m.movzu);
+      });
+    });
+    return topics.join(", ");
+  })();
 
   const list = Object.entries(tests).sort((a, b) => (b[1].yaradilib || 0) - (a[1].yaradilib || 0));
 
@@ -820,20 +874,28 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
           </button>
         </div>
 
-        <label className="block mt-4">
+        <div className="mt-4">
           <span className="text-xs font-medium text-slateink/50 mb-1.5 block">
-            Keçdiyin mövzular (ixtiyari — yazsan, AI yalnız bunlardan sual qurar)
+            {sinif.trim()
+              ? `${sinif}-ci sinif üçün Qruplar bölməsində qeyd etdiyin mövzular (avtomatik)`
+              : "Sinifi yaz — Qruplar bölməsindəki məşğələ qeydlərindən mövzular avtomatik toplanacaq"}
           </span>
-          <textarea
-            value={movzular}
-            onChange={(e) => setMovzular(e.target.value)}
-            onBlur={saveMovzular}
-            rows={2}
-            placeholder="Məs: Alkanlar, Alkenlər, Nomenklatura qaydaları, Karbohidrogenlərin izomerliyi..."
-            className="w-full bg-paper border border-black/10 rounded-lg px-3 py-2.5 text-sm text-slateink focus:outline-none focus:border-gold/60 transition-all resize-none"
-          />
-          {movzularSaved && <span className="text-xs text-emerald mt-1 block">✓ Yadda saxlanıldı</span>}
-        </label>
+          {movzular ? (
+            <div className="flex flex-wrap gap-1.5 bg-paper border border-black/10 rounded-lg px-3 py-2.5">
+              {movzular.split(", ").map((m, i) => (
+                <span key={i} className="text-xs bg-emerald/10 border border-emerald/20 rounded-full px-2.5 py-1 text-emerald-700">
+                  {m}
+                </span>
+              ))}
+            </div>
+          ) : (
+            <p className="text-xs text-slateink/35 bg-paper border border-black/10 rounded-lg px-3 py-2.5">
+              {sinif.trim()
+                ? "Bu sinif üçün hələ heç bir qrupda məşğələ qeyd olunmayıb — Qruplar bölməsindən əlavə et, yoxsa AI bütün kurikulumdan sual quracaq."
+                : "—"}
+            </p>
+          )}
+        </div>
 
         <p className="text-xs text-slateink/40 mt-3">
           Fənn avtomatik sənin qeydiyyat fənnindən götürülür ({fenn || "—"}) — dəyişmək olmaz.
