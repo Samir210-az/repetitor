@@ -330,7 +330,42 @@ export default function SuperAdmin() {
         )}
 
         {tab === "ziyaretciler" && <VisitorsList visits={visits} />}
+
+        <DiagnosticPing />
       </main>
+    </div>
+  );
+}
+
+function DiagnosticPing() {
+  const [result, setResult] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  async function test() {
+    setLoading(true);
+    setResult("");
+    try {
+      const res = await fetch("/api/ping", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ test: true }),
+      });
+      const data = await res.json();
+      setResult("✅ UĞURLU: " + JSON.stringify(data));
+    } catch (err) {
+      setResult("❌ XƏTA: " + (err.name || "") + " — " + (err.message || String(err)));
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <div className="card-dark p-5 mt-6">
+      <p className="text-white/60 text-sm mb-3">🔧 Diaqnostik: server bağlantısını yoxla</p>
+      <button onClick={test} disabled={loading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+        {loading ? "Yoxlanılır..." : "Ping test et"}
+      </button>
+      {result && <p className="text-xs font-mono text-white/70 mt-3 break-all">{result}</p>}
     </div>
   );
 }
