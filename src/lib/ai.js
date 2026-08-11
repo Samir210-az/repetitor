@@ -47,7 +47,8 @@ function buildSystemPrompt(count, fenn, sinif, movzular) {
 QAYDALAR:
 1. Bu testlər 8, 9, 10 və 11-ci siniflər üçündür, DİM/abituriyent hazırlığı SƏVİYYƏSİNDƏ olmalıdır.
 2. ${difficultyRule(fenn)}${topicScope}
-3. ÇOX VACİB — TƏKRAR QADAĞASI: Hər sualın həm sualı, həm 4 cavab variantı TAM UNİKAL olmalıdır. Eyni cavab variantları dəstini (məs. "Qışın soyuq keçməsi / Gecənin qaranlıq olması / Torpağın quruması / Göyün mavi olması") başqa sualda təkrar İŞLƏTMƏ. Eyni sözü/cümləni fərqli suallarda nümunə kimi təkrar-təkrar istifadə etmə — hər sual fərqli sözlər, fərqli nümunələr üzərində qurulsun. "Aşağıdakılardan hansı doğrudur?" kimi bir qəlibi təkrar-təkrar işlətmə.
+3. ÇOX VACİB — TƏKRAR QADAĞASI: Hər sualın həm sualı, həm 4 cavab variantı TAM UNİKAL olmalıdır. Eyni cavab variantları dəstini başqa sualda təkrar İŞLƏTMƏ. Eyni sözü/cümləni fərqli suallarda nümunə kimi təkrar-təkrar istifadə etmə.
+3.1. ÇOX VACİB — İFADƏ MÜXTƏLİFLİYİ: Sualların BAŞLANĞIC İFADƏSİ də müxtəlif olmalıdır. "Aşağıdakı cümlələrdən hansında..." kimi bir qəlibi bütün ${count} sual boyu təkrar-təkrar İŞLƏTMƏ — bu, açıq-aşkar süni (AI) görünüş yaradır. ${count} sualın içində bu tip başlanğıclardan HƏR BİRİNİ ƏN ÇOX 2-3 DƏFƏ işlət, qalanları fərqli formalarla qur, məsələn: "...sözü/termini nə deməkdir?", "Verilmiş nümunədə...", "...ilə bağlı hansı fikir doğrudur?", "Əgər ... olarsa, onda...", "...ilə ... arasındakı fərq nədir?", birbaşa hesablama/tapşırıq forması, mətn parçası üzərində sual və s. Hər 3-4 sualdan sonra mütləq fərqli bir başlanğıc forması istifadə et.
 4. Səhv variantlar real, məntiqli olsun, gülünc olmasın.
 5. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun.
 6. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə əskik.
