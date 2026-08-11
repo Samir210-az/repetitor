@@ -339,10 +339,13 @@ export default function SuperAdmin() {
 }
 
 import fizikaBank from "../data/fizikaBank.json";
+import azDiliBank from "../data/azDiliBank.json";
 
 function SeedBankTool() {
   const [status, setStatus] = useState("");
-  async function seed() {
+  const [status2, setStatus2] = useState("");
+
+  async function seedFizika() {
     setStatus("Yazılır... (bir neçə saniyə çəkə bilər)");
     try {
       const updates = {};
@@ -356,13 +359,38 @@ function SeedBankTool() {
       setStatus("❌ Xəta: " + err.message);
     }
   }
+
+  async function seedAzDili() {
+    setStatus2("Yazılır...");
+    try {
+      const updates = {};
+      azDiliBank.forEach((q) => {
+        const key = ref(db, "repetitor/sualBanki/azərbaycan dili").push().key;
+        updates[`repetitor/sualBanki/azərbaycan dili/${key}`] = { ...q, yaradilib: Date.now() };
+      });
+      await update(ref(db), updates);
+      setStatus2(`✅ ${azDiliBank.length} sual əlavə olundu.`);
+    } catch (err) {
+      setStatus2("❌ Xəta: " + err.message);
+    }
+  }
+
   return (
-    <div className="card-dark p-5 mt-6">
-      <p className="text-white/60 text-sm mb-3">📚 Sual bankına Fizika-11 dəstini əlavə et ({fizikaBank.length} sual, mövzu üzrə etiketlənmiş)</p>
-      <button onClick={seed} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
-        Bankı doldur
-      </button>
-      {status && <p className="text-xs font-mono text-white/70 mt-3">{status}</p>}
+    <div className="card-dark p-5 mt-6 space-y-4">
+      <div>
+        <p className="text-white/60 text-sm mb-3">📚 Fizika-11 dəstini əlavə et ({fizikaBank.length} sual, mövzu üzrə etiketlənmiş)</p>
+        <button onClick={seedFizika} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+          Fizika bankını doldur
+        </button>
+        {status && <p className="text-xs font-mono text-white/70 mt-3">{status}</p>}
+      </div>
+      <div className="pt-3 border-t border-white/10">
+        <p className="text-white/60 text-sm mb-3">📚 Azərbaycan dili-8 dəstini əlavə et ({azDiliBank.length} sual)</p>
+        <button onClick={seedAzDili} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+          Az.dili bankını doldur
+        </button>
+        {status2 && <p className="text-xs font-mono text-white/70 mt-3">{status2}</p>}
+      </div>
     </div>
   );
 }
