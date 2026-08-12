@@ -3118,5 +3118,4165 @@
   "movzu": "Simmetriya",
   "sinif": "8",
   "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x)=x³-2x²+3x-1 çoxhədlisini (x-1) ilə bölərkən qalıq nə qədərdir?",
+  "secimler": [
+   "1",
+   "0",
+   "-1",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x) çoxhədlisi (x-a) ilə bölünərkən qalıq nəyə bərabərdir (Qalıq haqqında teoremə görə)?",
+  "secimler": [
+   "P(0)",
+   "P(a)",
+   "P(-a)",
+   "a"
+  ],
+  "duzgun": 1,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x)=x²-5x+6 çoxhədlisinin kökləri hansılardır?",
+  "secimler": [
+   "x=2, x=3",
+   "x=-2, x=-3",
+   "x=1, x=6",
+   "x=5, x=6"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir çoxhədlinin (x-a) vuruğuna malik olması üçün hansı şərt ödənməlidir?",
+  "secimler": [
+   "P(a)=0",
+   "P(0)=a",
+   "P(a)=1",
+   "P(-a)=0"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x)=2x³-3x²-11x+6 çoxhədlisinin rasional köklərini tapmaq üçün hansı ədədlər sınanmalıdır?",
+  "secimler": [
+   "Sərbəst həddin bölənlərinin baş əmsalın bölənlərinə nisbəti",
+   "Yalnız tam ədədlər",
+   "Yalnız mənfi ədədlər",
+   "İstənilən ədəd"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x³-1=0 tənliyinin kompleks müstəvidə neçə kökü var?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "0"
+  ],
+  "duzgun": 2,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kompleks ədəd i (xəyali vahid) üçün i² neçəyə bərabərdir?",
+  "secimler": [
+   "1",
+   "-1",
+   "0",
+   "i"
+  ],
+  "duzgun": 1,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2+3i)+(1-2i) cəmini tapın.",
+  "secimler": [
+   "3+i",
+   "3+5i",
+   "1+i",
+   "3-i"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2+i)(1-i) hasilini tapın.",
+  "secimler": [
+   "3-i",
+   "3+i",
+   "1-i",
+   "2-i"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Cəbrin əsas teoreminə görə n-ci dərəcəli çoxhədlinin kompleks müstəvidə neçə kökü var?",
+  "secimler": [
+   "n (kəsrlərlə birlikdə)",
+   "n-1",
+   "n+1",
+   "1"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x)=x⁴-1 çoxhədlisinin neçə həqiqi kökü var?",
+  "secimler": [
+   "2",
+   "4",
+   "1",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çoxhədli funksiyanın ən yüksək dərəcəli həddinin əmsalına nə deyilir?",
+  "secimler": [
+   "Sərbəst hədd",
+   "Baş əmsal",
+   "Kök",
+   "Diskriminant"
+  ],
+  "duzgun": 1,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Rasional funksiya nədir?",
+  "secimler": [
+   "İki çoxhədlinin nisbəti",
+   "Yalnız çoxhədli",
+   "Yalnız kəsr ədəd",
+   "Yalnız tam ədəd"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=(x²-1)/(x-1) funksiyasının təyin oblastına hansı ədəd daxil deyil?",
+  "secimler": [
+   "x=0",
+   "x=1",
+   "x=-1",
+   "x=2"
+  ],
+  "duzgun": 1,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x)=x³+2x²-5x-6 çoxhədlisi üçün P(2) neçəyə bərabərdir?",
+  "secimler": [
+   "0",
+   "2",
+   "6",
+   "-6"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yuxarıdakı nəticəyə görə (x-2) çoxhədlinin vuruğudur, yoxsa yox?",
+  "secimler": [
+   "Bəli, vuruğudur",
+   "Xeyr, vuruğu deyil",
+   "Məlumat kifayət deyil",
+   "Yalnız x=-2 üçün doğrudur"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x)=x³-6x²+11x-6 çoxhədlisinin kökündən biri x=1-dir. Digər kökləri tapmaq üçün hansı üsul istifadə olunur?",
+  "secimler": [
+   "Çoxhədlini (x-1)-ə bölüb qalan kvadrat tənliyi həll etmək",
+   "Yalnız təxmin etmək",
+   "Heç bir üsul yoxdur",
+   "Yalnız qrafikə baxmaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kompleks ədədin qoşması nədir?",
+  "secimler": [
+   "a+bi ədədinin qoşması a-bi-dir",
+   "Eyni ədəddir",
+   "Yalnız həqiqi hissədir",
+   "Yalnız xəyali hissədir"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Həqiqi əmsallı çoxhədlinin kompleks kökü varsa, onun qoşması da kök olurmu?",
+  "secimler": [
+   "Bəli, həmişə",
+   "Xeyr, heç vaxt",
+   "Yalnız bəzən",
+   "Əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²+4=0 tənliyinin kompleks kökləri hansılardır?",
+  "secimler": [
+   "x=2i, x=-2i",
+   "x=4i, x=-4i",
+   "x=2, x=-2",
+   "Kökü yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Rasional funksiyanın şaquli asimptotu adətən harada olur?",
+  "secimler": [
+   "Məxrəci sıfır edən nöqtələrdə",
+   "Surəti sıfır edən nöqtələrdə",
+   "Həmişə x=0-da",
+   "Heç vaxt olmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=1/(x-3) funksiyasının şaquli asimptotu hansıdır?",
+  "secimler": [
+   "x=3",
+   "x=-3",
+   "y=3",
+   "y=0"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çoxhədlinin dərəcəsi onun neçə kökü ola biləcəyini (kompleks köklər daxil) göstərir?",
+  "secimler": [
+   "Bəli, dərəcəyə bərabər sayda",
+   "Heç bir əlaqəsi yoxdur",
+   "Yalnız 1 kökü olur",
+   "Yalnız cüt sayda kök olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "P(x)=x²+2x+5 çoxhədlisinin diskriminantı mənfidirsə, bu nəyi göstərir?",
+  "secimler": [
+   "Həqiqi kökü yoxdur, kompleks kökləri var",
+   "İki həqiqi kökü var",
+   "Bir kökü var",
+   "Sonsuz kökü var"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yuxarıdakı tənliyin (x²+2x+5=0) kompleks kökləri hansılardır?",
+  "secimler": [
+   "x=-1+2i, x=-1-2i",
+   "x=1+2i, x=1-2i",
+   "x=-2+4i, x=-2-4i",
+   "x=2i, x=-2i"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çoxhədli funksiyanın qrafiki n dərəcəli çoxhədlidə neçə nöqtədə Ox oxunu kəsə bilər?",
+  "secimler": [
+   "Ən çox n nöqtədə",
+   "Həmişə n nöqtədə",
+   "Ən çox 1 nöqtədə",
+   "Heç vaxt kəsmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tək dərəcəli çoxhədli funksiyanın qrafiki Ox oxunu ən azı neçə dəfə kəsir?",
+  "secimler": [
+   "0",
+   "1",
+   "2",
+   "3"
+  ],
+  "duzgun": 1,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=(x+2)/(x-2) rasional funksiyasının üfüqi asimptotu hansıdır?",
+  "secimler": [
+   "y=1",
+   "y=0",
+   "y=2",
+   "y=-2"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kompleks ədədlərin həndəsi təsviri hansı müstəvidə aparılır?",
+  "secimler": [
+   "Kompleks müstəvi (Qauss müstəvisi)",
+   "Yalnız ədəd oxunda",
+   "Yalnız koordinat başlanğıcında",
+   "Heç bir müstəvidə göstərilmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çoxhədlinin sərbəst həddi nəyi göstərir?",
+  "secimler": [
+   "x=0 olduqda funksiyanın qiymətini",
+   "Ən yüksək dərəcəli əmsalı",
+   "Kökləri",
+   "Diskriminantı"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Horner sxemi nə üçün istifadə olunur?",
+  "secimler": [
+   "Çoxhədlini xətti ikihədliyə tez bölmək üçün",
+   "İnteqral hesablamaq üçün",
+   "Törəmə tapmaq üçün",
+   "Limit hesablamaq üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Rasional köklər teoreminə görə, tam əmsallı çoxhədlinin rasional kökü p/q formasında olarsa, p və q nəyə bölən olmalıdır?",
+  "secimler": [
+   "p sərbəst həddin, q isə baş əmsalın bölənidir",
+   "Əksinə",
+   "Hər ikisi sərbəst həddin böləni olmalıdır",
+   "Heç bir şərt yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilər",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→2) (x²-4)/(x-2) ifadəsinin qiymətini tapın.",
+  "secimler": [
+   "4",
+   "0",
+   "2",
+   "Mövcud deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→0) sinx/x limitinin qiyməti nədir?",
+  "secimler": [
+   "1",
+   "0",
+   "∞",
+   "Mövcud deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→∞) (1+1/x)ˣ ifadəsinin qiyməti nədir?",
+  "secimler": [
+   "e",
+   "1",
+   "∞",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın x=a nöqtəsində kəsilməz olması üçün hansı üç şərt ödənməlidir?",
+  "secimler": [
+   "f(a) mövcuddur, limit mövcuddur, limit=f(a)",
+   "Yalnız f(a) mövcuddur",
+   "Yalnız limit mövcuddur",
+   "Heç bir şərt yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→3) (2x+1) ifadəsinin qiyməti nədir?",
+  "secimler": [
+   "7",
+   "6",
+   "3",
+   "1"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→∞) 1/x limitinin qiyməti nədir?",
+  "secimler": [
+   "0",
+   "1",
+   "∞",
+   "Mövcud deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→0⁺) 1/x limitinin qiyməti nədir?",
+  "secimler": [
+   "0",
+   "+∞",
+   "-∞",
+   "1"
+  ],
+  "duzgun": 1,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→0⁻) 1/x limitinin qiyməti nədir?",
+  "secimler": [
+   "0",
+   "+∞",
+   "-∞",
+   "1"
+  ],
+  "duzgun": 2,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x) funksiyasının qrafikində şaquli asimptot olması üçün hansı şərt tələb olunur?",
+  "secimler": [
+   "x=a nöqtəsində limit sonsuza yaxınlaşır",
+   "f(a)=0",
+   "Funksiya kəsilməzdir",
+   "Heç bir şərt yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın üfüqi asimptotu necə tapılır?",
+  "secimler": [
+   "lim(x→±∞) f(x) hesablanaraq",
+   "f(0) hesablanaraq",
+   "Yalnız qrafikə baxaraq",
+   "Törəmə tapılaraq"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→2) (x³-8)/(x-2) ifadəsinin qiymətini tapın.",
+  "secimler": [
+   "12",
+   "8",
+   "6",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→0) (1-cosx)/x² limitinin qiyməti nədir?",
+  "secimler": [
+   "1/2",
+   "1",
+   "0",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın soldan və sağdan limitləri bərabərdirsə, bu nəyi göstərir?",
+  "secimler": [
+   "Həmin nöqtədə limit mövcuddur",
+   "Funksiya mütləq kəsilməzdir",
+   "Heç nəyi göstərmir",
+   "Funksiya sonsuzdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→a) f(x) mövcud olması üçün soldan və sağdan limitlər necə olmalıdır?",
+  "secimler": [
+   "Bərabər olmalıdır",
+   "Fərqli olmalıdır",
+   "Sıfır olmalıdır",
+   "Sonsuz olmalıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "tg x funksiyası hansı nöqtələrdə kəsilir?",
+  "secimler": [
+   "x=π/2+πn (n tam ədəd)",
+   "x=0-da",
+   "Heç bir nöqtədə",
+   "x=π-də"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→π/2) tg x limiti necədir?",
+  "secimler": [
+   "Sonsuzluğa yönəlir",
+   "0-a bərabərdir",
+   "1-ə bərabərdir",
+   "π/2-yə bərabərdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→0) (sin3x)/x limitini tapın.",
+  "secimler": [
+   "3",
+   "1",
+   "1/3",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→0) (tgx)/x limitinin qiyməti nədir?",
+  "secimler": [
+   "1",
+   "0",
+   "∞",
+   "Mövcud deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın x=a nöqtəsində kəsilməzliyinin pozulmasına nə deyilir?",
+  "secimler": [
+   "Ekstremum",
+   "Kəsilmə (fasilə)",
+   "Asimptot",
+   "Limit"
+  ],
+  "duzgun": 1,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Elementar funksiyalar öz təyin oblastında necədir?",
+  "secimler": [
+   "Kəsilməzdir",
+   "Həmişə kəsilir",
+   "Heç bir xüsusiyyəti yoxdur",
+   "Yalnız sonlu intervalda kəsilməzdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→∞) (3x²+2x)/(x²-1) limitini tapın.",
+  "secimler": [
+   "3",
+   "2",
+   "1",
+   "∞"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→∞) (2x+1)/(x²+3) limitini tapın.",
+  "secimler": [
+   "0",
+   "2",
+   "∞",
+   "1"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→∞) (x²+1)/(2x+3) limitini tapın.",
+  "secimler": [
+   "∞",
+   "0",
+   "1/2",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "e sayı (Neper ədədi) təxminən neçəyə bərabərdir?",
+  "secimler": [
+   "2,718",
+   "3,14",
+   "1,618",
+   "1,414"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→0) (eˣ-1)/x limitinin qiyməti nədir?",
+  "secimler": [
+   "1",
+   "0",
+   "e",
+   "∞"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kəsilməz funksiyaların cəmi, fərqi və hasili necədir?",
+  "secimler": [
+   "Kəsilməzdir",
+   "Həmişə kəsilir",
+   "Heç bir qanunauyğunluğu yoxdur",
+   "Yalnız sabit olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki kəsilməz funksiyanın nisbəti (məxrəc sıfır olmadıqda) necədir?",
+  "secimler": [
+   "Kəsilməzdir",
+   "Kəsilir",
+   "Sonsuzdur",
+   "Heç bir nəticə çıxarıla bilməz"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→1) (x²-1)/(x-1) limitini tapın.",
+  "secimler": [
+   "2",
+   "0",
+   "1",
+   "Mövcud deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Limitin xassələrinə görə lim[f(x)+g(x)] necə hesablanır (limitlər mövcud olduqda)?",
+  "secimler": [
+   "lim f(x) + lim g(x)",
+   "lim f(x) × lim g(x)",
+   "Heç cür hesablanmır",
+   "Yalnız f(x)-in limiti kifayətdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın nöqtədə kəsilməzliyi qrafikdə necə görünür?",
+  "secimler": [
+   "Qrafikdə həmin nöqtədə fasilə olmur",
+   "Qrafik mütləq düz xətt olur",
+   "Qrafikdə mütləq maksimum olur",
+   "Heç bir görüntü fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "lim(x→∞) sin(x)/x limitinin qiyməti nədir?",
+  "secimler": [
+   "0",
+   "1",
+   "Mövcud deyil",
+   "∞"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Asimptot anlayışı funksiyanın hansı davranışını təsvir edir?",
+  "secimler": [
+   "Qrafikin müəyyən xəttə sonsuz yaxınlaşmasını",
+   "Funksiyanın maksimum qiymətini",
+   "Funksiyanın kökünü",
+   "Funksiyanın simmetriyasını"
+  ],
+  "duzgun": 0,
+  "movzu": "Limit",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada (3 ölçülü) Dekart koordinat sistemi neçə oxdan ibarətdir?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 2,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada iki nöqtə arasındakı məsafə düsturunda neçə koordinat fərqinin kvadratı iştirak edir?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 2,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "A(1,2,3) və B(4,6,3) nöqtələri arasındakı məsafəni tapın.",
+  "secimler": [
+   "5",
+   "7",
+   "3",
+   "25"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(2,-1,3) vektorunun uzunluğunu (modulunu) tapın.",
+  "secimler": [
+   "√14",
+   "6",
+   "14",
+   "√6"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(1,2,3) və b(4,5,6) vektorlarının cəmini tapın.",
+  "secimler": [
+   "(5,7,9)",
+   "(3,3,3)",
+   "(4,10,18)",
+   "(5,7,3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(2,3,-1) və b(1,-1,2) vektorlarının skalyar hasilini tapın.",
+  "secimler": [
+   "-3",
+   "3",
+   "5",
+   "-5"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki vektorun skalyar hasili sıfırdırsa, bu vektorlar bir-birinə necə münasibətdədir?",
+  "secimler": [
+   "Paraleldir",
+   "Perpendikulyardır",
+   "Eynidir",
+   "Əks istiqamətlidir"
+  ],
+  "duzgun": 1,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(1,0,0) və b(0,1,0) vektorlarının skalyar hasili neçədir?",
+  "secimler": [
+   "0",
+   "1",
+   "-1",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vektorun fəzada üç koordinat oxu ilə əmələ gətirdiyi bucaqlara nə deyilir?",
+  "secimler": [
+   "İstiqamətverici bucaqlar",
+   "Normal bucaqlar",
+   "Daxili bucaqlar",
+   "Perpendikulyar bucaqlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üç vektorun qarışıq hasili həndəsi olaraq nəyi göstərir?",
+  "secimler": [
+   "Onların üzərində qurulan paralelepipedin həcmini",
+   "Sahəni",
+   "Perimetri",
+   "Bucağı"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada müstəvinin ümumi tənliyi hansı formadadır?",
+  "secimler": [
+   "Ax+By+Cz+D=0",
+   "Ax+By=C",
+   "y=kx+b",
+   "x²+y²+z²=r²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Müstəviyə perpendikulyar olan vektora nə deyilir?",
+  "secimler": [
+   "İstiqamətverici vektor",
+   "Normal vektor",
+   "Vahid vektor",
+   "Sıfır vektor"
+  ],
+  "duzgun": 1,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada düz xəttin parametrik tənlikləri nəyə əsasən qurulur?",
+  "secimler": [
+   "Xəttin üzərindəki bir nöqtəyə və istiqamətverici vektora",
+   "Yalnız bir nöqtəyə",
+   "Yalnız normal vektora",
+   "Heç nəyə əsaslanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki vektorun vektorial hasili nəticəsində alınan vektor onlara necə münasibətdədir?",
+  "secimler": [
+   "Hər ikisinə perpendikulyardır",
+   "Paraleldir",
+   "Eynidir",
+   "Əks istiqamətlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sıfır vektorun uzunluğu neçədir?",
+  "secimler": [
+   "0",
+   "1",
+   "∞",
+   "Təyin olunmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(3,4,0) vektorunun vahid (normallaşdırılmış) vektoru necə tapılır?",
+  "secimler": [
+   "Vektoru öz uzunluğuna bölməklə",
+   "Vektoru öz uzunluğuna vurmaqla",
+   "Vektordan uzunluğu çıxmaqla",
+   "Heç cür tapılmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(3,4,0) vektorunun uzunluğu neçədir?",
+  "secimler": [
+   "5",
+   "7",
+   "25",
+   "12"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada iki vektor arasındakı bucağı tapmaq üçün hansı düsturdan istifadə olunur?",
+  "secimler": [
+   "cosθ = (a·b)/(|a||b|)",
+   "sinθ = a·b",
+   "tgθ = |a|+|b|",
+   "Heç bir düstur yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada paralel köçürmə çevrilməsi nöqtənin koordinatlarını necə dəyişir?",
+  "secimler": [
+   "Hər koordinata sabit ədəd əlavə olunur",
+   "Koordinatlar vurulur",
+   "Koordinatlar dəyişmir",
+   "Koordinatlar sıfırlanır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada mərkəzi simmetriya çevrilməsində nöqtənin koordinatları necə dəyişir?",
+  "secimler": [
+   "Bütün koordinatların işarəsi əksinə çevrilir",
+   "Yalnız x koordinatı dəyişir",
+   "Heç biri dəyişmir",
+   "Yalnız z koordinatı dəyişir"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada iki vektorun kollinear (paralel) olması üçün hansı şərt ödənməlidir?",
+  "secimler": [
+   "Koordinatları mütənasib olmalıdır",
+   "Skalyar hasilləri sıfır olmalıdır",
+   "Uzunluqları bərabər olmalıdır",
+   "Heç bir şərt yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(2,4,6) və b(1,2,3) vektorları kollineardırmı?",
+  "secimler": [
+   "Bəli, kollineardır",
+   "Xeyr, kollinear deyil",
+   "Perpendikulyardır",
+   "Məlumat kifayət deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vektorların qarışıq hasili sıfır olduqda üç vektor haqqında nə demək olar?",
+  "secimler": [
+   "Bir müstəvidə yerləşirlər (komplanardırlar)",
+   "Perpendikulyardırlar",
+   "Paraleldirlər",
+   "Heç bir nəticə çıxmaz"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada M(x₀,y₀,z₀) nöqtəsindən keçən və n(A,B,C) normal vektorlu müstəvinin tənliyi necə yazılır?",
+  "secimler": [
+   "A(x-x₀)+B(y-y₀)+C(z-z₀)=0",
+   "Ax+By+Cz=0",
+   "x+y+z=x₀+y₀+z₀",
+   "Heç bir düsturla yazılmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vektorun koordinat oxlarına proyeksiyası nəyi göstərir?",
+  "secimler": [
+   "Vektorun həmin oxdakı komponentini",
+   "Vektorun uzunluğunu",
+   "Vektorun istiqamətini",
+   "Heç nəyi göstərmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada iki müstəvinin paralel olması üçün hansı şərt ödənməlidir?",
+  "secimler": [
+   "Normal vektorları kollinear olmalıdır",
+   "Normal vektorları perpendikulyar olmalıdır",
+   "Heç bir şərt yoxdur",
+   "Yalnız bir ortaq nöqtəsi olmalıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada iki müstəvinin perpendikulyar olması üçün hansı şərt ödənməlidir?",
+  "secimler": [
+   "Normal vektorlarının skalyar hasili sıfır olmalıdır",
+   "Normal vektorları paralel olmalıdır",
+   "Heç bir şərt yoxdur",
+   "Eyni tənliyə malik olmalıdırlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a-b vektor fərqi həndəsi olaraq necə qurulur?",
+  "secimler": [
+   "b vektorunun ucundan a vektorunun ucuna çəkilən vektor",
+   "a və b-nin cəmi kimi",
+   "Heç cür qurulmur",
+   "a vektorunun yarısı kimi"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vektorun skalyara vurulması onun hansı xüsusiyyətini dəyişir?",
+  "secimler": [
+   "Uzunluğunu (mənfi skalyarda istiqamətini də)",
+   "Yalnız rəngini",
+   "Heç nəyi dəyişmir",
+   "Yalnız başlanğıc nöqtəsini"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada üç xətti asılı olmayan vektor nəyi təşkil edir?",
+  "secimler": [
+   "Fəza üçün baza (bazis)",
+   "Müstəvi",
+   "Nöqtə",
+   "Heç nəyi təşkil etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Koordinat başlanğıcından M(x,y,z) nöqtəsinə çəkilən vektora nə deyilir?",
+  "secimler": [
+   "Radius-vektor",
+   "Normal vektor",
+   "Sıfır vektor",
+   "Vahid vektor"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəzada iki vektorun skalyar hasili düsturu hansıdır (koordinatlarla)?",
+  "secimler": [
+   "a₁b₁+a₂b₂+a₃b₃",
+   "a₁b₁-a₂b₂+a₃b₃",
+   "(a₁+b₁)(a₂+b₂)(a₃+b₃)",
+   "a₁²+b₁²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada vektorlar",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin yan səthinin sahəsi hansı düsturla hesablanır?",
+  "secimler": [
+   "S=2πrh",
+   "S=πr²h",
+   "S=πr²",
+   "S=4πr²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin tam səthinin sahəsi hansı düsturla hesablanır?",
+  "secimler": [
+   "S=2πr(r+h)",
+   "S=πr²h",
+   "S=2πrh",
+   "S=πrh"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 3 sm, hündürlüyü 5 sm olan silindrin yan səthinin sahəsini tapın (π≈3,14).",
+  "secimler": [
+   "94,2 sm²",
+   "47,1 sm²",
+   "28,26 sm²",
+   "15,7 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun yan səthinin sahəsi hansı düsturla hesablanır?",
+  "secimler": [
+   "S=πrl (l - doğuran)",
+   "S=πr²h",
+   "S=2πrl",
+   "S=πr²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 4 sm, doğuranı 5 sm olan konusun yan səthinin sahəsini tapın (π≈3,14).",
+  "secimler": [
+   "62,8 sm²",
+   "31,4 sm²",
+   "125,6 sm²",
+   "20 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun tam səthinin sahəsi hansı düsturla hesablanır?",
+  "secimler": [
+   "S=πr(l+r)",
+   "S=πrl",
+   "S=πr²",
+   "S=2πrl"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürənin səthinin sahəsi hansı düsturla hesablanır?",
+  "secimler": [
+   "S=4πr²",
+   "S=πr²",
+   "S=(4/3)πr³",
+   "S=2πr²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 3 sm olan kürənin səthinin sahəsini tapın (π≈3,14).",
+  "secimler": [
+   "113,04 sm²",
+   "28,26 sm²",
+   "37,68 sm²",
+   "56,52 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun doğuranı, radiusu və hündürlüyü arasında hansı münasibət var?",
+  "secimler": [
+   "l²=r²+h²",
+   "l=r+h",
+   "l²=r²-h²",
+   "l=r×h"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kəsik konusun yan səthinin sahəsi hansı kəmiyyətlərdən asılıdır?",
+  "secimler": [
+   "İki əsasın radiusları və doğurandan",
+   "Yalnız bir əsasdan",
+   "Yalnız hündürlükdən",
+   "Heç birindən"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kəsik konusun yan səthinin sahəsi düsturu hansıdır (R, r radiuslar, l doğuran)?",
+  "secimler": [
+   "S=π(R+r)l",
+   "S=πRl",
+   "S=π(R-r)l",
+   "S=2π(R+r)l"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin oxsəkti (ox müstəvisi ilə kəsiyi) hansı fiqurdur?",
+  "secimler": [
+   "Üçbucaq",
+   "Düzbucaqlı",
+   "Kvadrat",
+   "Dairə"
+  ],
+  "duzgun": 1,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun oxsəkti hansı fiqurdur?",
+  "secimler": [
+   "Bərabəryanlı üçbucaq",
+   "Düzbucaqlı",
+   "Kvadrat",
+   "Dairə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürəni istənilən müstəvi ilə kəsdikdə alınan kəsik hansı fiqurdur?",
+  "secimler": [
+   "Dairə",
+   "Ellips",
+   "Üçbucaq",
+   "Kvadrat"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürənin böyük dairəsi nədir?",
+  "secimler": [
+   "Kürənin mərkəzindən keçən müstəvi ilə kəsiyi",
+   "Kürənin istənilən kəsiyi",
+   "Yalnız ekvatorial xətt",
+   "Kürənin səthinin yarısı"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 6 sm olan kürənin böyük dairəsinin sahəsini tapın (π≈3,14).",
+  "secimler": [
+   "113,04 sm²",
+   "226,08 sm²",
+   "37,68 sm²",
+   "452,16 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindr, konus və kürə hansı ümumi adla adlandırılır?",
+  "secimler": [
+   "Fırlanma fiqurları",
+   "Çoxüzlülər",
+   "Prizmalar",
+   "Piramidalar"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindr necə əmələ gəlir?",
+  "secimler": [
+   "Düzbucaqlının bir tərəfi ətrafında fırlanması ilə",
+   "Üçbucağın fırlanması ilə",
+   "Dairənin fırlanması ilə",
+   "Kvadratın fırlanması ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konus necə əmələ gəlir?",
+  "secimler": [
+   "Düzbucaqlı üçbucağın kateti ətrafında fırlanması ilə",
+   "Düzbucaqlının fırlanması ilə",
+   "Dairənin fırlanması ilə",
+   "Bərabərtərəfli üçbucağın fırlanması ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürə necə əmələ gəlir?",
+  "secimler": [
+   "Yarımdairənin diametri ətrafında fırlanması ilə",
+   "Düzbucaqlının fırlanması ilə",
+   "Üçbucağın fırlanması ilə",
+   "Kvadratın fırlanması ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin əsası hansı fiqurdur?",
+  "secimler": [
+   "Dairə",
+   "Kvadrat",
+   "Üçbucaq",
+   "Ellips"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürə seqmentinin (kürə kəsiyinin) səthinin sahəsi nədən asılıdır?",
+  "secimler": [
+   "Kürənin radiusu və seqmentin hündürlüyündən",
+   "Yalnız radiusdan",
+   "Yalnız hündürlükdən",
+   "Heç nədən asılı deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 5 sm, hündürlüyü 10 sm olan silindrin tam səthinin sahəsini tapın (π≈3,14).",
+  "secimler": [
+   "471 sm²",
+   "314 sm²",
+   "235,5 sm²",
+   "157 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun doğuranı 13 sm, radiusu 5 sm-dirsə, hündürlüyü nə qədərdir?",
+  "secimler": [
+   "12 sm",
+   "8 sm",
+   "18 sm",
+   "10 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 4 sm, hündürlüyü 3 sm olan konusun doğuranını tapın.",
+  "secimler": [
+   "5 sm",
+   "7 sm",
+   "4 sm",
+   "3 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yuxarıdakı konusun tam səthinin sahəsini tapın (π≈3,14).",
+  "secimler": [
+   "113,04 sm²",
+   "62,8 sm²",
+   "50,24 sm²",
+   "100,48 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kəsik konusun iki əsasının radiusları bərabər olarsa, o hansı fiqura çevrilir?",
+  "secimler": [
+   "Silindrə",
+   "Konusa",
+   "Kürəyə",
+   "Prizmaya"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürənin diametri radiusundan neçə dəfə böyükdür?",
+  "secimler": [
+   "2 dəfə",
+   "3 dəfə",
+   "4 dəfə",
+   "Yarı qədər"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 2 dəfə artırılan kürənin səthinin sahəsi necə dəyişər?",
+  "secimler": [
+   "2 dəfə artar",
+   "4 dəfə artar",
+   "8 dəfə artar",
+   "Dəyişməz"
+  ],
+  "duzgun": 1,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin yan səthinin sahəsi necə açılır (skan olunmuş formada)?",
+  "secimler": [
+   "Düzbucaqlı şəklində",
+   "Üçbucaq şəklində",
+   "Dairə şəklində",
+   "Kvadrat şəklində"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun yan səthi açıldıqda hansı fiqur alınır?",
+  "secimler": [
+   "Dairə seqmenti (sektoru)",
+   "Düzbucaqlı",
+   "Üçbucaq",
+   "Kvadrat"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fırlanma fiqurlarının səthinin sahəsini hesablamaq praktik həyatda hansı sahələrdə əhəmiyyətlidir?",
+  "secimler": [
+   "Tikinti, istehsal, qablaşdırma materiallarının hesablanmasında",
+   "Heç bir sahədə əhəmiyyəti yoxdur",
+   "Yalnız riyazi oyunlarda",
+   "Yalnız nəzəri məqsədlə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fırlanma fiqurları: silindr, konus, kürə",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın nöqtədə törəməsi həndəsi olaraq nəyi ifadə edir?",
+  "secimler": [
+   "Toxunan xəttin bucaq əmsalını",
+   "Funksiyanın qiymətini",
+   "Funksiyanın sahəsini",
+   "Funksiyanın periodunu"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x² funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "2x",
+   "x",
+   "x²",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=xⁿ funksiyasının ümumi törəmə düsturu hansıdır?",
+  "secimler": [
+   "nxⁿ⁻¹",
+   "xⁿ⁻¹",
+   "nxⁿ",
+   "xⁿ⁺¹"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=c (sabit) funksiyasının törəməsi neçədir?",
+  "secimler": [
+   "0",
+   "c",
+   "1",
+   "x"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=3x²+2x-5 funksiyasının törəməsini tapın.",
+  "secimler": [
+   "6x+2",
+   "6x-5",
+   "3x+2",
+   "6x"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(f+g)' törəməsi hansı qaydaya əsasən hesablanır?",
+  "secimler": [
+   "f'+g'",
+   "f'×g'",
+   "f'-g'",
+   "f'/g'"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(f×g)' hasilin törəməsi hansı düsturla hesablanır?",
+  "secimler": [
+   "f'g+fg'",
+   "f'g'",
+   "f'+g'",
+   "fg"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(f/g)' nisbətin törəməsi hansı düsturla hesablanır?",
+  "secimler": [
+   "(f'g-fg')/g²",
+   "f'/g'",
+   "(f'g+fg')/g²",
+   "f'/g"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Mürəkkəb funksiyanın törəməsi hansı qaydaya (zəncir qaydası) əsasən tapılır?",
+  "secimler": [
+   "[f(g(x))]'=f'(g(x))×g'(x)",
+   "f'(x)×g'(x)",
+   "f'(x)+g'(x)",
+   "f'(g'(x))"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=sinx funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "cosx",
+   "-cosx",
+   "-sinx",
+   "tgx"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=cosx funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "sinx",
+   "-sinx",
+   "-cosx",
+   "tgx"
+  ],
+  "duzgun": 1,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=eˣ funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "eˣ",
+   "xeˣ⁻¹",
+   "ln x",
+   "1/x"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=ln x funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "1/x",
+   "ln x",
+   "x",
+   "eˣ"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=tgx funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "1/cos²x",
+   "1/sin²x",
+   "-1/cos²x",
+   "cosx"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=(2x+1)⁵ funksiyasının törəməsini zəncir qaydasına görə tapın.",
+  "secimler": [
+   "10(2x+1)⁴",
+   "5(2x+1)⁴",
+   "(2x+1)⁴",
+   "10(2x+1)⁵"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x³-3x²+2 funksiyasının x=1 nöqtəsindəki törəməsinin qiymətini tapın.",
+  "secimler": [
+   "-3",
+   "3",
+   "0",
+   "-6"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəmə sıfır olan nöqtəyə nə deyilir?",
+  "secimler": [
+   "Kritik (stasionar) nöqtə",
+   "Kəsilmə nöqtəsi",
+   "Simmetriya mərkəzi",
+   "Asimptot"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sürət anlayışı fizikada yerdəyişmənin zamana görə hansı kəmiyyəti ifadə edir?",
+  "secimler": [
+   "Törəməsini",
+   "İnteqralını",
+   "Limitini",
+   "Heç birini"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=√x funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "1/(2√x)",
+   "√x",
+   "1/x",
+   "2√x"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=1/x funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "-1/x²",
+   "1/x²",
+   "-1/x",
+   "ln x"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x²sinx funksiyasının törəməsini hasilin törəməsi qaydası ilə tapın.",
+  "secimler": [
+   "2x·sinx+x²·cosx",
+   "2x·cosx",
+   "x²·cosx",
+   "2x·sinx"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=aˣ (a>0, a≠1) funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "aˣ·ln a",
+   "aˣ",
+   "x·aˣ⁻¹",
+   "ln a"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=logₐx funksiyasının törəməsi hansıdır?",
+  "secimler": [
+   "1/(x·ln a)",
+   "1/x",
+   "ln a/x",
+   "x·ln a"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın törəməsinin mövcud olması üçün funksiya həmin nöqtədə hansı xassəyə malik olmalıdır?",
+  "secimler": [
+   "Kəsilməz olmalıdır",
+   "Kəsilməli",
+   "Mütləq artmalıdır",
+   "Heç bir şərt yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x⁴-4x³ funksiyasının törəməsini tapın.",
+  "secimler": [
+   "4x³-12x²",
+   "4x³-4x²",
+   "x³-4x²",
+   "4x⁴-12x³"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəmənin ikinci törəməsi (f'') nəyi ifadə edir?",
+  "secimler": [
+   "Funksiyanın əyriliyini və sürətin dəyişməsini",
+   "Funksiyanın qiymətini",
+   "Funksiyanın kökünü",
+   "Heç nəyi ifadə etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=sin(2x) funksiyasının törəməsini tapın.",
+  "secimler": [
+   "2cos(2x)",
+   "cos(2x)",
+   "-2sin(2x)",
+   "2cos(x)"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=ln(3x+1) funksiyasının törəməsini tapın.",
+  "secimler": [
+   "3/(3x+1)",
+   "1/(3x+1)",
+   "1/3x",
+   "ln3"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın diferensialı nəyə bərabərdir?",
+  "secimler": [
+   "dy=f'(x)dx",
+   "dy=f(x)dx",
+   "dy=f'(x)",
+   "dy=f(x)"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=e^(x²) funksiyasının törəməsini zəncir qaydası ilə tapın.",
+  "secimler": [
+   "2x·e^(x²)",
+   "e^(x²)",
+   "x·e^(x²)",
+   "2e^(x²)"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Nöqtədə törəmənin mövcud olmaması (məsələn küncdə) qrafikdə necə görünə bilər?",
+  "secimler": [
+   "Kəskin bucaq (kink) əmələ gəlir",
+   "Hamar əyri olur",
+   "Heç bir fərq görünmür",
+   "Funksiya kəsilir (mütləq)"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=cos(x)/x funksiyasının törəməsini nisbətin törəməsi qaydası ilə tapın.",
+  "secimler": [
+   "(-x·sinx-cosx)/x²",
+   "-sinx/x",
+   "(x·sinx-cosx)/x²",
+   "-sinx"
+  ],
+  "duzgun": 0,
+  "movzu": "Funksiyanın törəməsi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin həcmi hansı düsturla hesablanır?",
+  "secimler": [
+   "V=πr²h",
+   "V=2πrh",
+   "V=(1/3)πr²h",
+   "V=(4/3)πr³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 3 sm, hündürlüyü 5 sm olan silindrin həcmini tapın (π≈3,14).",
+  "secimler": [
+   "141,3 sm³",
+   "47,1 sm³",
+   "94,2 sm³",
+   "70,65 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun həcmi hansı düsturla hesablanır?",
+  "secimler": [
+   "V=(1/3)πr²h",
+   "V=πr²h",
+   "V=πrh",
+   "V=(4/3)πr³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 3 sm, hündürlüyü 6 sm olan konusun həcmini tapın (π≈3,14).",
+  "secimler": [
+   "56,52 sm³",
+   "169,56 sm³",
+   "84,78 sm³",
+   "28,26 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Eyni əsas radiusu və hündürlüyə malik konusla silindrin həcmləri arasındakı münasibət necədir?",
+  "secimler": [
+   "Konusun həcmi silindrin həcminin 1/3 hissəsidir",
+   "Bərabərdir",
+   "Konusun həcmi 2 dəfə böyükdür",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürənin həcmi hansı düsturla hesablanır?",
+  "secimler": [
+   "V=(4/3)πr³",
+   "V=4πr²",
+   "V=πr³",
+   "V=(1/3)πr³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 3 sm olan kürənin həcmini tapın (π≈3,14).",
+  "secimler": [
+   "113,04 sm³",
+   "84,78 sm³",
+   "37,68 sm³",
+   "150,72 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kəsik konusun həcmi hansı kəmiyyətlərdən asılıdır?",
+  "secimler": [
+   "İki əsasın radiusları və hündürlükdən",
+   "Yalnız bir radiusdan",
+   "Yalnız hündürlükdən",
+   "Heç birindən"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kəsik konusun həcm düsturu hansıdır (R, r radiuslar, h hündürlük)?",
+  "secimler": [
+   "V=(1/3)πh(R²+Rr+r²)",
+   "V=πh(R+r)",
+   "V=(1/3)πh(R+r)",
+   "V=πhR²"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yarımkürənin həcmi kürənin həcminin neçə hissəsidir?",
+  "secimler": [
+   "1/2",
+   "1/3",
+   "1/4",
+   "2/3"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 2 dəfə artırılan kürənin həcmi necə dəyişər?",
+  "secimler": [
+   "2 dəfə artar",
+   "4 dəfə artar",
+   "8 dəfə artar",
+   "Dəyişməz"
+  ],
+  "duzgun": 2,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 4 sm olan yarımkürənin həcmini tapın (π≈3,14).",
+  "secimler": [
+   "133,97 sm³",
+   "267,95 sm³",
+   "66,99 sm³",
+   "200,96 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin həcmi hündürlüyü 2 dəfə artırılarsa (radius sabit qalarsa) necə dəyişər?",
+  "secimler": [
+   "2 dəfə artar",
+   "4 dəfə artar",
+   "Dəyişməz",
+   "Yarıya azalar"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun radiusu 2 dəfə artırılarsa (hündürlük sabit qalarsa), həcmi necə dəyişər?",
+  "secimler": [
+   "2 dəfə artar",
+   "4 dəfə artar",
+   "8 dəfə artar",
+   "Dəyişməz"
+  ],
+  "duzgun": 1,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 6 sm, hündürlüyü 10 sm olan silindrin həcmini tapın (π≈3,14).",
+  "secimler": [
+   "1130,4 sm³",
+   "565,2 sm³",
+   "376,8 sm³",
+   "2260,8 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusları R=6 sm, r=3 sm, hündürlüyü h=4 sm olan kəsik konusun həcmini tapın (π≈3,14).",
+  "secimler": [
+   "263,76 sm³",
+   "791,28 sm³",
+   "131,88 sm³",
+   "527,52 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Eyni radius və h=2r hündürlüyünə malik konus, kürə və silindrin həcmləri arasındakı nisbət (V_konus:V_kürə:V_silindr) necədir?",
+  "secimler": [
+   "1:2:3",
+   "1:1:1",
+   "3:2:1",
+   "2:3:1"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəza fiqurlarının həcmini hesablamaq real həyatda hansı sahələrdə əhəmiyyətlidir?",
+  "secimler": [
+   "Tikinti, mühəndislik, tutum hesablamalarında",
+   "Heç bir sahədə",
+   "Yalnız riyazi məşğələdə",
+   "Yalnız nəzəri təhlildə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin həcm düsturunda \"h\" nəyi ifadə edir?",
+  "secimler": [
+   "Silindrin hündürlüyünü",
+   "Radiusunu",
+   "Diametrini",
+   "Səthinin sahəsini"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yarımkürə şəklində qabın həcmi radiusu 5 sm olduqda nə qədərdir (π≈3,14)?",
+  "secimler": [
+   "261,67 sm³",
+   "523,3 sm³",
+   "130,83 sm³",
+   "392,5 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun həcmi ilə silindrin həcmi bərabərdirsə (eyni əsas), konusun hündürlüyü silindrinkindən necə olmalıdır?",
+  "secimler": [
+   "3 dəfə böyük olmalıdır",
+   "Bərabər olmalıdır",
+   "3 dəfə kiçik olmalıdır",
+   "2 dəfə böyük olmalıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kürənin həcmi onun radiusunun neçənci dərəcəsindən asılıdır?",
+  "secimler": [
+   "Birinci",
+   "İkinci",
+   "Üçüncü",
+   "Dördüncü"
+  ],
+  "duzgun": 2,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrin həcmi radiusun neçənci dərəcəsindən asılıdır?",
+  "secimler": [
+   "Birinci",
+   "İkinci",
+   "Üçüncü",
+   "Sıfırıncı"
+  ],
+  "duzgun": 1,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 5 sm, doğuranı 13 sm olan konusun həcmini tapın (π≈3,14).",
+  "secimler": [
+   "314 sm³",
+   "942 sm³",
+   "157 sm³",
+   "628 sm³"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabər radiuslu (R=r) kəsik konus hansı fiqura çevrilir və həcm düsturu necə sadələşir?",
+  "secimler": [
+   "Silindrə çevrilir, V=πr²h",
+   "Konusa çevrilir",
+   "Kürəyə çevrilir",
+   "Heç bir fiqura uyğun gəlmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fəza fiqurunun həcmini inteqral vasitəsilə hesablamaq üsulu hansı riyazi anlayışa əsaslanır?",
+  "secimler": [
+   "Fırlanmadan alınan fiqurun həcmi (müəyyən inteqral)",
+   "Yalnız törəməyə",
+   "Yalnız limitə",
+   "Heç bir anlayışa əsaslanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Silindrik qabın tutumu (litr) onun həcmindən necə hesablanır?",
+  "secimler": [
+   "Həcm vahidini (sm³-ni) litrə çevirməklə",
+   "Heç bir əlaqəsi yoxdur",
+   "Yalnız radiusdan",
+   "Yalnız hündürlükdən"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir kürənin həcmi digərinin həcminin 8 qatıdırsa, radiuslarının nisbəti neçədir?",
+  "secimler": [
+   "2",
+   "4",
+   "8",
+   "1/2"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Konusun oxsəkti bərabəryanlı üçbucaqdırsa, bu hansı xüsusi konus növüdür?",
+  "secimler": [
+   "Bərabəryanlı konus",
+   "Düz konus (adi)",
+   "Kəsik konus",
+   "Əyri konus"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 10 sm olan kürənin həcmi radiusu 5 sm olan kürənin həcmindən neçə dəfə böyükdür?",
+  "secimler": [
+   "8 dəfə",
+   "2 dəfə",
+   "4 dəfə",
+   "16 dəfə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Praktik məsələlərdə tank, çən kimi qabların tutumunu hesablamaq üçün hansı həcm düsturlarından istifadə olunur?",
+  "secimler": [
+   "Silindr, konus, kürə həcm düsturlarından",
+   "Yalnız sahə düsturlarından",
+   "Heç bir düsturdan",
+   "Yalnız perimetr düsturundan"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kəsik konusda R=r olduqda həcm düsturu hansı sadə formaya düşür?",
+  "secimler": [
+   "V=πr²h (silindr həcmi)",
+   "V=(1/3)πr²h",
+   "V=(4/3)πr³",
+   "V=πrh"
+  ],
+  "duzgun": 0,
+  "movzu": "Fəzada fiqurların həcmi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiya artan olduğu intervalda törəməsi necə olur?",
+  "secimler": [
+   "Müsbətdir (f'(x)>0)",
+   "Mənfidir",
+   "Sıfırdır",
+   "Təyin olunmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiya azalan olduğu intervalda törəməsi necə olur?",
+  "secimler": [
+   "Müsbətdir",
+   "Mənfidir (f'(x)<0)",
+   "Sıfırdır",
+   "Təyin olunmur"
+  ],
+  "duzgun": 1,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x²-4x+3 funksiyasının artma-azalma araşdırması üçün ilk addım nədir?",
+  "secimler": [
+   "Törəməni tapmaq və sıfıra bərabərləşdirmək",
+   "İnteqral almaq",
+   "Limit hesablamaq",
+   "Heç bir addım lazım deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x²-4x+3 funksiyasının törəməsini tapın.",
+  "secimler": [
+   "2x-4",
+   "x-4",
+   "2x+4",
+   "2x"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f'(x)=0 tənliyindən f(x)=x²-4x+3 funksiyasının kritik nöqtəsini tapın.",
+  "secimler": [
+   "x=2",
+   "x=4",
+   "x=-2",
+   "x=0"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəmə işarəsini müsbətdən mənfiyə dəyişən nöqtədə funksiyanın hansı xüsusiyyəti var?",
+  "secimler": [
+   "Maksimum",
+   "Minimum",
+   "Kəsilmə",
+   "Asimptot"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəmə işarəsini mənfidən müsbətə dəyişən nöqtədə funksiyanın hansı xüsusiyyəti var?",
+  "secimler": [
+   "Maksimum",
+   "Minimum",
+   "Kəsilmə",
+   "Asimptot"
+  ],
+  "duzgun": 1,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Maksimum və minimum nöqtələrinin ümumi adı nədir?",
+  "secimler": [
+   "Ekstremum nöqtələri",
+   "Kəsilmə nöqtələri",
+   "Asimptot nöqtələri",
+   "Simmetriya nöqtələri"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın ikinci törəməsi müsbətdirsə, funksiya hansı istiqamətdə qabarıqdır?",
+  "secimler": [
+   "Aşağıya qabarıq (konkav yuxarı)",
+   "Yuxarıya qabarıq",
+   "Heç bir istiqamətdə",
+   "Xətti olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın ikinci törəməsi mənfidirsə, funksiya necə olur?",
+  "secimler": [
+   "Yuxarıya qabarıq (konkav aşağı)",
+   "Aşağıya qabarıq",
+   "Xətti olur",
+   "Heç bir xüsusiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əyrilmə (bükülmə) nöqtəsi harada baş verir?",
+  "secimler": [
+   "İkinci törəmə işarəsini dəyişdiyi nöqtədə",
+   "Birinci törəmə sıfır olduğu nöqtədə",
+   "Funksiya kəsildiyi nöqtədə",
+   "Heç vaxt baş vermir"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Optimallaşdırma məsələlərində törəmədən necə istifadə olunur?",
+  "secimler": [
+   "Funksiyanın ekstremumunu tapmaq üçün",
+   "Yalnız qrafik çəkmək üçün",
+   "Heç bir istifadəsi yoxdur",
+   "Yalnız limit hesablamaq üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x³-3x funksiyasının kritik nöqtələrini tapın.",
+  "secimler": [
+   "x=1, x=-1",
+   "x=0",
+   "x=3, x=-3",
+   "x=1 (yalnız)"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yuxarıdakı funksiyada x=-1 nöqtəsi maksimum, yoxsa minimumdur?",
+  "secimler": [
+   "Maksimum",
+   "Minimum",
+   "Nə maksimum, nə minimum",
+   "Kəsilmə nöqtəsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın qrafikinin qurulmasında törəmədən əlavə hansı məlumat vacibdir?",
+  "secimler": [
+   "Təyin oblastı, asimptotlar, kəsişmə nöqtələri",
+   "Yalnız törəmə",
+   "Heç bir əlavə məlumat lazım deyil",
+   "Yalnız rəng"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sabit funksiyanın (f(x)=c) törəməsi necədir və bu nəyi göstərir?",
+  "secimler": [
+   "0-dır, funksiya nə artır, nə azalır",
+   "1-dir, funksiya artır",
+   "c-dir",
+   "Heç nəyi göstərmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Optimallaşdırma məsələsində tənliyi qurduqdan sonra hansı addım atılır?",
+  "secimler": [
+   "Törəməni tapıb sıfıra bərabərləşdirmək",
+   "Yalnız qrafik çəkmək",
+   "Heç bir addım atılmır",
+   "Yalnız inteqral almaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Verilmiş perimetrli düzbucaqlılardan maksimum sahəlisi hansıdır?",
+  "secimler": [
+   "Kvadrat",
+   "Ən uzun düzbucaqlı",
+   "Ən dar düzbucaqlı",
+   "Heç biri, sahə hər zaman eynidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın qlobal (mütləq) maksimumu ilə lokal maksimumu arasındakı fərq nədir?",
+  "secimler": [
+   "Qlobal maksimum bütün oblastda ən böyükdür, lokal isə yalnız ətrafda",
+   "Heç bir fərq yoxdur",
+   "Qlobal maksimum həmişə kiçikdir",
+   "Lokal maksimum həmişə böyükdür"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bağlı intervalda kəsilməz funksiyanın mütləq maksimum və minimumu haradan axtarılır?",
+  "secimler": [
+   "Kritik nöqtələr və interval uclarından",
+   "Yalnız interval uclarından",
+   "Yalnız kritik nöqtələrdən",
+   "Heç bir yerdən axtarılmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x²-6x+8 funksiyasının minimum qiymətini tapın.",
+  "secimler": [
+   "-1",
+   "1",
+   "0",
+   "3"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın artma intervalını göstərən işarə cədvəli necə qurulur?",
+  "secimler": [
+   "Törəmənin işarəsi kritik nöqtələr arasında müəyyənləşdirilir",
+   "Yalnız funksiyanın qiymətlərinə baxmaqla",
+   "Heç cür qurulmur",
+   "Yalnız qrafikə baxmaqla"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sahəsi maksimum olan, perimetri sabit olan üçbucaq hansıdır?",
+  "secimler": [
+   "Bərabərtərəfli üçbucaq",
+   "Düzbucaqlı üçbucaq",
+   "İxtiyari üçbucaq",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəmənin köməyi ilə funksiyanın monotonluğunu araşdırmaq nə üçün vacibdir?",
+  "secimler": [
+   "Funksiyanın davranışını başa düşmək üçün",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız estetik məqsəd üçün",
+   "Yalnız hesablama sürətini artırmaq üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x⁴-2x² funksiyasının kritik nöqtələrini tapın.",
+  "secimler": [
+   "x=0, x=1, x=-1",
+   "x=0 (yalnız)",
+   "x=1, x=-1",
+   "x=2, x=-2"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Optimallaşdırma məsələlərinin praktik həyatda tətbiqinə hansı sahə misal ola bilər?",
+  "secimler": [
+   "Minimum xərclə maksimum tutum yaratmaq",
+   "Heç bir tətbiqi yoxdur",
+   "Yalnız riyazi oyunlar",
+   "Yalnız nəzəri fizika"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəmənin sıfır olduğu, lakin ekstremum olmayan nöqtəyə misal hansı funksiyada rast gəlinir?",
+  "secimler": [
+   "f(x)=x³ funksiyasında x=0 nöqtəsində",
+   "f(x)=x² funksiyasında",
+   "f(x)=-x² funksiyasında",
+   "Heç bir funksiyada rast gəlinmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Funksiyanın qrafikinin qurulmasında simmetriya araşdırması nəyi öyrənməyə kömək edir?",
+  "secimler": [
+   "Funksiyanın cüt/tək olub-olmadığını",
+   "Yalnız rəngini",
+   "Yalnız kəsişmə nöqtələrini",
+   "Heç nəyi öyrənməyə kömək etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "f(x)=x²-2x+1 funksiyasının minimum nöqtəsini tapın.",
+  "secimler": [
+   "x=1",
+   "x=2",
+   "x=0",
+   "x=-1"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çoxdərəcəli çoxhədli funksiyanın qrafiki qurularkən sonsuzluqdakı davranışı necə müəyyənləşdirilir?",
+  "secimler": [
+   "Baş əmsalın işarəsi və dərəcənin cütlüyünə görə",
+   "Yalnız sərbəst həddə görə",
+   "Heç cür müəyyənləşdirilmir",
+   "Yalnız köklərə görə"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəmənin tətbiqi ilə funksiyanın araşdırılması neçə əsas addımdan ibarətdir (ümumiləşdirilmiş)?",
+  "secimler": [
+   "Təyin oblastı, törəmə, kritik nöqtələr, ekstremum, qrafik",
+   "Yalnız bir addımdan",
+   "Yalnız iki addımdan",
+   "Heç bir sistemli addım yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Real həyatda mənfəəti maksimallaşdırmaq məsələləri riyaziyyatda hansı üsulla həll olunur?",
+  "secimler": [
+   "Mənfəət funksiyasının törəməsini tapıb ekstremumunu araşdırmaqla",
+   "Yalnız təxminlə",
+   "Heç bir üsulla",
+   "Yalnız statistika ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Törəmənin tətbiqi ilə funksiyanın araşdırılması",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Törəməyə əks əməliyyata nə deyilir?",
+  "secimler": [
+   "Diferensiallama",
+   "İnteqrallama",
+   "Limit alma",
+   "Loqarifmləmə"
+  ],
+  "duzgun": 1,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫xⁿdx (n≠-1) inteqralının ümumi düsturu hansıdır?",
+  "secimler": [
+   "xⁿ⁺¹/(n+1)+C",
+   "nxⁿ⁻¹+C",
+   "xⁿ⁻¹/(n-1)+C",
+   "xⁿ+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫2xdx inteqralını hesablayın.",
+  "secimler": [
+   "x²+C",
+   "2x²+C",
+   "x²/2+C",
+   "2+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫cosx dx inteqralı nəyə bərabərdir?",
+  "secimler": [
+   "sinx+C",
+   "-sinx+C",
+   "cosx+C",
+   "-cosx+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫sinx dx inteqralı nəyə bərabərdir?",
+  "secimler": [
+   "cosx+C",
+   "-cosx+C",
+   "sinx+C",
+   "-sinx+C"
+  ],
+  "duzgun": 1,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫eˣ dx inteqralı nəyə bərabərdir?",
+  "secimler": [
+   "eˣ+C",
+   "xeˣ+C",
+   "eˣ/x+C",
+   "ln x+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫(1/x)dx inteqralı nəyə bərabərdir?",
+  "secimler": [
+   "ln|x|+C",
+   "1/x²+C",
+   "x+C",
+   "-1/x²+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Qeyri-müəyyən inteqralın nəticəsində niyə \"+C\" sabiti əlavə olunur?",
+  "secimler": [
+   "Törəməsi sıfır olan istənilən sabit funksiyaya aid ola biləcəyi üçün",
+   "Heç bir səbəbi yoxdur",
+   "Yalnız formal tələbdir",
+   "Yalnız cüt funksiyalar üçün lazımdır"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Müəyyən inteqral həndəsi olaraq nəyi ifadə edir?",
+  "secimler": [
+   "Əyri ilə Ox oxu arasındakı sahəni (işarəli)",
+   "Toxunanın bucaq əmsalını",
+   "Funksiyanın maksimumunu",
+   "Funksiyanın periodunu"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Nyuton-Leybnis düsturu hansı iki əməliyyat arasında əlaqə yaradır?",
+  "secimler": [
+   "Törəmə və inteqral",
+   "Toplama və vurma",
+   "Limit və törəmə",
+   "Heç bir əlaqə yaratmır"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Nyuton-Leybnis düsturu hansı formada yazılır?",
+  "secimler": [
+   "∫[a,b] f(x)dx = F(b)-F(a)",
+   "∫f(x)dx = f'(x)",
+   "∫f(x)dx = f(x)",
+   "F(b)+F(a)"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫[0,2] x dx müəyyən inteqralını hesablayın.",
+  "secimler": [
+   "2",
+   "4",
+   "1",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫[0,1] 2x dx müəyyən inteqralını hesablayın.",
+  "secimler": [
+   "1",
+   "2",
+   "0",
+   "1/2"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əgər f(x)≥0 [a,b] intervalında olarsa, ∫[a,b]f(x)dx nəyi ifadə edir?",
+  "secimler": [
+   "f(x) əyrisi ilə Ox oxu arasındakı sahəni",
+   "Mənfi sahəni",
+   "Heç nəyi ifadə etmir",
+   "Yalnız uzunluğu"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki əyri arasındakı sahə necə hesablanır (f(x)≥g(x) olduqda)?",
+  "secimler": [
+   "∫[a,b][f(x)-g(x)]dx",
+   "∫[a,b]f(x)dx+∫[a,b]g(x)dx",
+   "f(x)×g(x)",
+   "Heç cür hesablanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Müəyyən inteqralın xassələrinə görə ∫[a,a]f(x)dx nəyə bərabərdir?",
+  "secimler": [
+   "0",
+   "1",
+   "f(a)",
+   "∞"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫[a,b]f(x)dx = -∫[b,a]f(x)dx xassəsi nəyi göstərir?",
+  "secimler": [
+   "Sərhədlərin yerini dəyişdikdə işarənin əksinə çevrilməsini",
+   "Heç nəyi göstərmir",
+   "İnteqralın sıfır olduğunu",
+   "Funksiyanın kəsildiyini"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fırlanmadan alınan cismin həcmini hesablamaq üçün hansı inteqral düsturu istifadə olunur?",
+  "secimler": [
+   "V=π∫[a,b][f(x)]²dx",
+   "V=∫[a,b]f(x)dx",
+   "V=2π∫[a,b]f(x)dx",
+   "V=∫[a,b][f(x)]²dx"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫(3x²-2x+1)dx inteqralını tapın.",
+  "secimler": [
+   "x³-x²+x+C",
+   "3x³-x²+x+C",
+   "x³-2x²+x+C",
+   "x³-x²+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫[1,3](2x)dx müəyyən inteqralını hesablayın.",
+  "secimler": [
+   "8",
+   "9",
+   "4",
+   "6"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İlkin funksiya (antitörəmə) nə deməkdir?",
+  "secimler": [
+   "Törəməsi verilmiş funksiyaya bərabər olan funksiya",
+   "Verilmiş funksiyanın törəməsi",
+   "Verilmiş funksiyanın tərsi",
+   "Heç bir mənası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫(1/cos²x)dx inteqralı nəyə bərabərdir?",
+  "secimler": [
+   "tgx+C",
+   "-tgx+C",
+   "ctgx+C",
+   "sinx+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Riman cəmi (düzbucaqlılar üsulu) müəyyən inteqralı necə yaxınlaşdırır?",
+  "secimler": [
+   "Əyri altındakı sahəni çoxlu nazik düzbucaqlıların cəmi kimi",
+   "Heç bir əlaqəsi yoxdur",
+   "Yalnız üçbucaqlarla",
+   "Yalnız dairələrlə"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫(x+1)²dx inteqralını tapın.",
+  "secimler": [
+   "(x+1)³/3+C",
+   "(x+1)²+C",
+   "2(x+1)+C",
+   "(x+1)³+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Müəyyən inteqralın xətti xassəsinə görə ∫[k×f(x)]dx necə hesablanır?",
+  "secimler": [
+   "k×∫f(x)dx",
+   "∫f(x)dx/k",
+   "k+∫f(x)dx",
+   "Heç cür hesablanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sürətdən yolu tapmaq üçün hansı əməliyyat aparılır?",
+  "secimler": [
+   "Sürət funksiyasının inteqralı alınır",
+   "Sürət funksiyasının törəməsi alınır",
+   "Heç bir əməliyyat lazım deyil",
+   "Sürət ikiyə vurulur"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫[0,π] sinx dx müəyyən inteqralını hesablayın.",
+  "secimler": [
+   "2",
+   "0",
+   "1",
+   "-2"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əyrixətli trapesiya nədir?",
+  "secimler": [
+   "Ox oxu, iki şaquli xətt və əyri ilə hüdudlanan fiqur",
+   "Adi trapesiya",
+   "Dairə",
+   "Üçbucaq"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Qeyri-müəyyən inteqralda tapılan funksiyanın törəməsi nəyə bərabər olmalıdır?",
+  "secimler": [
+   "İnteqrallanan funksiyaya",
+   "Sıfıra",
+   "Bir-ə",
+   "İnteqralın özünə"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "∫(4x³)dx inteqralını tapın.",
+  "secimler": [
+   "x⁴+C",
+   "4x⁴+C",
+   "x³+C",
+   "12x²+C"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fizikada iş anlayışı (dəyişən qüvvə altında) hansı riyazi əməliyyatla hesablanır?",
+  "secimler": [
+   "Qüvvə funksiyasının yerdəyişməyə görə inteqralı ilə",
+   "Yalnız hasillə",
+   "Yalnız törəmə ilə",
+   "Heç bir əməliyyatla"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Müəyyən inteqralın additivlik xassəsinə görə ∫[a,c]f(x)dx necə ifadə olunur (a<b<c)?",
+  "secimler": [
+   "∫[a,b]f(x)dx+∫[b,c]f(x)dx",
+   "∫[a,b]f(x)dx-∫[b,c]f(x)dx",
+   "∫[a,b]f(x)dx×∫[b,c]f(x)dx",
+   "Heç cür ifadə olunmur"
+  ],
+  "duzgun": 0,
+  "movzu": "İnteqral",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir verilənlər çoxluğunun bütün qiymətlərinin cəminin say sayına bölünməsinə nə deyilir?",
+  "secimler": [
+   "Median",
+   "Orta ədəd (arifmetik orta)",
+   "Moda",
+   "Dispersiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sıralanmış verilənlər çoxluğunun tam ortasındakı qiymətə nə deyilir?",
+  "secimler": [
+   "Orta ədəd",
+   "Median",
+   "Moda",
+   "Aralıq"
+  ],
+  "duzgun": 1,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Verilənlər çoxluğunda ən çox təkrarlanan qiymətə nə deyilir?",
+  "secimler": [
+   "Median",
+   "Orta ədəd",
+   "Moda",
+   "Dispersiya"
+  ],
+  "duzgun": 2,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Verilənlərin orta ədəddən kənara çıxma dərəcəsini ölçən statistik göstəriciyə nə deyilir?",
+  "secimler": [
+   "Median",
+   "Moda",
+   "Dispersiya (standart kənarlaşma)",
+   "Tezlik"
+  ],
+  "duzgun": 2,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Dispersiyanın kvadrat kökünə nə deyilir?",
+  "secimler": [
+   "Median",
+   "Standart kənarlaşma",
+   "Moda",
+   "Diapazon"
+  ],
+  "duzgun": 1,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Normal paylanmanın qrafiki hansı formaya malikdir?",
+  "secimler": [
+   "Zəng formalı (Qauss əyrisi)",
+   "Xətti",
+   "Dairəvi",
+   "Kvadrat formalı"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Normal paylanmada verilənlərin əksəriyyəti harada cəmlənir?",
+  "secimler": [
+   "Orta qiymət ətrafında",
+   "Kənar qiymətlərdə",
+   "Bərabər paylanır",
+   "Yalnız minimum qiymətdə"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Qutu-bığ diaqramı hansı statistik göstəriciləri əks etdirir?",
+  "secimler": [
+   "Median, kvartillər, minimum-maksimum qiymətlər",
+   "Yalnız orta ədədi",
+   "Yalnız modanı",
+   "Heç bir göstərici"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kvartillər verilənlər çoxluğunu neçə bərabər hissəyə bölür?",
+  "secimler": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "duzgun": 2,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Ehtimal nəzəriyyəsində \"hadisə\" anlayışı nəyi ifadə edir?",
+  "secimler": [
+   "Təcrübənin mümkün nəticələrindən birini/bir neçəsini",
+   "Yalnız müsbət nəticəni",
+   "Yalnız mənfi nəticəni",
+   "Heç nəyi ifadə etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir hadisənin ehtimalı hansı aralıqda dəyişə bilər?",
+  "secimler": [
+   "0-dan 1-ə qədər (daxil olmaqla)",
+   "-1-dən 1-ə qədər",
+   "0-dan sonsuza qədər",
+   "Yalnız 0 və 1"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Zərin (kubun) atılmasında 6 gəlmə ehtimalı neçədir?",
+  "secimler": [
+   "1/6",
+   "1/3",
+   "1/2",
+   "1"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sikkənin atılmasında gerb gəlmə ehtimalı neçədir?",
+  "secimler": [
+   "1/2",
+   "1/3",
+   "1",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Qarşılıqlı istisna edən hadisələr eyni vaxtda baş verə bilərmi?",
+  "secimler": [
+   "Xeyr, baş verə bilməz",
+   "Bəli, baş verə bilər",
+   "Həmişə baş verir",
+   "Məlumat kifayət deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki müstəqil hadisənin hər ikisinin baş vermə ehtimalı necə hesablanır?",
+  "secimler": [
+   "Ehtimalların hasili ilə",
+   "Ehtimalların cəmi ilə",
+   "Ehtimalların fərqi ilə",
+   "Heç cür hesablanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Zərin iki dəfə atılmasında hər iki dəfə 6 gəlmə ehtimalı neçədir?",
+  "secimler": [
+   "1/36",
+   "1/6",
+   "2/6",
+   "1/12"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Statistik məlumatların tezlik cədvəlində \"tezlik\" nəyi göstərir?",
+  "secimler": [
+   "Hər bir qiymətin neçə dəfə təkrarlandığını",
+   "Yalnız orta ədədi",
+   "Yalnız medianı",
+   "Heç nəyi göstərmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Nisbi tezlik necə hesablanır?",
+  "secimler": [
+   "Tezliyin ümumi say sayına bölünməsi ilə",
+   "Yalnız tezliklə",
+   "Heç cür hesablanmır",
+   "Tezliyin kvadratı ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Normal paylanmada orta qiymətdən bir standart kənarlaşma daxilində təxminən neçə faiz verilən yerləşir?",
+  "secimler": [
+   "68%",
+   "50%",
+   "95%",
+   "100%"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki hadisə birgə (kəsişən) olduqda ehtimalların toplanması qaydası necədir?",
+  "secimler": [
+   "P(A və ya B)=P(A)+P(B)-P(A və B)",
+   "P(A)+P(B)",
+   "P(A)×P(B)",
+   "Heç bir qayda yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir zərfdə 5 qırmızı, 3 göy top var. Təsadüfən çıxarılan topun qırmızı olma ehtimalı nədir?",
+  "secimler": [
+   "5/8",
+   "3/8",
+   "1/2",
+   "5/3"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Median hesablanarkən verilənlərin sayı cüt olduqda necə hesablanır?",
+  "secimler": [
+   "Ortadakı iki ədədin arifmetik ortası kimi",
+   "Yalnız kiçik ədəd kimi",
+   "Yalnız böyük ədəd kimi",
+   "Heç cür hesablanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Verilənlər çoxluğu: 2, 4, 4, 6, 8. Modanı tapın.",
+  "secimler": [
+   "4",
+   "6",
+   "8",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yuxarıdakı verilənlərin orta ədədini tapın.",
+  "secimler": [
+   "4,8",
+   "5",
+   "4",
+   "6"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Statistikada \"diapazon (variasiya sahəsi)\" necə hesablanır?",
+  "secimler": [
+   "Maksimum qiymətdən minimum qiymətin çıxılması ilə",
+   "Orta ədədlə",
+   "Median ilə",
+   "Modaya bərabərdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kombinatorikada n elementdən r-nin seçilmə sayı (nizamsız) hansı formula ilə hesablanır?",
+  "secimler": [
+   "Kombinasiya (Cₙʳ) formulu ilə",
+   "Yalnız vurma ilə",
+   "Heç bir formula yoxdur",
+   "Yalnız toplama ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Statistik nümunə (seçmə) ilə baş cəmiyyət arasındakı fərq nədir?",
+  "secimler": [
+   "Nümunə baş cəmiyyətin bir hissəsidir",
+   "Heç bir fərq yoxdur",
+   "Nümunə həmişə daha böyükdür",
+   "Baş cəmiyyət nümunənin hissəsidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Ehtimal nəzəriyyəsində \"əlverişli nəticələr\" anlayışı nəyi ifadə edir?",
+  "secimler": [
+   "Baxılan hadisəni təmin edən nəticələri",
+   "Bütün mümkün nəticələri",
+   "Yalnız mənfi nəticələri",
+   "Heç nəyi ifadə etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Statistikada \"sıra (aralıq) genişliyi\" nə üçün istifadə olunur?",
+  "secimler": [
+   "Verilənləri qruplara bölmək üçün",
+   "Heç bir məqsədlə",
+   "Yalnız orta ədəd tapmaq üçün",
+   "Yalnız median tapmaq üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Normal paylanmış verilənlərdə orta ədəd, median və moda necə münasibətdə olur (ideal halda)?",
+  "secimler": [
+   "Təxminən bərabər olur",
+   "Həmişə çox fərqlənir",
+   "Heç bir əlaqəsi yoxdur",
+   "Median həmişə ən böyük olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Qutu-bığ diaqramında \"bığlar\" (whiskers) nəyi göstərir?",
+  "secimler": [
+   "Minimum və maksimum qiymətləri",
+   "Yalnız medianı",
+   "Yalnız ortanı",
+   "Heç nəyi göstərmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Ehtimal nəzəriyyəsinin praktik tətbiq sahələrindən biri hansıdır?",
+  "secimler": [
+   "Sığorta, tibbi diaqnostika, hava proqnozu",
+   "Heç bir tətbiq sahəsi yoxdur",
+   "Yalnız oyunlar",
+   "Yalnız riyazi nəzəriyyə"
+  ],
+  "duzgun": 0,
+  "movzu": "Statistika və ehtimal",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√(x-2)=3 tənliyini həll edin.",
+  "secimler": [
+   "x=11",
+   "x=9",
+   "x=7",
+   "x=5"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İrrasional tənlikləri həll edərkən son mərhələdə nə etmək vacibdir?",
+  "secimler": [
+   "Tapılan kökləri əsl tənlikdə yoxlamaq",
+   "Heç nə etmək lazım deyil",
+   "Yalnız işarəni dəyişdirmək",
+   "Yalnız kvadratını almaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√(2x+3)=x tənliyinin həllində hansı əlavə şərt qoyulmalıdır?",
+  "secimler": [
+   "x≥0",
+   "x<0",
+   "Heç bir şərt qoyulmur",
+   "x=0"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√x < 4 bərabərsizliyinin həll çoxluğunu tapın (x≥0 şərti ilə).",
+  "secimler": [
+   "0≤x<16",
+   "x<16",
+   "x>16",
+   "x≤4"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2ˣ=8 tənliyini həll edin.",
+  "secimler": [
+   "x=3",
+   "x=4",
+   "x=2",
+   "x=8"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3ˣ⁺¹=9 tənliyini həll edin.",
+  "secimler": [
+   "x=1",
+   "x=2",
+   "x=0",
+   "x=3"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üstlü tənliklər sistemində iki naməlumlu tənlik necə həll olunur?",
+  "secimler": [
+   "Əvəzetmə və ya tənliklərin xassələrindən istifadə edərək",
+   "Heç cür həll olunmur",
+   "Yalnız qrafiklə",
+   "Yalnız təxminlə"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2ˣ=2ʸ, x+y=6 sistemini həll edin.",
+  "secimler": [
+   "x=3, y=3",
+   "x=6, y=0",
+   "x=2, y=4",
+   "x=1, y=5"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "logₐx=b tənliyinin həlli hansı formadadır?",
+  "secimler": [
+   "x=aᵇ",
+   "x=ab",
+   "x=a/b",
+   "x=bᵃ"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "log₂x=3 tənliyini həll edin.",
+  "secimler": [
+   "x=8",
+   "x=6",
+   "x=3",
+   "x=9"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "log₃(x-1)=2 tənliyini həll edin.",
+  "secimler": [
+   "x=10",
+   "x=8",
+   "x=9",
+   "x=7"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Loqarifmik tənlikləri həll edərkən hansı şərtə diqqət etmək vacibdir?",
+  "secimler": [
+   "Loqarifm altındakı ifadənin müsbət olması",
+   "Heç bir şərtə diqqət etmək lazım deyil",
+   "Yalnız əsasın mənfi olması",
+   "Yalnız nəticənin tam ədəd olması"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "logₓ8=3 tənliyini həll edin (əsası tapın).",
+  "secimler": [
+   "x=2",
+   "x=3",
+   "x=8",
+   "x=4"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Loqarifmik tənliklər sistemində loqarifmik ifadəni sadələşdirdikdən sonra ilk addım nədir?",
+  "secimler": [
+   "Sistemi cəbri sistemə çevirmək",
+   "Heç bir addım atmaq lazım deyil",
+   "Yalnız təxmin etmək",
+   "Yalnız qrafik çəkmək"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√(x+1)+√(x-1)=2 tipli tənliklərin həllində əsas metod hansıdır?",
+  "secimler": [
+   "Bir kökü təcrid edib hər iki tərəfi kvadrata yüksəltmək",
+   "Heç bir metod yoxdur",
+   "Yalnız təxmin etmək",
+   "Bölmək"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üstlü bərabərsizliklərdə əsas 1-dən böyük olduqda (a>1) aˣ<aʸ münasibətindən nəticə necə çıxarılır?",
+  "secimler": [
+   "x<y",
+   "x>y",
+   "x=y",
+   "Heç bir nəticə çıxarılmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üstlü bərabərsizliklərdə əsas 0<a<1 olduqda aˣ<aʸ münasibətindən nəticə necə çıxarılır?",
+  "secimler": [
+   "x>y",
+   "x<y",
+   "x=y",
+   "Heç bir nəticə çıxarılmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "log₂x>3 bərabərsizliyinin həllini tapın.",
+  "secimler": [
+   "x>8",
+   "x<8",
+   "x>3",
+   "0<x<8"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İrrasional bərabərsizliklərin həllində təyin oblastının nəzərə alınması niyə vacibdir?",
+  "secimler": [
+   "Kök altındakı ifadə mənfi ola bilməz",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız zahiri görünüş üçün",
+   "Yalnız son cavabı gözəlləşdirmək üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "5ˣ=1 tənliyini həll edin.",
+  "secimler": [
+   "x=0",
+   "x=1",
+   "x=5",
+   "Kökü yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Loqarifmik tənliyin tərifinə görə logₐb ifadəsi hansı şərtlər altında mövcuddur?",
+  "secimler": [
+   "a>0, a≠1, b>0",
+   "a<0",
+   "b<0",
+   "Heç bir şərt yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üstlü tənliklər sistemi həll edilərkən adətən hansı əvəzetmə edilir?",
+  "secimler": [
+   "t=aˣ kimi yeni dəyişən",
+   "Heç bir əvəzetmə edilmir",
+   "Yalnız x=0 qoyulur",
+   "Yalnız y=0 qoyulur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√(3x-2)=√(x+4) tənliyini həll edin.",
+  "secimler": [
+   "x=3",
+   "x=2",
+   "x=4",
+   "x=1"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Loqarifmik tənliklərdə \"yad kök\" nə vaxt yaranır?",
+  "secimler": [
+   "Tapılan kök loqarifmin təyin oblastına daxil olmadıqda",
+   "Heç vaxt yaranmır",
+   "Hər zaman yaranır",
+   "Yalnız mənfi köklərdə"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "4ˣ-2ˣ⁺¹-8=0 tənliyində hansı əvəzetmə faydalıdır?",
+  "secimler": [
+   "t=2ˣ",
+   "t=4ˣ",
+   "t=x",
+   "t=8ˣ"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yuxarıdakı tənlikdə t=2ˣ əvəzetməsindən sonra alınan tənlik hansıdır?",
+  "secimler": [
+   "t²-2t-8=0",
+   "t²+2t-8=0",
+   "t-2t-8=0",
+   "t²-2t+8=0"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "t²-2t-8=0 tənliyinin kökləri hansılardır?",
+  "secimler": [
+   "t=4, t=-2",
+   "t=2, t=-4",
+   "t=8, t=-1",
+   "t=1, t=-8"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "t=-2 kökü 2ˣ=-2 tənliyi üçün nə üçün yararsızdır?",
+  "secimler": [
+   "2ˣ həmişə müsbətdir, mənfi qiymət ala bilməz",
+   "Yararlıdır",
+   "Yalnız x mənfi olduqda yararlıdır",
+   "Heç bir səbəb yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "t=4 kökündən 2ˣ=4 tənliyinin həllini tapın.",
+  "secimler": [
+   "x=2",
+   "x=4",
+   "x=1",
+   "x=0"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Loqarifmik bərabərsizliyi həll edərkən ilk addım nədir?",
+  "secimler": [
+   "Loqarifmin təyin oblastını müəyyənləşdirmək",
+   "Heç bir addım atmaq lazım deyil",
+   "Yalnız son cavabı yazmaq",
+   "Yalnız qrafik çəkmək"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tənliklər sistemlərinin həllində \"əvəzetmə üsulu\" nəyə əsaslanır?",
+  "secimler": [
+   "Bir tənlikdən bir dəyişəni ifadə edib digərinə yerinə qoymağa",
+   "Heç bir prinsipə əsaslanmır",
+   "Yalnız toplamağa",
+   "Yalnız vurmağa"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Real həyat məsələlərində üstlü və loqarifmik tənliklərin tətbiqi nə üçün vacibdir?",
+  "secimler": [
+   "Eksponensial artım/azalma proseslərini modelləşdirmək üçün",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız nəzəri maraq üçün",
+   "Yalnız riyazi oyun üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənliklər, bərabərsizliklər, tənliklər sistemi",
+  "sinif": "11",
+  "fenn": "Riyaziyyat"
  }
 ]
