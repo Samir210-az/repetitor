@@ -441,7 +441,7 @@ function SeedBankTool() {
         {status && <p className="text-xs font-mono text-white/70 mt-3">{status}</p>}
       </div>
       <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">📚 Azərbaycan dili-8 dəstini əlavə et ({azDiliBank.length} sual)</p>
+        <p className="text-white/60 text-sm mb-3">📚 Azərbaycan dili dəstini əlavə et ({azDiliBank.length} sual — 8-ci və 11-ci sinif)</p>
         <button onClick={seedAzDili} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
           Az.dili bankını doldur
         </button>
