@@ -827,18 +827,28 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
       if (!Array.isArray(suallar) || suallar.length === 0) {
         throw new Error("AI heç bir düzgün formatda sual qaytarmadı. Zəhmət olmasa yenidən sına.");
       }
-      if (suallar.truncated) {
+      const cleanSuallar = Array.from(suallar).filter(
+        (q) =>
+          q &&
+          typeof q.sual === "string" &&
+          q.sual.trim().length > 0 &&
+          Array.isArray(q.secimler) &&
+          q.secimler.length >= 2 &&
+          q.secimler.every((s) => typeof s === "string" && s.trim().length > 0) &&
+          Number.isInteger(Number(q.duzgun)) &&
+          Number(q.duzgun) >= 0 &&
+          Number(q.duzgun) < q.secimler.length
+      );
+      if (cleanSuallar.length === 0) {
+        throw new Error("AI-nin qaytardığı bütün suallar natamam formatda idi. Zəhmət olmasa yenidən sına.");
+      }
+      const requestedCount = suallar.requestedCount || cleanSuallar.length;
+      const wasTruncated = !!suallar.truncated || cleanSuallar.length < requestedCount;
+      if (wasTruncated) {
         setError(
-          `⚠️ Diqqət: ${suallar.requestedCount} sual istənmişdi, amma Groq-un kvotası/limiti bitdiyi üçün yalnız ${suallar.length} sual hazırlandı. Test yenə də yadda saxlanıldı (${suallar.length} sualla) — bir neçə dəqiqə gözləyib yenidən sınaya bilərsən ki, tam say alasan.${suallar.truncatedReason ? ` (Səbəb: ${suallar.truncatedReason.slice(0, 150)})` : ""}`
+          `⚠️ Diqqət: ${requestedCount} sual istənmişdi, amma yalnız ${cleanSuallar.length} sual tam/düzgün formatda alındı (qalanları AI natamam qaytardığı və ya kvota bitdiyi üçün çıxarıldı). Test ${cleanSuallar.length} sualla yadda saxlanıldı — bir neçə dəqiqə sonra yenidən sınaya bilərsən.${suallar.truncatedReason ? ` (Səbəb: ${suallar.truncatedReason.slice(0, 150)})` : ""}`
         );
       }
-      // generateTest() metaməlumatları (truncated/requestedCount/truncatedReason) birbaşa massiv
-      // obyektinin üzərinə əlavə edir. Massivi olduğu kimi Firebase-ə yazsaq, bu adi olmayan
-      // sahələr də massivin "içinə" yazılır və geri oxunanda saxta əlavə suallar kimi görünür.
-      // Ona görə əvvəlcə təmiz massivə çeviririk, metaməlumatları ayrıca sahə kimi saxlayırıq.
-      const cleanSuallar = Array.from(suallar);
-      const wasTruncated = !!suallar.truncated;
-      const requestedCount = suallar.requestedCount;
       const r = push(ref(db, tenantPath(tenantId, "testler")));
       await set(r, {
         baslik: `${sinif}-ci sinif ${fenn} — ${cleanSuallar.length} sual${wasTruncated ? " (yarımçıq)" : ""}`,
