@@ -233,12 +233,19 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
   }
 
   const finalSuallar = suallar.slice(0, target);
+  const wasTruncated = finalSuallar.length < target;
+  const truncatedReason = wasTruncated ? (lastError?.message || "") : "";
 
   // Özünü tənqid mərhələsi — uğursuz olsa, orijinal nəticə ilə davam et (test bloklanmır)
   if (onStage) onStage("checking");
+  let result;
   try {
-    return await critiqueAndFix(fenn, sinif, finalSuallar);
+    result = await critiqueAndFix(fenn, sinif, finalSuallar);
   } catch {
-    return finalSuallar;
+    result = finalSuallar;
   }
+  result.truncated = wasTruncated;
+  result.requestedCount = target;
+  result.truncatedReason = truncatedReason;
+  return result;
 }

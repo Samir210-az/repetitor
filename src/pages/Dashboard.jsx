@@ -814,11 +814,15 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         movzular: movzular.trim() || null,
         onProgress: (done, total) => setProgress({ done, total }),
         onStage: (s) => setStage(s),
-        onStage: (s) => setStage(s),
       });
+      if (suallar.truncated) {
+        setError(
+          `⚠️ Diqqət: ${suallar.requestedCount} sual istənmişdi, amma Groq-un kvotası/limiti bitdiyi üçün yalnız ${suallar.length} sual hazırlandı. Test yenə də yadda saxlanıldı (${suallar.length} sualla) — bir neçə dəqiqə gözləyib yenidən sınaya bilərsən ki, tam say alasan.${suallar.truncatedReason ? ` (Səbəb: ${suallar.truncatedReason.slice(0, 150)})` : ""}`
+        );
+      }
       const r = push(ref(db, tenantPath(tenantId, "testler")));
       await set(r, {
-        baslik: `${sinif}-ci sinif ${fenn} — ${suallar.length} sual`,
+        baslik: `${sinif}-ci sinif ${fenn} — ${suallar.length} sual${suallar.truncated ? " (yarımçıq)" : ""}`,
         sinif,
         fenn,
         yaradilib: Date.now(),
