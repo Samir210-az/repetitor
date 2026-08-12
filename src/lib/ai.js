@@ -87,6 +87,7 @@ function stripOptionPrefix(text) {
 // gündəlik kvotası bitəndə avtomatik növbətiyə keçsin.
 const _keys = [
   { d: "dmJ6Tn8hJkNUekd3ZWRBJnJDJEAkIXVoRlZ1aHMiV0h3KWRWQlNYenljJlNoXHR4IydQJlJzZWI=", k: 17 },
+  { d: "cGR8SE4vfVNBcn9xdS9+RlInI1wmZEJdQFBzbnUkUU4iLlN5Q0NNWCZkeGUhQ3ZiQ2Z8WGFOdCU=", k: 23 },
 ];
 let _keyIdx = 0;
 const GK = () => {
