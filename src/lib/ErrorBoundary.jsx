@@ -13,6 +13,7 @@ export default class ErrorBoundary extends Component {
   componentDidCatch(error, info) {
     // eslint-disable-next-line no-console
     console.error("Tətbiqdə xəta baş verdi:", error, info);
+    this.setState({ info });
   }
 
   render() {
@@ -36,9 +37,26 @@ export default class ErrorBoundary extends Component {
             Səhifə gözlənilməz nəticə ilə qarşılaşdı. Bu adətən müvəqqətidir — "Yenidən yüklə"
             düyməsinə basaraq davam edə bilərsən. Problem təkrarlanarsa, bu addımı bizə bildir.
           </p>
+          <pre
+            style={{
+              fontSize: "0.7rem",
+              opacity: 0.6,
+              maxWidth: "26rem",
+              whiteSpace: "pre-wrap",
+              wordBreak: "break-word",
+              textAlign: "left",
+              background: "#f3f4f6",
+              padding: "0.75rem",
+              borderRadius: "0.5rem",
+              fontFamily: "monospace",
+            }}
+          >
+            {String(this.state.error?.message || this.state.error)}
+            {this.state.info?.componentStack ? `\n${this.state.info.componentStack.slice(0, 500)}` : ""}
+          </pre>
           <button
             onClick={() => {
-              this.setState({ error: null });
+              this.setState({ error: null, info: null });
               window.location.reload();
             }}
             style={{
