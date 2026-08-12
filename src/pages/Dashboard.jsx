@@ -870,6 +870,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
   }
 
   async function del(id) {
+    if (!window.confirm("Bu testi silmək istədiyinə əminsən? Bu əməliyyat geri qaytarıla bilməz.")) return;
     await remove(ref(db, tenantPath(tenantId, "testler", id)));
     if (openId === id) setOpenId(null);
   }
@@ -1057,8 +1058,19 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
 function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
   const neticeler = useCollection(tenantId, `testler/${testId}/neticeler`);
   const [copied, setCopied] = useState(false);
+  const [view, setView] = useState("suallar");
   const link = `${window.location.origin}/imtahan/${tenantId}/${testId}`;
   const results = Object.entries(neticeler).sort((a, b) => (b[1].tarix || 0) - (a[1].tarix || 0));
+
+  // Sinif nəticələri hesabatı üçün: bala görə sıralanmış, ən yüksək/ən aşağı bal fərqləndirilmiş
+  const ranked = Object.entries(neticeler).sort((a, b) => (b[1].bal || 0) - (a[1].bal || 0));
+  const balList = ranked.map(([, r]) => r.bal || 0);
+  const maxBal = balList.length ? Math.max(...balList) : 0;
+  const minBal = balList.length ? Math.min(...balList) : 0;
+  const todayStr = (() => {
+    const d = new Date();
+    return `${d.getDate()} ${AZ_MONTHS[d.getMonth()].toLowerCase()} ${d.getFullYear()}`;
+  })();
 
   async function shareLink() {
     if (navigator.share) {
@@ -1085,6 +1097,22 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
           <ChevronLeft size={16} /> Geri
         </button>
         <div className="flex items-center gap-2 flex-wrap">
+          {results.length > 0 && (
+            <div className="flex items-center bg-paper border border-black/10 rounded-full p-1 text-xs font-semibold">
+              <button
+                onClick={() => setView("suallar")}
+                className={`px-3 py-1.5 rounded-full transition-colors ${view === "suallar" ? "bg-white shadow text-slateink" : "text-slateink/50"}`}
+              >
+                Suallar
+              </button>
+              <button
+                onClick={() => setView("neticeler")}
+                className={`px-3 py-1.5 rounded-full transition-colors ${view === "neticeler" ? "bg-white shadow text-slateink" : "text-slateink/50"}`}
+              >
+                Sinif nəticələri
+              </button>
+            </div>
+          )}
           <button
             onClick={shareLink}
             className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-emerald text-white hover:bg-emerald/90 transition-colors"
@@ -1129,62 +1157,132 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
         </div>
       )}
 
-      <div id="printable-test">
-        <div className="flex items-center justify-between gap-3 mb-1 pb-3 border-b border-black/10">
-          <div>
-            <p className="text-xs text-slateink/50 font-mono">Repetitor: <span className="text-slateink/80 font-semibold">{repetitorAd || "—"}</span></p>
-            <p className="text-xs text-slateink/50 font-mono">{new Date().toLocaleDateString("az-AZ")} · {new Date().toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}</p>
+      {view === "suallar" ? (
+        <div id="printable-test">
+          <div className="flex items-center justify-between gap-3 mb-1 pb-3 border-b border-black/10">
+            <div>
+              <p className="text-xs text-slateink/50 font-mono">Repetitor: <span className="text-slateink/80 font-semibold">{repetitorAd || "—"}</span></p>
+              <p className="text-xs text-slateink/50 font-mono">{new Date().toLocaleDateString("az-AZ")} · {new Date().toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}</p>
+            </div>
           </div>
-        </div>
-        <h2 className="font-display text-xl font-semibold text-slateink mt-4 mb-1">{test.baslik}</h2>
-        <p className="text-xs text-slateink/40 font-mono mb-6 no-print">
-          Cavab açarı yalnız bu ekranda görünür — çap edəndə gizlənir.
-        </p>
-        <div className="space-y-5">
-          {(() => {
-            const suallarList = toArray(test.suallar);
-            if (suallarList.length === 0) {
+          <h2 className="font-display text-xl font-semibold text-slateink mt-4 mb-1">{test.baslik}</h2>
+          <p className="text-xs text-slateink/40 font-mono mb-6 no-print">
+            Cavab açarı yalnız bu ekranda görünür — çap edəndə gizlənir.
+          </p>
+          <div className="space-y-5">
+            {(() => {
+              const suallarList = toArray(test.suallar);
+              if (suallarList.length === 0) {
+                return (
+                  <div className="card p-6 text-center">
+                    <p className="text-slateink/70 text-sm mb-3">
+                      Bu testdə heç bir sual yoxdur — yaradılma zamanı xəta baş vermiş ola bilər.
+                    </p>
+                    <button onClick={onDelete} className="text-coral text-sm font-semibold underline">
+                      Testi sil
+                    </button>
+                  </div>
+                );
+              }
+              return null;
+            })()}
+            {toArray(test.suallar).map((q, i) => {
+              const options = Array.isArray(q.secimler) ? q.secimler : [];
               return (
-                <div className="card p-6 text-center">
-                  <p className="text-slateink/70 text-sm mb-3">
-                    Bu testdə heç bir sual yoxdur — yaradılma zamanı xəta baş vermiş ola bilər.
-                  </p>
-                  <button onClick={onDelete} className="text-coral text-sm font-semibold underline">
-                    Testi sil
-                  </button>
-                </div>
-              );
-            }
-            return null;
-          })()}
-          {toArray(test.suallar).map((q, i) => {
-            const options = Array.isArray(q.secimler) ? q.secimler : [];
-            return (
-              <div key={i} className="card p-4">
-                <p className="font-medium text-slateink mb-3">{i + 1}. {q.sual}</p>
-                <div className="grid sm:grid-cols-2 gap-2">
-                  {options.map((opt, oi) => {
-                    const isCorrect = oi === Number(q.duzgun);
-                    return (
-                      <div
-                        key={oi}
-                        className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
-                          isCorrect ? "border-emerald/40 bg-emerald/5 correct-answer" : "border-black/10"
-                        }`}
-                      >
-                        <span className="text-slateink/80">
-                          {String.fromCharCode(65 + oi)}) {opt}
-                        </span>
-                        {isCorrect && <Check size={14} className="text-emerald shrink-0 no-print" />}
-                      </div>
-                    );
-                  })}
-                </div>
+                <div key={i} className="card p-4">
+                  <p className="font-medium text-slateink mb-3">{i + 1}. {q.sual}</p>
+                  <div className="grid sm:grid-cols-2 gap-2">
+                    {options.map((opt, oi) => {
+                      const isCorrect = oi === Number(q.duzgun);
+                      return (
+                        <div
+                          key={oi}
+                          className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
+                            isCorrect ? "border-emerald/40 bg-emerald/5 correct-answer" : "border-black/10"
+                          }`}
+                        >
+                          <span className="text-slateink/80">
+                            {String.fromCharCode(65 + oi)}) {opt}
+                          </span>
+                          {isCorrect && <Check size={14} className="text-emerald shrink-0 no-print" />}
+                        </div>
+                      );
+                    })}
+                  </div>
               </div>
             );
           })}
         </div>
-      </div>
+        </div>
+      ) : (
+        <div id="printable-neticeler">
+          <div className="text-center pb-4 mb-5 border-b border-black/10">
+            <p className="font-display text-xl font-semibold text-slateink">
+              Repetitor {repetitorAd || "—"} — {test.sinif ? `${test.sinif}-ci sinif` : "—"} nəticələri
+            </p>
+            <p className="text-sm text-slateink/50 mt-1">{test.baslik}</p>
+            <p className="text-xs text-slateink/40 font-mono mt-1">{todayStr}</p>
+          </div>
+          {ranked.length === 0 ? (
+            <EmptyState text="Bu test üçün hələ heç bir nəticə yoxdur." />
+          ) : (
+            <div className="card overflow-hidden">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-paper text-slateink/50 text-xs uppercase tracking-wide">
+                    <th className="text-left px-4 py-3 font-semibold">№</th>
+                    <th className="text-left px-4 py-3 font-semibold">Ad Soyad</th>
+                    <th className="text-left px-4 py-3 font-semibold">İmtahan tarixi</th>
+                    <th className="text-center px-4 py-3 font-semibold">Sual sayı</th>
+                    <th className="text-center px-4 py-3 font-semibold">Düzgün</th>
+                    <th className="text-center px-4 py-3 font-semibold">Səhv</th>
+                    <th className="text-center px-4 py-3 font-semibold">Bal</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-black/5">
+                  {ranked.map(([sid, r], i) => {
+                    const bal = r.bal || 0;
+                    const cemi = r.cemi || 0;
+                    const seh = Math.max(0, cemi - bal);
+                    const isTop = bal === maxBal && maxBal > minBal;
+                    const isBottom = bal === minBal && maxBal > minBal;
+                    return (
+                      <tr
+                        key={sid}
+                        className={
+                          isTop
+                            ? "bg-coral/10"
+                            : isBottom
+                            ? "bg-blue-50"
+                            : ""
+                        }
+                      >
+                        <td className="px-4 py-3 text-slateink/50 font-mono">{i + 1}</td>
+                        <td className={`px-4 py-3 font-medium ${isTop ? "text-coral" : isBottom ? "text-blue-600" : "text-slateink"}`}>
+                          {r.ad}
+                        </td>
+                        <td className="px-4 py-3 text-slateink/60 font-mono text-xs">
+                          {r.tarix ? new Date(r.tarix).toLocaleString("az-AZ") : "—"}
+                        </td>
+                        <td className="px-4 py-3 text-center text-slateink/70">{cemi}</td>
+                        <td className="px-4 py-3 text-center text-emerald font-semibold">{bal}</td>
+                        <td className="px-4 py-3 text-center text-coral/80">{seh}</td>
+                        <td className={`px-4 py-3 text-center font-bold ${isTop ? "text-coral" : isBottom ? "text-blue-600" : "text-slateink"}`}>
+                          {bal}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+              <div className="px-4 py-3 border-t border-black/5 flex items-center gap-4 text-xs text-slateink/50 no-print">
+                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-coral inline-block" /> Ən yüksək bal</span>
+                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-blue-400 inline-block" /> Ən aşağı bal</span>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
