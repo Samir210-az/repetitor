@@ -156,7 +156,6 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
         q.duzgun >= 0 &&
         q.duzgun < q.secimler.length
     );
-  return new Promise((r) => setTimeout(r, ms));
 }
 
 const BATCH_SIZE = 8;
