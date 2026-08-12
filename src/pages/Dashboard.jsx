@@ -1161,7 +1161,7 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
         <div id="printable-test">
           <div className="flex items-center justify-between gap-3 mb-1 pb-3 border-b border-black/10">
             <div>
-              <p className="text-xs text-slateink/50 font-mono">Repetitor: <span className="text-slateink/80 font-semibold">{repetitorAd || "—"}</span></p>
+              <p className="text-xs text-slateink/50 font-mono">REPETİTOR: <span className="text-slateink/80 font-semibold">{repetitorAd || "—"}</span></p>
               <p className="text-xs text-slateink/50 font-mono">{new Date().toLocaleDateString("az-AZ")} · {new Date().toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}</p>
             </div>
           </div>
@@ -1218,7 +1218,7 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
         <div id="printable-neticeler">
           <div className="text-center pb-4 mb-5 border-b border-black/10">
             <p className="font-display text-xl font-semibold text-slateink">
-              Repetitor {repetitorAd || "—"} — {test.sinif ? `${test.sinif}-ci sinif` : "—"} nəticələri
+              REPETİTOR {repetitorAd || "—"} — {test.sinif ? `${test.sinif}-ci sinif` : "—"} nəticələri
             </p>
             <p className="text-sm text-slateink/50 mt-1">{test.baslik}</p>
             <p className="text-xs text-slateink/40 font-mono mt-1">{todayStr}</p>

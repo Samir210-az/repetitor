@@ -49,7 +49,7 @@ export default function Landing() {
               transition={{ duration: 0.6 }}
               className="inline-flex items-center gap-2 text-xs sm:text-sm font-mono tracking-wide uppercase text-gold/90 bg-gold/10 border border-gold/20 rounded-full px-3.5 py-2 mb-5 sm:mb-6"
             >
-              <Sparkles size={14} /> Repetitorlar üçün idarəetmə sistemi
+              <Sparkles size={14} /> REPETİTORLAR üçün idarəetmə sistemi
             </motion.span>
 
             <motion.h1

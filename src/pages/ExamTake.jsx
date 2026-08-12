@@ -167,7 +167,7 @@ export default function ExamTake() {
             <p className="font-display text-5xl font-bold text-gold mb-1">{result.bal}/{result.cemi}</p>
             <p className="text-white/60 mb-3">{result.faiz}% doğru cavab</p>
             <p className="text-white/30 text-xs font-mono">
-              Repetitor: {profil?.ad || "—"} · {new Date(result.tarix).toLocaleDateString("az-AZ")} {new Date(result.tarix).toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}
+              REPETİTOR: {profil?.ad || "—"} · {new Date(result.tarix).toLocaleDateString("az-AZ")} {new Date(result.tarix).toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}
             </p>
           </div>
           <p className="text-slateink/50 text-sm mb-4">Cavab açarı:</p>
@@ -280,7 +280,7 @@ export default function ExamTake() {
         </div>
         <p className="text-white/50 text-sm text-center mb-1">{test?.baslik}</p>
         <p className="text-white/30 text-xs text-center mb-1 font-mono">
-          Repetitor: {profil?.ad || "—"} · {new Date(openedAt).toLocaleDateString("az-AZ")} {new Date(openedAt).toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}
+          REPETİTOR: {profil?.ad || "—"} · {new Date(openedAt).toLocaleDateString("az-AZ")} {new Date(openedAt).toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}
         </p>
         <p className="text-white/30 text-xs text-center mb-6 flex items-center justify-center gap-1.5">
           <Clock size={12} /> 60 dəqiqə vaxtın var, 1 cəhd haqqın var
