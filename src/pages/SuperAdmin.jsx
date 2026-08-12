@@ -338,17 +338,44 @@ export default function SuperAdmin() {
   );
 }
 
-import fizikaBank from "../data/fizikaBank.json";
-import azDiliBank from "../data/azDiliBank.json";
-import kimyaBank from "../data/kimyaBank.json";
-import riyaziyyatBank from "../data/riyaziyyatBank.json";
-import biologiyaBank from "../data/biologiyaBank.json";
-
 function SeedBankTool() {
   const [status, setStatus] = useState("");
   const [status2, setStatus2] = useState("");
+  const [banks, setBanks] = useState({});
+
+  useEffect(() => {
+    let cancelled = false;
+    Promise.all([
+      import("../data/fizikaBank.json"),
+      import("../data/azDiliBank.json"),
+      import("../data/kimyaBank.json"),
+      import("../data/riyaziyyatBank.json"),
+      import("../data/biologiyaBank.json"),
+    ]).then(([fizika, azDili, kimya, riyaziyyat, biologiya]) => {
+      if (cancelled) return;
+      setBanks({
+        fizika: fizika.default,
+        azDili: azDili.default,
+        kimya: kimya.default,
+        riyaziyyat: riyaziyyat.default,
+        biologiya: biologiya.default,
+      });
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const fizikaBank = banks.fizika || [];
+  const azDiliBank = banks.azDili || [];
+  const kimyaBank = banks.kimya || [];
+  const riyaziyyatBank = banks.riyaziyyat || [];
+  const biologiyaBank = banks.biologiya || [];
+
+  const banksLoading = Object.keys(banks).length < 5;
 
   async function seedFizika() {
+    if (fizikaBank.length === 0) return;
     setStatus("Köhnə qeydlər təmizlənir və yenidən yazılır...");
     try {
       await remove(ref(db, "repetitor/sualBanki/fizika"));
@@ -365,6 +392,7 @@ function SeedBankTool() {
   }
 
   async function seedAzDili() {
+    if (azDiliBank.length === 0) return;
     setStatus2("Köhnə qeydlər təmizlənir və yenidən yazılır...");
     try {
       await remove(ref(db, "repetitor/sualBanki/azərbaycan dili"));
@@ -382,6 +410,7 @@ function SeedBankTool() {
 
   const [status3, setStatus3] = useState("");
   async function seedKimya() {
+    if (kimyaBank.length === 0) return;
     setStatus3("Köhnə qeydlər təmizlənir və yenidən yazılır...");
     try {
       await remove(ref(db, "repetitor/sualBanki/kimya"));
@@ -399,6 +428,7 @@ function SeedBankTool() {
 
   const [status4, setStatus4] = useState("");
   async function seedRiyaziyyat() {
+    if (riyaziyyatBank.length === 0) return;
     setStatus4("Köhnə qeydlər təmizlənir və yenidən yazılır...");
     try {
       await remove(ref(db, "repetitor/sualBanki/riyaziyyat"));
@@ -416,6 +446,7 @@ function SeedBankTool() {
 
   const [status5, setStatus5] = useState("");
   async function seedBiologiya() {
+    if (biologiyaBank.length === 0) return;
     setStatus5("Köhnə qeydlər təmizlənir və yenidən yazılır...");
     try {
       await remove(ref(db, "repetitor/sualBanki/biologiya"));
@@ -435,35 +466,35 @@ function SeedBankTool() {
     <div className="card-dark p-5 mt-6 space-y-4">
       <div>
         <p className="text-white/60 text-sm mb-3">📚 Fizika dəstini əlavə et ({fizikaBank.length} sual — 8-ci və 11-ci sinif, mövzu üzrə etiketlənmiş)</p>
-        <button onClick={seedFizika} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+        <button onClick={seedFizika} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
           Fizika bankını doldur
         </button>
         {status && <p className="text-xs font-mono text-white/70 mt-3">{status}</p>}
       </div>
       <div className="pt-3 border-t border-white/10">
         <p className="text-white/60 text-sm mb-3">📚 Azərbaycan dili dəstini əlavə et ({azDiliBank.length} sual — 8-ci və 11-ci sinif)</p>
-        <button onClick={seedAzDili} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+        <button onClick={seedAzDili} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
           Az.dili bankını doldur
         </button>
         {status2 && <p className="text-xs font-mono text-white/70 mt-3">{status2}</p>}
       </div>
       <div className="pt-3 border-t border-white/10">
         <p className="text-white/60 text-sm mb-3">📚 Kimya dəstini əlavə et ({kimyaBank.length} sual — 8, 10 və 11-ci sinif, 73 mövzu)</p>
-        <button onClick={seedKimya} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+        <button onClick={seedKimya} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
           Kimya bankını doldur
         </button>
         {status3 && <p className="text-xs font-mono text-white/70 mt-3">{status3}</p>}
       </div>
       <div className="pt-3 border-t border-white/10">
         <p className="text-white/60 text-sm mb-3">📚 Riyaziyyat dəstini əlavə et ({riyaziyyatBank.length} sual — 8-ci və 11-ci sinif, 34 mövzu)</p>
-        <button onClick={seedRiyaziyyat} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+        <button onClick={seedRiyaziyyat} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
           Riyaziyyat bankını doldur
         </button>
         {status4 && <p className="text-xs font-mono text-white/70 mt-3">{status4}</p>}
       </div>
       <div className="pt-3 border-t border-white/10">
         <p className="text-white/60 text-sm mb-3">📚 Biologiya-8 dəstini əlavə et ({biologiyaBank.length} sual, 12 mövzu — İnsan biologiyası, 1-ci hissə)</p>
-        <button onClick={seedBiologiya} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+        <button onClick={seedBiologiya} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
           Biologiya bankını doldur
         </button>
         {status5 && <p className="text-xs font-mono text-white/70 mt-3">{status5}</p>}
