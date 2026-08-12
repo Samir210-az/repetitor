@@ -448,7 +448,7 @@ function SeedBankTool() {
         {status2 && <p className="text-xs font-mono text-white/70 mt-3">{status2}</p>}
       </div>
       <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">📚 Kimya dəstini əlavə et ({kimyaBank.length} sual — 8-ci və 11-ci sinif, 48 mövzu)</p>
+        <p className="text-white/60 text-sm mb-3">📚 Kimya dəstini əlavə et ({kimyaBank.length} sual — 8-ci və 11-ci sinif, 53 mövzu)</p>
         <button onClick={seedKimya} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
           Kimya bankını doldur
         </button>

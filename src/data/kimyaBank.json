@@ -6238,5 +6238,655 @@
   "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
   "sinif": "11",
   "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində -NO₂ funksional qrupu olan üzvi birləşmələrə nə deyilir?",
+  "secimler": [
+   "Aminlər",
+   "Nitrobirləşmələr",
+   "Amidlər",
+   "Nitrillər"
+  ],
+  "duzgun": 1,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə aromatik nitrobirləşmə hansıdır?",
+  "secimler": [
+   "Nitrometan",
+   "Nitrobenzol",
+   "Trinitrotoluol",
+   "Anilin"
+  ],
+  "duzgun": 1,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitrobenzol hansı reaksiya ilə benzoldan alınır?",
+  "secimler": [
+   "Nitrləmə",
+   "Sulfolaşma",
+   "Halogenləşmə",
+   "Alkilləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitrobenzolun reduksiyası (Zinin reaksiyası) nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Anilin (amin)",
+   "Fenol",
+   "Toluol",
+   "Benzoy turşusu"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitrləmə reaksiyasında hansı reaktivlər qarışığı istifadə olunur?",
+  "secimler": [
+   "Qatı azot və sulfat turşuları qarışığı",
+   "Yalnız su",
+   "Yalnız duz",
+   "Yalnız oksigen"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Trinitrotoluol (TNT) hansı sahədə tətbiq olunur?",
+  "secimler": [
+   "Partlayıcı maddə kimi",
+   "Yalnız qida sənayesində",
+   "Yalnız tibbdə",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitrobirləşmələrin əsas sənaye əhəmiyyəti nə ilə bağlıdır?",
+  "secimler": [
+   "Aminlərin (məsələn anilinin) alınmasında aralıq məhsul olması",
+   "Yalnız dad vermə",
+   "Yalnız rəngləmə",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitrobirləşmələr rəng baxımından necə olur?",
+  "secimler": [
+   "Adətən sarımtıl, xarakterik rəngli",
+   "Rəngsizdir həmişə",
+   "Yalnız qara olur",
+   "Yalnız göy olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alifatik nitrobirləşmələr aromatiklərlə müqayisədə sənayedə nə dərəcədə tətbiq olunur?",
+  "secimler": [
+   "Daha az tətbiq olunur",
+   "Daha çox tətbiq olunur",
+   "Eyni dərəcədə",
+   "Heç bir tətbiqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitrobirləşmələrin toksikliyi baxımından onlarla işləyərkən nəyə diqqət edilməlidir?",
+  "secimler": [
+   "Təhlükəsizlik qaydalarına ciddi əməl olunmalıdır",
+   "Heç bir ehtiyat lazım deyil",
+   "Yalnız qoxuya diqqət etmək kifayətdir",
+   "Heç bir təhlükəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Nitrobirləşmələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekulunda iki -COOH qrupu olan turşulara nə deyilir?",
+  "secimler": [
+   "Birəsaslı turşular",
+   "İkiəsaslı turşular",
+   "Aminturşular",
+   "Yağ turşuları"
+  ],
+  "duzgun": 1,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə ikiəsaslı karbon turşusu hansıdır?",
+  "secimler": [
+   "Sirkə turşusu",
+   "Oksalat (şəvəl) turşusu",
+   "Sulfat turşusu",
+   "Karbonat turşusu"
+  ],
+  "duzgun": 1,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksalat turşusunun molekulyar formulu hansıdır?",
+  "secimler": [
+   "HOOC-COOH",
+   "CH₃COOH",
+   "HOOC-CH₂-COOH",
+   "C₆H₅COOH"
+  ],
+  "duzgun": 0,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Süksinat (kəhrəba) turşusu neçə karbon atomundan ibarətdir?",
+  "secimler": [
+   "2",
+   "4",
+   "6",
+   "8"
+  ],
+  "duzgun": 1,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İkiəsaslı turşuların bir molekulla iki dəfə neytrallaşma qabiliyyəti nə ilə bağlıdır?",
+  "secimler": [
+   "İki -COOH qrupunun olması ilə",
+   "Yalnız bir -COOH qrupu ilə",
+   "Heç bir qrupla bağlı deyil",
+   "Yalnız -OH qrupu ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksalat turşusu təbiətdə hansı bitkilərdə geniş yayılıb?",
+  "secimler": [
+   "Turşəng və rəvəndlərdə",
+   "Yalnız taxıllarda",
+   "Yalnız meyvələrdə",
+   "Heç bir bitkidə"
+  ],
+  "duzgun": 0,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İkiəsaslı turşuların duzlarına ümumi olaraq nə deyilir?",
+  "secimler": [
+   "Turşunun adına uyğun duz adı (oksalatlar, süksinatlar)",
+   "Yalnız \"turşu\" sözü ilə",
+   "Heç bir xüsusi adı yoxdur",
+   "Yalnız \"duz\" deyilir"
+  ],
+  "duzgun": 0,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İkiəsaslı doymamış turşulara (məs. malein turşusu) hansı əlavə xüsusiyyət xasdır?",
+  "secimler": [
+   "Molekulda ikiqat rabitənin də olması",
+   "Heç bir əlavə xüsusiyyəti yoxdur",
+   "Yalnız üç -COOH qrupu olması",
+   "Yalnız aromatik olması"
+  ],
+  "duzgun": 0,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İkiəsaslı karbon turşularının sənaye əhəmiyyəti hansı sahədə özünü göstərir?",
+  "secimler": [
+   "Polimer (poliester) istehsalında",
+   "Yalnız qida sənayesində",
+   "Yalnız kosmetika sənayesində",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Titrləmədə ikiəsaslı turşu birəsaslı turşu ilə müqayisədə eyni molyar miqdarda neçə dəfə çox qələvi neytrallaşdıra bilir?",
+  "secimler": [
+   "2 dəfə",
+   "1 dəfə (eyni)",
+   "3 dəfə",
+   "4 dəfə"
+  ],
+  "duzgun": 0,
+  "movzu": "İkiəsaslı karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağların qələvi ilə hidrolizindən (sabunlaşmadan) alınan məhsula nə deyilir?",
+  "secimler": [
+   "Mürəkkəb efir",
+   "Sabun",
+   "Turşu",
+   "Spirt"
+  ],
+  "duzgun": 1,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sabun kimyəvi tərkibinə görə nədir?",
+  "secimler": [
+   "Yağ turşularının natrium (və ya kalium) duzları",
+   "Sadə spirt",
+   "Karbon qazı",
+   "Duz məhlulu"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sabun molekulunun təmizləyici təsiri onun hansı struktur xüsusiyyəti ilə bağlıdır?",
+  "secimler": [
+   "Həm hidrofil, həm hidrofob hissəyə malik olması",
+   "Yalnız hidrofil olması",
+   "Yalnız hidrofob olması",
+   "Heç bir xüsusiyyəti ilə bağlı deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sabunun sərt (kalsium, maqnezium duzları olan) suda təsiri necədir?",
+  "secimler": [
+   "Effektivliyi azalır, çöküntü əmələ gəlir",
+   "Effektivliyi artır",
+   "Heç bir dəyişiklik olmur",
+   "Suyu yumşaldır"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik yuyucu maddələrin sabundan üstünlüyü nədir?",
+  "secimler": [
+   "Sərt suda da yaxşı işləməsi",
+   "Heç bir üstünlüyü yoxdur",
+   "Yalnız qoxusu",
+   "Yalnız qiyməti"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik yuyucu maddələr kimyəvi tərkibinə görə əsasən nədən fərqlənir?",
+  "secimler": [
+   "Təbii yağ turşusu duzu deyil, sintetik səthi-aktiv maddələrdən ibarətdir",
+   "Heç bir fərqi yoxdur",
+   "Yalnız rəngi fərqlidir",
+   "Yalnız qoxusu fərqlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik yuyucu maddələrin ətraf mühitə mənfi təsiri nə ilə bağlı ola bilər?",
+  "secimler": [
+   "Bəzilərinin təbii mühitdə çətin parçalanması",
+   "Heç bir mənfi təsiri yoxdur",
+   "Yalnız qoxu problemi",
+   "Yalnız rəng problemi"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sabunun köpük əmələ gətirmə qabiliyyəti nə ilə bağlıdır?",
+  "secimler": [
+   "Səthi gərilməni azaltması ilə",
+   "Heç bir səbəbi yoxdur",
+   "Yalnız rənglə",
+   "Yalnız temperaturla"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bioloji parçalana bilən yuyucu maddələrin yaradılmasının məqsədi nədir?",
+  "secimler": [
+   "Ətraf mühitə mənfi təsiri azaltmaq",
+   "Heç bir məqsədi yoxdur",
+   "Yalnız qiyməti artırmaq",
+   "Yalnız görünüşü dəyişdirmək"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sabunun turşulu mühitdə sabitliyi necədir?",
+  "secimler": [
+   "Turş mühitdə parçalanaraq təsirini itirə bilər",
+   "Heç bir dəyişiklik olmur",
+   "Turş mühitdə daha güclü təsir göstərir",
+   "Yalnız rəngi dəyişir"
+  ],
+  "duzgun": 0,
+  "movzu": "Sabun və sintetik yuyucu maddələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekulunda iki -OH qrupu olan spirtə nümunə hansıdır?",
+  "secimler": [
+   "Etanol",
+   "Etilenqlikol",
+   "Metanol",
+   "Fenol"
+  ],
+  "duzgun": 1,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekulunda üç -OH qrupu olan spirtə nümunə hansıdır?",
+  "secimler": [
+   "Etilenqlikol",
+   "Qliserin (qliserol)",
+   "Metanol",
+   "Propanol"
+  ],
+  "duzgun": 1,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenqlikolun əsas sənaye tətbiqi hansıdır?",
+  "secimler": [
+   "Antifriz (soyutma mayesi) istehsalında",
+   "Yalnız qida sənayesində",
+   "Yalnız kosmetikada",
+   "Heç bir tətbiqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenqlikolun molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₂H₆O₂",
+   "C₂H₆O",
+   "C₃H₈O₃",
+   "CH₄O"
+  ],
+  "duzgun": 0,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qliserinin molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₂H₆O₂",
+   "C₃H₈O₃",
+   "C₂H₆O",
+   "CH₄O"
+  ],
+  "duzgun": 1,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qliserin harada təbii şəkildə mövcuddur?",
+  "secimler": [
+   "Yağların (mürəkkəb efirlərin) tərkibində",
+   "Yalnız suda",
+   "Yalnız duzlarda",
+   "Heç bir maddədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qliserinin kosmetika sənayesindəki əhəmiyyəti nə ilə bağlıdır?",
+  "secimler": [
+   "Rütubətləndirici (nəmləndirici) xüsusiyyəti",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız rəngi",
+   "Yalnız qoxusu"
+  ],
+  "duzgun": 0,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Çoxatomlu spirtlərin mis(II) hidroksidlə reaksiyası hansı əlaməti göstərir?",
+  "secimler": [
+   "Tünd göy (mavi) rəngli məhlulun əmələ gəlməsi",
+   "Heç bir dəyişiklik olmur",
+   "Ağ çöküntü",
+   "Qaz ayrılması"
+  ],
+  "duzgun": 0,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenqlikolun toksiklik dərəcəsi necədir?",
+  "secimler": [
+   "Zəhərlidir, orqanizm üçün təhlükəlidir",
+   "Tam zərərsizdir",
+   "Yalnız yüngül təsiri var",
+   "Heç bir təsiri yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitroqliserin hansı maddədən alınır?",
+  "secimler": [
+   "Qliserinin nitrləməsindən",
+   "Etilenqlikolun nitrləməsindən",
+   "Metanolun nitrləməsindən",
+   "Fenolun nitrləməsindən"
+  ],
+  "duzgun": 0,
+  "movzu": "Doymuş çoxatomlu spirtlər (etilenqlikol, qliserin)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik tullantıların təbiətdə parçalanma müddəti təxminən necədir?",
+  "secimler": [
+   "Bir neçə gün",
+   "Çox uzun (onilliklər, hətta yüzilliklər)",
+   "Bir neçə saat",
+   "Heç vaxt dəyişmir"
+  ],
+  "duzgun": 1,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik tullantıların dənizlərə axması hansı ekoloji problemə səbəb olur?",
+  "secimler": [
+   "Dəniz canlılarının zərər çəkməsi və mikroplastik çirklənməsi",
+   "Heç bir problem yaratmır",
+   "Yalnız estetik problem",
+   "Yalnız iqtisadi ziyan"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik tullantıların yandırılması zamanı hansı təhlükə yarana bilər?",
+  "secimler": [
+   "Zəhərli qazların (dioksinlər və s.) ayrılması",
+   "Heç bir təhlükə yoxdur",
+   "Yalnız istilik ayrılır",
+   "Yalnız işıq ayrılır"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik materialların təkrar emalı (resiklinq) nəyə xidmət edir?",
+  "secimler": [
+   "Resursların qənaətinə və çirklənmənin azaldılmasına",
+   "Heç bir məqsədə xidmət etmir",
+   "Yalnız qiymətin artmasına",
+   "Yalnız görünüşün dəyişməsinə"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bioparçalanan plastiklərin adi plastiklərdən fərqi nədir?",
+  "secimler": [
+   "Mikroorqanizmlər tərəfindən daha sürətli parçalana bilməsi",
+   "Heç bir fərqi yoxdur",
+   "Yalnız rəngi fərqlidir",
+   "Yalnız qiyməti aşağıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik torbaların istifadəsini azaltmaq üçün hansı alternativ təklif olunur?",
+  "secimler": [
+   "Çoxdəfəlik parça torbalar",
+   "Heç bir alternativ yoxdur",
+   "Daha çox plastik istifadəsi",
+   "Yalnız kağız yandırmaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mikroplastiklərin insan sağlamlığına potensial təsiri ilə bağlı elmi narahatlıq nədir?",
+  "secimler": [
+   "Qida zənciri vasitəsilə orqanizmə daxil olması",
+   "Heç bir narahatlıq yoxdur",
+   "Yalnız faydalı təsiri var",
+   "Yalnız dad dəyişikliyi yaradır"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dövlət səviyyəsində plastik istifadəsini məhdudlaşdıran qanunvericilik tədbirlərinin məqsədi nədir?",
+  "secimler": [
+   "Ətraf mühitin qorunması",
+   "Heç bir məqsədi yoxdur",
+   "Yalnız vergi toplamaq",
+   "Yalnız istehsalı artırmaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Köhnə şin (rezin) tullantılarının təkrar istifadəsinə hansı üsul aiddir?",
+  "secimler": [
+   "Xırdalanaraq yol örtüyü materiallarına qarışdırılması",
+   "Heç bir təkrar istifadə üsulu yoxdur",
+   "Yalnız yandırılması",
+   "Yalnız basdırılması"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Polimer maddələrlə ətraf mühitin mühafizəsi mövzusunda əsas həll yolu kimi hansı yanaşma dəstəklənir?",
+  "secimler": [
+   "İstehsal-istifadə-təkrar emal dövrəsinin dayanıqlı idarə olunması",
+   "Heç bir həll yolu yoxdur",
+   "Yalnız istehsalın dayandırılması",
+   "Yalnız idxalın artırılması"
+  ],
+  "duzgun": 0,
+  "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
+  "sinif": "11",
+  "fenn": "Kimya"
  }
 ]
