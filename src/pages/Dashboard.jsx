@@ -31,6 +31,15 @@ function paymentMonthOptions() {
   return opts;
 }
 
+// Firebase Realtime Database massivi bəzən (boşluq/sıra qeyri-normal olanda) JS massivi
+// kimi yox, sadə obyekt kimi qaytarır — bu, .map() çağırışını "is not a function" ilə
+// çökdürür. Bu funksiya hər iki halı təhlükəsiz şəkildə real massivə çevirir.
+function toArray(v) {
+  if (Array.isArray(v)) return v;
+  if (v && typeof v === "object") return Object.values(v);
+  return [];
+}
+
 function useCollection(tenantId, node) {
   const [items, setItems] = useState({});
   useEffect(() => {
@@ -468,7 +477,7 @@ function StudentDetail({ tenantId, studentId, student, onBack }) {
           <p className="text-white/60 text-sm">{r.faiz}% · {new Date(r.tarix).toLocaleString("az-AZ")}</p>
         </div>
         <div className="space-y-3">
-          {(r.cavablar || []).map((c, i) => (
+          {toArray(r.cavablar).map((c, i) => (
             <div key={i} className="card p-4">
               <p className="font-medium text-slateink mb-2">{i + 1}. {c.sual}</p>
               <div className="grid sm:grid-cols-2 gap-2">
@@ -1014,7 +1023,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
             <div key={id} className="flex items-center justify-between px-5 py-4">
               <button onClick={() => setOpenId(id)} className="text-left min-w-0">
                 <p className="font-medium text-white truncate">{t.baslik}</p>
-                <p className="text-xs text-white/45 mt-0.5">{t.suallar?.length || 0} sual</p>
+                <p className="text-xs text-white/45 mt-0.5">{toArray(t.suallar).length} sual</p>
               </button>
               <button onClick={() => del(id)} className="text-white/25 hover:text-coral transition-colors p-2 shrink-0">
                 <Trash2 size={16} />
@@ -1114,17 +1123,23 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
           Cavab açarı yalnız bu ekranda görünür — çap edəndə gizlənir.
         </p>
         <div className="space-y-5">
-          {(!test.suallar || test.suallar.length === 0) && (
-            <div className="card p-6 text-center">
-              <p className="text-slateink/70 text-sm mb-3">
-                Bu testdə heç bir sual yoxdur — yaradılma zamanı xəta baş vermiş ola bilər.
-              </p>
-              <button onClick={onDelete} className="text-coral text-sm font-semibold underline">
-                Testi sil
-              </button>
-            </div>
-          )}
-          {(test.suallar || []).map((q, i) => {
+          {(() => {
+            const suallarList = toArray(test.suallar);
+            if (suallarList.length === 0) {
+              return (
+                <div className="card p-6 text-center">
+                  <p className="text-slateink/70 text-sm mb-3">
+                    Bu testdə heç bir sual yoxdur — yaradılma zamanı xəta baş vermiş ola bilər.
+                  </p>
+                  <button onClick={onDelete} className="text-coral text-sm font-semibold underline">
+                    Testi sil
+                  </button>
+                </div>
+              );
+            }
+            return null;
+          })()}
+          {toArray(test.suallar).map((q, i) => {
             const options = Array.isArray(q.secimler) ? q.secimler : [];
             return (
               <div key={i} className="card p-4">

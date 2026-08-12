@@ -6,6 +6,14 @@ import { db, ref, get, set, tenantPath } from "../lib/firebase.js";
 
 const DURATION_SEC = 60 * 60; // 60 dəqiqə
 
+// Firebase massivi bəzən obyekt kimi qaytarır (bax: Dashboard.jsx-dəki eyni funksiya) —
+// bu, .map() çağırışını çökdürməsin deyə hər iki halı təhlükəsiz massivə çevirir.
+function toArray(v) {
+  if (Array.isArray(v)) return v;
+  if (v && typeof v === "object") return Object.values(v);
+  return [];
+}
+
 function fmt(sec) {
   const m = Math.floor(sec / 60);
   const s = sec % 60;
@@ -66,7 +74,7 @@ export default function ExamTake() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [started, secondsLeft, result]);
 
-  const suallar = useMemo(() => test?.suallar || [], [test]);
+  const suallar = useMemo(() => toArray(test?.suallar), [test]);
 
   async function checkAttemptAndStart() {
     if (!sagirdId) {
