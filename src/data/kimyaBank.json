@@ -1,0 +1,3122 @@
+[
+ {
+  "sual": "Maddələrin tərkibini, quruluşunu və xassələrini öyrənən elm sahəsi hansıdır?",
+  "secimler": [
+   "Fizika",
+   "Kimya",
+   "Biologiya",
+   "Coğrafiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimya elminin əsas tədqiqat üsullarından biri hansıdır?",
+  "secimler": [
+   "Müşahidə və təcrübə (eksperiment)",
+   "Yalnız təxmin",
+   "Yalnız nəzəriyyə",
+   "Heç bir üsul yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Laboratoriya işləri zamanı təhlükəsizlik qaydalarına əməl etmək niyə vacibdir?",
+  "secimler": [
+   "Vaxtı qənaət etmək üçün",
+   "Sağlamlığı və təhlükəsizliyi qorumaq üçün",
+   "Cihazları bəzəmək üçün",
+   "Heç bir səbəbi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi təcrübələr adətən harada aparılır?",
+  "secimler": [
+   "Açıq havada",
+   "Laboratoriyada",
+   "Yalnız evdə",
+   "Kitabxanada"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimya elminin tibb, kənd təsərrüfatı, sənaye kimi sahələrlə əlaqəsi necədir?",
+  "secimler": [
+   "Heç bir əlaqəsi yoxdur",
+   "Sıx əlaqəlidir və bu sahələrdə geniş tətbiq olunur",
+   "Yalnız tibblə əlaqəlidir",
+   "Yalnız sənaye ilə əlaqəlidir"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddələrin çevrilməsini öyrənərkən kimyaçılar ən çox nəyə əsaslanır?",
+  "secimler": [
+   "Təcrübə nəticələrinə və müşahidəyə",
+   "Yalnız kitab məlumatına",
+   "Təsadüfə",
+   "Fərziyyəyə əsaslanmadan"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aşağıdakılardan hansı kimya sənayesinin məhsullarına aid DEYİL?",
+  "secimler": [
+   "Gübrələr",
+   "Dərman preparatları",
+   "Plastik məmulatlar",
+   "Musiqi alətləri"
+  ],
+  "duzgun": 3,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ekologiya baxımından kimya sənayesinin əsas problemi nə ola bilər?",
+  "secimler": [
+   "Ətraf mühitin çirklənməsi",
+   "Havanın təmizlənməsi",
+   "Heç bir problem yaratmır",
+   "Yalnız faydalıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi maddələrlə işləyərkən qoruyucu vasitələrdən (əlcək, eynək) istifadə nə üçün vacibdir?",
+  "secimler": [
+   "Estetik görünüş üçün",
+   "Zərərli təsirlərdən qorunmaq üçün",
+   "Vaxt itirməmək üçün",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimya elmi əsasən hansı əsas sual üzərində qurulub?",
+  "secimler": [
+   "Maddələr nədən ibarətdir və necə dəyişir",
+   "Cisimlər necə hərəkət edir",
+   "Canlılar necə inkişaf edir",
+   "Yer səthinin quruluşu necədir"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimya elmi və onun əhəmiyyəti",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Rəng, iy, sıxlıq, ərimə temperaturu kimi xüsusiyyətlərə nə deyilir?",
+  "secimler": [
+   "Kimyəvi xassələr",
+   "Fiziki xassələr",
+   "Bioloji xassələr",
+   "Mexaniki xassələr"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddənin sıxlığı nəyə əsasən hesablanır?",
+  "secimler": [
+   "Kütlənin həcmə nisbətinə",
+   "Həcmin kütləyə nisbətinə",
+   "Kütlənin çəkiyə nisbətinə",
+   "Temperatur fərqinə"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aşağıdakılardan hansı maddənin aqreqat halı DEYİL?",
+  "secimler": [
+   "Bərk",
+   "Maye",
+   "Qaz",
+   "Şəffaf"
+  ],
+  "duzgun": 3,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddələrin bərk, maye və qaz halları arasında keçidinə nə deyilir?",
+  "secimler": [
+   "Kimyəvi reaksiya",
+   "Aqreqat halının dəyişməsi",
+   "İzotop əmələ gəlməsi",
+   "Valentlik dəyişməsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ərimə temperaturu maddənin hansı xassəsinə aiddir?",
+  "secimler": [
+   "Kimyəvi xassə",
+   "Fiziki xassə",
+   "Elektrik xassəsi",
+   "Nüvə xassəsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metalların ümumi fiziki xassələrinə aid olmayan hansıdır?",
+  "secimler": [
+   "Parlaqlıq",
+   "İstilik keçiriciliyi",
+   "Elektrik keçiriciliyi",
+   "Turşuda həll olmaq qabiliyyəti"
+  ],
+  "duzgun": 3,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Şəffaflıq, sərtlik, elastiklik kimi əlamətlər maddənin hansı xassələrinə aiddir?",
+  "secimler": [
+   "Kimyəvi xassələrə",
+   "Fiziki xassələrə",
+   "Nüvə xassələrinə",
+   "Elektron xassələrinə"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddənin qaynama temperaturu ən çox nədən asılıdır?",
+  "secimler": [
+   "Yalnız rəngindən",
+   "Maddənin növündən və atmosfer təzyiqindən",
+   "Yalnız kütləsindən",
+   "Heç nədən asılı deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni maddənin müxtəlif nümunələri hansı fiziki xassəyə görə fərqlənməz?",
+  "secimler": [
+   "Sıxlığına görə",
+   "Kütləsinə görə",
+   "Həcminə görə",
+   "Formasına görə"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metalların adətən möhkəm, plastik və parlaq olması onların hansı qrupa aid olduğunu göstərir?",
+  "secimler": [
+   "Qeyri-metallar",
+   "Metallar",
+   "Qazlar",
+   "Duzlar"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə və onun fiziki xassələri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddənin tərkibi dəyişmədən forma və ya aqreqat halının dəyişməsinə nə deyilir?",
+  "secimler": [
+   "Kimyəvi hadisə",
+   "Fiziki hadisə",
+   "Nüvə hadisəsi",
+   "Bioloji hadisə"
+  ],
+  "duzgun": 1,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yeni maddələrin əmələ gəlməsi ilə nəticələnən hadisəyə nə deyilir?",
+  "secimler": [
+   "Fiziki hadisə",
+   "Kimyəvi hadisə",
+   "Mexaniki hadisə",
+   "Optik hadisə"
+  ],
+  "duzgun": 1,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suyun buxarlanması hansı hadisəyə misaldır?",
+  "secimler": [
+   "Kimyəvi hadisə",
+   "Fiziki hadisə",
+   "Nüvə hadisəsi",
+   "Elektrik hadisəsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dəmirin paslanması hansı hadisəyə misaldır?",
+  "secimler": [
+   "Fiziki hadisə",
+   "Kimyəvi hadisə",
+   "Mexaniki hadisə",
+   "Termik (yalnız istilik) hadisə"
+  ],
+  "duzgun": 1,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kağızın yanması hansı hadisəyə misaldır?",
+  "secimler": [
+   "Fiziki hadisə",
+   "Kimyəvi hadisə",
+   "Bioloji hadisə",
+   "Fərq etməz"
+  ],
+  "duzgun": 1,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buzun ərimə prosesi hansı hadisəyə misaldır?",
+  "secimler": [
+   "Fiziki hadisə",
+   "Kimyəvi hadisə",
+   "Nüvə hadisəsi",
+   "Elektrokimyəvi hadisə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi hadisənin baş verdiyini göstərən əlamətlərdən biri hansıdır?",
+  "secimler": [
+   "Rəngin dəyişməsi, qaz ayrılması, çöküntü əmələ gəlməsi",
+   "Yalnız forma dəyişməsi",
+   "Yalnız temperaturun sabit qalması",
+   "Heç bir əlamət olmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Şəkərin suda həll olması hansı hadisəyə aiddir?",
+  "secimler": [
+   "Kimyəvi hadisə",
+   "Fiziki hadisə",
+   "Nüvə hadisəsi",
+   "Elektrokimyəvi hadisə"
+  ],
+  "duzgun": 1,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Südün turşuması (kəsilməsi) hansı hadisəyə aiddir?",
+  "secimler": [
+   "Fiziki hadisə",
+   "Kimyəvi hadisə",
+   "Mexaniki hadisə",
+   "Heç biri"
+  ],
+  "duzgun": 1,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fiziki və kimyəvi hadisələr arasındakı əsas fərq nədir?",
+  "secimler": [
+   "Fiziki hadisədə yeni maddə yaranmır, kimyəvi hadisədə yaranır",
+   "Heç bir fərq yoxdur",
+   "Fiziki hadisə yalnız qazlarda olur",
+   "Kimyəvi hadisə yalnız mayelərdə olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Fiziki və kimyəvi hadisələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yalnız bir kimyəvi elementin atomlarından ibarət olan maddəyə nə deyilir?",
+  "secimler": [
+   "Mürəkkəb maddə",
+   "Sadə maddə",
+   "Qarışıq",
+   "Duz"
+  ],
+  "duzgun": 1,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İki və ya daha çox kimyəvi elementin atomlarından ibarət olan maddəyə nə deyilir?",
+  "secimler": [
+   "Sadə maddə",
+   "Mürəkkəb maddə",
+   "Qarışıq",
+   "İzotop"
+  ],
+  "duzgun": 1,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen (O₂) hansı qrupa aiddir?",
+  "secimler": [
+   "Mürəkkəb maddə",
+   "Sadə maddə",
+   "Qarışıq",
+   "Duz"
+  ],
+  "duzgun": 1,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su (H₂O) hansı qrupa aiddir?",
+  "secimler": [
+   "Sadə maddə",
+   "Mürəkkəb maddə",
+   "Qarışıq",
+   "Metal"
+  ],
+  "duzgun": 1,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində müxtəlif maddələr kimyəvi cəhətdən birləşmədən, sadəcə qarışmış olan sistemə nə deyilir?",
+  "secimler": [
+   "Sadə maddə",
+   "Mürəkkəb maddə",
+   "Qarışıq",
+   "Element"
+  ],
+  "duzgun": 2,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Havanın tərkibi hansı qarışıq tipinə misaldır?",
+  "secimler": [
+   "Sadə maddə",
+   "Mürəkkəb maddə",
+   "Homogen (bircins) qarışıq",
+   "Element"
+  ],
+  "duzgun": 2,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qumla suyun qarışığı hansı qarışıq tipinə misaldır?",
+  "secimler": [
+   "Homogen qarışıq",
+   "Heterogen (müxtəlifcins) qarışıq",
+   "Sadə maddə",
+   "Mürəkkəb maddə"
+  ],
+  "duzgun": 1,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Duzun suda həll olması ilə alınan məhlul hansı qarışıq tipinə aiddir?",
+  "secimler": [
+   "Heterogen qarışıq",
+   "Homogen qarışıq",
+   "Sadə maddə",
+   "Element"
+  ],
+  "duzgun": 1,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qarışıqları mürəkkəb maddələrdən fərqləndirən əsas əlamət nədir?",
+  "secimler": [
+   "Qarışıqda komponentlər öz tərkibini saxlayır, nisbətləri sabit deyil",
+   "Qarışıqda yeni maddə əmələ gəlir",
+   "Qarışıq həmişə homogendir",
+   "Heç bir fərq yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dəmir-kükürd qarışığı ilə dəmir-sulfid (kimyəvi birləşmə) arasındakı fərq nədir?",
+  "secimler": [
+   "Qarışıqda maqnitlə dəmiri ayırmaq mümkündür, birləşmədə mümkün deyil",
+   "Heç bir fərq yoxdur",
+   "İkisi də eyni maddədir",
+   "Birləşmə maqnitlə ayrılır, qarışıq ayrılmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Sadə və mürəkkəb maddələr, qarışıqlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bərk maddənin mayedən süzgəc kağızı ilə ayrılması üsuluna nə deyilir?",
+  "secimler": [
+   "Distillə",
+   "Süzmə (filtrasiya)",
+   "Buxarlandırma",
+   "Kristallaşma"
+  ],
+  "duzgun": 1,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mayenin qaynadılıb buxarının soyudularaq yenidən mayeyə çevrilməsi yolu ilə ayrılması üsulu hansıdır?",
+  "secimler": [
+   "Süzmə",
+   "Distillə",
+   "Çökdürmə",
+   "Maqnitlə ayırma"
+  ],
+  "duzgun": 1,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Duzlu suyun tərkibindən duzu almaq üçün adətən hansı üsul istifadə olunur?",
+  "secimler": [
+   "Süzmə",
+   "Buxarlandırma",
+   "Maqnitlə ayırma",
+   "Elektroliz"
+  ],
+  "duzgun": 1,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dəmir qırıntılarını qumdan ayırmaq üçün ən sadə üsul hansıdır?",
+  "secimler": [
+   "Süzmə",
+   "Maqnitlə ayırma",
+   "Distillə",
+   "Buxarlandırma"
+  ],
+  "duzgun": 1,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft məhsullarının komponentlərə ayrılmasında əsasən hansı üsuldan istifadə olunur?",
+  "secimler": [
+   "Süzmə",
+   "Distillə (rektifikasiya)",
+   "Maqnitlə ayırma",
+   "Çökdürmə"
+  ],
+  "duzgun": 1,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bulanıq mayedə asılı hissəciklərin dibə çökməsinə əsaslanan ayırma üsulu hansıdır?",
+  "secimler": [
+   "Çökdürmə (dekantasiya)",
+   "Distillə",
+   "Maqnitlə ayırma",
+   "Kristallaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qarışığı təşkil edən maddələrin ayrılması üçün onların hansı xüsusiyyətlərindən istifadə olunur?",
+  "secimler": [
+   "Fiziki xassələrindəki fərqlərdən (ərimə/qaynama temperaturu, sıxlıq, maqnitlik və s.)",
+   "Yalnız rənglərindən",
+   "Yalnız qoxularından",
+   "Heç bir xüsusiyyətdən istifadə olunmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Doymuş məhluldan soyutma yolu ilə bərk maddənin kristal şəklində ayrılmasına nə deyilir?",
+  "secimler": [
+   "Süzmə",
+   "Kristallaşma",
+   "Distillə",
+   "Buxarlandırma"
+  ],
+  "duzgun": 1,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağ və suyun qarışığını ayırmaq üçün hansı üsuldan istifadə edilə bilər?",
+  "secimler": [
+   "Ayırıcı qıfla (sıxlıq fərqinə görə) ayırma",
+   "Maqnitlə ayırma",
+   "Yalnız süzmə",
+   "Ayırmaq mümkün deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qarışıqların ayrılması zamanı komponentlərin kimyəvi tərkibi necə olur?",
+  "secimler": [
+   "Dəyişir",
+   "Dəyişmir, çünki bu fiziki üsuldur",
+   "Tamamilə yox olur",
+   "Yeni maddəyə çevrilir"
+  ],
+  "duzgun": 1,
+  "movzu": "Qarışıqların ayrılması üsulları",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddənin bütün kimyəvi xassələrini özündə saxlayan ən kiçik hissəciyinə nə deyilir?",
+  "secimler": [
+   "Atom",
+   "Molekul",
+   "İon",
+   "Element"
+  ],
+  "duzgun": 1,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi cəhətdən bölünməyən ən kiçik hissəciyə nə deyilir?",
+  "secimler": [
+   "Molekul",
+   "Atom",
+   "İon",
+   "Kation"
+  ],
+  "duzgun": 1,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekullar nədən əmələ gəlir?",
+  "secimler": [
+   "Yalnız elektronlardan",
+   "Atomların birləşməsindən",
+   "Yalnız protonlardan",
+   "Yalnız neytronlardan"
+  ],
+  "duzgun": 1,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddələrin bütün hissəciklərinin (atom, molekul) daim hərəkətdə olması hansı təlimlə izah olunur?",
+  "secimler": [
+   "Atom-molekul təlimi",
+   "Nüvə təlimi",
+   "Dövri qanun",
+   "Valentlik təlimi"
+  ],
+  "duzgun": 0,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni maddənin bütün molekulları bir-birindən nə ilə fərqlənmir?",
+  "secimler": [
+   "Tərkibi və quruluşu ilə",
+   "Rənglə",
+   "Kütlə ilə",
+   "Ölçü ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Atomların bir-biri ilə birləşərək molekul əmələ gətirməsi hansı qüvvələr vasitəsilə baş verir?",
+  "secimler": [
+   "Kimyəvi rabitə qüvvələri",
+   "Cazibə qüvvəsi",
+   "Sürtünmə qüvvəsi",
+   "Elastiklik qüvvəsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen molekulu (O₂) neçə atomdan ibarətdir?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 1,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su molekulu (H₂O) neçə atomdan ibarətdir?",
+  "secimler": [
+   "2",
+   "3",
+   "4",
+   "1"
+  ],
+  "duzgun": 1,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Temperatur artdıqca molekullar arasındakı boşluqların necə dəyişməsi maddənin genişlənməsini izah edir?",
+  "secimler": [
+   "Boşluqlar artır",
+   "Boşluqlar azalır",
+   "Dəyişmir",
+   "Molekullar yox olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bütün maddələr hansı hissəciklərdən təşkil olunub?",
+  "secimler": [
+   "Yalnız elektronlardan",
+   "Atom və molekullardan",
+   "Yalnız işıq şüalarından",
+   "Yalnız enerjidən"
+  ],
+  "duzgun": 1,
+  "movzu": "Atom-molekul təlimi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Atomun mərkəzində yerləşən, müsbət yüklü hissəyə nə deyilir?",
+  "secimler": [
+   "Elektron buludu",
+   "Nüvə",
+   "Kation",
+   "Anion"
+  ],
+  "duzgun": 1,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nüvədə yerləşən müsbət yüklü zərrəciyə nə deyilir?",
+  "secimler": [
+   "Elektron",
+   "Proton",
+   "Neytron",
+   "Foton"
+  ],
+  "duzgun": 1,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nüvədə yerləşən, yüksüz zərrəciyə nə deyilir?",
+  "secimler": [
+   "Proton",
+   "Elektron",
+   "Neytron",
+   "İon"
+  ],
+  "duzgun": 2,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nüvə ətrafında hərəkət edən mənfi yüklü zərrəciyə nə deyilir?",
+  "secimler": [
+   "Proton",
+   "Neytron",
+   "Elektron",
+   "Nuklon"
+  ],
+  "duzgun": 2,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neytral atomda protonların sayı nəyə bərabərdir?",
+  "secimler": [
+   "Neytronların sayına",
+   "Elektronların sayına",
+   "Həmişə 8-ə",
+   "Kütlə ədədinə"
+  ],
+  "duzgun": 1,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen atomunun nüvəsində normalda neçə proton var?",
+  "secimler": [
+   "0",
+   "1",
+   "2",
+   "8"
+  ],
+  "duzgun": 1,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Atomun kütləsi əsasən harada cəmlənib?",
+  "secimler": [
+   "Elektron buludunda",
+   "Nüvədə (proton və neytronlarda)",
+   "Boşluqda",
+   "Hər yerdə bərabər"
+  ],
+  "duzgun": 1,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neytral atomda elektronların ümumi mənfi yükü ilə protonların ümumi müsbət yükü necə münasibətdədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Elektronlarınki çoxdur",
+   "Protonlarınki çoxdur",
+   "Əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Elektronların nüvə ətrafında yerləşdiyi enerji səviyyələrinə nə deyilir?",
+  "secimler": [
+   "Orbitallar / elektron təbəqələri",
+   "Nuklonlar",
+   "İzotoplar",
+   "Molekullar"
+  ],
+  "duzgun": 0,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Atomun elektron sayının dəyişməsi nəticəsində əmələ gələn yüklü hissəciyə nə deyilir?",
+  "secimler": [
+   "Molekul",
+   "İon",
+   "Element",
+   "İzotop"
+  ],
+  "duzgun": 1,
+  "movzu": "Atomun quruluşu",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni proton sayına malik atomlardan ibarət maddə növünə nə deyilir?",
+  "secimler": [
+   "Molekul",
+   "Kimyəvi element",
+   "Qarışıq",
+   "İzotop"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi elementlərin şərti işarələrlə göstərilməsinə nə deyilir?",
+  "secimler": [
+   "Kimyəvi formul",
+   "Kimyəvi işarə (simvol)",
+   "Kimyəvi tənlik",
+   "Valentlik"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen elementinin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "O",
+   "Ox",
+   "Os",
+   "On"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen elementinin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "He",
+   "H",
+   "Hg",
+   "Hi"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dəmir elementinin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "Fe",
+   "Fr",
+   "F",
+   "Ir"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Natrium elementinin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "N",
+   "Na",
+   "Nt",
+   "No"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi element işarələri beynəlxalq sistemdə əsasən hansı prinsipə əsasən qəbul olunub?",
+  "secimler": [
+   "Elementin latın adının baş hərfi (bəzən 2 hərflə)",
+   "Kəşf olunma tarixinə görə",
+   "Rəngə görə",
+   "Kəşf olunan ölkəyə görə"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon elementinin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "C",
+   "Ca",
+   "Co",
+   "Cr"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kalsium elementinin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "C",
+   "K",
+   "Ca",
+   "Cl"
+  ],
+  "duzgun": 2,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Xlor elementinin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "Cl",
+   "C",
+   "Ch",
+   "Cr"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi element və kimyəvi işarələr",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi elementlərin sistemləşdirilməsini kim təklif edib?",
+  "secimler": [
+   "Nyuton",
+   "Mendeleyev",
+   "Eynşteyn",
+   "Lavuazye"
+  ],
+  "duzgun": 1,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dövri sistemdə üfüqi sıralara nə deyilir?",
+  "secimler": [
+   "Qruplar",
+   "Dövrlər",
+   "Sıralar",
+   "Bloklar"
+  ],
+  "duzgun": 1,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dövri sistemdə şaquli sütunlara nə deyilir?",
+  "secimler": [
+   "Dövrlər",
+   "Qruplar",
+   "Sətirlər",
+   "Bloklar"
+  ],
+  "duzgun": 1,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni dövrdə yerləşən elementlərin əsas ortaq xüsusiyyəti nədir?",
+  "secimler": [
+   "Elektron təbəqələrinin sayı bərabərdir",
+   "Valentlikləri eynidir",
+   "Kütlələri eynidir",
+   "Heç bir ortaq xüsusiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni qrupda yerləşən elementlərin əsas ortaq xüsusiyyəti nədir?",
+  "secimler": [
+   "Xarici elektron təbəqəsindəki elektronların sayı bənzərdir",
+   "Nüvə yükü eynidir",
+   "Kütlə ədədi eynidir",
+   "Heç bir ortaq xüsusiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dövri sistemdə elementin sıra nömrəsi nəyi göstərir?",
+  "secimler": [
+   "Neytronların sayını",
+   "Protonların (və neytral atomda elektronların) sayını",
+   "Molekul kütləsini",
+   "Valentliyi"
+  ],
+  "duzgun": 1,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dövri sistem elementlərin xassələrinin necə dəyişdiyini göstərir?",
+  "secimler": [
+   "Xaotik şəkildə",
+   "Müəyyən qanunauyğunluqla, dövri olaraq",
+   "Heç bir qanunauyğunluq yoxdur",
+   "Yalnız təsadüfən"
+  ],
+  "duzgun": 1,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metal xassələri dövrdə soldan sağa doğru ümumiyyətlə necə dəyişir?",
+  "secimler": [
+   "Zəifləyir",
+   "Güclənir",
+   "Dəyişmir",
+   "Qeyri-müntəzəm dəyişir"
+  ],
+  "duzgun": 0,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nəcib qazlar dövri sistemin hansı hissəsində yerləşir?",
+  "secimler": [
+   "Sol tərəfdə",
+   "Sağ tərəfdə (son qrupda)",
+   "Ortada",
+   "Yalnız aşağı hissədə"
+  ],
+  "duzgun": 1,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dövri sistemin ümumi qəbul olunmuş adı necədir?",
+  "secimler": [
+   "Elementlərin dövri sistemi",
+   "Atom cədvəli",
+   "Molekul cədvəli",
+   "Valentlik cədvəli"
+  ],
+  "duzgun": 0,
+  "movzu": "Dövri sistem: dövrlər və qruplar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nisbi atom kütləsi vahidi kimi hansı atomun kütləsinin 1/12 hissəsi qəbul olunub?",
+  "secimler": [
+   "Hidrogen",
+   "Karbon-12",
+   "Oksigen",
+   "Natrium"
+  ],
+  "duzgun": 1,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogenin nisbi atom kütləsi təxminən neçədir?",
+  "secimler": [
+   "1",
+   "12",
+   "16",
+   "14"
+  ],
+  "duzgun": 0,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigenin nisbi atom kütləsi təxminən neçədir?",
+  "secimler": [
+   "1",
+   "12",
+   "16",
+   "14"
+  ],
+  "duzgun": 2,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbonun nisbi atom kütləsi təxminən neçədir?",
+  "secimler": [
+   "1",
+   "12",
+   "16",
+   "14"
+  ],
+  "duzgun": 1,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su molekulunun (H₂O) nisbi molekul kütləsi təxminən neçədir?",
+  "secimler": [
+   "17",
+   "18",
+   "16",
+   "20"
+  ],
+  "duzgun": 1,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon qazının (CO₂) nisbi molekul kütləsi təxminən neçədir?",
+  "secimler": [
+   "28",
+   "44",
+   "32",
+   "40"
+  ],
+  "duzgun": 1,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen molekulunun (O₂) nisbi molekul kütləsi təxminən neçədir?",
+  "secimler": [
+   "16",
+   "32",
+   "48",
+   "8"
+  ],
+  "duzgun": 1,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ammonyakın (NH₃) nisbi molekul kütləsi təxminən neçədir?",
+  "secimler": [
+   "15",
+   "16",
+   "17",
+   "18"
+  ],
+  "duzgun": 2,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nisbi molekul kütləsi necə hesablanır?",
+  "secimler": [
+   "Molekuldakı bütün atomların nisbi atom kütlələrinin cəmi ilə",
+   "Atomların sayının hasili ilə",
+   "Yalnız ən ağır atomun kütləsi ilə",
+   "Yalnız valentliklə"
+  ],
+  "duzgun": 0,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metan qazının (CH₄) nisbi molekul kütləsi təxminən neçədir?",
+  "secimler": [
+   "14",
+   "15",
+   "16",
+   "18"
+  ],
+  "duzgun": 2,
+  "movzu": "Nisbi atom və molekul kütləsi",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bir atomun neçə başqa atomla birləşə bilməsini göstərən kəmiyyətə nə deyilir?",
+  "secimler": [
+   "Nisbi kütlə",
+   "Valentlik",
+   "İzotop",
+   "Molyarlıq"
+  ],
+  "duzgun": 1,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen elementinin valentliyi adətən neçədir?",
+  "secimler": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "duzgun": 0,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen elementinin valentliyi adətən neçədir?",
+  "secimler": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "duzgun": 1,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su molekulunda (H₂O) oksigenin valentliyi neçədir?",
+  "secimler": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "duzgun": 1,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbonun bir çox birləşmədə valentliyi neçədir?",
+  "secimler": [
+   "II",
+   "III",
+   "IV",
+   "I"
+  ],
+  "duzgun": 2,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Natrium elementinin valentliyi adətən neçədir?",
+  "secimler": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "duzgun": 0,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kalsium elementinin valentliyi adətən neçədir?",
+  "secimler": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "duzgun": 1,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Valentliyi məlum olan iki elementdən düzgün kimyəvi formul necə tərtib edilir?",
+  "secimler": [
+   "Valentliklərin ən kiçik ortaq bölünəninə əsaslanaraq",
+   "Təsadüfi seçimlə",
+   "Yalnız kütləyə görə",
+   "Yalnız rəngə görə"
+  ],
+  "duzgun": 0,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alüminiumun valentliyi adətən neçədir?",
+  "secimler": [
+   "I",
+   "II",
+   "III",
+   "IV"
+  ],
+  "duzgun": 2,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Valentliyi I olan iki elementin (məsələn hidrogen və xlorun) birləşməsində formul necə yazılır?",
+  "secimler": [
+   "H₂Cl",
+   "HCl",
+   "HCl₂",
+   "H₂Cl₂"
+  ],
+  "duzgun": 1,
+  "movzu": "Valentlik",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddənin tərkibini simvollar və indekslərlə göstərən yazılışa nə deyilir?",
+  "secimler": [
+   "Kimyəvi tənlik",
+   "Kimyəvi formul",
+   "Valentlik cədvəli",
+   "Dövri sistem"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "H₂O formulunda \"2\" rəqəmi nəyi göstərir?",
+  "secimler": [
+   "Oksigen atomlarının sayını",
+   "Hidrogen atomlarının sayını",
+   "Molekulun ümumi kütləsini",
+   "Valentliyi"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CO₂ formulunda karbon atomunun sayı neçədir?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "NaCl formulu hansı maddəyə aiddir?",
+  "secimler": [
+   "Su",
+   "Xörək duzu",
+   "Şəkər",
+   "Sirkə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Formulda hərflərdən sonra yazılan kiçik rəqəmə nə deyilir?",
+  "secimler": [
+   "Əmsal",
+   "İndeks",
+   "Valentlik",
+   "Nisbi kütlə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi tənlikdə maddənin formulundan əvvəl yazılan rəqəmə nə deyilir?",
+  "secimler": [
+   "İndeks",
+   "Əmsal",
+   "Valentlik",
+   "Molyar kütlə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "H₂SO₄ formulu hansı maddəyə aiddir?",
+  "secimler": [
+   "Xlorid turşusu",
+   "Sulfat (kükürd) turşusu",
+   "Azot turşusu",
+   "Karbonat turşusu"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi formul yazılarkən ünsürlərin ardıcıllığı adətən necə müəyyən olunur?",
+  "secimler": [
+   "İstənilən sırayla",
+   "Qəbul olunmuş qaydaya görə (adətən metal, sonra qeyri-metal)",
+   "Təsadüfi sırayla",
+   "Yalnız kütləyə görə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CaCO₃ formulunda neçə fərqli element var?",
+  "secimler": [
+   "2",
+   "3",
+   "4",
+   "1"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Formuldakı indeksin dəyişməsi nəyə səbəb olur?",
+  "secimler": [
+   "Fərqli maddənin (fərqli tərkibin) əmələ gəlməsinə",
+   "Heç nəyə təsir etmir",
+   "Yalnız rəngin dəyişməsinə",
+   "Yalnız iyin dəyişməsinə"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi formullar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Elektronların bir atomdan digərinə keçməsi nəticəsində yaranan rabitəyə nə deyilir?",
+  "secimler": [
+   "Kovalent rabitə",
+   "İon rabitəsi",
+   "Metal rabitəsi",
+   "Hidrogen rabitəsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Atomlar arasında ümumi elektron cütlərinin əmələ gəlməsi ilə yaranan rabitəyə nə deyilir?",
+  "secimler": [
+   "İon rabitəsi",
+   "Kovalent rabitə",
+   "Metal rabitəsi",
+   "Nüvə rabitəsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "NaCl-da hansı rabitə növü var?",
+  "secimler": [
+   "Kovalent rabitə",
+   "İon rabitəsi",
+   "Metal rabitəsi",
+   "Heç bir rabitə yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "H₂ molekulunda (iki hidrogen atomu arasında) hansı rabitə növü var?",
+  "secimler": [
+   "İon rabitəsi",
+   "Kovalent rabitə",
+   "Metal rabitəsi",
+   "Heç bir rabitə yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metal atomları arasındakı xüsusi rabitəyə nə deyilir?",
+  "secimler": [
+   "İon rabitəsi",
+   "Kovalent rabitə",
+   "Metal rabitəsi",
+   "Su rabitəsi"
+  ],
+  "duzgun": 2,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi rabitənin əmələ gəlməsinin əsas səbəbi nədir?",
+  "secimler": [
+   "Atomların daha sabit elektron quruluşuna can atması",
+   "Təsadüf",
+   "Yalnız temperatur",
+   "Yalnız təzyiq"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metal ilə qeyri-metal arasında adətən hansı rabitə növü yaranır?",
+  "secimler": [
+   "Kovalent rabitə",
+   "İon rabitəsi",
+   "Metal rabitəsi",
+   "Heç bir rabitə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İki qeyri-metal arasında adətən hansı rabitə növü yaranır?",
+  "secimler": [
+   "İon rabitəsi",
+   "Kovalent rabitə",
+   "Metal rabitəsi",
+   "Heç bir rabitə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İon rabitəsi nəticəsində əmələ gələn yüklü hissəciklərə nə deyilir?",
+  "secimler": [
+   "Molekullar",
+   "İonlar",
+   "İzotoplar",
+   "Nuklonlar"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi rabitənin qırılması/yaranması hansı proseslə bağlıdır?",
+  "secimler": [
+   "Kimyəvi reaksiyalarla",
+   "Yalnız fiziki hadisələrlə",
+   "Yalnız istilik ötürülməsi ilə",
+   "Heç bir proseslə bağlı deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi rabitə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi reaksiyanın simvollarla, formullarla ifadə olunmasına nə deyilir?",
+  "secimler": [
+   "Kimyəvi formul",
+   "Kimyəvi tənlik",
+   "Valentlik sxemi",
+   "Dövri sistem"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi tənlikdə reaksiyaya girən maddələr harada yazılır?",
+  "secimler": [
+   "Ox işarəsindən sonra",
+   "Ox işarəsindən əvvəl",
+   "Yalnız üstdə",
+   "Yalnız altda"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi tənlikdə əmsalların düzgün qoyulmasına nə deyilir?",
+  "secimler": [
+   "Formullaşdırma",
+   "Tənliyin bərabərləşdirilməsi",
+   "İndeksləşdirmə",
+   "Valentləşdirmə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi tənliyin bərabərləşdirilməsi hansı qanuna əsaslanır?",
+  "secimler": [
+   "Kütlənin saxlanma qanunu",
+   "Enerjinin itməsi qanunu",
+   "Arximed qanunu",
+   "Om qanunu"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kütlənin saxlanma qanununa görə reaksiyaya girən maddələrin ümumi kütləsi məhsulların kütləsi ilə necə münasibətdədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Reaksiyaya girənlərinki çoxdur",
+   "Məhsullarınki çoxdur",
+   "Əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2H₂ + O₂ → 2H₂O tənliyində \"2\" əmsalı hansı maddələrin qarşısında yazılıb?",
+  "secimler": [
+   "Yalnız H₂O-nun",
+   "H₂ və H₂O-nun",
+   "Yalnız O₂-nin",
+   "Heç birinin"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi tənlikdə hər elementin atom sayı tənliyin hər iki tərəfində necə olmalıdır?",
+  "secimler": [
+   "Bərabər",
+   "Sol tərəfdə çox",
+   "Sağ tərəfdə çox",
+   "Əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi tənlikdə ox (→) işarəsi nəyi göstərir?",
+  "secimler": [
+   "Bərabərliyi",
+   "Reaksiyanın istiqamətini (reagentlərdən məhsullara)",
+   "Toplama əməliyyatını",
+   "Çıxma əməliyyatını"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Reaksiya nəticəsində əmələ gələn maddələrə nə deyilir?",
+  "secimler": [
+   "Reagentlər",
+   "Reaksiya məhsulları",
+   "Katalizatorlar",
+   "İzotoplar"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kimyəvi tənlik tərtib edərkən ilk addım nədir?",
+  "secimler": [
+   "Reaksiyaya girən və çıxan maddələrin düzgün formullarını yazmaq",
+   "Yalnız əmsalları təxmin etmək",
+   "Rəngləri müəyyən etmək",
+   "Valentlikləri unutmaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi tənliklər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İki və ya daha çox maddədən bir mürəkkəb maddənin əmələ gəlməsi reaksiyasına nə deyilir?",
+  "secimler": [
+   "Ayrılma reaksiyası",
+   "Birləşmə reaksiyası",
+   "Əvəzetmə reaksiyası",
+   "Mübadilə reaksiyası"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bir mürəkkəb maddənin iki və ya daha çox maddəyə parçalanması reaksiyasına nə deyilir?",
+  "secimler": [
+   "Birləşmə reaksiyası",
+   "Ayrılma (parçalanma) reaksiyası",
+   "Əvəzetmə reaksiyası",
+   "Mübadilə reaksiyası"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sadə maddənin mürəkkəb maddədəki elementi əvəz etdiyi reaksiyaya nə deyilir?",
+  "secimler": [
+   "Birləşmə reaksiyası",
+   "Ayrılma reaksiyası",
+   "Əvəzetmə (yerdəyişmə) reaksiyası",
+   "Mübadilə reaksiyası"
+  ],
+  "duzgun": 2,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İki mürəkkəb maddənin öz tərkib hissələri ilə yerdəyişməsi reaksiyasına nə deyilir?",
+  "secimler": [
+   "Birləşmə reaksiyası",
+   "Ayrılma reaksiyası",
+   "Əvəzetmə reaksiyası",
+   "Mübadilə reaksiyası"
+  ],
+  "duzgun": 3,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2H₂ + O₂ → 2H₂O tənliyi hansı reaksiya növünə misaldır?",
+  "secimler": [
+   "Ayrılma",
+   "Birləşmə",
+   "Əvəzetmə",
+   "Mübadilə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CaCO₃ → CaO + CO₂ tənliyi hansı reaksiya növünə misaldır?",
+  "secimler": [
+   "Birləşmə",
+   "Ayrılma",
+   "Əvəzetmə",
+   "Mübadilə"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Reaksiya zamanı istiliyin ətrafa ayrılması hansı reaksiya növünə aiddir?",
+  "secimler": [
+   "Ekzotermik reaksiya",
+   "Endotermik reaksiya",
+   "Katalitik reaksiya",
+   "Fotokimyəvi reaksiya"
+  ],
+  "duzgun": 0,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Reaksiyanın getməsi üçün istiliyin udulmasının tələb olunduğu reaksiyaya nə deyilir?",
+  "secimler": [
+   "Ekzotermik reaksiya",
+   "Endotermik reaksiya",
+   "Neytral reaksiya",
+   "Termonüvə reaksiyası"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Reaksiya sürətini artıran, özü isə reaksiyada sərf olunmayan maddəyə nə deyilir?",
+  "secimler": [
+   "Reagent",
+   "Katalizator",
+   "Məhsul",
+   "İon"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yanma reaksiyaları əsasən hansı maddə ilə baş verir?",
+  "secimler": [
+   "Azotla",
+   "Oksigenlə",
+   "Hidrogenlə",
+   "Karbonla"
+  ],
+  "duzgun": 1,
+  "movzu": "Kimyəvi reaksiya növləri",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Havanın tərkibində oksigenin təxmini faizi neçədir?",
+  "secimler": [
+   "21%",
+   "78%",
+   "1%",
+   "50%"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigenin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "O",
+   "Ox",
+   "Og",
+   "On"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen normal şəraitdə hansı aqreqat halındadır?",
+  "secimler": [
+   "Bərk",
+   "Maye",
+   "Qaz",
+   "Plazma"
+  ],
+  "duzgun": 2,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigenin sənayedə əsas alınma mənbəyi hansıdır?",
+  "secimler": [
+   "Havanın ayrılması (mayeləşdirmə yolu ilə)",
+   "Suyun buxarlandırılması",
+   "Kömürün yandırılması",
+   "Duzun əridilməsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bitkilər fotosintez prosesində hansı qazı ayırır?",
+  "secimler": [
+   "Karbon qazı",
+   "Oksigen",
+   "Azot",
+   "Hidrogen"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen yanma prosesində hansı rolu oynayır?",
+  "secimler": [
+   "Yanmanı dəstəkləyir (oksidləşdirici)",
+   "Yanmanı söndürür",
+   "Heç bir rol oynamır",
+   "Yalnız işıq saçır"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddələrin oksigenlə birləşməsi reaksiyasına nə deyilir?",
+  "secimler": [
+   "Reduksiya",
+   "Oksidləşmə",
+   "Neytrallaşma",
+   "Hidroliz"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigenin canlılar üçün əsas əhəmiyyəti nədir?",
+  "secimler": [
+   "Tənəffüs prosesində iştirak etməsi",
+   "Yalnız dad vermə",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız rəng vermə"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Laboratoriyada oksigen almaq üçün istifadə olunan üsullardan biri hansıdır?",
+  "secimler": [
+   "Kalium permanganatın qızdırılması",
+   "Duzun əridilməsi",
+   "Suyun dondurulması",
+   "Kömürün soyudulması"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigenin molekul formulu hansıdır?",
+  "secimler": [
+   "O",
+   "O₂",
+   "O₃",
+   "OH"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksigen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Elementin oksigenlə birləşməsindən əmələ gələn ikili birləşməyə nə deyilir?",
+  "secimler": [
+   "Turşu",
+   "Oksid",
+   "Duz",
+   "Əsas"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CO₂ hansı sinifə aiddir?",
+  "secimler": [
+   "Turşu",
+   "Oksid",
+   "Əsas",
+   "Duz"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CaO hansı sinifə aiddir?",
+  "secimler": [
+   "Turşu",
+   "Oksid",
+   "Duz",
+   "Metal"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su ilə reaksiyaya girərək əsas əmələ gətirən oksidlərə nə deyilir?",
+  "secimler": [
+   "Turşu oksidi",
+   "Əsasi oksid",
+   "Neytral oksid",
+   "Duz"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su ilə reaksiyaya girərək turşu əmələ gətirən oksidlərə nə deyilir?",
+  "secimler": [
+   "Turşu oksidi",
+   "Əsasi oksid",
+   "Neytral oksid",
+   "Duz"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CO (karbon-monoksit) hansı oksid növünə aiddir?",
+  "secimler": [
+   "Turşu oksidi",
+   "Əsasi oksid",
+   "Neytral (indifferent) oksid",
+   "Duz"
+  ],
+  "duzgun": 2,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metal oksidlər əsasən hansı xassəyə malikdir?",
+  "secimler": [
+   "Turşu xassəsi",
+   "Əsasi xassə",
+   "Neytral xassə",
+   "Duz xassəsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qeyri-metal oksidlər əsasən hansı xassəyə malikdir?",
+  "secimler": [
+   "Turşu xassəsi",
+   "Əsasi xassə",
+   "Neytral xassə",
+   "Duz xassəsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CaO su ilə reaksiyaya girdikdə nə əmələ gəlir?",
+  "secimler": [
+   "Turşu",
+   "Kalsium hidroksid (əsas)",
+   "Duz",
+   "Oksigen"
+  ],
+  "duzgun": 1,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "SO₃ su ilə reaksiyaya girdikdə nə əmələ gəlir?",
+  "secimler": [
+   "Kükürd (sulfat) turşusu",
+   "Kalsium hidroksid",
+   "Xörək duzu",
+   "Su"
+  ],
+  "duzgun": 0,
+  "movzu": "Oksidlər",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogenin kimyəvi işarəsi hansıdır?",
+  "secimler": [
+   "H",
+   "He",
+   "Hg",
+   "Hy"
+  ],
+  "duzgun": 0,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen normal şəraitdə hansı aqreqat halındadır?",
+  "secimler": [
+   "Bərk",
+   "Maye",
+   "Qaz",
+   "Plazma"
+  ],
+  "duzgun": 2,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogenin molekul formulu hansıdır?",
+  "secimler": [
+   "H",
+   "H₂",
+   "H₃",
+   "H₄"
+  ],
+  "duzgun": 1,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen kainatda hansı yayılma dərəcəsinə malikdir?",
+  "secimler": [
+   "Ən az yayılmış elementdir",
+   "Ən çox yayılmış elementlərdən biridir",
+   "Yalnız Yerdə mövcuddur",
+   "Heç yerdə yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Laboratoriyada hidrogen almaq üçün ən çox hansı reaksiyadan istifadə olunur?",
+  "secimler": [
+   "Metalın (məsələn, sinkin) turşu ilə reaksiyası",
+   "Suyun dondurulması",
+   "Duzun əridilməsi",
+   "Oksigenin yandırılması"
+  ],
+  "duzgun": 0,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen yanarkən hansı maddə əmələ gəlir?",
+  "secimler": [
+   "Karbon qazı",
+   "Su",
+   "Duz",
+   "Turşu"
+  ],
+  "duzgun": 1,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogenin sənayedə əsas istifadə sahələrindən biri hansıdır?",
+  "secimler": [
+   "Ammonyak istehsalı",
+   "Yalnız bəzək əşyaları",
+   "Yalnız dad vermə",
+   "Heç bir istifadəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen atomunda adətən neçə elektron olur?",
+  "secimler": [
+   "0",
+   "1",
+   "2",
+   "8"
+  ],
+  "duzgun": 1,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen qazının rəngi və iyi haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "Rəngsiz və iysizdir",
+   "Sarı rəngli və kəskin iylidir",
+   "Yaşıl rəngli və şirin iylidir",
+   "Qara rəngli və turş iylidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hidrogen havadan yüngül olduğu üçün hansı praktik xüsusiyyətə malikdir?",
+  "secimler": [
+   "Yuxarı doğru yüksəlir",
+   "Aşağı doğru enir",
+   "Havada hərəkətsiz qalır",
+   "Suda həll olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Hidrogen",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suyun kimyəvi formulu hansıdır?",
+  "secimler": [
+   "H₂O",
+   "HO₂",
+   "H₂O₂",
+   "HO"
+  ],
+  "duzgun": 0,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suyun tərkibində hansı elementlər var?",
+  "secimler": [
+   "Hidrogen və oksigen",
+   "Karbon və oksigen",
+   "Azot və hidrogen",
+   "Yalnız oksigen"
+  ],
+  "duzgun": 0,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suyun normal otaq temperaturunda aqreqat halı hansıdır?",
+  "secimler": [
+   "Bərk",
+   "Maye",
+   "Qaz",
+   "Plazma"
+  ],
+  "duzgun": 1,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su 0°C-də hansı aqreqat halına keçir?",
+  "secimler": [
+   "Bərk (buz)",
+   "Qaz (buxar)",
+   "Plazma",
+   "Dəyişmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su normal atmosfer təzyiqində 100°C-də hansı hala keçir?",
+  "secimler": [
+   "Bərk",
+   "Qaz (buxar)",
+   "Plazma",
+   "Dəyişmir"
+  ],
+  "duzgun": 1,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suyun canlı orqanizmlər üçün əhəmiyyəti necədir?",
+  "secimler": [
+   "Həyati əhəmiyyətə malikdir",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız estetik əhəmiyyəti var",
+   "Zərərlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində müxtəlif duzların olduğu təbii su hansı su növünə aid edilir?",
+  "secimler": [
+   "Distillə su",
+   "Sərt (mineral) su",
+   "Təmiz kimyəvi su",
+   "Heç birinə"
+  ],
+  "duzgun": 1,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Distillə su nə üçün laboratoriyada geniş istifadə olunur?",
+  "secimler": [
+   "Tərkibində əlavə maddə (duz və s.) olmadığı üçün",
+   "Rəngli olduğu üçün",
+   "Şirin dadlı olduğu üçün",
+   "Ucuz olduğu üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suyun elektroliz olunması nəticəsində hansı qazlar alınır?",
+  "secimler": [
+   "Azot və karbon qazı",
+   "Hidrogen və oksigen",
+   "Yalnız oksigen",
+   "Yalnız hidrogen"
+  ],
+  "duzgun": 1,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Su molekulunun quruluşuna görə bir oksigen atomu ilə neçə hidrogen atomu birləşib?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 1,
+  "movzu": "Su",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində hidrogen atomu olan və suda dissosiasiya edərək hidrogen ionu (H⁺) əmələ gətirən maddələrə nə deyilir?",
+  "secimler": [
+   "Əsaslar",
+   "Turşular",
+   "Duzlar",
+   "Oksidlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Lakmus indikatoru turşu mühitində hansı rəngi alır?",
+  "secimler": [
+   "Göy",
+   "Qırmızı",
+   "Yaşıl",
+   "Sarı"
+  ],
+  "duzgun": 1,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "HCl hansı turşunun formuludur?",
+  "secimler": [
+   "Sulfat turşusu",
+   "Xlorid (duz) turşusu",
+   "Azot turşusu",
+   "Karbonat turşusu"
+  ],
+  "duzgun": 1,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "H₂SO₄ hansı turşunun formuludur?",
+  "secimler": [
+   "Sulfat (kükürd) turşusu",
+   "Xlorid turşusu",
+   "Azot turşusu",
+   "Fosfor turşusu"
+  ],
+  "duzgun": 0,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşuların dad xüsusiyyəti adətən necə olur?",
+  "secimler": [
+   "Şirin",
+   "Turş",
+   "Duzlu",
+   "Acı"
+  ],
+  "duzgun": 1,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşuların metallarla reaksiyası nəticəsində adətən hansı qaz ayrıla bilər?",
+  "secimler": [
+   "Oksigen",
+   "Hidrogen",
+   "Azot",
+   "Karbon qazı"
+  ],
+  "duzgun": 1,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşuların əsaslarla reaksiyasına nə deyilir?",
+  "secimler": [
+   "Oksidləşmə",
+   "Neytrallaşma",
+   "Reduksiya",
+   "Elektroliz"
+  ],
+  "duzgun": 1,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşularla işləyərkən təhlükəsizlik qaydalarına əməl etmək niyə vacibdir?",
+  "secimler": [
+   "Turşular dəriyə, gözə zərər verə bilər",
+   "Turşular tamamilə zərərsizdir",
+   "Heç bir səbəbi yoxdur",
+   "Yalnız rəngi dəyişdiyi üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşu ilə əsasi oksidin reaksiyası nəticəsində nə əmələ gəlir?",
+  "secimler": [
+   "Yalnız su",
+   "Duz və su",
+   "Yalnız duz",
+   "Oksigen"
+  ],
+  "duzgun": 1,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Meyvələrdəki turş dad əsasən hansı maddələrin olması ilə bağlıdır?",
+  "secimler": [
+   "Üzvi turşular",
+   "Duzlar",
+   "Əsaslar",
+   "Oksidlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Turşular",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində hidroksid qrupu (OH⁻) olan və suda dissosiasiya edərək bu ionu əmələ gətirən maddələrə nə deyilir?",
+  "secimler": [
+   "Turşular",
+   "Əsaslar",
+   "Duzlar",
+   "Oksidlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Lakmus indikatoru əsasi (qələvi) mühitdə hansı rəngi alır?",
+  "secimler": [
+   "Qırmızı",
+   "Göy (mavi)",
+   "Sarı",
+   "Yaşıl"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "NaOH hansı əsasın formuludur?",
+  "secimler": [
+   "Natrium hidroksid",
+   "Kalsium hidroksid",
+   "Kalium hidroksid",
+   "Dəmir hidroksid"
+  ],
+  "duzgun": 0,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ca(OH)₂ hansı əsasın formuludur?",
+  "secimler": [
+   "Natrium hidroksid",
+   "Kalsium hidroksid",
+   "Kalium hidroksid",
+   "Alüminium hidroksid"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suda yaxşı həll olan əsaslara nə deyilir?",
+  "secimler": [
+   "Turşular",
+   "Qələvilər",
+   "Duzlar",
+   "Oksidlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Əsasların dad xüsusiyyəti adətən necə olur?",
+  "secimler": [
+   "Turş",
+   "Sabunabənzər, acımtıl",
+   "Şirin",
+   "Duzlu"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Əsaslarla turşuların qarşılıqlı təsiri nəticəsində hansı reaksiya baş verir?",
+  "secimler": [
+   "Oksidləşmə",
+   "Neytrallaşma reaksiyası",
+   "Reduksiya",
+   "Elektroliz"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenolftalein indikatoru əsasi mühitdə hansı rəngə çevrilir?",
+  "secimler": [
+   "Rəngsiz qalır",
+   "Çəhrayı (bənövşəyi-qırmızı)",
+   "Sarı",
+   "Yaşıl"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Əsaslar dəri, parça kimi materiallarla təmasda olduqda hansı təsiri göstərə bilər?",
+  "secimler": [
+   "Heç bir təsiri yoxdur",
+   "Yandırıcı/aşındırıcı təsir göstərə bilər",
+   "Yalnız yumşaldıcı təsir göstərir",
+   "Rəngləyici təsir göstərir"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Əsasi oksidlər su ilə reaksiyaya girdikdə nə əmələ gəlir?",
+  "secimler": [
+   "Turşu",
+   "Əsas",
+   "Duz",
+   "Oksigen"
+  ],
+  "duzgun": 1,
+  "movzu": "Əsaslar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşu ilə əsasın (və ya əsasi oksidin) reaksiyası nəticəsində əmələ gələn maddəyə nə deyilir?",
+  "secimler": [
+   "Oksid",
+   "Duz",
+   "Turşu",
+   "Əsas"
+  ],
+  "duzgun": 1,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "NaCl hansı duzun formuludur?",
+  "secimler": [
+   "Xörək duzu (natrium-xlorid)",
+   "Kalsium karbonat",
+   "Kalium nitrat",
+   "Mis sulfat"
+  ],
+  "duzgun": 0,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CaCO₃ hansı təbii materialın formuludur?",
+  "secimler": [
+   "Xörək duzu",
+   "Əhəngdaşı (kalsium karbonat)",
+   "Gips",
+   "Mis kuporosu"
+  ],
+  "duzgun": 1,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Duzlar quruluşca hansı hissəciklərdən təşkil olunub?",
+  "secimler": [
+   "Metal (və ya ammonium) ionları və turşu qalığı ionlarından",
+   "Yalnız hidrogen ionlarından",
+   "Yalnız hidroksid ionlarından",
+   "Yalnız oksid ionlarından"
+  ],
+  "duzgun": 0,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Duzların əksəriyyəti normal şəraitdə hansı aqreqat halındadır?",
+  "secimler": [
+   "Qaz",
+   "Maye",
+   "Bərk",
+   "Plazma"
+  ],
+  "duzgun": 2,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Xörək duzunun (NaCl) əsas istifadə sahələrindən biri hansıdır?",
+  "secimler": [
+   "Yalnız tikinti",
+   "Qida sənayesi",
+   "Yalnız dərman istehsalı",
+   "Heç bir istifadəsi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Duzlar suda həll olduqda ən çox hansı hissəciklərə parçalanır?",
+  "secimler": [
+   "Molekullara",
+   "İonlara",
+   "Atomlara",
+   "Elektronlara"
+  ],
+  "duzgun": 1,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mis sulfatın (CuSO₄) rəngi adətən necədir?",
+  "secimler": [
+   "Ağ",
+   "Göy (mavi)",
+   "Qırmızı",
+   "Yaşıl"
+  ],
+  "duzgun": 1,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Duz məhlulunun elektrik cərəyanını keçirməsinin əsas səbəbi nədir?",
+  "secimler": [
+   "Məhlulda sərbəst ionların olması",
+   "Suyun rəngi",
+   "Duzun dadı",
+   "Heç bir səbəbi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşu qalığının valentliyi duz formulunun tərtibində nəyi müəyyən edir?",
+  "secimler": [
+   "Duzdakı metal atomlarının sayını (indekslərini)",
+   "Duzun rəngini",
+   "Duzun dadını",
+   "Duzun iyini"
+  ],
+  "duzgun": 0,
+  "movzu": "Duzlar",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bir maddənin başqa maddə içərisində bərabər paylanaraq bircins qarışıq əmələ gətirməsinə nə deyilir?",
+  "secimler": [
+   "Kristallaşma",
+   "Həll olma",
+   "Buxarlanma",
+   "Sublimasiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Məhlulda miqdarı çox olan, digər maddəni özündə həll edən komponentə nə deyilir?",
+  "secimler": [
+   "Həll olunan maddə",
+   "Həlledici",
+   "Çöküntü",
+   "Kristal"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Məhlulda miqdarı az olan, digər maddədə həll olan komponentə nə deyilir?",
+  "secimler": [
+   "Həlledici",
+   "Həll olunan maddə",
+   "Kristal",
+   "Buxar"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən geniş yayılmış həlledici hansıdır?",
+  "secimler": [
+   "Spirt",
+   "Su",
+   "Benzin",
+   "Yağ"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Verilmiş temperaturda daha çox maddə həll edə bilməyən məhlula nə deyilir?",
+  "secimler": [
+   "Durulaşmış məhlul",
+   "Doymuş məhlul",
+   "Doymamış məhlul",
+   "Aşırı doymuş məhlul"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Temperatur artdıqca bərk maddələrin suda həll olma qabiliyyəti ümumiyyətlə necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Sıfır olur"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qazların suda həll olma qabiliyyəti temperatur artdıqca ümumiyyətlə necə dəyişir?",
+  "secimler": [
+   "Artır",
+   "Azalır",
+   "Dəyişmir",
+   "Sıfır olur"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Məhlulun konsentrasiyası nəyi göstərir?",
+  "secimler": [
+   "Məhlulun rəngini",
+   "Müəyyən miqdar məhlulda həll olunmuş maddənin miqdarını",
+   "Məhlulun iyini",
+   "Məhlulun temperaturunu"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Şəkərin suda həll olması zamanı yeni maddə əmələ gəlirmi?",
+  "secimler": [
+   "Bəli, yeni maddə yaranır",
+   "Xeyr, bu fiziki prosesdir",
+   "Yalnız qismən yaranır",
+   "Cavab birmənalı deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qarışdırma (mexaniki hərəkət) həll olma sürətinə necə təsir edir?",
+  "secimler": [
+   "Azaldır",
+   "Artırır",
+   "Təsir etmir",
+   "Prosesi tamamilə dayandırır"
+  ],
+  "duzgun": 1,
+  "movzu": "Məhlullar və həll olma",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddə miqdarının SI sistemindəki vahidi hansıdır?",
+  "secimler": [
+   "Kiloqram",
+   "Mol",
+   "Litr",
+   "Nyuton"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "1 mol maddədə olan hissəciklərin (atom, molekul) sayına nə deyilir?",
+  "secimler": [
+   "Molyar kütlə",
+   "Avoqadro ədədi",
+   "Valentlik",
+   "Nisbi kütlə"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "1 mol maddənin kütləsinə (qramla ifadə olunanda) nə deyilir?",
+  "secimler": [
+   "Molyar kütlə",
+   "Nisbi atom kütləsi",
+   "Sıxlıq",
+   "Valentlik"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molyar kütlənin ədədi qiyməti maddənin nisbi molekul (və ya atom) kütləsi ilə necə əlaqədardır?",
+  "secimler": [
+   "Ədədi qiymətcə bərabərdir (vahidləri fərqlidir)",
+   "Heç bir əlaqəsi yoxdur",
+   "Molyar kütlə həmişə kiçikdir",
+   "Nisbi kütlə həmişə kiçikdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Suyun (H₂O) molyar kütləsi təxminən neçədir?",
+  "secimler": [
+   "16 q/mol",
+   "18 q/mol",
+   "20 q/mol",
+   "2 q/mol"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigenin (O₂) molyar kütləsi təxminən neçədir?",
+  "secimler": [
+   "16 q/mol",
+   "32 q/mol",
+   "8 q/mol",
+   "64 q/mol"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Maddə miqdarı (n), kütlə (m) və molyar kütlə (M) arasında hansı düstur doğrudur?",
+  "secimler": [
+   "n = m × M",
+   "n = m / M",
+   "n = M / m",
+   "n = m + M"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "m=36 q su üçün maddə miqdarı neçə moldur? (M=18 q/mol)",
+  "secimler": [
+   "1 mol",
+   "2 mol",
+   "3 mol",
+   "4 mol"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "n=0,5 mol oksigen qazının kütləsi nə qədərdir? (M=32 q/mol)",
+  "secimler": [
+   "8 q",
+   "16 q",
+   "32 q",
+   "64 q"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mol anlayışının kimyada tətbiqinin əsas məqsədi nədir?",
+  "secimler": [
+   "Çox sayda kiçik hissəcikləri rahat hesablamaq üçün",
+   "Yalnız rəngi ölçmək üçün",
+   "Yalnız temperaturu ölçmək üçün",
+   "Heç bir məqsədi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddə miqdarı (mol) və molyar kütlə",
+  "sinif": "8",
+  "fenn": "Kimya"
+ }
+]

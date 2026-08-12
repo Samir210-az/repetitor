@@ -340,6 +340,7 @@ export default function SuperAdmin() {
 
 import fizikaBank from "../data/fizikaBank.json";
 import azDiliBank from "../data/azDiliBank.json";
+import kimyaBank from "../data/kimyaBank.json";
 
 function SeedBankTool() {
   const [status, setStatus] = useState("");
@@ -377,6 +378,23 @@ function SeedBankTool() {
     }
   }
 
+  const [status3, setStatus3] = useState("");
+  async function seedKimya() {
+    setStatus3("Köhnə qeydlər təmizlənir və yenidən yazılır...");
+    try {
+      await remove(ref(db, "repetitor/sualBanki/kimya"));
+      const updates = {};
+      kimyaBank.forEach((q) => {
+        const key = push(ref(db, "repetitor/sualBanki/kimya")).key;
+        updates[`repetitor/sualBanki/kimya/${key}`] = { ...q, yaradilib: Date.now() };
+      });
+      await update(ref(db), updates);
+      setStatus3(`✅ Təmizləndi və ${kimyaBank.length} sual əlavə olundu.`);
+    } catch (err) {
+      setStatus3("❌ Xəta: " + err.message);
+    }
+  }
+
   return (
     <div className="card-dark p-5 mt-6 space-y-4">
       <div>
@@ -392,6 +410,13 @@ function SeedBankTool() {
           Az.dili bankını doldur
         </button>
         {status2 && <p className="text-xs font-mono text-white/70 mt-3">{status2}</p>}
+      </div>
+      <div className="pt-3 border-t border-white/10">
+        <p className="text-white/60 text-sm mb-3">📚 Kimya-8 dəstini əlavə et ({kimyaBank.length} sual, 24 mövzu)</p>
+        <button onClick={seedKimya} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+          Kimya bankını doldur
+        </button>
+        {status3 && <p className="text-xs font-mono text-white/70 mt-3">{status3}</p>}
       </div>
     </div>
   );
