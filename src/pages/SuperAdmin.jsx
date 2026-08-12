@@ -380,7 +380,7 @@ function SeedBankTool() {
   return (
     <div className="card-dark p-5 mt-6 space-y-4">
       <div>
-        <p className="text-white/60 text-sm mb-3">📚 Fizika-11 dəstini əlavə et ({fizikaBank.length} sual, mövzu üzrə etiketlənmiş)</p>
+        <p className="text-white/60 text-sm mb-3">📚 Fizika dəstini əlavə et ({fizikaBank.length} sual — 8-ci və 11-ci sinif, mövzu üzrə etiketlənmiş)</p>
         <button onClick={seedFizika} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
           Fizika bankını doldur
         </button>
