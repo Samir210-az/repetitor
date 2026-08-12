@@ -346,30 +346,32 @@ function SeedBankTool() {
   const [status2, setStatus2] = useState("");
 
   async function seedFizika() {
-    setStatus("Yazılır... (bir neçə saniyə çəkə bilər)");
+    setStatus("Köhnə qeydlər təmizlənir və yenidən yazılır...");
     try {
+      await remove(ref(db, "repetitor/sualBanki/fizika"));
       const updates = {};
       fizikaBank.forEach((q) => {
         const key = ref(db, "repetitor/sualBanki/fizika").push().key;
         updates[`repetitor/sualBanki/fizika/${key}`] = { ...q, yaradilib: Date.now() };
       });
       await update(ref(db), updates);
-      setStatus(`✅ ${fizikaBank.length} sual əlavə olundu.`);
+      setStatus(`✅ Təmizləndi və ${fizikaBank.length} sual əlavə olundu.`);
     } catch (err) {
       setStatus("❌ Xəta: " + err.message);
     }
   }
 
   async function seedAzDili() {
-    setStatus2("Yazılır...");
+    setStatus2("Köhnə qeydlər təmizlənir və yenidən yazılır...");
     try {
+      await remove(ref(db, "repetitor/sualBanki/azərbaycan dili"));
       const updates = {};
       azDiliBank.forEach((q) => {
         const key = ref(db, "repetitor/sualBanki/azərbaycan dili").push().key;
         updates[`repetitor/sualBanki/azərbaycan dili/${key}`] = { ...q, yaradilib: Date.now() };
       });
       await update(ref(db), updates);
-      setStatus2(`✅ ${azDiliBank.length} sual əlavə olundu.`);
+      setStatus2(`✅ Təmizləndi və ${azDiliBank.length} sual əlavə olundu.`);
     } catch (err) {
       setStatus2("❌ Xəta: " + err.message);
     }
