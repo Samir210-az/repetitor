@@ -1,336 +1,128 @@
 [
   {
-    "sual": "Aşağıdakı cümlədə \"zirvəsi\" sözü hansı nitq hissəsindəndir? — \"Dağların zirvəsi qarla örtülmüşdü.\"",
+    "sual": "\"Aç qapını!\" və \"Onun aç gözləri hər şeyi görürdü\" cümlələrində \"aç\" sözünün nitq hissəsi necə fərqlənir?",
     "secimler": [
-      "isim",
-      "sifət",
-      "əvəzlik",
-      "say"
+      "Hər iki cümlədə fel",
+      "Birincidə fel (əmr forması), ikincidə sifət",
+      "Hər iki cümlədə sifət",
+      "Birincidə isim, ikincidə zərf"
+    ],
+    "duzgun": 1,
+    "movzu": "Nitq hissələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Yaxşı oxu\" və \"O, yaxşı adamdır\" cümlələrində \"yaxşı\" sözünün nitq hissəsi hər iki cümlədə eynidirmi?",
+    "secimler": [
+      "Bəli, hər ikisində zərfdir",
+      "Xeyr — birincidə zərf, ikincidə sifətdir",
+      "Xeyr — birincidə sifət, ikincidə zərfdir",
+      "Bəli, hər ikisində sifətdir"
+    ],
+    "duzgun": 1,
+    "movzu": "Nitq hissələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Bu il qış sərt keçdi\" cümləsində \"bu\" sözü hansı nitq hissəsidir və funksiyası nədir?",
+    "secimler": [
+      "Əvəzlikdir, \"il\" sözünü əvəz edir",
+      "İşarə əvəzliyidir, \"il\" sözünü təyin edir",
+      "Sifətdir, müstəqil işlənir",
+      "Zərfdir, feli təyin edir"
+    ],
+    "duzgun": 1,
+    "movzu": "Nitq hissələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Beş nəfər gəldi\" və \"Beşinci sırada oturdu\" cümlələrində \"beş\" sözlərinin say növü necə fərqlənir?",
+    "secimler": [
+      "Hər ikisi miqdar sayıdır",
+      "Birincisi miqdar sayı, ikincisi sıra sayıdır",
+      "Birincisi sıra sayı, ikincisi miqdar sayıdır",
+      "Hər ikisi sıra sayıdır"
+    ],
+    "duzgun": 1,
+    "movzu": "Nitq hissələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"O, işi tez bitirdi, çünki bacarıqlı idi\" cümləsində \"çünki\" sözünün rolu nədir?",
+    "secimler": [
+      "Qoşmadır, əvvəlki sözə aid olur",
+      "Bağlayıcıdır, səbəb budaq cümləsini əsas cümləyə bağlayır",
+      "Ədatdır, mənanı gücləndirir",
+      "Nidadır, emosiya bildirir"
+    ],
+    "duzgun": 1,
+    "movzu": "Nitq hissələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Müəllim dəmiryolu ilə şəhərə getdi\" cümləsində hansı sözlərin quruluşu düzgün göstərilib?",
+    "secimler": [
+      "müəllim — mürəkkəb, dəmiryolu — düzəltmə",
+      "müəllim — düzəltmə (şəkilçili), dəmiryolu — mürəkkəb",
+      "hər ikisi sadə söz",
+      "hər ikisi mürəkkəb söz"
+    ],
+    "duzgun": 1,
+    "movzu": "Söz quruluşu",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Yazıçının kitabxanası zəngin idi\" cümləsində \"yazıçı\" və \"kitabxana\" sözlərinin quruluşu haqqında hansı fikir doğrudur?",
+    "secimler": [
+      "Hər ikisi sadə sözdür",
+      "\"Yazıçı\" düzəltmədir (yaz+ıçı), \"kitabxana\" isə ərəb mənşəli mürəkkəb sözdür",
+      "Hər ikisi mürəkkəb sözdür",
+      "\"Yazıçı\" mürəkkəbdir, \"kitabxana\" sadədir"
+    ],
+    "duzgun": 1,
+    "movzu": "Söz quruluşu",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Aşağıdakı sözlərdən hansı cüt söz nümunəsidir və niyə?",
+    "secimler": [
+      "\"gözəllik\" — şəkilçi ilə düzəlib",
+      "\"əl-ayaq\" — iki müstəqil sözün təkrarsız birləşməsi ilə yeni məna yaranıb",
+      "\"dəmiryol\" — iki kök birləşərək tək məna bildirir",
+      "\"başçı\" — kökə şəkilçi artırılıb"
+    ],
+    "duzgun": 1,
+    "movzu": "Söz quruluşu",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Kənddə yaşayan qoca çoban hər səhər sürünü otarmağa aparırdı\" cümləsində \"kənddə yaşayan\" söz birləşməsi hansı cümlə üzvünə aiddir?",
+    "secimler": [
+      "Mübtədaya aid təyin",
+      "Xəbərə aid zərflik",
+      "Tamamlığa aid təyin",
+      "Müstəqil cümlə üzvü"
     ],
     "duzgun": 0,
-    "movzu": "Nitq hissələri",
+    "movzu": "Cümlə üzvləri",
     "sinif": "8",
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "Aşağıdakı cümlədə \"ağıllı\" sözü hansı nitq hissəsindəndir? — \"O, çox ağıllı bir tələbədir.\"",
+    "sual": "\"Müəllim şagirdlərə kitabı diqqətlə oxumağı tapşırdı\" cümləsində \"diqqətlə\" sözü hansı üzvə aiddir və nəyi bildirir?",
     "secimler": [
-      "isim",
-      "sifət",
-      "zərf",
-      "fel"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"sürətlə\" sözü hansı nitq hissəsindəndir? — \"Uşaqlar bağçada sürətlə qaçırdılar.\"",
-    "secimler": [
-      "sifət",
-      "isim",
-      "zərf",
-      "say"
-    ],
-    "duzgun": 2,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"Beş\" sözü hansı nitq hissəsindəndir? — \"Beş kitab masanın üstündədir.\"",
-    "secimler": [
-      "isim",
-      "say",
-      "əvəzlik",
-      "sifət"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"Mən\" sözü hansı nitq hissəsindəndir? — \"Mən sabah İstanbula gedəcəyəm.\"",
-    "secimler": [
-      "isim",
-      "əvəzlik",
-      "sifət",
-      "say"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"əsirdi\" sözü hansı nitq hissəsindəndir? — \"Külək şiddətlə əsirdi.\"",
-    "secimler": [
-      "isim",
-      "sifət",
-      "fel",
-      "zərf"
-    ],
-    "duzgun": 2,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"və\" sözü hansı nitq hissəsindəndir? — \"Kitabxanada və muzeydə eyni sərgi var.\"",
-    "secimler": [
-      "qoşma",
-      "bağlayıcı",
-      "ədat",
-      "nida"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"heç\" sözü hansı nitq hissəsindəndir? — \"Bu barədə heç nə demədi.\"",
-    "secimler": [
-      "say",
-      "ədat",
-      "əvəzlik",
-      "zərf"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"Bax\" sözü hansı nitq hissəsindəndir? — \"Bax, göydə uçan quşlar!\"",
-    "secimler": [
-      "fel",
-      "nida",
-      "isim",
-      "zərf"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"kimi\" sözü hansı nitq hissəsindəndir? — \"Dostum kimi sən də gec gəldin.\"",
-    "secimler": [
-      "bağlayıcı",
-      "qoşma",
-      "ədat",
-      "əvəzlik"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"yağdıqca\" sözü hansı nitq hissəsindəndir? — \"Yağış yağdıqca hava sərinləşirdi.\"",
-    "secimler": [
-      "isim",
-      "fel",
-      "zərf",
-      "sifət"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"üç\" sözü hansı nitq hissəsindəndir? — \"Onun üç qardaşı var.\"",
-    "secimler": [
-      "isim",
-      "sifət",
-      "say",
-      "əvəzlik"
-    ],
-    "duzgun": 2,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"ən\" sözü hansı nitq hissəsindəndir? — \"Şəhərin ən gözəl parkı budur.\"",
-    "secimler": [
-      "ədat",
-      "zərf",
-      "bağlayıcı",
-      "sifət"
-    ],
-    "duzgun": 0,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"sabahkı\" sözü hansı nitq hissəsindəndir? — \"Biz sabahkı görüşdə iştirak edəcəyik.\"",
-    "secimler": [
-      "zərf",
-      "sifət",
-      "isim",
-      "say"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "Aşağıdakı cümlədə \"diqqətlə\" sözü hansı nitq hissəsindəndir? — \"Kitabı diqqətlə oxudu.\"",
-    "secimler": [
-      "sifət",
-      "zərf",
-      "isim",
-      "fel"
-    ],
-    "duzgun": 1,
-    "movzu": "Nitq hissələri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"kitabxana\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 2,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"müəllim\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz (şəkilçi ilə)",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 1,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"ev\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 0,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"əl-ayaq\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 3,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"başçı\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz (şəkilçi ilə)",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 1,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"dəmiryol\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 2,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"gözəllik\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz (şəkilçi ilə)",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 1,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"ana-bala\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 3,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"yazıçı\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz (şəkilçi ilə)",
-      "Mürəkkəb söz",
-      "Cüt söz"
-    ],
-    "duzgun": 1,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"gülab\" sözü quruluşuna görə hansı növ sözdür?",
-    "secimler": [
-      "Sadə söz",
-      "Düzəltmə söz",
-      "Mürəkkəb söz (gül+ab)",
-      "Cüt söz"
-    ],
-    "duzgun": 2,
-    "movzu": "Söz quruluşu",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"Balaca qız bağda gül dərdi.\" cümləsində \"qız\" sözü cümlənin hansı üzvüdür?",
-    "secimler": [
-      "Xəbər",
-      "Mübtəda",
-      "Tamamlıq",
-      "Təyin"
+      "Mübtədaya aiddir, subyekti bildirir",
+      "\"oxumağı\" sözünə aid zərflikdir, hərəkət tərzini bildirir",
+      "Tamamlıqdır, obyekti bildirir",
+      "Təyindir, əşyanın əlamətini bildirir"
     ],
     "duzgun": 1,
     "movzu": "Cümlə üzvləri",
@@ -338,12 +130,12 @@
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "\"Balaca qız bağda gül dərdi.\" cümləsində \"Balaca\" sözü cümlənin hansı üzvüdür?",
+    "sual": "\"O, yorğun olsa da, işini vaxtında bitirdi\" mürəkkəb cümləsində budaq cümlə əsas cümləyə hansı məna əlaqəsi ilə bağlanıb?",
     "secimler": [
-      "Mübtəda",
-      "Xəbər",
-      "Təyin",
-      "Zərflik"
+      "Səbəb əlaqəsi",
+      "Zaman əlaqəsi",
+      "Güzəşt (ziddiyyət) əlaqəsi",
+      "Şərt əlaqəsi"
     ],
     "duzgun": 2,
     "movzu": "Cümlə üzvləri",
@@ -351,38 +143,12 @@
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "\"Balaca qız bağda gül dərdi.\" cümləsində \"gül\" sözü cümlənin hansı üzvüdür?",
+    "sual": "\"Kitabı oxuyan şagird sualları asanlıqla cavablandırdı\" cümləsində \"kitabı oxuyan\" tərkibi ilə \"şagird\" sözü arasındakı əlaqə necə adlanır?",
     "secimler": [
-      "Mübtəda",
-      "Xəbər",
-      "Tamamlıq",
-      "Zərflik"
-    ],
-    "duzgun": 2,
-    "movzu": "Cümlə üzvləri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"Balaca qız bağda gül dərdi.\" cümləsində \"bağda\" sözü cümlənin hansı üzvüdür?",
-    "secimler": [
-      "Mübtəda",
-      "Tamamlıq",
-      "Zərflik",
-      "Təyin"
-    ],
-    "duzgun": 2,
-    "movzu": "Cümlə üzvləri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"Nihad dərsini diqqətlə hazırladı.\" cümləsində \"hazırladı\" sözü cümlənin hansı üzvüdür?",
-    "secimler": [
-      "Mübtəda",
-      "Xəbər",
-      "Tamamlıq",
-      "Zərflik"
+      "Tabesizlik əlaqəsi",
+      "Təyini söz birləşməsi (təyin — təyin olunan)",
+      "Xəbərlik əlaqəsi",
+      "Bağlayıcı əlaqəsi"
     ],
     "duzgun": 1,
     "movzu": "Cümlə üzvləri",
@@ -390,51 +156,12 @@
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "\"Müəllim şagirdlərə maraqlı sual verdi.\" cümləsində \"şagirdlərə\" sözü cümlənin hansı üzvüdür?",
+    "sual": "\"Bazardan alma, armud, üzüm və nar aldıq\" cümləsində vergüllərin sayı düzgün qoyulubmu?",
     "secimler": [
-      "Mübtəda",
-      "Xəbər",
-      "Tamamlıq",
-      "Təyin"
-    ],
-    "duzgun": 2,
-    "movzu": "Cümlə üzvləri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"Kənddə qoca bir çinar bitirdi.\" cümləsində \"qoca\" sözü cümlənin hansı üzvüdür?",
-    "secimler": [
-      "Mübtəda",
-      "Xəbər",
-      "Təyin",
-      "Tamamlıq"
-    ],
-    "duzgun": 2,
-    "movzu": "Cümlə üzvləri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"O, sürətlə evə tərəf qaçdı.\" cümləsində \"sürətlə\" sözü cümlənin hansı üzvüdür?",
-    "secimler": [
-      "Mübtəda",
-      "Xəbər",
-      "Zərflik",
-      "Tamamlıq"
-    ],
-    "duzgun": 2,
-    "movzu": "Cümlə üzvləri",
-    "sinif": "8",
-    "fenn": "Azərbaycan dili"
-  },
-  {
-    "sual": "\"Kitabı, dəftəri və qələmi çantaya qoydu.\" cümləsində hansı durğu işarəsi(ləri) düzgün istifadə olunub və nə üçün?",
-    "secimler": [
-      "Sadalama zamanı vergül işlənməsi",
-      "Sual əlaməti",
-      "Nöqtəli vergül",
-      "İki nöqtə"
+      "Bəli, sadalanan hər üzv arasında vergül olmalıdır, sonuncudan əvvəl \"və\"dən qabaq lazım deyil — düzgündür",
+      "Xeyr, \"və\"dən əvvəl də vergül olmalı idi",
+      "Xeyr, heç bir vergül lazım deyildi",
+      "Xeyr, yalnız bir vergül kifayət edərdi"
     ],
     "duzgun": 0,
     "movzu": "Punktuasiya",
@@ -442,12 +169,12 @@
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "\"O dedi: \"Sabah gələcəyəm.\"\" cümləsində hansı durğu işarəsi(ləri) düzgün istifadə olunub və nə üçün?",
+    "sual": "\"Yağış yağırdı, lakin uşaqlar bayırda oynayırdı\" cümləsində vergülün funksiyası nədir?",
     "secimler": [
-      "Vergül",
-      "İki nöqtə və dırnaq işarəsi (birbaşa nitq)",
-      "Tire",
-      "Nöqtəli vergül"
+      "Sadalama əlaqəsini göstərir",
+      "Tabesiz mürəkkəb cümlədə ziddiyyət bildirən \"lakin\" bağlayıcısından əvvəl qoyulub",
+      "Müraciəti ayırır",
+      "Aralıq söz ayırır"
     ],
     "duzgun": 1,
     "movzu": "Punktuasiya",
@@ -455,25 +182,25 @@
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "\"Hava soyuq idi; küçələr isə boş.\" cümləsində hansı durğu işarəsi(ləri) düzgün istifadə olunub və nə üçün?",
+    "sual": "\"Direktor dedi ki sabah toplantı olacaq\" cümləsində punktuasiya baxımından hansı düzəliş lazımdır?",
     "secimler": [
-      "Vergül",
-      "İki nöqtə",
-      "Nöqtəli vergül (əlaqəli, lakin ayrı fikirlər)",
-      "Tire"
+      "Heç bir düzəliş lazım deyil",
+      "\"ki\"dən əvvəl vergül qoyulmalıdır (izafi budaq cümlə)",
+      "Cümlənin sonuna nida işarəsi qoyulmalıdır",
+      "\"dedi\"dən sonra iki nöqtə qoyulmalıdır"
     ],
-    "duzgun": 2,
+    "duzgun": 1,
     "movzu": "Punktuasiya",
     "sinif": "8",
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "\"Kim gəldi? — deyə soruşdu.\" cümləsində hansı durğu işarəsi(ləri) düzgün istifadə olunub və nə üçün?",
+    "sual": "\"Salam dostum necəsən\" cümləsi düzgün punktuasiya ilə necə yazılmalıdır?",
     "secimler": [
-      "Sual əlaməti və tire",
-      "Nöqtə",
-      "Vergül",
-      "İki nöqtə"
+      "\"Salam, dostum, necəsən?\" — müraciət vergüllə ayrılır, sual əlaməti qoyulur",
+      "\"Salam. Dostum. Necəsən.\"",
+      "\"Salam dostum, necəsən!\"",
+      "Heç bir işarə lazım deyil"
     ],
     "duzgun": 0,
     "movzu": "Punktuasiya",
@@ -481,15 +208,41 @@
     "fenn": "Azərbaycan dili"
   },
   {
-    "sual": "\"Ey dostlar, bu gün bayramdır!\" cümləsində hansı durğu işarəsi(ləri) düzgün istifadə olunub və nə üçün?",
+    "sual": "\"Hər gün məktəbəgetmə vaxtım səhər saat 8-dir\" cümləsində orfoqrafik səhv hansıdır?",
     "secimler": [
-      "Nida işarəsi (müraciət və emosiya)",
-      "Sual əlaməti",
-      "Nöqtəli vergül",
-      "Tire"
+      "\"məktəbəgetmə\" ayrı yazılmalıdır: \"məktəbə getmə\"",
+      "\"hər gün\" birləşdirilməlidir",
+      "\"saat\" böyük hərflə yazılmalıdır",
+      "Heç bir səhv yoxdur"
     ],
     "duzgun": 0,
-    "movzu": "Punktuasiya",
+    "movzu": "Orfoqrafiya",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Bu kitab mənimki, o isə sənin ki dir\" cümləsində orfoqrafik səhv hansıdır?",
+    "secimler": [
+      "\"mənimki\" ayrı yazılmalıdır",
+      "\"sənin ki dir\" bitişik yazılmalıdır: \"səninkidir\"",
+      "\"kitab\" böyük hərflə başlamalıdır",
+      "Heç bir səhv yoxdur"
+    ],
+    "duzgun": 1,
+    "movzu": "Orfoqrafiya",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Azərbaycan Respublikasının paytaxtı Bakı şəhəridir\" cümləsində böyük hərflə yazılış qaydasına əsasən hansı sözlər doğru yazılıb?",
+    "secimler": [
+      "Yalnız \"Azərbaycan\"",
+      "\"Azərbaycan Respublikası\" və \"Bakı\" — xüsusi adlar olduğu üçün",
+      "Heç biri böyük hərflə yazılmamalı idi",
+      "Yalnız \"Respublikasının\""
+    ],
+    "duzgun": 1,
+    "movzu": "Orfoqrafiya",
     "sinif": "8",
     "fenn": "Azərbaycan dili"
   }
