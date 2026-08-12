@@ -6888,5 +6888,4165 @@
   "movzu": "Ətraf mühitin polimer maddələrlə çirklənməsi və mühafizəsi",
   "sinif": "11",
   "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların ümumi formulu hansıdır?",
+  "secimler": [
+   "CnH2n",
+   "CnH2n+2",
+   "CnH2n-2",
+   "CnH2n-6"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekul formulu C8H18 olan karbohidrogen homoloji sırada hansıdır?",
+  "secimler": [
+   "Heptan (C7)",
+   "Oktan (C8)",
+   "Nonan (C9)",
+   "Heksan (C6)"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "100 q metan (CH4) neçə mol təşkil edir? (Ar: C=12, H=1)",
+  "secimler": [
+   "6,25 mol",
+   "5 mol",
+   "8 mol",
+   "4 mol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkan molekulunda karbon atomları arasındakı rabitə növü hansıdır?",
+  "secimler": [
+   "Yalnız sadə (σ) rabitə",
+   "İkiqat rabitə",
+   "Üçqat rabitə",
+   "Aromatik rabitə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkan molekulunda karbon atomu hansı hibridləşmə vəziyyətindədir və rabitə bucağı təxminən nə qədərdir?",
+  "secimler": [
+   "sp³, 109°28′",
+   "sp², 120°",
+   "sp, 180°",
+   "sp³d, 90°"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "C20H42 formullu alkanın adında neçə karbon atomu var?",
+  "secimler": [
+   "18",
+   "20",
+   "22",
+   "21"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Pentanın (C5H12) nisbi molekul kütləsini hesablayın (Ar: C=12, H=1).",
+  "secimler": [
+   "72",
+   "70",
+   "74",
+   "60"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "n=10 olan alkanın molekulyar formulunu yazın.",
+  "secimler": [
+   "C10H22",
+   "C10H20",
+   "C10H18",
+   "C9H20"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Homoloji sırada ardıcıl iki üzv arasındakı fərq hansı qrupdan ibarətdir?",
+  "secimler": [
+   "CH2",
+   "CH3",
+   "CH",
+   "C2H4"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanlarda n artdıqca H/C nisbətinin dəyişməsi haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "n artdıqca H/C nisbəti azalaraq 2-yə yaxınlaşır",
+   "H/C nisbəti sabit qalır",
+   "H/C nisbəti artır",
+   "Heç bir qanunauyğunluq yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "C6H14 formullu alkanın kütlə payında hidrogenin faizini hesablayın (Ar: C=12, H=1, M=86).",
+  "secimler": [
+   "16,3%",
+   "12,3%",
+   "20%",
+   "14%"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Butanın (C4H10) sıxlığı hava ilə müqayisədə necədir (hava orta M≈29)?",
+  "secimler": [
+   "2 dəfə ağırdır",
+   "2 dəfə yüngüldür",
+   "Eynidir",
+   "4 dəfə ağırdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların ümumi formuluna (CnH2n+2) əsasən, n=1 olduqda alınan karbohidrogen hansıdır?",
+  "secimler": [
+   "Metan",
+   "Etan",
+   "Propan",
+   "Butan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "0,5 mol propanın (C3H8) kütləsini hesablayın (M=44).",
+  "secimler": [
+   "22 q",
+   "44 q",
+   "11 q",
+   "88 q"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların molekulunda karbon atomlarının sayı artdıqca aqreqat halı necə dəyişir?",
+  "secimler": [
+   "Qazdan mayeyə, sonra bərkə keçir",
+   "Həmişə qaz olaraq qalır",
+   "Həmişə bərk olur",
+   "Heç bir qanunauyğunluq yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "C25H52 karbohidrogeni normal şəraitdə hansı aqreqat halındadır?",
+  "secimler": [
+   "Qaz",
+   "Maye",
+   "Bərk",
+   "Plazma"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkanların quruluşu və homoloji sırası",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Pentanın (C5H12) neçə struktur izomeri var?",
+  "secimler": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Heksanın (C6H14) neçə struktur izomeri var?",
+  "secimler": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2-metilbutan hansı alkanın izomeridir?",
+  "secimler": [
+   "Pentanın",
+   "Butanın",
+   "Heksanın",
+   "Propanın"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CH3-CH(CH3)-CH2-CH3 quruluş formullu maddənin IUPAC adı hansıdır?",
+  "secimler": [
+   "2-metilbutan",
+   "3-metilbutan",
+   "izopentan",
+   "2-metilpropan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2,2-dimetilpropan hansı alkanın izomeridir?",
+  "secimler": [
+   "Pentanın",
+   "Butanın",
+   "Heksanın",
+   "Heptanın"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların adlandırılmasında ən uzun karbon zənciri seçildikdən sonra əsas addım nədir?",
+  "secimler": [
+   "Zəncirin nömrələnməsi",
+   "Yalnız tərkibi hesablamaq",
+   "Heç bir addım lazım deyil",
+   "Yalnız molekul kütləsini tapmaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "3-etil-2-metilpentan adlı birləşmənin əsas zəncirində neçə karbon atomu var?",
+  "secimler": [
+   "5",
+   "6",
+   "7",
+   "4"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İzomerlərin molekulyar formulu eynidir, lakin hansı xüsusiyyətləri fərqlənə bilər?",
+  "secimler": [
+   "Struktur, fiziki və bəzən kimyəvi xassələri",
+   "Yalnız rəngi",
+   "Heç bir fərqi yoxdur",
+   "Yalnız iyi"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Normal alkanlarla budaqlanmış izomerləri arasında qaynama temperaturu baxımından hansı qanunauyğunluq var?",
+  "secimler": [
+   "Budaqlanmış izomerlərin qaynama temperaturu adətən daha aşağıdır",
+   "Həmişə eynidir",
+   "Budaqlanmış izomerin temperaturu həmişə yüksəkdir",
+   "Heç bir əlaqə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Heptanın (C7H16) əsas zəncirində metil qrupu 3-cü karbonda yerləşibsə, birləşmənin adı necə yazılır?",
+  "secimler": [
+   "3-metilheptan",
+   "3-metilheksan",
+   "7-metilheptan",
+   "metilheptan-3"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "C4H10 formullu alkanın izomerlərindən biri \"izobutan\" adlanır, onun IUPAC adı hansıdır?",
+  "secimler": [
+   "2-metilpropan",
+   "2-metilbutan",
+   "1-metilpropan",
+   "izopropan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2,3-dimetilbutan neçə karbon atomlu əsas zəncirə malikdir?",
+  "secimler": [
+   "4",
+   "6",
+   "5",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkil radikalı CH3- necə adlanır?",
+  "secimler": [
+   "Metil",
+   "Etil",
+   "Propil",
+   "Metan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkil radikalı C2H5- necə adlanır?",
+  "secimler": [
+   "Metil",
+   "Etil",
+   "Propil",
+   "Butil"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oktanın (C8H18) neçə struktur izomeri mövcuddur?",
+  "secimler": [
+   "12",
+   "18",
+   "25",
+   "10"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2-metilpentan ilə 3-metilpentan arasındakı fərq nədədir?",
+  "secimler": [
+   "Metil qrupunun əsas zəncirdə yerləşdiyi karbon nömrəsi",
+   "Molekulyar formulları fərqlidir",
+   "Heç bir fərq yoxdur",
+   "Karbon sayı fərqlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların izomerliyi və adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların sənayedə əsas alınma mənbəyi hansıdır?",
+  "secimler": [
+   "Neft və təbii qaz",
+   "Hava",
+   "Su",
+   "Duz yataqları"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Vürts reaksiyasında (Wurtz) iki halogenalkanın natrium metalı ilə reaksiyası nəticəsində nə alınır?",
+  "secimler": [
+   "Daha uzun zəncirli alkan",
+   "Alken",
+   "Spirt",
+   "Turşu"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2CH3Br + 2Na → tənliyi Vürts reaksiyasına görə hansı məhsulu verir?",
+  "secimler": [
+   "CH3-CH3 (etan) + 2NaBr",
+   "CH4 + NaBr",
+   "C2H4+NaBr",
+   "CH3OH"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin hidrogenləşməsi (katalizator iştirakı ilə) nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Alkan",
+   "Alkin",
+   "Spirt",
+   "Turşu"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon monoksitin (CO) hidrogenlə reaksiyası (Fişer-Tropş prosesi) nəticəsində əsasən hansı maddələr alınır?",
+  "secimler": [
+   "Alkanlar qarışığı",
+   "Yalnız metan",
+   "Yalnız benzin",
+   "Turşular"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın laboratoriyada alınmasında natrium asetatın qələvi ilə əridilməsi hansı tənliyi verir?",
+  "secimler": [
+   "CH3COONa + NaOH → CH4 + Na2CO3",
+   "C2H5OH → CH4",
+   "CO2+H2 → CH4",
+   "Heç biri"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkil halogenidlərin sink-mis qarışığı ilə reaksiyası nəyə səbəb olur?",
+  "secimler": [
+   "Karbon-karbon rabitəsinin yaranmasına",
+   "Yalnız hidrogen ayrılmasına",
+   "Heç bir dəyişikliyə",
+   "Turşu əmələ gəlməsinə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft distilləsindən alkanlar hansı üsulla ayrılır?",
+  "secimler": [
+   "Qaynama temperaturu fərqinə görə fraksiyalı distillə",
+   "Kristallaşma",
+   "Süzmə",
+   "Maqnitlə ayırma"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kömür qazlaşdırılmasından alınan sintez-qaz (CO+H2) hansı sənaye prosesində alkan istehsalı üçün istifadə olunur?",
+  "secimler": [
+   "Fişer-Tropş prosesi",
+   "Haber prosesi",
+   "Kontakt prosesi",
+   "Solvey prosesi"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kolbe reaksiyasında turşu duzlarının elektrolizi nəticəsində simmetrik alkanların alınması hansı prinsipə əsaslanır?",
+  "secimler": [
+   "Karboksilat ionlarının anodda oksidləşərək radikal əmələ gətirməsi",
+   "Yalnız katodda reduksiya",
+   "Heç bir prinsipə əsaslanmır",
+   "Yalnız istiliklə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2CH3COONa elektroliz olunduqda (Kolbe reaksiyası) hansı alkan alınır?",
+  "secimler": [
+   "Etan (CH3-CH3)",
+   "Metan",
+   "Propan",
+   "Butan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların təbiətdə ən çox harada tapıldığı bilinir?",
+  "secimler": [
+   "Neft, təbii qaz və kömür yataqlarında",
+   "Yalnız suda",
+   "Yalnız havada",
+   "Yalnız torpaqda"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın bataqlıqlarda əmələ gəlməsi hansı prosesin nəticəsidir?",
+  "secimler": [
+   "Üzvi maddələrin bakteriyalar tərəfindən anaerob parçalanması",
+   "Yalnız fiziki proseslər",
+   "Heç bir proses nəticəsində",
+   "Yalnız kimyəvi sintez"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkil halogenidin (R-X) sink ilə reaksiyaya girərək sonra su ilə hidroliz olunması nəticəsində nə alınır?",
+  "secimler": [
+   "Alkan",
+   "Alken",
+   "Spirt",
+   "Turşu"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin krekinqi zamanı böyük alkan molekulları parçalanaraq hansı məhsul növləri əmələ gətirir?",
+  "secimler": [
+   "Kiçik molekullu alkanlar və alkenlər",
+   "Yalnız alkanlar",
+   "Yalnız aromatik birləşmələr",
+   "Yalnız qazlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Vürts reaksiyasında fərqli iki halogenalkan istifadə edildikdə nə üçün bu üsul praktik olaraq az istifadə olunur?",
+  "secimler": [
+   "Qarışıq məhsullar alındığı üçün ayırma çətinləşir",
+   "Heç bir çətinlik yaratmır",
+   "Reaksiya heç getmir",
+   "Yalnız bir məhsul alınır həmişə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların alınması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın tam yanma tənliyini tamamlayın: CH4+2O2 → ?",
+  "secimler": [
+   "CO2+2H2O",
+   "CO+H2O",
+   "2CO2+H2O",
+   "CO2+H2"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Propanın (C3H8) tam yanma tənliyi üçün oksigen əmsalı neçədir? (C3H8+?O2→3CO2+4H2O)",
+  "secimler": [
+   "5",
+   "3",
+   "4",
+   "8"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "1 mol etanın (C2H6) tam yanması üçün neçə mol oksigen tələb olunur? (2C2H6+7O2→4CO2+6H2O)",
+  "secimler": [
+   "3,5",
+   "2",
+   "3",
+   "7"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "16 q metan (CH4) tam yandıqda neçə mol CO2 alınır? (M=16)",
+  "secimler": [
+   "1 mol",
+   "2 mol",
+   "0,5 mol",
+   "4 mol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Butanın natamam yanması nəticəsində hansı əlavə məhsul əmələ gələ bilər (oksigen çatışmazlığında)?",
+  "secimler": [
+   "Kömür qazı (CO) və his (C)",
+   "Yalnız CO2",
+   "Yalnız su",
+   "Heç bir əlavə məhsul"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların qaynama temperaturu molekul kütləsi artdıqca necə dəyişir?",
+  "secimler": [
+   "Artır",
+   "Azalır",
+   "Dəyişmir",
+   "Əvvəl artır sonra azalır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni karbon sayına malik normal və budaqlanmış alkanlardan hansının qaynama temperaturu adətən daha yüksəkdir?",
+  "secimler": [
+   "Normal (düz zəncirli)",
+   "Budaqlanmış",
+   "Eynidir",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların suda həllolma xassəsi haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "Praktik olaraq həll olmurlar (qeyri-qütblü)",
+   "Yaxşı həll olurlar",
+   "Tam qarışırlar",
+   "Yalnız isti suda həll olurlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "C5H12-dən C17H36-a qədər olan alkanlar normal şəraitdə hansı aqreqat halındadır?",
+  "secimler": [
+   "Maye",
+   "Qaz",
+   "Bərk",
+   "Plazma"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "44 q propan (C3H8) yandıqda neçə mol su alınır? (M=44, C3H8+5O2→3CO2+4H2O)",
+  "secimler": [
+   "4 mol",
+   "3 mol",
+   "2 mol",
+   "1 mol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların yanma reaksiyası ekzotermik, yoxsa endotermikdir?",
+  "secimler": [
+   "Ekzotermikdir",
+   "Endotermikdir",
+   "Nə istilik ayrılır, nə udulur",
+   "Şəraitdən asılıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metan yanacaq kimi ekoloji baxımdan hansı üstünlüyə malikdir?",
+  "secimler": [
+   "Nisbətən az CO2/enerji nisbəti və daha təmiz yanma",
+   "Heç bir üstünlüyü yoxdur",
+   "Daha çox tullantı yaradır",
+   "Yanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oksigen çatışmazlığında alkanların natamam yanması insan sağlamlığı üçün niyə təhlükəlidir?",
+  "secimler": [
+   "Karbon monoksit (CO) zəhərli qaz olduğu üçün",
+   "Heç bir təhlükəsi yoxdur",
+   "Yalnız qoxu yaradır",
+   "Yalnız rəng dəyişikliyi yaradır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2,2 q etanın (C2H6, M=30) tam yanması üçün lazım olan oksigenin kütləsini tapın (2C2H6+7O2→4CO2+6H2O).",
+  "secimler": [
+   "≈8,2 q",
+   "≈4,4 q",
+   "≈16 q",
+   "≈2,2 q"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların sıxlığı ümumiyyətlə suyunkundan necədir?",
+  "secimler": [
+   "Sudan yüngüldür",
+   "Sudan ağırdır",
+   "Suya bərabərdir",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Butanın (C4H10) tam yanma tənliyini tamamlayın: 2C4H10+13O2→?",
+  "secimler": [
+   "8CO2+10H2O",
+   "4CO2+5H2O",
+   "8CO+10H2O",
+   "8CO2+5H2O"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların fiziki xassələri və yanma reaksiyaları",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanlar üçün ən xarakterik reaksiya növü hansıdır?",
+  "secimler": [
+   "Əvəzetmə (radikal substitusiya)",
+   "Birləşmə",
+   "Polimerləşmə",
+   "Neytrallaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın xlorla (işıqda) reaksiyası hansı mexanizmlə gedir?",
+  "secimler": [
+   "Radikal zəncirvari mexanizm",
+   "İon mexanizmi",
+   "Heç bir mexanizmlə getmir",
+   "Molekulyar mexanizm"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CH4+Cl2 →(işıq) reaksiyasının ilk məhsulu hansıdır?",
+  "secimler": [
+   "CH3Cl+HCl",
+   "CCl4+H2",
+   "CH2Cl2",
+   "C2H6"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Radikal zəncir reaksiyasının hansı üç əsas mərhələsi var?",
+  "secimler": [
+   "İnisiasiya, zəncirin inkişafı, zəncirin qırılması",
+   "Yalnız bir mərhələ",
+   "Yalnız iki mərhələ",
+   "Heç bir mərhələ yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Xlorun metan molekulu ilə reaksiyasında işıq (hν) hansı rolu oynayır?",
+  "secimler": [
+   "Cl2 molekulunu radikallara parçalayır",
+   "Heç bir rolu yoxdur",
+   "Reaksiyanı ləngidir",
+   "Yalnız rəng dəyişikliyi yaradır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların nitrolaşması (Konovalov reaksiyası) nəticəsində hansı sinif birləşmə alınır?",
+  "secimler": [
+   "Nitroalkanlar",
+   "Aminlər",
+   "Turşular",
+   "Spirtlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların yüksək temperaturda (katalizatorsuz) parçalanmasına nə deyilir?",
+  "secimler": [
+   "Krekinq (termiki parçalanma)",
+   "Polimerləşmə",
+   "Hidrogenləşmə",
+   "Neytrallaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların dehidrogenləşməsi nəticəsində hansı sinif maddə alına bilər?",
+  "secimler": [
+   "Alkenlər",
+   "Alkanlar",
+   "Turşular",
+   "Spirtlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın natamam oksidləşməsi (katalizator iştirakı) nəticəsində hansı vacib sənaye məhsulu alınır?",
+  "secimler": [
+   "Metanol və ya formaldehid",
+   "Yalnız CO2",
+   "Yalnız su",
+   "Heç bir məhsul"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üçüncü dərəcəli karbon atomundakı hidrogen atomlarının radikal əvəzetmə reaksiyasına girmə qabiliyyəti birinci dərəcəli ilə müqayisədə necədir?",
+  "secimler": [
+   "Daha yüksəkdir",
+   "Daha aşağıdır",
+   "Eynidir",
+   "Heç vaxt reaksiyaya girmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Propanın xlorlaşmasında (1 mol Cl2) əsasən neçə fərqli monoxlorlu izomer əmələ gələ bilər?",
+  "secimler": [
+   "2",
+   "1",
+   "3",
+   "4"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların sulfoxlorlaşması nəticəsində hansı sənaye əhəmiyyətli maddələr alınır?",
+  "secimler": [
+   "Alkansulfoxloridlər",
+   "Alkohollar",
+   "Turşular",
+   "Aminlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın buxarla konversiyası nəticəsində hansı qarışıq alınır (sintez-qaz istehsalı)?",
+  "secimler": [
+   "CO və H2",
+   "Yalnız CO2",
+   "Yalnız CH4",
+   "Yalnız O2"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların izomerləşməsi sənayedə nə üçün əhəmiyyətlidir?",
+  "secimler": [
+   "Benzinin oktan ədədini artırmaq üçün",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız rəngi dəyişdirmək üçün",
+   "Yalnız qoxunu artırmaq üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanlar KMnO4 (kalium permanganat) məhlulu ilə normal şəraitdə reaksiyaya girirmi?",
+  "secimler": [
+   "Xeyr, kimyəvi cəhətdən nisbətən passivdirlər",
+   "Bəli, dərhal reaksiyaya girirlər",
+   "Yalnız işıqda girir",
+   "Yalnız qaynadıqda dərhal girir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etanın tam xlorlaşması nəticəsində hansı son məhsul alınır?",
+  "secimler": [
+   "C2Cl6 (heksaxloretan)",
+   "CCl4",
+   "C2H4Cl2",
+   "CHCl3"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanların kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin ümumi formulu hansıdır?",
+  "secimler": [
+   "CnH2n+2",
+   "CnH2n",
+   "CnH2n-2",
+   "CnH2n-6"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alken molekulunda ikiqat rabitəni əmələ gətirən karbon atomları hansı hibridləşmə vəziyyətindədir?",
+  "secimler": [
+   "sp³",
+   "sp²",
+   "sp",
+   "sp³d"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "C=C ikiqat rabitəsi neçə σ və neçə π rabitədən ibarətdir?",
+  "secimler": [
+   "1σ, 1π",
+   "2σ",
+   "1σ, 2π",
+   "2π"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin (C2H4) molekulunda H-C-H bucağı təxminən neçə dərəcədir?",
+  "secimler": [
+   "109°28′",
+   "120°",
+   "180°",
+   "90°"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Butenin (C4H8) neçə struktur və fəza (cis-trans) izomeri var (ümumilikdə)?",
+  "secimler": [
+   "4",
+   "2",
+   "6",
+   "3"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərdə ikiqat rabitənin yerinə görə yaranan izomeriyaya nə deyilir?",
+  "secimler": [
+   "Vəziyyət izomeriyası",
+   "Skelet izomeriyası",
+   "Optik izomeriya",
+   "Metameriya"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Cis-trans (həndəsi) izomeriya alkenlərdə hansı şərtlə mümkündür?",
+  "secimler": [
+   "İkiqat rabitədəki hər karbon atomunda iki fərqli qrup olduqda",
+   "Həmişə mümkündür",
+   "Heç vaxt mümkün deyil",
+   "Yalnız simmetrik alkenlərdə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buten-2-nin (CH3-CH=CH-CH3) cis və trans formaları bir-birindən nə ilə fərqlənir?",
+  "secimler": [
+   "Radikalların ikiqat rabitəyə görə fəza düzülüşü ilə",
+   "Molekulyar formulla",
+   "Karbon sayı ilə",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Propenin (C3H6) IUPAC adı hansıdır?",
+  "secimler": [
+   "Propen",
+   "Propan",
+   "Propin",
+   "Propadien"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "2-metilpropen (izobuten) hansı molekulyar formula malikdir?",
+  "secimler": [
+   "C4H8",
+   "C4H10",
+   "C4H6",
+   "C3H6"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin adlandırılmasında ikiqat rabitənin yeri necə göstərilir?",
+  "secimler": [
+   "Zəncirin ikiqat rabitəyə ən yaxın ucundan nömrələnməsi ilə",
+   "Heç cür göstərilmir",
+   "Həmişə 1-ci karbonda olduğu fərz edilir",
+   "Yalnız hərflə göstərilir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Pentenin (C5H10) neçə struktur izomeri (ikiqat rabitənin yeri və budaqlanma nəzərə alınmaqla) mövcuddur?",
+  "secimler": [
+   "5",
+   "3",
+   "2",
+   "7"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Trans-izomer cis-izomerlə müqayisədə adətən hansı xüsusiyyətə malikdir (ərimə temperaturu baxımından)?",
+  "secimler": [
+   "Daha yüksək ərimə temperaturuna malikdir",
+   "Daha aşağı ərimə temperaturuna malikdir",
+   "Eynidir",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CH2=CH-CH2-CH3 birləşməsinin adı hansıdır?",
+  "secimler": [
+   "Buten-1",
+   "Buten-2",
+   "Metilpropen",
+   "Propen"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin homoloji sırasında ardıcıl üzvlər arasındakı fərq hansı qrupdur?",
+  "secimler": [
+   "CH2",
+   "CH3",
+   "C2H2",
+   "CH"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sikloalkanlarla alkenlərin molekulyar formulları arasındakı münasibət necədir?",
+  "secimler": [
+   "Eynidir (hər ikisi CnH2n)",
+   "Fərqlidir, sikloalkanlar CnH2n+2 formasındadır",
+   "Heç bir əlaqəsi yoxdur",
+   "Sikloalkanlar CnH2n-2 formasındadır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Spirtlərin dehidratasiyası (su itirmə) reaksiyası nəticəsində hansı sinif maddələr alınır?",
+  "secimler": [
+   "Alkenlər",
+   "Alkanlar",
+   "Alkinlər",
+   "Turşular"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etanolun (C2H5OH) H2SO4 iştirakı ilə dehidratasiyası nəticəsində hansı alken alınır?",
+  "secimler": [
+   "Etilen (C2H4)",
+   "Propilen",
+   "Metan",
+   "Asetilen"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Halogenalkanların qələvi spirt məhlulu ilə reaksiyası (dehidrohalogenləşmə) nəticəsində nə alınır?",
+  "secimler": [
+   "Alken",
+   "Alkan",
+   "Alkin",
+   "Spirt"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zaysev qaydasına görə, dehidrohalogenləşmə reaksiyasında əsas məhsul kimi hansı alken üstünlük təşkil edir?",
+  "secimler": [
+   "Daha çox əvəz olunmuş (sabit) alken",
+   "Daha az əvəz olunmuş alken",
+   "Hər ikisi bərabər nisbətdə",
+   "Heç bir üstünlük yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin qismən hidrogenləşməsi (Lindlar katalizatoru ilə) nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Alken",
+   "Alkan",
+   "Tam doymuş birləşmə",
+   "Aromatik birləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların krekinqi zamanı alkenlərin əmələ gəlməsi hansı sənaye prosesi üçün vacibdir?",
+  "secimler": [
+   "Neft-kimya sənayesi (polimer xammalı)",
+   "Yalnız qida sənayesi",
+   "Yalnız tekstil sənayesi",
+   "Heç bir sənaye üçün əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin normal şəraitdə aqreqat halı hansıdır?",
+  "secimler": [
+   "Qaz",
+   "Maye",
+   "Bərk",
+   "Plazma"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin qaynama temperaturu uyğun alkanlarla müqayisədə necədir?",
+  "secimler": [
+   "Təxminən oxşardır",
+   "Xeyli yüksəkdir",
+   "Xeyli aşağıdır",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin suda həllolma qabiliyyəti necədir?",
+  "secimler": [
+   "Praktik olaraq həll olmurlar",
+   "Yaxşı həll olurlar",
+   "Tam qarışırlar",
+   "Yalnız isti suda həll olurlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "5,6 q etilenin (C2H4, M=28) mol miqdarını hesablayın.",
+  "secimler": [
+   "0,2 mol",
+   "0,5 mol",
+   "2 mol",
+   "0,1 mol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alken alınmasında istifadə olunan spirt dehidratasiyası reaksiyası hansı şəraitdə aparılır?",
+  "secimler": [
+   "Qatı H2SO4, ~170°C",
+   "Otaq temperaturunda, katalizatorsuz",
+   "Yalnız aşağı temperaturda",
+   "Yalnız qələvi ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Halogenalkanların dehidrohalogenləşməsi üçün hansı reagentdən istifadə olunur?",
+  "secimler": [
+   "Spirtli qələvi (KOH/spirt)",
+   "Sulu qələvi",
+   "Turşu",
+   "Su"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilen sənayedə əsasən hansı xammaldan (krekinq yolu ilə) alınır?",
+  "secimler": [
+   "Neft və təbii qaz karbohidrogenlərindən",
+   "Yalnız kömürdən",
+   "Yalnız sudan",
+   "Yalnız havadan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin sıxlığı ümumiyyətlə havadan necədir?",
+  "secimler": [
+   "Ağırdır",
+   "Yüngüldür",
+   "Eynidir",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Propilenin (C3H6) sənayedəki əsas istifadə sahələrindən biri hansıdır?",
+  "secimler": [
+   "Polipropilen istehsalı",
+   "Yalnız yanacaq kimi",
+   "Yalnız qida sənayesi",
+   "Heç bir istifadəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Spirtdən alken alınması reaksiyası hansı ümumi reaksiya növünə aiddir?",
+  "secimler": [
+   "Ayrılma (eliminasiya) reaksiyası",
+   "Əvəzetmə reaksiyası",
+   "Birləşmə reaksiyası",
+   "Polimerləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlər üçün ən xarakterik reaksiya növü hansıdır?",
+  "secimler": [
+   "Birləşmə (əlavəetmə)",
+   "Əvəzetmə",
+   "Neytrallaşma",
+   "Hidroliz"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin hidrogenləşməsi (katalizator ilə) nəticəsində nə alınır?",
+  "secimler": [
+   "Etan",
+   "Metan",
+   "Asetilen",
+   "Etanol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Markovnikov qaydasına görə, HX simmetrik olmayan alkenə əlavə olunduqda hidrogen hansı karbona birləşir?",
+  "secimler": [
+   "Daha çox hidrogenli karbona",
+   "Daha az hidrogenli karbona",
+   "Hər ikisinə bərabər",
+   "Heç bir qanunauyğunluq yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Propenlə HBr reaksiyasında (Markovnikov qaydasına görə) əsas məhsul hansıdır?",
+  "secimler": [
+   "2-bromopropan",
+   "1-bromopropan",
+   "1,2-dibromopropan",
+   "Propan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin bromlu su ilə reaksiyası hansı əlaməti göstərir (keyfiyyət reaksiyası)?",
+  "secimler": [
+   "Bromlu suyun rənginin getməsi",
+   "Qaz ayrılması",
+   "Çöküntü əmələ gəlməsi",
+   "Heç bir dəyişiklik olmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin Vaqner reaksiyası (soyuq, durulaşdırılmış KMnO4 ilə) nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Diollar (ikiatomlu spirtlər)",
+   "Turşular",
+   "Aldehidlər",
+   "Ketonlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin suyla (turşu katalizatoru ilə) hidratlaşması nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Etanol",
+   "Etan",
+   "Sirkə turşusu",
+   "Asetaldehid"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin polimerləşmə reaksiyası nəticəsində hansı maddə sinfi alınır?",
+  "secimler": [
+   "Polimerlər",
+   "Turşular",
+   "Spirtlər",
+   "Aminlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin polimerləşməsindən alınan məhsulun adı nədir?",
+  "secimler": [
+   "Polietilen",
+   "Polipropilen",
+   "Polistirol",
+   "Kauçuk"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin oksigen mühitində güclü oksidləşməsi (isti şəraitdə) nəticəsində ikiqat rabitə tam qırılaraq nə alına bilər?",
+  "secimler": [
+   "İki ayrı karbon turşusu (və ya keton/CO2)",
+   "Yalnız su",
+   "Yalnız CO2",
+   "Heç bir dəyişiklik olmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Propenin bromla (Br2) reaksiyası nəticəsində hansı məhsul alınır?",
+  "secimler": [
+   "1,2-dibrompropan",
+   "1-brompropan",
+   "Propan",
+   "Propin"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin katalitik hidrogenləşməsində hansı metal katalizatorlardan istifadə olunur?",
+  "secimler": [
+   "Ni, Pt, Pd",
+   "Yalnız Fe",
+   "Yalnız Cu",
+   "Heç bir katalizator lazım deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "But-1-enlə HCl reaksiyasında Markovnikov qaydasına görə əsas məhsul hansıdır?",
+  "secimler": [
+   "2-xlorbutan",
+   "1-xlorbutan",
+   "1,2-dixlorbutan",
+   "Butan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin yanma reaksiyası tənliyini tamamlayın: C2H4+3O2→?",
+  "secimler": [
+   "2CO2+2H2O",
+   "CO2+2H2O",
+   "2CO+2H2O",
+   "2CO2+H2O"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin əlavəetmə reaksiyalarının mexanizmi əsasən hansı tipdədir?",
+  "secimler": [
+   "Elektrofil əlavəetmə",
+   "Radikal əvəzetmə",
+   "Nukleofil əvəzetmə",
+   "Eliminasiya"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin xlorla (Cl2) birbaşa əlavəetmə reaksiyası nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "1,2-dixloretan",
+   "Xloretan",
+   "Vinilxlorid",
+   "Tetraxloretan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlərin kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkadienlərin ümumi formulu hansıdır?",
+  "secimler": [
+   "CnH2n",
+   "CnH2n-2",
+   "CnH2n+2",
+   "CnH2n-6"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekulda iki ikiqat rabitənin bir-birindən bir sadə rabitə ilə ayrıldığı dienlərə nə deyilir?",
+  "secimler": [
+   "Kumulyativ dienlər",
+   "Konyuqasiyalı (əlaqələşmiş) dienlər",
+   "Təcrid olunmuş dienlər",
+   "Aromatik dienlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekulda iki ikiqat rabitənin eyni karbon atomunda birləşdiyi dienlərə nə deyilir?",
+  "secimler": [
+   "Kumulyativ dienlər",
+   "Konyuqasiyalı dienlər",
+   "Təcrid olunmuş dienlər",
+   "Aromatik dienlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dienin molekulyar formulu hansıdır?",
+  "secimler": [
+   "C4H6",
+   "C4H8",
+   "C4H4",
+   "C4H10"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İzoprenin (2-metilbuta-1,3-dien) molekulyar formulu hansıdır?",
+  "secimler": [
+   "C5H8",
+   "C5H10",
+   "C5H6",
+   "C4H6"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dien hansı növ dienə aiddir?",
+  "secimler": [
+   "Kumulyativ",
+   "Konyuqasiyalı (əlaqələşmiş)",
+   "Təcrid olunmuş",
+   "Aromatik"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Penta-1,4-dien hansı növ dienə aiddir?",
+  "secimler": [
+   "Kumulyativ",
+   "Konyuqasiyalı",
+   "Təcrid olunmuş",
+   "Aromatik"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkadienlərin adlandırılmasında hər iki ikiqat rabitənin yeri necə göstərilir?",
+  "secimler": [
+   "Hər ikisinin başlanğıc karbon nömrəsi ilə",
+   "Yalnız birinin nömrəsi ilə",
+   "Heç cür göstərilmir",
+   "Yalnız hərflə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dienin sənaye əhəmiyyəti əsasən nə ilə bağlıdır?",
+  "secimler": [
+   "Sintetik kauçuk istehsalında monomer kimi istifadəsi",
+   "Yalnız yanacaq kimi",
+   "Yalnız qida sənayesi",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkadienlər və alkinlər eyni ümumi formulaya (CnH2n-2) malikdirsə, onlar bir-birinə necə münasibətdədir?",
+  "secimler": [
+   "İzomerdirlər (fərqli struktur siniflər)",
+   "Eyni maddədirlər",
+   "Heç bir əlaqəsi yoxdur",
+   "Homoloqdurlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dien molekulunda karbon atomları hansı hibridləşmə vəziyyətindədir?",
+  "secimler": [
+   "sp² (bütün karbonlar)",
+   "sp³",
+   "sp",
+   "Qarışıq sp³ və sp"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Konyuqasiyalı dienlərdə π-elektronların delokallaşması molekula hansı əlavə sabitlik verir?",
+  "secimler": [
+   "Rezonans stabilizasiyası",
+   "Heç bir təsiri yoxdur",
+   "Molekulu qeyri-sabit edir",
+   "Yalnız rəng dəyişikliyi yaradır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İzopren təbiətdə hansı maddənin əsas struktur vahidi kimi rast gəlinir?",
+  "secimler": [
+   "Təbii kauçukun",
+   "Nişastanın",
+   "Zülalların",
+   "Yağların"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Penta-1,3-dienin (C5H8) əsas zəncirində neçə karbon atomu var?",
+  "secimler": [
+   "5",
+   "4",
+   "6",
+   "3"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kumulyativ dienlərin (allenlərin) kimyəvi xassələri konyuqasiyalı dienlərlə müqayisədə necədir?",
+  "secimler": [
+   "Daha az sabit və nadir rast gəlinir",
+   "Daha sabitdir",
+   "Eynidir",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dienin quruluş formulunu düzgün göstərən variant hansıdır?",
+  "secimler": [
+   "CH2=CH-CH=CH2",
+   "CH2=C=CH-CH3",
+   "CH≡C-CH2-CH3",
+   "CH3-CH=CH-CH3"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dien sənayedə əsasən hansı üsulla alınır?",
+  "secimler": [
+   "Butanın katalitik dehidrogenləşməsi ilə",
+   "Yalnız təbii mənbələrdən",
+   "Yalnız suda həll edərək",
+   "Yalnız neytrallaşma ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Lebedev üsulu ilə buta-1,3-dienin etil spirtindən alınması hansı prosesə əsaslanır?",
+  "secimler": [
+   "Eyni zamanda dehidratasiya və dehidrogenləşməyə",
+   "Yalnız oksidləşməyə",
+   "Yalnız hidrogenləşməyə",
+   "Heç bir kimyəvi prosesə əsaslanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Konyuqasiyalı dienlərin HBr kimi reagentlərlə reaksiyasında 1,2-əlavəetmədən əlavə hansı əlavə reaksiya növü mümkündür?",
+  "secimler": [
+   "1,4-əlavəetmə",
+   "2,3-əlavəetmə",
+   "3,4-əlavəetmə",
+   "Heç bir əlavə növ yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dienin bromla (Br2) 1,4-əlavəetmə reaksiyası nəticəsində ikiqat rabitə molekulun hansı hissəsində qalır?",
+  "secimler": [
+   "2-3 karbon atomları arasında",
+   "1-2 karbon atomları arasında",
+   "İkiqat rabitə tam yox olur",
+   "3-4 karbon atomları arasında"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dien sintezi (Dils-Alder reaksiyası) konyuqasiyalı dien ilə hansı birləşmə arasında baş verir?",
+  "secimler": [
+   "Dienofil (alken və ya alkin)",
+   "Yalnız su",
+   "Yalnız turşu",
+   "Heç bir birləşmə ilə getmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dienin polimerləşməsi nəticəsində hansı əhəmiyyətli sənaye məhsulu alınır?",
+  "secimler": [
+   "Sintetik kauçuk (polibutadien)",
+   "Polietilen",
+   "Polistirol",
+   "Nişasta"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İzoprenin polimerləşməsi nəticəsində hansı təbii maddəyə bənzər polimer alınır?",
+  "secimler": [
+   "Təbii kauçuka bənzər sintetik kauçuk",
+   "Nişasta",
+   "Sellüloza",
+   "Zülal"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dienlərin katalitik hidrogenləşməsi (tam) nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Alkan",
+   "Alken",
+   "Alkin",
+   "Aromatik birləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkadienlərin yanması nəticəsində (tam yanma) hansı məhsullar alınır?",
+  "secimler": [
+   "CO2 və H2O",
+   "Yalnız CO2",
+   "Yalnız H2O",
+   "Yalnız his"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dien + Br2 (1 mol) 1,2-əlavəetmə reaksiyasının məhsulu hansıdır?",
+  "secimler": [
+   "3,4-dibrombuten-1",
+   "1,4-dibrombuten-2",
+   "Tetrabrombutan",
+   "Butan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Konyuqasiyalı dienlərin xüsusi kimyəvi reaktivliyi nə ilə izah olunur?",
+  "secimler": [
+   "Delokallaşmış π-elektron sisteminin varlığı ilə",
+   "Heç bir səbəblə",
+   "Yalnız molekul kütləsi ilə",
+   "Yalnız rənglə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik kauçuk istehsalında butadien-stirol kopolimeri hansı iki monomerdən alınır?",
+  "secimler": [
+   "Buta-1,3-dien və stirol",
+   "Etilen və propilen",
+   "Metan və etan",
+   "Benzol və toluol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dienlərin vulkanlaşdırılması (kükürdlə emalı) nəticəsində alınan məhsulun əsas üstünlüyü nədir?",
+  "secimler": [
+   "Elastikliyin və möhkəmliyin artması",
+   "Heç bir üstünlüyü yoxdur",
+   "Yalnız rəngin dəyişməsi",
+   "Yalnız qoxunun itməsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkadienlərin bromlu su ilə reaksiyası hansı ümumi xüsusiyyəti göstərir?",
+  "secimler": [
+   "Rəngin getməsi",
+   "Heç bir dəyişiklik olmur",
+   "Çöküntü əmələ gəlir",
+   "Qaz ayrılır"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İzoprenin təbii kauçukdakı təkrarlanan vahid sayı ilə əlaqəsi necədir?",
+  "secimler": [
+   "Kauçuk minlərlə izopren vahidinin polimeridir",
+   "Kauçukda izopren yoxdur",
+   "Yalnız bir izopren molekulundan ibarətdir",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Buta-1,3-dienin sənaye istehsalında xammal kimi ən çox hansı mənbədən istifadə olunur?",
+  "secimler": [
+   "Neft krekinqi məhsullarından (n-butan/buten)",
+   "Yalnız kömürdən",
+   "Yalnız sudan",
+   "Yalnız havadan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlərin alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin ümumi formulu hansıdır?",
+  "secimler": [
+   "CnH2n",
+   "CnH2n-2",
+   "CnH2n+2",
+   "CnH2n-6"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkin molekulunda üçqat rabitəni əmələ gətirən karbon atomları hansı hibridləşmə vəziyyətindədir?",
+  "secimler": [
+   "sp³",
+   "sp²",
+   "sp",
+   "sp³d"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üçqat rabitə (C≡C) neçə σ və neçə π rabitədən ibarətdir?",
+  "secimler": [
+   "1σ, 2π",
+   "2σ, 1π",
+   "3σ",
+   "1σ, 1π"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilen molekulunda (HC≡CH) bucaq neçə dərəcədir?",
+  "secimler": [
+   "109°28′",
+   "120°",
+   "180°",
+   "90°"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Butinin (C4H6) neçə struktur izomeri var?",
+  "secimler": [
+   "2",
+   "3",
+   "4",
+   "1"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Propinin (C3H4) IUPAC adı və quruluşu hansıdır?",
+  "secimler": [
+   "Propin, CH≡C-CH3",
+   "Propen",
+   "Propan",
+   "Propadien"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin adlandırılmasında üçqat rabitənin yeri necə göstərilir?",
+  "secimler": [
+   "Zəncirin üçqat rabitəyə ən yaxın ucundan nömrələnməsi ilə",
+   "Heç cür göstərilmir",
+   "Həmişə 1-ci karbonda fərz edilir",
+   "Yalnız hərflə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Terminal alkin (məsələn but-1-in) hansı xüsusi kimyəvi xassəyə malikdir?",
+  "secimler": [
+   "Tərkibindəki H atomu turşu xassəli, gümüş/mis duzları ilə çöküntü verə bilir",
+   "Heç bir xüsusi xassəsi yoxdur",
+   "Yalnız rəngli olur",
+   "Yalnız qoxusu fərqlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Pent-2-in birləşməsinin əsas zəncirində üçqat rabitə hansı karbonlar arasındadır?",
+  "secimler": [
+   "2 və 3-cü karbonlar arasında",
+   "1 və 2-ci karbonlar arasında",
+   "3 və 4-cü karbonlar arasında",
+   "4 və 5-ci karbonlar arasında"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkin və alkadienlərin eyni ümumi formulaya (CnH2n-2) malik olmasına baxmayaraq, onları necə fərqləndirmək olar?",
+  "secimler": [
+   "Struktur formuluna baxaraq",
+   "Fərqləndirmək mümkün deyil",
+   "Yalnız rənglərinə görə",
+   "Yalnız qoxularına görə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin (etinin) molekulyar formulu hansıdır?",
+  "secimler": [
+   "C2H2",
+   "C2H4",
+   "C2H6",
+   "CH4"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərdə cis-trans izomeriya mümkündürmü?",
+  "secimler": [
+   "Xeyr, üçqat rabitənin xətti quruluşuna görə mümkün deyil",
+   "Bəli, həmişə mümkündür",
+   "Yalnız terminal alkinlərdə mümkündür",
+   "Yalnız uzun zəncirlərdə mümkündür"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hex-3-in simmetrik, yoxsa asimmetrik alkindir?",
+  "secimler": [
+   "Simmetrikdir (hər iki tərəfdə etil qrupu)",
+   "Asimmetrikdir",
+   "Müəyyən etmək mümkün deyil",
+   "Heç bir növə aid deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Pentinin (C5H8) daxili (pent-2-in) və terminal (pent-1-in) izomerləri arasındakı fərq nədir?",
+  "secimler": [
+   "Üçqat rabitənin zəncirdəki mövqeyi",
+   "Molekulyar formulu",
+   "Karbon sayı",
+   "Heç bir fərq yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin homoloji sırasında ardıcıl üzvlər arasındakı fərq hansı qrupdur?",
+  "secimler": [
+   "CH2",
+   "CH3",
+   "C2H2",
+   "CH"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "But-1-inin quruluş formulu hansıdır?",
+  "secimler": [
+   "HC≡C-CH2-CH3",
+   "CH3-C≡C-CH3",
+   "CH2=CH-CH=CH2",
+   "CH3-CH2-CH2-CH3"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kalsium karbidin (CaC2) su ilə reaksiyası nəticəsində hansı qaz alınır?",
+  "secimler": [
+   "Asetilen",
+   "Metan",
+   "Etilen",
+   "Propan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "CaC2+2H2O → C2H2+Ca(OH)2 tənliyinə görə, 64 q CaC2 (M=64) reaksiyaya girdikdə neçə mol asetilen alınır?",
+  "secimler": [
+   "1 mol",
+   "2 mol",
+   "0,5 mol",
+   "4 mol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metandan asetilenin alınması (yüksək temperaturda piroliz üsulu) hansı proses adlanır?",
+  "secimler": [
+   "Metanın pirolizi",
+   "Metanın hidrogenləşməsi",
+   "Metanın nitrləməsi",
+   "Metanın sulfolaşması"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dihalogenalkanların (məs. 1,2-dibrometan) qələvi ilə iki dəfə dehidrohalogenləşməsi nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Alkin",
+   "Alken",
+   "Alkan",
+   "Spirt"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin tam hidrogenləşməsi (2 mol H2 ilə) nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Alkan",
+   "Alken",
+   "Alkadien",
+   "Aromatik birləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin Kutserov reaksiyasında (Hg²⁺ katalizatoru ilə suyla reaksiyası) hansı maddə alınır?",
+  "secimler": [
+   "Sirkə aldehidi (asetaldehid)",
+   "Etanol",
+   "Sirkə turşusu",
+   "Etan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Terminal alkinlərin gümüş nitrat məhlulu ilə reaksiyasında hansı əlamət müşahidə olunur?",
+  "secimler": [
+   "Ağ çöküntü (gümüş asetilenid) əmələ gəlməsi",
+   "Heç bir dəyişiklik olmur",
+   "Qaz ayrılır",
+   "Rəng göyərir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Terminal alkinlə Ag+ ionunun reaksiyası hansı məqsədlə istifadə olunur?",
+  "secimler": [
+   "Terminal alkinləri digərlərindən fərqləndirmək üçün",
+   "Yalnız rəngləmə üçün",
+   "Yalnız yanacaq kimi",
+   "Heç bir məqsədi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin bromla (Br2, 2 mol) tam əlavəetmə reaksiyası nəticəsində hansı məhsul alınır?",
+  "secimler": [
+   "1,1,2,2-tetrabrometan",
+   "1,2-dibrometan",
+   "Vinilbromid",
+   "Tetrabrommetan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin oksigenlə yanması nəticəsində əldə olunan yüksək temperaturlu alov hansı sənaye sahəsində istifadə olunur?",
+  "secimler": [
+   "Metalların qaynaq və kəsilməsində",
+   "Yalnız qida sənayesində",
+   "Yalnız kənd təsərrüfatında",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin trimerləşməsi (3 molekulun birləşməsi, Zelinski reaksiyası) nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Benzol",
+   "Toluol",
+   "Stirol",
+   "Naftalin"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin turşuluq xassəsi (terminal H atomunun) alkanlarla müqayisədə necədir?",
+  "secimler": [
+   "Daha yüksəkdir",
+   "Daha aşağıdır",
+   "Eynidir",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Vinilasetilenin sənaye əhəmiyyəti nə ilə bağlıdır?",
+  "secimler": [
+   "Xloropren (sintetik kauçuk monomeri) istehsalında istifadəsi ilə",
+   "Yalnız yanacaq kimi",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız qida əlavəsi kimi"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin Markovnikov qaydasına görə HCl ilə reaksiyası nəticəsində (1 mol HCl) hansı məhsul alınır?",
+  "secimler": [
+   "Vinilxlorid (CH2=CHCl)",
+   "1,1-dixloretan",
+   "Etilxlorid",
+   "Etan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin yüksək dərəcədə doymamışlığı onların hansı reaksiya növünə daha meylli olmasına səbəb olur?",
+  "secimler": [
+   "Əlavəetmə reaksiyalarına",
+   "Əvəzetmə reaksiyalarına",
+   "Neytrallaşma reaksiyalarına",
+   "Heç bir reaksiyaya girmirlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin polimerləşməsindən alınan polimer (poliasetilen) hansı qeyri-adi xassəyə malikdir?",
+  "secimler": [
+   "Elektrik keçiriciliyi (dopinq edildikdə)",
+   "Heç bir xüsusi xassəsi yoxdur",
+   "Yalnız rəngi fərqlidir",
+   "Yalnız iyi fərqlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlərin alınması, kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanların ümumi formulu hansıdır?",
+  "secimler": [
+   "CnH2n+2",
+   "CnH2n",
+   "CnH2n-2",
+   "CnH2n-6"
+  ],
+  "duzgun": 1,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə tsikloalkan hansıdır?",
+  "secimler": [
+   "Tsiklopropan",
+   "Tsiklobutan",
+   "Tsikloheksan",
+   "Tsikloetan"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsiklopropanın molekulyar formulu hansıdır?",
+  "secimler": [
+   "C3H6",
+   "C3H8",
+   "C3H4",
+   "C4H8"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksanın molekulyar formulu hansıdır?",
+  "secimler": [
+   "C6H12",
+   "C6H14",
+   "C6H10",
+   "C6H6"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanlarla alkenlərin eyni ümumi formulaya (CnH2n) malik olmasına baxmayaraq, əsas struktur fərqi nədir?",
+  "secimler": [
+   "Tsikloalkanlarda halqa, alkenlərdə ikiqat rabitə var",
+   "Heç bir fərq yoxdur",
+   "Tsikloalkanlarda ikiqat rabitə var",
+   "Alkenlərdə halqa var"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsiklopropan halqasının gərginliyi (Bayer gərginliyi) nə ilə əlaqədardır?",
+  "secimler": [
+   "Halqa bucaqlarının ideal tetraedrik bucaqdan kəskin fərqlənməsi ilə",
+   "Heç bir səbəbi yoxdur",
+   "Yalnız molekul kütləsi ilə",
+   "Yalnız rənglə"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanların adlandırılmasında \"tsiklo\" prefiksindən sonra hansı hissə gəlir?",
+  "secimler": [
+   "Halqadakı karbon sayına uyğun alkan adı",
+   "Yalnız rəqəm",
+   "Heç bir əlavə hissə",
+   "Yalnız radikalın adı"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metiltsikloheksan hansı əsas halqaya malikdir?",
+  "secimler": [
+   "Tsikloheksan (6 karbonlu)",
+   "Tsiklopentan",
+   "Tsiklopropan",
+   "Tsiklobutan"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanlarda halqa ölçüsü artdıqca (tsiklopropandan tsikloheksana doğru) halqa gərginliyi necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Əvvəl artır sonra azalır"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksanın \"kreslo\" (stul) konformasiyası nə üçün ən sabit forma hesab olunur?",
+  "secimler": [
+   "Bütün karbon-karbon bucaqları ideal tetraedrik bucağa yaxın olduğu üçün",
+   "Heç bir səbəbi yoxdur",
+   "Yalnız rəngi ilə bağlıdır",
+   "Yalnız molekul kütləsi ilə bağlıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "1,2-dimetiltsiklopropan üçün hansı növ izomeriya mümkündür?",
+  "secimler": [
+   "Həndəsi (cis-trans) izomeriya",
+   "Yalnız optik izomeriya",
+   "Heç bir izomeriya mümkün deyil",
+   "Yalnız skelet izomeriyası"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanlarda halqa üzvlərinin sayına görə adlandırma necə aparılır (3-6 karbonlu nümunələr)?",
+  "secimler": [
+   "Tsiklopropan, tsiklobutan, tsiklopentan, tsikloheksan",
+   "Yalnız rəqəmlərlə",
+   "Yalnız hərflərlə",
+   "Heç bir sistemli adlandırma yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanların izomerliyi hansı əlavə amillərdən asılıdır?",
+  "secimler": [
+   "Halqa ölçüsündən və əvəzedicilərin yerləşməsindən",
+   "Heç bir əlavə amildən asılı deyil",
+   "Yalnız molekul kütləsindən",
+   "Yalnız rəngdən"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsiklopentanın quruluşu haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "Az gərginlikli, nisbətən sabit beşüzvlü halqa",
+   "Çox gərgin, qeyri-sabit halqa",
+   "Aromatikdir",
+   "Xətti quruluşa malikdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dekalinin (bisiklik doymuş karbohidrogen) quruluşu haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "İki tsikloheksan halqasının birləşməsindən ibarətdir",
+   "Bir tsiklopropan halqasından ibarətdir",
+   "Aromatik birləşmədir",
+   "Xətti zəncirlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkan molekulunda karbon atomları hansı hibridləşmə vəziyyətindədir?",
+  "secimler": [
+   "sp³",
+   "sp²",
+   "sp",
+   "Qarışıq"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların quruluşu, adlandırılması və izomerliyi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanların sənayedə əsas alınma mənbəyi hansıdır?",
+  "secimler": [
+   "Neft (naften karbohidrogenləri kimi)",
+   "Yalnız kömür",
+   "Yalnız hava",
+   "Yalnız su"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dihalogenalkanların sink tozu ilə reaksiyası nəticəsində hansı sinif maddə alınır (halqa bağlanması)?",
+  "secimler": [
+   "Tsikloalkan",
+   "Alken",
+   "Alkin",
+   "Aromatik birləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kiçik halqalı tsikloalkanlar (tsiklopropan, tsiklobutan) hansı reaksiya növünə meyllidir?",
+  "secimler": [
+   "Halqanın açılması ilə əlavəetmə reaksiyalarına",
+   "Yalnız əvəzetmə reaksiyalarına",
+   "Heç bir reaksiyaya girmirlər",
+   "Yalnız neytrallaşma reaksiyalarına"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsiklopropanın hidrogenlə (Ni katalizatoru, qızdırma) reaksiyası nəticəsində halqa açılaraq nə alınır?",
+  "secimler": [
+   "Propan",
+   "Propen",
+   "Propin",
+   "Tsikloheksan"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksan (böyük, sabit halqa) əsasən hansı reaksiya növünə meyllidir?",
+  "secimler": [
+   "Əvəzetmə reaksiyalarına (adi alkanlar kimi)",
+   "Yalnız əlavəetmə reaksiyalarına",
+   "Heç bir reaksiyaya girmir",
+   "Yalnız polimerləşməyə"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksanın dehidrogenləşməsi (katalitik, yüksək temperaturda) nəticəsində hansı əhəmiyyətli aromatik birləşmə alınır?",
+  "secimler": [
+   "Benzol",
+   "Toluol",
+   "Naftalin",
+   "Stirol"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsiklopropanın bromla (Br2) reaksiyası nəticəsində halqa açılaraq nə alınır?",
+  "secimler": [
+   "1,3-dibrompropan",
+   "Bromsiklopropan",
+   "Heç bir reaksiya getmir",
+   "Propan"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin tərkibində olan naften karbohidrogenləri hansı ümumi sinifə aiddir?",
+  "secimler": [
+   "Tsikloalkanlar",
+   "Aromatik karbohidrogenlər",
+   "Alkenlər",
+   "Alkinlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksanın yanma reaksiyası tənliyini tamamlayın: C6H12+9O2→?",
+  "secimler": [
+   "6CO2+6H2O",
+   "6CO2+7H2O",
+   "5CO2+6H2O",
+   "6CO+6H2O"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanların sənaye əhəmiyyəti əsasən hansı sahə ilə bağlıdır?",
+  "secimler": [
+   "Yanacaq tərkib hissəsi və aromatik birləşmələr üçün xammal kimi",
+   "Yalnız qida sənayesi",
+   "Yalnız tekstil sənayesi",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksanın sənaye şəraitində oksidləşməsi nəticəsində hansı əhəmiyyətli məhsul alınır (naylon istehsalı üçün aralıq)?",
+  "secimler": [
+   "Adipin turşusu",
+   "Benzol",
+   "Toluol",
+   "Fenol"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsiklobutanın halqa gərginliyi tsiklopropanla müqayisədə necədir?",
+  "secimler": [
+   "Bir qədər azdır, lakin yenə də əhəmiyyətlidir",
+   "Daha çoxdur",
+   "Eynidir",
+   "Heç bir gərginliyi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanların ümumi kimyəvi sabitliyi halqa ölçüsü 5-6 karbona çatdıqda necə olur?",
+  "secimler": [
+   "Adi alkanlara yaxın sabitlik göstərir",
+   "Çox qeyri-sabit olur",
+   "Partlayıcı olur",
+   "Heç bir sabitliyi olmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksanın konformasiyaları arasında \"vanna\" (qayıq) formasının \"kreslo\" formasından fərqi nədir?",
+  "secimler": [
+   "Vanna formasında daha çox enerjili, az sabit düzülüş var",
+   "Heç bir fərqi yoxdur",
+   "Vanna forması daha sabitdir",
+   "Eyni enerji səviyyəsindədirlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloalkanların izomerləşməsi (halqa böyüklüyünün dəyişməsi) sənayedə hansı məqsədlə istifadə oluna bilər?",
+  "secimler": [
+   "Benzin keyfiyyətini (oktan ədədini) artırmaq üçün",
+   "Heç bir məqsədlə",
+   "Yalnız rəngi dəyişdirmək üçün",
+   "Yalnız qoxunu artırmaq üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsiklopentanın hidrogenləşməyə davamlılığı tsiklopropanla müqayisədə necədir?",
+  "secimler": [
+   "Daha davamlıdır",
+   "Daha az davamlıdır",
+   "Eynidir",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tsikloalkanların alınması və kimyəvi xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun molekulyar formulu hansıdır?",
+  "secimler": [
+   "C6H6",
+   "C6H12",
+   "C6H14",
+   "C6H8"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol molekulunda karbon atomları hansı hibridləşmə vəziyyətindədir?",
+  "secimler": [
+   "sp³",
+   "sp²",
+   "sp",
+   "sp³d"
+  ],
+  "duzgun": 1,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasında bütün C-C rabitə uzunluqları haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "Bərabərdir (aralıq uzunluqda)",
+   "Növbələşərək fərqlənir",
+   "Təsadüfi olaraq fərqlənir",
+   "Heç bir qanunauyğunluq yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasının xüsusi sabitliyi (aromatiklik) hansı elektron sistemi ilə əlaqədardır?",
+  "secimler": [
+   "Delokallaşmış (6 elektronlu) π-elektron sistemi",
+   "Yalnız σ-elektronlar",
+   "Heç bir xüsusi sistemlə",
+   "Yalnız yalqız elektron cütləri ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Toluolun (metilbenzol) molekulyar formulu hansıdır?",
+  "secimler": [
+   "C7H8",
+   "C6H6",
+   "C7H6",
+   "C8H10"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ksilolun (dimetilbenzol) molekulyar formulu hansıdır?",
+  "secimler": [
+   "C8H10",
+   "C7H8",
+   "C6H6",
+   "C9H12"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasında iki əvəzedicinin 1,2 mövqeyində olmasına nə deyilir?",
+  "secimler": [
+   "Orto-",
+   "Meta-",
+   "Para-",
+   "İpso-"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasında iki əvəzedicinin 1,3 mövqeyində olmasına nə deyilir?",
+  "secimler": [
+   "Orto-",
+   "Meta-",
+   "Para-",
+   "İpso-"
+  ],
+  "duzgun": 1,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasında iki əvəzedicinin 1,4 mövqeyində olmasına nə deyilir?",
+  "secimler": [
+   "Orto-",
+   "Meta-",
+   "Para-",
+   "İpso-"
+  ],
+  "duzgun": 2,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun ümumi formuluna (CnH2n-6) əsasən, n=6 üçün doymamışlıq dərəcəsi neçədir?",
+  "secimler": [
+   "4",
+   "3",
+   "6",
+   "2"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilbenzolun molekulyar formulu hansıdır?",
+  "secimler": [
+   "C8H10",
+   "C7H8",
+   "C6H6",
+   "C9H12"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun homoloji sırasının ümumi formulu hansıdır?",
+  "secimler": [
+   "CnH2n-6",
+   "CnH2n",
+   "CnH2n-2",
+   "CnH2n+2"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "1,3,5-trimetilbenzolun (mezitilen) molekulyar formulu hansıdır?",
+  "secimler": [
+   "C9H12",
+   "C8H10",
+   "C7H8",
+   "C10H14"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Naftalinin (iki bitişik benzol halqasından ibarət) molekulyar formulu hansıdır?",
+  "secimler": [
+   "C10H8",
+   "C10H14",
+   "C12H10",
+   "C6H6"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasının müstəvi quruluşa malik olması hansı hibridləşmə növü ilə izah olunur?",
+  "secimler": [
+   "sp² hibridləşmə",
+   "sp³ hibridləşmə",
+   "sp hibridləşmə",
+   "Heç bir hibridləşmə ilə əlaqəli deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kumolun (izopropilbenzol) molekulyar formulu hansıdır?",
+  "secimler": [
+   "C9H12",
+   "C8H10",
+   "C7H8",
+   "C10H14"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzolun quruluşu və homoloqlarının adlandırılması",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tsikloheksanın katalitik dehidrogenləşməsi nəticəsində hansı aromatik birləşmə alınır?",
+  "secimler": [
+   "Benzol",
+   "Toluol",
+   "Naftalin",
+   "Stirol"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin trimerləşməsi (Zelinski reaksiyası, 3C2H2→C6H6) nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Benzol",
+   "Toluol",
+   "Heksan",
+   "Sikloheksan"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Vürts-Fitting reaksiyası aromatik halogenidlərin natrium metalı ilə reaksiyasında hansı sinif maddələr alınmasına imkan verir?",
+  "secimler": [
+   "Alkilbenzollar",
+   "Yalnız benzol",
+   "Yalnız alkanlar",
+   "Heç bir maddə"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun alkil halogenidlərlə Fridel-Krafts alkilləşməsi nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Alkilbenzol",
+   "Nitrobenzol",
+   "Sulfobenzol",
+   "Halogenbenzol"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin kataliz reformingi nəyə xidmət edir?",
+  "secimler": [
+   "Alkan/naften karbohidrogenlərini aromatiklərə çevirməyə",
+   "Yalnız rəngi dəyişdirməyə",
+   "Heç bir məqsədə xidmət etmir",
+   "Yalnız kütləni azaltmağa"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol normal şəraitdə hansı aqreqat halındadır?",
+  "secimler": [
+   "Maye",
+   "Qaz",
+   "Bərk",
+   "Plazma"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun qaynama temperaturu təxminən neçə dərəcədir?",
+  "secimler": [
+   "80°C",
+   "0°C",
+   "100°C",
+   "174°C"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun suda həllolma xassəsi necədir?",
+  "secimler": [
+   "Praktik olaraq həll olmur",
+   "Yaxşı həll olur",
+   "Tam qarışır",
+   "Yalnız isti suda həll olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun toksikliyi baxımından uzunmüddətli təsiri hansı sağlamlıq riskini yaradır?",
+  "secimler": [
+   "Kanserogen (xərçəngyaradıcı) təsir riski",
+   "Heç bir risk yoxdur",
+   "Yalnız yüngül baş ağrısı",
+   "Yalnız dəri qıcıqlanması"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Toluolun alınmasında istifadə olunan üsullardan biri benzolun hansı reaksiyası ilə bağlıdır?",
+  "secimler": [
+   "Fridel-Krafts alkilləşməsi",
+   "Nitrləmə",
+   "Sulfolaşma",
+   "Bromlaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun sıxlığı suyunkundan necədir?",
+  "secimler": [
+   "Kiçikdir",
+   "Böyükdür",
+   "Bərabərdir",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kömür qatranının distilləsindən əldə edilən aromatik karbohidrogenlərə hansı nümunə göstərilə bilər?",
+  "secimler": [
+   "Benzol, toluol, naftalin",
+   "Yalnız metan",
+   "Yalnız etilen",
+   "Heç bir aromatik birləşmə alınmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun molekul kütləsi neçədir? (Ar: C=12, H=1)",
+  "secimler": [
+   "78",
+   "72",
+   "84",
+   "76"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkilbenzolların qaynama temperaturu benzolla müqayisədə necədir?",
+  "secimler": [
+   "Daha yüksəkdir",
+   "Daha aşağıdır",
+   "Eynidir",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Stirolun əldə olunmasında hansı ümumi üsul istifadə olunur?",
+  "secimler": [
+   "Etilbenzolun dehidrogenləşməsi",
+   "Benzolun nitrləməsi",
+   "Toluolun sulfolaşması",
+   "Benzolun bromlaşması"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aromatik karbohidrogenlərin sənaye əhəmiyyəti hansı sahələrdə özünü göstərir?",
+  "secimler": [
+   "Plastik, boya, dərman sənayesində xammal kimi",
+   "Heç bir sahədə",
+   "Yalnız qida sənayesində",
+   "Yalnız kənd təsərrüfatında"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin alınması və fiziki xassələri",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol üçün ən xarakterik reaksiya növü hansıdır?",
+  "secimler": [
+   "Əvəzetmə (elektrofil substitusiya)",
+   "Birləşmə (əlavəetmə)",
+   "Polimerləşmə",
+   "Neytrallaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun nitrləmə reaksiyası (HNO3+H2SO4 ilə) nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Nitrobenzol",
+   "Anilin",
+   "Toluol",
+   "Fenol"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun bromla (dəmir katalizatoru ilə) reaksiyası hansı məhsulu verir?",
+  "secimler": [
+   "Bromobenzol",
+   "1,2-dibrometan",
+   "Heksabromsikloheksan",
+   "Heç bir reaksiya getmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun katalizatorsuz bromla reaksiyaya girməməsi nə ilə izah olunur?",
+  "secimler": [
+   "Aromatik halqanın xüsusi sabitliyi",
+   "Benzolun heç bir reaktivliyi olmaması",
+   "Yalnız rənginin fərqli olması",
+   "Molekul kütləsinin böyük olması"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun sulfat turşusu ilə reaksiyası (sulfolaşma) nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Benzolsulfoturşu",
+   "Nitrobenzol",
+   "Bromobenzol",
+   "Fenol"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Toluolun oksidləşməsi (KMnO4 ilə, qızdırma) nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Benzoy turşusu",
+   "Benzol",
+   "Benzaldehid",
+   "Fenol"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun sərt şəraitdə (yüksək təzyiq, Ni katalizatoru) hidrogenləşməsi nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Sikloheksan",
+   "Heksan",
+   "Heksen",
+   "Heç bir reaksiya getmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Toluolda metil qrupunun benzol halqasına təsiri hansı əlavə əvəzetmə reaksiyalarında özünü göstərir?",
+  "secimler": [
+   "İkinci əvəzedicinin orto- və para- mövqelərə yönəlməsi",
+   "Heç bir təsiri yoxdur",
+   "Yalnız meta- mövqeyə yönləndirir",
+   "Reaksiyanı tam dayandırır"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nitro qrupunun (NO2) benzol halqasındakı təsiri hansı növdəndir?",
+  "secimler": [
+   "Meta-yönləndirici və deaktivləşdirici",
+   "Orto-para yönləndirici",
+   "Heç bir təsiri yoxdur",
+   "Yalnız aktivləşdirici"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Stirolun (C6H5-CH=CH2) molekulunda hansı iki reaktiv hissə var?",
+  "secimler": [
+   "Aromatik halqa və vinil (ikiqat rabitə) qrupu",
+   "Yalnız aromatik halqa",
+   "Yalnız ikiqat rabitə",
+   "Heç bir reaktiv hissə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Stirolun polimerləşməsi nəticəsində hansı geniş yayılmış plastik material alınır?",
+  "secimler": [
+   "Polistirol",
+   "Polietilen",
+   "PVC",
+   "Kapron"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Stirolun vinil qrupu hansı reaksiya növünə (adi alkenlər kimi) girə bilir?",
+  "secimler": [
+   "Əlavəetmə (Br2, H2, HX ilə)",
+   "Yalnız əvəzetmə",
+   "Heç bir reaksiyaya girmir",
+   "Yalnız neytrallaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun Fridel-Krafts asilləşməsi nəticəsində hansı sinif maddə alınır?",
+  "secimler": [
+   "Aril keton",
+   "Alkilbenzol",
+   "Nitrobenzol",
+   "Sulfoturşu"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Toluolun nitrləməsi nəticəsində əsasən hansı izomerlər üstünlük təşkil edir?",
+  "secimler": [
+   "Orto- və para-nitrotoluol",
+   "Yalnız meta-nitrotoluol",
+   "Yalnız orto-nitrotoluol",
+   "Heç bir izomer üstünlük təşkil etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun tam yanma tənliyini tamamlayın: 2C6H6+15O2→?",
+  "secimler": [
+   "12CO2+6H2O",
+   "6CO2+3H2O",
+   "12CO2+12H2O",
+   "6CO2+6H2O"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Stirolun sənaye əhəmiyyəti əsasən hansı sahə ilə bağlıdır?",
+  "secimler": [
+   "Polistirol və sintetik kauçuk (SBR) istehsalında",
+   "Yalnız qida sənayesi",
+   "Yalnız dərman istehsalı",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzol sırası karbohidrogenlərin kimyəvi xassələri və stirol",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft əsasən hansı üzvi maddələrin qarışığından ibarətdir?",
+  "secimler": [
+   "Karbohidrogenlərin",
+   "Yalnız spirtlərin",
+   "Yalnız turşuların",
+   "Yalnız duzların"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin ilkin emalı hansı fiziki üsulla aparılır?",
+  "secimler": [
+   "Fraksiyalı (atmosfer) distillə",
+   "Kimyəvi reaksiya ilə",
+   "Kristallaşma ilə",
+   "Süzmə ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin distilləsində ən aşağı qaynama temperaturuna malik fraksiya hansıdır?",
+  "secimler": [
+   "Neft qazları",
+   "Mazut",
+   "Bitum",
+   "Dizel yanacağı"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin distilləsində ən yüksək qaynama temperaturuna malik (qalıq) fraksiya hansıdır?",
+  "secimler": [
+   "Mazut",
+   "Benzin",
+   "Kerosin",
+   "Neft qazları"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzin fraksiyası təxminən hansı temperatur aralığında qaynayır?",
+  "secimler": [
+   "40-200°C",
+   "200-350°C",
+   "350-500°C",
+   "0-40°C"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft məhsullarının təkrar (dərin) emalı hansı əsas prosesləri əhatə edir?",
+  "secimler": [
+   "Krekinq, riforminq, hidrotəmizləmə",
+   "Yalnız distillə",
+   "Yalnız süzmə",
+   "Heç bir proses"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Termiki krekinq prosesi hansı şəraitdə aparılır?",
+  "secimler": [
+   "Yüksək temperatur (450-550°C), katalizatorsuz",
+   "Aşağı temperatur, katalizatorla",
+   "Otaq temperaturunda",
+   "Heç bir xüsusi şərait tələb olunmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Katalitik krekinq termiki krekinqlə müqayisədə hansı üstünlüyə malikdir?",
+  "secimler": [
+   "Daha yüksək keyfiyyətli (yüksək oktan ədədli) benzin verir",
+   "Heç bir üstünlüyü yoxdur",
+   "Daha aşağı keyfiyyətli məhsul verir",
+   "Yalnız daha bahalıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft məhsullarının hidrotəmizlənməsi əsasən hansı zərərli maddələrin çıxarılması üçün aparılır?",
+  "secimler": [
+   "Kükürd birləşmələrinin",
+   "Yalnız suyun",
+   "Yalnız azotun",
+   "Heç bir maddənin"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin tərkibindəki kükürd birləşmələrinin yanma zamanı əmələ gətirdiyi zərərli qaz hansıdır?",
+  "secimler": [
+   "SO2",
+   "CO2",
+   "NO2",
+   "H2"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin kataliz reforminqi zamanı hansı katalizatordan geniş istifadə olunur?",
+  "secimler": [
+   "Platin əsaslı katalizatorlar",
+   "Yalnız dəmir",
+   "Yalnız mis",
+   "Heç bir katalizator"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft yataqlarının Azərbaycan iqtisadiyyatındakı tarixi əhəmiyyəti nə ilə bağlıdır?",
+  "secimler": [
+   "Uzun illər əsas ixrac və gəlir mənbəyi olması",
+   "Heç bir əhəmiyyəti olmayıb",
+   "Yalnız son illərdə əhəmiyyət qazanıb",
+   "Yalnız kənd təsərrüfatı ilə bağlıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft emalı zamanı alınan qazlar (propan, butan) hansı məqsədlə geniş istifadə olunur?",
+  "secimler": [
+   "Maye qaz (LPG) yanacağı kimi",
+   "Yalnız tikinti materialı kimi",
+   "Heç bir istifadəsi yoxdur",
+   "Yalnız qida əlavəsi kimi"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft emalının ekoloji problemləri hansı sahələrdə özünü göstərir?",
+  "secimler": [
+   "Hava və su çirklənməsi, sızmalar",
+   "Heç bir problem yaratmır",
+   "Yalnız torpağın münbitləşməsi",
+   "Yalnız faydalı təsirlər göstərir"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Vakuum distilləsi neftin emalında nə üçün istifadə olunur?",
+  "secimler": [
+   "Yüksək temperaturda parçalanan ağır fraksiyaları aşağı temperaturda ayırmaq üçün",
+   "Heç bir məqsədlə",
+   "Yalnız rəngi dəyişdirmək üçün",
+   "Yalnız qoxunu azaltmaq üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin emalından alınan kerosin fraksiyası əsasən hansı sahədə istifadə olunur?",
+  "secimler": [
+   "Reaktiv (aviasiya) yanacağı kimi",
+   "Yalnız tikintidə",
+   "Yalnız qida sənayesində",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və onun emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oktan ədədi benzinin hansı xüsusiyyətini xarakterizə edir?",
+  "secimler": [
+   "Partlayışa (detonasiyaya) qarşı davamlılığını",
+   "Enerji tutumunu",
+   "Sıxlığını",
+   "Rəngini"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oktan ədədi şkalasında 100 bal hansı təmiz maddəyə uyğun gəlir?",
+  "secimler": [
+   "İzooktan (2,2,4-trimetilpentan)",
+   "n-heptan",
+   "Benzol",
+   "Etanol"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Oktan ədədi şkalasında 0 bal hansı maddəyə uyğun gəlir?",
+  "secimler": [
+   "n-heptan",
+   "İzooktan",
+   "Metan",
+   "Toluol"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzinin oktan ədədi 92 olduqda bu nəyi göstərir?",
+  "secimler": [
+   "Detonasiya davamlılığına görə 92% izooktan, 8% n-heptan qarışığına bərabər olduğunu",
+   "Tərkibində 92% oksigen olduğunu",
+   "92°C-də qaynadığını",
+   "Heç nəyi göstərmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Düz zəncirli alkanlarla müqayisədə budaqlanmış (izomerləşmiş) alkanların oktan ədədi necədir?",
+  "secimler": [
+   "Daha yüksəkdir",
+   "Daha aşağıdır",
+   "Eynidir",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aromatik karbohidrogenlərin benzin tərkibindəki payının artırılması oktan ədədinə necə təsir edir?",
+  "secimler": [
+   "Oktan ədədini artırır",
+   "Azaldır",
+   "Heç bir təsiri yoxdur",
+   "Yalnız rəngi dəyişdirir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Katalitik izomerləşmə prosesi benzinin keyfiyyətini necə yaxşılaşdırır?",
+  "secimler": [
+   "Düz zəncirli alkanları budaqlanmış formaya çevirərək oktan ədədini artırır",
+   "Heç bir təsiri yoxdur",
+   "Oktan ədədini azaldır",
+   "Yalnız rəngi dəyişdirir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tarixən benzinin oktan ədədini artırmaq üçün istifadə olunan, ekoloji zərəri səbəbindən qadağan edilmiş əlavə hansıdır?",
+  "secimler": [
+   "Tetraetilqurğuşun",
+   "Etanol",
+   "Su",
+   "Duz"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Müasir ekoloji tələblərə görə benzinə oktan ədədini artırmaq üçün hansı daha təhlükəsiz əlavələrdən istifadə olunur?",
+  "secimler": [
+   "Oksigen tərkibli birləşmələr (MTBE, etanol)",
+   "Qurğuşun birləşmələri",
+   "Civə birləşmələri",
+   "Heç bir əlavə istifadə olunmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yüksək sıxılma nisbətli mühərriklər üçün hansı oktan ədədli benzin tələb olunur?",
+  "secimler": [
+   "Daha yüksək oktan ədədli",
+   "Daha aşağı oktan ədədli",
+   "Oktan ədədinin əhəmiyyəti yoxdur",
+   "Yalnız 0 oktan ədədli"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Detonasiya (partlayışlı yanma) mühərrikə hansı zərəri vura bilər?",
+  "secimler": [
+   "Mühərrik hissələrinin aşınması və zədələnməsi",
+   "Heç bir zərəri yoxdur",
+   "Yalnız yanacaq qənaəti verir",
+   "Yalnız səsi azaldır"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Katalitik riforminq prosesi benzinin oktan ədədinə necə təsir göstərir?",
+  "secimler": [
+   "Əhəmiyyətli dərəcədə artırır",
+   "Azaldır",
+   "Heç bir təsiri yoxdur",
+   "Yalnız rəngi dəyişdirir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzində n-heptanın (aşağı oktan ədədli komponent) payının çox olması nəyə səbəb olur?",
+  "secimler": [
+   "Benzinin keyfiyyətinin aşağı düşməsinə",
+   "Keyfiyyətin yüksəlməsinə",
+   "Heç bir təsiri yoxdur",
+   "Yalnız rəngin dəyişməsinə"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Motor (M) və Tədqiqat (RON) oktan ədədi ölçmə üsulları arasındakı fərq nə ilə bağlıdır?",
+  "secimler": [
+   "Test şəraitindəki mühərrik rejiminin fərqli olması ilə",
+   "Heç bir fərqi yoxdur",
+   "Yalnız rənglə bağlıdır",
+   "Yalnız qiymətlə bağlıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzinin tərkibindəki tsikloalkanların (naftenlərin) oktan ədədinə təsiri necədir?",
+  "secimler": [
+   "Alkanlarla müqayisədə nisbətən daha yüksək oktan ədədi verirlər",
+   "Heç bir təsiri yoxdur",
+   "Oktan ədədini kəskin azaldırlar",
+   "Yalnız rəngə təsir edir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ekoloji baxımdan yüksək oktanlı, aromatik tərkibli benzinlərin hansı mənfi tərəfi ola bilər?",
+  "secimler": [
+   "Yanma zamanı bəzi kanserogen maddələrin tullantılara qarışması riski",
+   "Heç bir mənfi tərəfi yoxdur",
+   "Yalnız qiyməti aşağı olur",
+   "Yalnız rəngi dəyişir"
+  ],
+  "duzgun": 0,
+  "movzu": "Benzinin keyfiyyəti və oktan ədədi",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömürün havasız mühitdə (oksigensiz) yüksək temperaturda qızdırılmasına nə deyilir?",
+  "secimler": [
+   "Kokslaşdırma (quru distilləsi)",
+   "Yanma",
+   "Neytrallaşma",
+   "Hidroliz"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömürün kokslaşdırılması hansı temperaturda (təxminən) aparılır?",
+  "secimler": [
+   "~1000°C",
+   "~100°C",
+   "~50°C",
+   "~3000°C"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kokslaşdırma prosesinin əsas bərk məhsulu hansıdır?",
+  "secimler": [
+   "Koks",
+   "Qatran",
+   "Ammonyak",
+   "Kömür qazı"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kokslaşdırma zamanı alınan maye məhsula nə deyilir?",
+  "secimler": [
+   "Daş kömür qatranı",
+   "Koks",
+   "Benzin",
+   "Neft"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Koks əsasən hansı sənaye sahəsində geniş istifadə olunur?",
+  "secimler": [
+   "Metallurgiya (dəmir əridilməsində)",
+   "Yalnız qida sənayesində",
+   "Yalnız tekstil sənayesində",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömür qatranının distilləsindən hansı aromatik karbohidrogenlər ayrılır?",
+  "secimler": [
+   "Benzol, toluol, naftalin və s.",
+   "Yalnız metan",
+   "Yalnız etilen",
+   "Heç bir aromatik birləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kokslaşdırma zamanı ayrılan qaz məhsulun tərkibində əsasən hansı qaz var?",
+  "secimler": [
+   "Hidrogen və metan",
+   "Yalnız karbon qazı",
+   "Yalnız oksigen",
+   "Yalnız azot"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömürdən alınan ammonyak (NH3) hansı sənaye məhsulunun istehsalında xammal kimi istifadə olunur?",
+  "secimler": [
+   "Azotlu gübrələr",
+   "Yalnız plastik",
+   "Yalnız boya",
+   "Heç bir məhsulda"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömürün qazlaşdırılması (su buxarı ilə) nəticəsində hansı qarışıq alınır?",
+  "secimler": [
+   "Sintez-qaz (CO+H2)",
+   "Yalnız CO2",
+   "Yalnız su",
+   "Yalnız oksigen"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömürün maye yanacağa çevrilməsi (Fişer-Tropş prosesi) hansı iqtisadi əhəmiyyətə malikdir?",
+  "secimler": [
+   "Neft ehtiyatı olmayan ölkələrdə alternativ yanacaq mənbəyi kimi",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız nəzəri maraq",
+   "Yalnız qədim tarixi əhəmiyyət"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Koks sobalarından alınan yan məhsullardan biri kimi benzol necə ayrılır?",
+  "secimler": [
+   "Kokslaşdırma qazının və qatranın emalı zamanı",
+   "Yalnız birbaşa kömürdən distillə ilə",
+   "Heç bir yolla alınmır",
+   "Yalnız kimyəvi sintezlə"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömürün tərkibindəki kükürd birləşmələri emal zamanı hansı problem yaradır?",
+  "secimler": [
+   "Zərərli SO2 qazının əmələ gəlməsi və korroziya",
+   "Heç bir problem yaratmır",
+   "Yalnız rəng dəyişikliyi",
+   "Yalnız qoxu problemi"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Antrasenin (üç bitişik benzol halqasından ibarət) mənbəyi əsasən haradan gəlir?",
+  "secimler": [
+   "Daş kömür qatranından",
+   "Neftdən",
+   "Sudan",
+   "Havadan"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömürün emalından alınan piridin və xinolin kimi birləşmələr hansı elementi saxlayır?",
+  "secimler": [
+   "Azot",
+   "Kükürd",
+   "Fosfor",
+   "Bor"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kokslaşdırma prosesinin sənaye əhəmiyyəti nə ilə ümumiləşdirilə bilər?",
+  "secimler": [
+   "Metallurgiya üçün koks, kimya sənayesi üçün aromatik xammal və qazlar verməsi ilə",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız enerji istehsalı üçündür",
+   "Yalnız tikinti materialı üçündür"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daş kömür ehtiyatlarının neftlə müqayisədə bir üstünlüyü kimi hansı fikir doğrudur?",
+  "secimler": [
+   "Dünya üzrə daha geniş və uzunmüddətli ehtiyata malik olması",
+   "Heç bir üstünlüyü yoxdur",
+   "Daha az yayılmışdır",
+   "Yalnız daha bahalıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Daş kömürün emalı",
+  "sinif": "10",
+  "fenn": "Kimya"
  }
 ]
