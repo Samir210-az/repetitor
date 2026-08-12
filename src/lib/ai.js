@@ -72,10 +72,11 @@ QAYDALAR:
 4. Səhv variantlar real, məntiqli olsun, gülünc olmasın.
 5. Dil təbii Azərbaycan dilində, orfoqrafik və qrammatik cəhətdən qüsursuz olsun.
 6. ÇOX VACİB — SAY QAYDASI: Tam olaraq ${count} sual yaz. Nə bir dənə artıq, nə əskik.
+6.1. ÇOX VACİB — TAMLIQ QAYDASI: Hər sualın "sual" mətni və 4 "secimler" variantının HAMISI dolu, mənalı mətn olmalıdır — heç biri boş sətir ("") və ya yalnız boşluq ola bilməz. Əgər ${count} sualı tam və dolu yaza bilməyəcəyini hiss etsən, əvəzinə DAHA AZ sayda, lakin hamısı TAM dolu sual yaz — YARIMÇIQ/boş sual yazmaqdansa, az sayda tam sual üstünlük təşkil edir.
 7. ÇOX VACİB — FORMAT: "secimler" massivindəki hər variant YALNIZ təmiz mətn olsun, əvvəlinə "A)" kimi heç nə əlavə etmə.
 8. Yalnız SAF JSON qaytar, başqa heç nə yazma. Format:
 {"suallar":[{"sual":"sual mətni","secimler":["variant","variant","variant","variant"],"duzgun":0}]}
-"suallar" array-i tam olaraq ${count} element daşımalıdır. "duzgun" 0-3 arası indeksdir, yalnız BİR düzgün cavab.${fewShotExample(fenn)}`;
+"suallar" array-i tam olaraq ${count} element daşımalıdır (6.1 qaydasına uyğun tam dolu olmaq şərtilə). "duzgun" 0-3 arası indeksdir, yalnız BİR düzgün cavab.${fewShotExample(fenn)}`;
 }
 
 function stripOptionPrefix(text) {

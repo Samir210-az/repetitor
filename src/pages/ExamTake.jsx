@@ -31,6 +31,7 @@ export default function ExamTake() {
   const [openedAt] = useState(Date.now());
 
   const [sagirdId, setSagirdId] = useState("");
+  const [showAllSinif, setShowAllSinif] = useState(false);
   const [formError, setFormError] = useState("");
   const [checking, setChecking] = useState(false);
 
@@ -152,6 +153,9 @@ export default function ExamTake() {
   }
 
   const studentList = Object.entries(students);
+  const matchingSinifStudents = studentList.filter(
+    ([, s]) => !test?.sinif || String(s.sinif || "").trim() === String(test.sinif || "").trim()
+  );
 
   // ---- Nəticə ekranı (təzə göndərildi və ya artıq göndərilmişdi) ----
   if (result) {
@@ -282,7 +286,7 @@ export default function ExamTake() {
           <Clock size={12} /> 60 dəqiqə vaxtın var, 1 cəhd haqqın var
         </p>
 
-        <label className="block mb-4">
+        <label className="block mb-2">
           <span className="text-xs font-medium text-white/50 mb-1.5 block">Adını seç</span>
           <select
             value={sagirdId}
@@ -290,11 +294,29 @@ export default function ExamTake() {
             className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-gold/60"
           >
             <option value="">— Seç —</option>
-            {studentList.map(([id, s]) => (
-              <option key={id} value={id}>{s.ad}</option>
+            {(showAllSinif ? studentList : matchingSinifStudents).map(([id, s]) => (
+              <option key={id} value={id}>{s.ad}{showAllSinif && s.sinif ? ` (${s.sinif}-ci sinif)` : ""}</option>
             ))}
           </select>
         </label>
+
+        {!showAllSinif && test?.sinif && matchingSinifStudents.length < studentList.length && (
+          <button
+            type="button"
+            onClick={() => setShowAllSinif(true)}
+            className="text-white/40 hover:text-white/60 text-xs mb-4 underline"
+          >
+            Adını görmürsən? Bütün şagirdləri göstər
+          </button>
+        )}
+
+        {showAllSinif && sagirdId && test?.sinif && String(students[sagirdId]?.sinif || "").trim() !== String(test.sinif).trim() && (
+          <p className="text-gold text-xs mb-4 bg-gold/10 rounded-lg px-3 py-2 flex items-center gap-1.5">
+            <Lock size={12} /> Diqqət: bu test {test.sinif}-ci sinif üçündür, {students[sagirdId]?.ad} isə {students[sagirdId]?.sinif || "naməlum"}-ci sinifdədir.
+          </p>
+        )}
+
+        <div className="mb-4" />
 
         {formError && <p className="text-coral text-sm mb-4 bg-coral/10 rounded-lg px-3 py-2 flex items-center gap-1.5"><Lock size={13} /> {formError}</p>}
 
