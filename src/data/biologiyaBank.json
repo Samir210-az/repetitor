@@ -1,0 +1,1562 @@
+[
+ {
+  "sual": "Bütün canlı orqanizmlərin əsas struktur və funksional vahidi hansıdır?",
+  "secimler": [
+   "Toxuma",
+   "Hüceyrə",
+   "Orqan",
+   "Sistem"
+  ],
+  "duzgun": 1,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrənin irsi məlumatı daşıyan hissəsi hansıdır?",
+  "secimler": [
+   "Sitoplazma",
+   "Nüvə",
+   "Hüceyrə membranı",
+   "Mitoxondri"
+  ],
+  "duzgun": 1,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrədə enerji istehsalı üçün əsas orqanoid hansıdır?",
+  "secimler": [
+   "Nüvə",
+   "Mitoxondri",
+   "Ribosom",
+   "Lizosom"
+  ],
+  "duzgun": 1,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrəni xarici mühitdən ayıran, maddələrin keçidini tənzimləyən struktur hansıdır?",
+  "secimler": [
+   "Sitoplazma",
+   "Hüceyrə membranı",
+   "Nüvə qişası",
+   "Vakuol"
+  ],
+  "duzgun": 1,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Zülal sintezi hüceyrədə hansı orqanoiddə baş verir?",
+  "secimler": [
+   "Mitoxondri",
+   "Ribosom",
+   "Lizosom",
+   "Golgi kompleksi"
+  ],
+  "duzgun": 1,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrə daxilində \"həzm\" funksiyasını yerinə yetirən orqanoid hansıdır?",
+  "secimler": [
+   "Lizosom",
+   "Ribosom",
+   "Mitoxondri",
+   "Nüvə"
+  ],
+  "duzgun": 0,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Bitki hüceyrəsi heyvan hüceyrəsindən əsasən nə ilə fərqlənir?",
+  "secimler": [
+   "Hüceyrə divarı, xloroplast və böyük vakuolun olması ilə",
+   "Nüvəsinin olması ilə",
+   "Sitoplazmasının olması ilə",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrənin bölünməsi orqanizmin hansı prosesi üçün vacibdir?",
+  "secimler": [
+   "Böyümə və bərpa",
+   "Yalnız hərəkət",
+   "Yalnız tənəffüs",
+   "Heç bir proses üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrədaxili orqanoidlərin yerləşdiyi mühitə nə deyilir?",
+  "secimler": [
+   "Nüvə",
+   "Sitoplazma",
+   "Membran",
+   "Xromosom"
+  ],
+  "duzgun": 1,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "İnsan bədənindəki bütün hüceyrələr eyni funksiyanı yerinə yetirirmi?",
+  "secimler": [
+   "Bəli, hamısı eynidir",
+   "Xeyr, ixtisaslaşaraq müxtəlif funksiyalar yerinə yetirir",
+   "Yalnız əzələ hüceyrələri fərqlənir",
+   "Yalnız sinir hüceyrələri fərqlənir"
+  ],
+  "duzgun": 1,
+  "movzu": "Hüceyrənin quruluşu və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Bədən səthini və orqanların daxili boşluqlarını örtən toxuma hansıdır?",
+  "secimler": [
+   "Birləşdirici toxuma",
+   "Epitel toxuma",
+   "Əzələ toxuması",
+   "Sinir toxuması"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sümük və qığırdaq hansı toxuma qrupuna aiddir?",
+  "secimler": [
+   "Epitel toxuma",
+   "Birləşdirici toxuma",
+   "Əzələ toxuması",
+   "Sinir toxuması"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qan hansı toxuma növünə aid edilir?",
+  "secimler": [
+   "Epitel toxuma",
+   "Birləşdirici (maye) toxuma",
+   "Əzələ toxuması",
+   "Sinir toxuması"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Bədəndə hərəkəti təmin edən toxuma növü hansıdır?",
+  "secimler": [
+   "Epitel toxuma",
+   "Birləşdirici toxuma",
+   "Əzələ toxuması",
+   "Sinir toxuması"
+  ],
+  "duzgun": 2,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "İmpulsların ötürülməsini təmin edən toxuma hansıdır?",
+  "secimler": [
+   "Epitel toxuma",
+   "Birləşdirici toxuma",
+   "Əzələ toxuması",
+   "Sinir toxuması"
+  ],
+  "duzgun": 3,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Zolaqlı (eninə zolaqlı) əzələ toxuması bədəndə əsasən harada yerləşir?",
+  "secimler": [
+   "Ürəkdə",
+   "Skelet əzələlərində",
+   "Mədə-bağırsaq divarında",
+   "Qan damarlarında"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hamar əzələ toxuması bədəndə əsasən harada yerləşir?",
+  "secimler": [
+   "Skelet əzələlərində",
+   "Daxili orqanların (mədə, bağırsaq) divarlarında",
+   "Yalnız ürəkdə",
+   "Beyin qabığında"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sinir hüceyrəsinin (neyronun) əsas hissələri hansılardır?",
+  "secimler": [
+   "Nüvə, sitoplazma, membran",
+   "Cisim, dendritlər, akson",
+   "Yalnız cisim",
+   "Yalnız akson"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Toxumalar bir araya gələrək nə əmələ gətirir?",
+  "secimler": [
+   "Hüceyrə",
+   "Orqan",
+   "Sistem",
+   "Orqanoid"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Piy toxuması hansı toxuma qrupuna aiddir?",
+  "secimler": [
+   "Epitel toxuma",
+   "Birləşdirici toxuma",
+   "Əzələ toxuması",
+   "Sinir toxuması"
+  ],
+  "duzgun": 1,
+  "movzu": "Toxumalar",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "İnsan skeleti təxminən neçə sümükdən ibarətdir?",
+  "secimler": [
+   "100",
+   "206",
+   "300",
+   "150"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sümüyün tərkibindəki üzvi maddə sümüyə hansı xüsusiyyəti verir?",
+  "secimler": [
+   "Bərklik",
+   "Elastiklik",
+   "Ağırlıq",
+   "Rəng"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sümüyün tərkibindəki qeyri-üzvi (mineral) maddələr ona hansı xüsusiyyəti verir?",
+  "secimler": [
+   "Elastiklik",
+   "Bərklik",
+   "Yüngüllük",
+   "Rəng"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Uşaqlarda sümüklərin daha elastik olmasının səbəbi nədir?",
+  "secimler": [
+   "Üzvi maddələrin nisbətən çox olması",
+   "Mineral maddələrin çox olması",
+   "Sümüklərin daha az olması",
+   "Heç bir səbəbi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qafa qutusu sümükləri əsasən hansı funksiyanı yerinə yetirir?",
+  "secimler": [
+   "Hərəkəti təmin etmək",
+   "Beyni qorumaq",
+   "Qan istehsal etmək",
+   "Nəfəs almaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qırmızı qan hüceyrələri əsasən harada istehsal olunur?",
+  "secimler": [
+   "Qaraciyərdə",
+   "Sümük iliyində",
+   "Dalaqda",
+   "Ağciyərdə"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Onurğa sütunu neçə şöbədən ibarətdir?",
+  "secimler": [
+   "3",
+   "5",
+   "4",
+   "7"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sümüklərin bir-biri ilə hərəkətli birləşdiyi yerə nə deyilir?",
+  "secimler": [
+   "Vətər",
+   "Oynaq",
+   "Sinir düyünü",
+   "Damar"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "D vitamini çatışmazlığı uşaqlarda hansı xəstəliyə səbəb ola bilər?",
+  "secimler": [
+   "Raxit",
+   "Qrip",
+   "Astma",
+   "Qastrit"
+  ],
+  "duzgun": 0,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sümük sınıqlarının bitişməsində hansı proses baş verir?",
+  "secimler": [
+   "Yeni sümük toxumasının əmələ gəlməsi",
+   "Əzələ toxumasının əmələ gəlməsi",
+   "Heç bir bərpa baş vermir",
+   "Yalnız qan laxtalanması"
+  ],
+  "duzgun": 0,
+  "movzu": "Dayaq-hərəkət sistemi: sümüklər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sümüklərin sərbəst hərəkət etməsini təmin edən birləşmə növü hansıdır?",
+  "secimler": [
+   "Tikişli birləşmə",
+   "Oynaqlı (sərbəst) birləşmə",
+   "Qığırdaqlı birləşmə",
+   "Sümük birləşməsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Oynaq boşluğunda olan, sürtünməni azaldan maye hansıdır?",
+  "secimler": [
+   "Qan",
+   "Sinovial maye",
+   "Limfa",
+   "Su"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Əzələlərin qısalması hansı proseslə təmin olunur?",
+  "secimler": [
+   "Sinir impulsu ilə oyanma və yığılma",
+   "Yalnız istilik ilə",
+   "Yalnız qan təzyiqi ilə",
+   "Heç bir proseslə"
+  ],
+  "duzgun": 0,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Skelet əzələləri sümüklərə nə vasitəsilə birləşir?",
+  "secimler": [
+   "Bağlarla",
+   "Vətərlərlə",
+   "Qığırdaqla",
+   "Membranla"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Əzələlərin uzun müddət fasiləsiz işləməsi nəticəsində yaranan hala nə deyilir?",
+  "secimler": [
+   "Yorğunluq",
+   "İflic",
+   "Atrofiya",
+   "Sınıq"
+  ],
+  "duzgun": 0,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Bazu əzələlərindən bisepslə tripsepsin funksiyaları haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "Hər ikisi eyni hərəkəti yerinə yetirir",
+   "Biri bükür, digəri açır (antaqonist əzələlər)",
+   "Hər ikisi yalnız açır",
+   "Hər ikisi yalnız bükür"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Əzələ fəaliyyəti üçün lazım olan enerji əsasən hansı prosesdən alınır?",
+  "secimler": [
+   "Fotosintez",
+   "Qlükozanın oksidləşməsi (tənəffüs)",
+   "Sadəcə istilikdən",
+   "Sadəcə hərəkətdən"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Düzgün oturma vərdişinin olmaması uşaqlarda hansı problemə səbəb ola bilər?",
+  "secimler": [
+   "Onurğanın əyilməsi (skolioz)",
+   "Görmə itiliyinin artması",
+   "Ürək çatışmazlığı",
+   "Heç bir problem yaratmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Fiziki hərəkətsizliyin (hipodinamiyanın) əzələ və sümük sisteminə təsiri necədir?",
+  "secimler": [
+   "Onları gücləndirir",
+   "Onları zəiflədir",
+   "Heç bir təsiri yoxdur",
+   "Yalnız faydalıdır"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "İdmanla məşğul olmaq sümük və əzələ sisteminə necə təsir edir?",
+  "secimler": [
+   "Zəiflədir",
+   "Möhkəmləndirir və inkişaf etdirir",
+   "Heç bir təsiri yoxdur",
+   "Yalnız əzələni zəiflədir"
+  ],
+  "duzgun": 1,
+  "movzu": "Dayaq-hərəkət sistemi: oynaqlar və əzələlər",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qanın maye hissəsinə nə deyilir?",
+  "secimler": [
+   "Plazma",
+   "Serum",
+   "Limfa",
+   "Sitoplazma"
+  ],
+  "duzgun": 0,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Oksigen daşınmasını təmin edən qan hüceyrələri hansılardır?",
+  "secimler": [
+   "Leykositlər",
+   "Eritrositlər (qırmızı qan hüceyrələri)",
+   "Trombositlər",
+   "Plazma zülalları"
+  ],
+  "duzgun": 1,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Orqanizmi infeksiyalardan qoruyan qan hüceyrələri hansılardır?",
+  "secimler": [
+   "Eritrositlər",
+   "Leykositlər (ağ qan hüceyrələri)",
+   "Trombositlər",
+   "Plazma"
+  ],
+  "duzgun": 1,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qanın laxtalanmasında iştirak edən hüceyrələr hansılardır?",
+  "secimler": [
+   "Eritrositlər",
+   "Leykositlər",
+   "Trombositlər",
+   "Plazma zülalları"
+  ],
+  "duzgun": 2,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Eritrositlərin tərkibindəki, oksigeni daşıyan zülal hansıdır?",
+  "secimler": [
+   "Hemoqlobin",
+   "İnsulin",
+   "Fibrinogen",
+   "Albumin"
+  ],
+  "duzgun": 0,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qan qruplarının təyinində hansı əsas sistemlərdən istifadə olunur?",
+  "secimler": [
+   "Rezus və ABO sistemi",
+   "Yalnız rezus sistemi",
+   "Yalnız ABO sistemi",
+   "Heç bir sistem"
+  ],
+  "duzgun": 0,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Universal donor hesab olunan qan qrupu hansıdır?",
+  "secimler": [
+   "A(II)",
+   "B(III)",
+   "O(I)",
+   "AB(IV)"
+  ],
+  "duzgun": 2,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qanın laxtalanması orqanizm üçün hansı əhəmiyyətə malikdir?",
+  "secimler": [
+   "Qan itkisinin qarşısını alır",
+   "Qan təzyiqini artırır",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız yaraları rəngləndirir"
+  ],
+  "duzgun": 0,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hemoqlobinin tərkibində olan, oksigenlə birləşən element hansıdır?",
+  "secimler": [
+   "Kalsium",
+   "Dəmir",
+   "Natrium",
+   "Sink"
+  ],
+  "duzgun": 1,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Az qanlılıq (anemiya) əsasən nəyin çatışmazlığı ilə bağlıdır?",
+  "secimler": [
+   "Dəmir və ya eritrositlərin",
+   "Leykositlərin",
+   "Trombositlərin",
+   "Plazmanın"
+  ],
+  "duzgun": 0,
+  "movzu": "Qanın tərkibi və funksiyaları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "İnsan ürəyi neçə kameradan (bölmədən) ibarətdir?",
+  "secimler": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "duzgun": 2,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Ürəyin əsas divarını təşkil edən toxuma hansıdır?",
+  "secimler": [
+   "Skelet əzələsi",
+   "Ürək əzələsi (miokard)",
+   "Hamar əzələ",
+   "Birləşdirici toxuma"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qanın ürəkdən yalnız bir istiqamətdə axmasını təmin edən struktur hansıdır?",
+  "secimler": [
+   "Qapaqlar (klapanlar)",
+   "Damarlar",
+   "Kameralar",
+   "Sinovial maye"
+  ],
+  "duzgun": 0,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Ürək əzələsinin özünəməxsus xüsusiyyəti hansıdır?",
+  "secimler": [
+   "İnsan iradəsindən asılı olmadan avtomatik yığılması",
+   "İnsan iradəsi ilə idarə olunması",
+   "Yalnız istirahətdə işləməsi",
+   "Heç bir xüsusi cəhəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Ürəyin bir dəqiqədə vurma sayına nə deyilir?",
+  "secimler": [
+   "Qan təzyiqi",
+   "Nəbz (döyüntü sayı)",
+   "Tənəffüs sayı",
+   "Qan dövranı sürəti"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Normal şəraitdə istirahətdə olan yetkin insanın nəbzi təxminən neçədir?",
+  "secimler": [
+   "20-30",
+   "60-80",
+   "150-160",
+   "200-220"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Fiziki fəaliyyət zamanı ürək döyüntüsü necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Dayanır"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Ürəyin işini tənzimləyən sistemlərdən biri hansıdır?",
+  "secimler": [
+   "Sinir sistemi",
+   "Tənəffüs sistemi",
+   "Həzm sistemi",
+   "Sümük sistemi"
+  ],
+  "duzgun": 0,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Ürək-damar sisteminin əsas funksiyası nədir?",
+  "secimler": [
+   "Qanın orqanizmdə dövr etdirilməsi",
+   "Yalnız oksigen istehsalı",
+   "Yalnız hormon istehsalı",
+   "Yalnız istilik istehsalı"
+  ],
+  "duzgun": 0,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Düzgün olmayan qidalanma və hərəkətsizlik ürək-damar sisteminə necə təsir edə bilər?",
+  "secimler": [
+   "Xəstəliklər riskini artıra bilər",
+   "Heç bir təsiri yoxdur",
+   "Yalnız faydalıdır",
+   "Yalnız əzələni gücləndirir"
+  ],
+  "duzgun": 0,
+  "movzu": "Qan dövranı sistemi: ürək",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qanı ürəkdən orqanlara aparan damarlara nə deyilir?",
+  "secimler": [
+   "Venalar",
+   "Arteriyalar",
+   "Kapilyarlar",
+   "Limfa damarları"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qanı orqanlardan ürəyə gətirən damarlara nə deyilir?",
+  "secimler": [
+   "Arteriyalar",
+   "Venalar",
+   "Kapilyarlar",
+   "Limfa damarları"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Maddələr mübadiləsinin baş verdiyi ən nazik damarlara nə deyilir?",
+  "secimler": [
+   "Arteriyalar",
+   "Venalar",
+   "Kapilyarlar",
+   "Aorta"
+  ],
+  "duzgun": 2,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "İnsanda neçə qan dövranı mövcuddur?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Böyük qan dövranı hansı kameradan başlayır?",
+  "secimler": [
+   "Sağ mədəcik",
+   "Sol mədəcik",
+   "Sağ qulaqcıq",
+   "Sol qulaqcıq"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Kiçik (ağciyər) qan dövranının vəzifəsi nədir?",
+  "secimler": [
+   "Qanı bütün bədənə aparmaq",
+   "Qanı ağciyərlərə aparıb qaz mübadiləsi etdirmək",
+   "Yalnız qida daşımaq",
+   "Yalnız hormon daşımaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Arteriya divarları venalarla müqayisədə necədir?",
+  "secimler": [
+   "Daha nazik",
+   "Daha qalın və elastik",
+   "Eynidir",
+   "Heç bir fərqi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qan təzyiqi əsasən nə ilə ölçülür?",
+  "secimler": [
+   "Termometrlə",
+   "Tonometrlə",
+   "Yalnız stetoskopla",
+   "Tərəzi ilə"
+  ],
+  "duzgun": 1,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Yüksək qan təzyiqinə (hipertoniyaya) səbəb ola biləcək amillərdən biri hansıdır?",
+  "secimler": [
+   "Duzlu qidalanma və stress",
+   "Yalnız istirahət",
+   "Yalnız su içmək",
+   "Heç bir amil yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Venalarda qanın geri axmasının qarşısını almaq üçün nə mövcuddur?",
+  "secimler": [
+   "Qapaqlar (klapanlar)",
+   "Yalnız əzələ təzyiqi",
+   "Heç nə",
+   "Yalnız ürək təzyiqi"
+  ],
+  "duzgun": 0,
+  "movzu": "Qan dövranı sistemi: damarlar və qan dövranları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Havanın burun boşluğundan keçərkən əsas funksiyalarından biri hansıdır?",
+  "secimler": [
+   "Havanın isidilməsi, təmizlənməsi və nəmləndirilməsi",
+   "Yalnız qoxu hiss etmək",
+   "Yalnız səs çıxarmaq",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qida borusu ilə tənəffüs yolunun kəsişdiyi nahiyəyə nə deyilir?",
+  "secimler": [
+   "Traxeya",
+   "Udlaq",
+   "Bronx",
+   "Öd kisəsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Səs telləri harada yerləşir?",
+  "secimler": [
+   "Traxeyada",
+   "Qırtlaqda",
+   "Bronxda",
+   "Ağciyərdə"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Traxeya nə ilə davam edərək ağciyərlərə daxil olur?",
+  "secimler": [
+   "Bronxlarla",
+   "Alveollarla",
+   "Diafraqma ilə",
+   "Qırtlaqla"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qaz mübadiləsinin bilavasitə baş verdiyi kiçik kisəciklərə nə deyilir?",
+  "secimler": [
+   "Bronxiollar",
+   "Alveollar",
+   "Traxeya",
+   "Plevra"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Ağciyərləri əhatə edən qişaya nə deyilir?",
+  "secimler": [
+   "Plevra",
+   "Traxeya",
+   "Diafraqma",
+   "Bronx"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Nəfəsalma zamanı döş qəfəsinin həcmi necə dəyişir?",
+  "secimler": [
+   "Artır",
+   "Azalır",
+   "Dəyişmir",
+   "Sıfır olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Nəfəsalma-nəfəsvermə prosesində əsas rol oynayan əzələ hansıdır?",
+  "secimler": [
+   "Biseps",
+   "Diafraqma",
+   "Triseps",
+   "Ürək əzələsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Ağciyərlərin əsas struktur vahidi hansıdır?",
+  "secimler": [
+   "Bronx",
+   "Alveol",
+   "Traxeya",
+   "Plevra"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Tənəffüs sisteminin əsas funksiyası nədir?",
+  "secimler": [
+   "Oksigen almaq və karbon qazını xaric etmək",
+   "Yalnız səs çıxarmaq",
+   "Yalnız qoxu hiss etmək",
+   "Yalnız qida udmaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: quruluş",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Alveollarda qaz mübadiləsi hansı prinsiplə baş verir?",
+  "secimler": [
+   "Diffuziya (yüksək qatılıqdan aşağı qatılığa)",
+   "Aktiv nəql",
+   "Osmoz",
+   "Heç bir mexanizmlə"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Alveollardan qana keçən qaz hansıdır?",
+  "secimler": [
+   "Karbon qazı",
+   "Oksigen",
+   "Azot",
+   "Su buxarı"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qandan alveollara keçən qaz hansıdır?",
+  "secimler": [
+   "Oksigen",
+   "Karbon qazı",
+   "Azot",
+   "Hidrogen"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrələrdə tənəffüs prosesində əsasən hansı qaz istehlak olunur?",
+  "secimler": [
+   "Karbon qazı",
+   "Oksigen",
+   "Azot",
+   "Hidrogen"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Hüceyrə tənəffüsü nəticəsində hansı qaz ayrılır?",
+  "secimler": [
+   "Oksigen",
+   "Karbon qazı",
+   "Azot",
+   "Metan"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Siqaret çəkmək tənəffüs sisteminə necə təsir göstərir?",
+  "secimler": [
+   "Faydalıdır",
+   "Ağciyər toxumasını zədələyir və xəstəlik riskini artırır",
+   "Heç bir təsiri yoxdur",
+   "Yalnız səsi dəyişdirir"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Çirklənmiş havada uzun müddət olmaq tənəffüs sisteminə necə təsir edə bilər?",
+  "secimler": [
+   "Xəstəlik riskini artıra bilər",
+   "Heç bir təsiri yoxdur",
+   "Yalnız faydalıdır",
+   "Yalnız iştahı artırır"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Fiziki fəaliyyət zamanı tənəffüs tezliyi necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Dayanır"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Oksigenin qanda daşınmasında əsas rolu hansı komponent oynayır?",
+  "secimler": [
+   "Plazma",
+   "Hemoqlobin",
+   "Leykositlər",
+   "Trombositlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Tənəffüs sisteminin tənzimlənməsində hansı orqan mühüm rol oynayır?",
+  "secimler": [
+   "Baş beyin (tənəffüs mərkəzi)",
+   "Qaraciyər",
+   "Böyrək",
+   "Dalaq"
+  ],
+  "duzgun": 0,
+  "movzu": "Tənəffüs sistemi: qaz mübadiləsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qidanın mexaniki emalının başladığı yer haradır?",
+  "secimler": [
+   "Mədə",
+   "Ağız boşluğu",
+   "Nazik bağırsaq",
+   "Yoğun bağırsaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Nişastanın parçalanmasına kömək edən, tüpürcəkdə olan ferment hansıdır?",
+  "secimler": [
+   "Pepsin",
+   "Amilaza",
+   "Lipaza",
+   "Tripsin"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Mədədə zülalların parçalanmasına kömək edən ferment hansıdır?",
+  "secimler": [
+   "Amilaza",
+   "Pepsin",
+   "Lipaza",
+   "İnsulin"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Mədə şirəsinin tərkibində olan, turş mühiti təmin edən maddə hansıdır?",
+  "secimler": [
+   "Xörək duzu",
+   "Xlorid turşusu",
+   "Sirkə turşusu",
+   "Süd turşusu"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Mədənin turş mühiti hansı əlavə funksiyanı yerinə yetirir?",
+  "secimler": [
+   "Zərərli mikroorqanizmləri məhv etmək",
+   "Yalnız dad vermək",
+   "Yalnız rəng vermək",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qida udma zamanı tənəffüs yolunun qapanmasını təmin edən struktur hansıdır?",
+  "secimler": [
+   "Dil",
+   "Qırtlaq qapağı (nadqırtlaq)",
+   "Badamcıqlar",
+   "Yumşaq damaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Dişlərin əsas funksiyası nədir?",
+  "secimler": [
+   "Qidanın mexaniki xırdalanması",
+   "Yalnız gözəllik",
+   "Yalnız danışıq",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Mədədə qidanın qalma müddəti təxminən neçə saatdır?",
+  "secimler": [
+   "10-15 dəqiqə",
+   "2-4 saat",
+   "24 saat",
+   "1 həftə"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Tez-tez ədviyyatlı, yağlı qida qəbulu hansı orqana zərər verə bilər?",
+  "secimler": [
+   "Mədəyə (qastrit riski)",
+   "Ağciyərlərə",
+   "Sümüklərə",
+   "Dəriyə"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Tüpürcək vəziləri harada yerləşir?",
+  "secimler": [
+   "Mədədə",
+   "Ağız boşluğu ətrafında",
+   "Bağırsaqda",
+   "Qaraciyərdə"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: ağız və mədə",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qidanın əsas hissəsinin həzm olunub qana sorulduğu yer haradır?",
+  "secimler": [
+   "Mədə",
+   "Nazik bağırsaq",
+   "Yoğun bağırsaq",
+   "Qalın bağırsaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Öd mayesi hansı orqanda istehsal olunur?",
+  "secimler": [
+   "Mədəaltı vəzi",
+   "Qaraciyər",
+   "Dalaq",
+   "Böyrək"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Öd mayesinin əsas funksiyası nədir?",
+  "secimler": [
+   "Yağların emulqasiyası (xırdalanması)",
+   "Zülalların parçalanması",
+   "Karbohidratların parçalanması",
+   "Vitamin istehsalı"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Mədəaltı vəzi hansı funksiyanı yerinə yetirir?",
+  "secimler": [
+   "Yalnız hormon istehsal edir",
+   "Həzm fermentləri və insulin hormonu istehsal edir",
+   "Yalnız öd istehsal edir",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Yoğun bağırsağın əsas funksiyalarından biri hansıdır?",
+  "secimler": [
+   "Suyun sorulması",
+   "Zülalların parçalanması",
+   "Yağların emulqasiyası",
+   "Qida udulması"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Nazik bağırsağın daxili səthindəki, sorulma səthini artıran struktur hansıdır?",
+  "secimler": [
+   "Villuslar (bağırsaq villusları)",
+   "Alveollar",
+   "Neyronlar",
+   "Kapilyarlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Lifli qidaların (tərəvəz, meyvə) həzm sistemi üçün əhəmiyyəti nədir?",
+  "secimler": [
+   "Bağırsaq hərəkətini yaxşılaşdırır",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız dad verir",
+   "Zərərlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Vitaminlərin əksəriyyəti orqanizmə haradan daxil olur?",
+  "secimler": [
+   "Yalnız günəş işığından",
+   "Qida ilə",
+   "Yalnız hava ilə",
+   "Yalnız su ilə"
+  ],
+  "duzgun": 1,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Qəbizliyin qarşısını almaq üçün tövsiyə olunan qidalanma tərzi hansıdır?",
+  "secimler": [
+   "Lifli qida və kifayət qədər su qəbulu",
+   "Yalnız ət qəbulu",
+   "Az su içmək",
+   "Heç bir tövsiyə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Həzm sisteminin son mərhələsi (bədəndən çıxarılma) hansı hissədə baş verir?",
+  "secimler": [
+   "Mədə",
+   "Nazik bağırsaq",
+   "Düz bağırsaq (defekasiya)",
+   "Qaraciyər"
+  ],
+  "duzgun": 2,
+  "movzu": "Həzm sistemi: bağırsaqlar və qidanın mənimsənilməsi",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Orqanizmdə baş verən bütün kimyəvi proseslərin məcmusuna nə deyilir?",
+  "secimler": [
+   "Homeostaz",
+   "Metabolizm (maddələr mübadiləsi)",
+   "Diffuziya",
+   "Sekresiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Mürəkkəb maddələrin sadə maddələrə parçalanaraq enerji ayrılan prosesə nə deyilir?",
+  "secimler": [
+   "Assimilyasiya",
+   "Dissimilyasiya (katabolizm)",
+   "Fotosintez",
+   "Homeostaz"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Sadə maddələrdən mürəkkəb, orqanizmə xas maddələrin sintez olunması prosesinə nə deyilir?",
+  "secimler": [
+   "Assimilyasiya (anabolizm)",
+   "Dissimilyasiya",
+   "Ekskresiya",
+   "Diffuziya"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Orqanizmin daxili mühitinin sabitliyinin saxlanmasına nə deyilir?",
+  "secimler": [
+   "Metabolizm",
+   "Homeostaz",
+   "Assimilyasiya",
+   "Sekresiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Karbohidratların əsas funksiyası orqanizmdə nədir?",
+  "secimler": [
+   "Əsas enerji mənbəyi olmaq",
+   "Yalnız struktur funksiyası",
+   "Yalnız hormon funksiyası",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Zülalların orqanizmdəki əsas funksiyalarından biri hansıdır?",
+  "secimler": [
+   "Toxumaların qurulması və bərpası",
+   "Yalnız enerji mənbəyi olmaq",
+   "Yalnız dad vermək",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Yağların orqanizmdəki funksiyalarından biri hansıdır?",
+  "secimler": [
+   "Ehtiyat enerji mənbəyi olmaq və istilik izolyasiyası",
+   "Yalnız dad vermək",
+   "Yalnız rəng vermək",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Su orqanizm üçün niyə vacibdir?",
+  "secimler": [
+   "Bütün metabolik proseslərin gedişi üçün zəruridir",
+   "Yalnız susuzluğu yatırmaq üçün",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız dəri üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Əsas mübadilə (bazal metabolizm) nəyi ifadə edir?",
+  "secimler": [
+   "Tam istirahətdə orqanizmin sərf etdiyi minimum enerji",
+   "Maksimum fiziki fəaliyyətdə sərf olunan enerji",
+   "Yalnız yuxu zamanı sərf olunan enerji",
+   "Heç nəyi ifadə etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ },
+ {
+  "sual": "Dəngəli qidalanma nəyi nəzərdə tutur?",
+  "secimler": [
+   "Yalnız az yemək",
+   "Zülal, karbohidrat, yağ, vitamin və mineralların düzgün nisbətdə qəbulu",
+   "Yalnız zülal qəbulu",
+   "Yalnız şirniyyat qəbulu"
+  ],
+  "duzgun": 1,
+  "movzu": "Maddələr və enerji mübadiləsi əsasları",
+  "sinif": "8",
+  "fenn": "Biologiya"
+ }
+]
