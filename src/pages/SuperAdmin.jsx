@@ -351,7 +351,7 @@ function SeedBankTool() {
       await remove(ref(db, "repetitor/sualBanki/fizika"));
       const updates = {};
       fizikaBank.forEach((q) => {
-        const key = ref(db, "repetitor/sualBanki/fizika").push().key;
+        const key = push(ref(db, "repetitor/sualBanki/fizika")).key;
         updates[`repetitor/sualBanki/fizika/${key}`] = { ...q, yaradilib: Date.now() };
       });
       await update(ref(db), updates);
@@ -367,7 +367,7 @@ function SeedBankTool() {
       await remove(ref(db, "repetitor/sualBanki/azərbaycan dili"));
       const updates = {};
       azDiliBank.forEach((q) => {
-        const key = ref(db, "repetitor/sualBanki/azərbaycan dili").push().key;
+        const key = push(ref(db, "repetitor/sualBanki/azərbaycan dili")).key;
         updates[`repetitor/sualBanki/azərbaycan dili/${key}`] = { ...q, yaradilib: Date.now() };
       });
       await update(ref(db), updates);
