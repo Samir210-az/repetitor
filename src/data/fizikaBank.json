@@ -4223,5 +4223,2345 @@
   "movzu": "İmpuls",
   "sinif": "11",
   "fenn": "Fizika"
+ },
+ {
+  "sual": "Bədən istiliyi 36,6°C-dən 39°C-yə qalxanda molekulların orta kinetik enerjisi necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Əvvəl artır, sonra azalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Aşağıdakılardan hansı temperaturun molekulyar-kinetik izahına əsasən doğrudur?",
+  "secimler": [
+   "Temperatur molekulların ölçüsünü göstərir",
+   "Temperatur molekulların orta kinetik enerjisi ilə bağlıdır",
+   "Temperatur yalnız bərk cisimlərdə mövcuddur",
+   "Temperatur molekulların sayından asılıdır"
+  ],
+  "duzgun": 1,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Toxunan iki cismin temperaturu bərabərləşənədək istilik hansı istiqamətdə ötürülür?",
+  "secimler": [
+   "Soyuq cisimdən isti cismə",
+   "İsti cisimdən soyuq cismə",
+   "Hər iki istiqamətdə bərabər",
+   "Ötürülmə baş vermir"
+  ],
+  "duzgun": 1,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Termometrlə bilavasitə ölçülən kəmiyyət hansıdır?",
+  "secimler": [
+   "Daxili enerji",
+   "İstilik miqdarı",
+   "Temperatur",
+   "Xüsusi istilik tutumu"
+  ],
+  "duzgun": 2,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Fərqli temperaturlu iki su miqdarı bir qabda qarışdırılır. Son temperatur necə olar?",
+  "secimler": [
+   "Daha isti suyun temperaturundan yüksək",
+   "Hər iki suyun temperaturu arasında",
+   "Daha soyuq suyun temperaturundan aşağı",
+   "Dəyişməz"
+  ],
+  "duzgun": 1,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "0°C temperatur Kelvin şkalasında neçə K-dir?",
+  "secimler": [
+   "0 K",
+   "100 K",
+   "273 K",
+   "373 K"
+  ],
+  "duzgun": 2,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "20°C temperatur Kelvin şkalasında neçə K-dir?",
+  "secimler": [
+   "293 K",
+   "253 K",
+   "20 K",
+   "273 K"
+  ],
+  "duzgun": 0,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Molekulların xaotik (nizamsız) hərəkətinə fizikada nə deyilir?",
+  "secimler": [
+   "Diffuziya",
+   "İstilik hərəkəti",
+   "İnersiya",
+   "Sürtünmə"
+  ],
+  "duzgun": 1,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Eyni maddədən olan, kütləsi bərabər, temperaturu fərqli iki cisim toxunduqda daxili enerji necə ötürülür?",
+  "secimler": [
+   "Yüksək temperaturlu cisimdən aşağı temperaturluya",
+   "Aşağı temperaturlu cisimdən yüksəyə",
+   "Ötürülmə olmur",
+   "Yalnız bərk cisimlərdə ötürülür"
+  ],
+  "duzgun": 0,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Aşağıdakılardan hansı doğru DEYİL?",
+  "secimler": [
+   "Temperatur artdıqca molekulların hərəkət sürəti artır",
+   "Mütləq sıfırda molekulların hərəkəti nəzəri olaraq minimuma çatır",
+   "Temperatur maddənin növündən asılı olmayaraq daxili enerjini tam təyin edir",
+   "Termometr temperaturu ölçmək üçün istifadə olunur"
+  ],
+  "duzgun": 2,
+  "movzu": "Temperatur və istilik hərəkəti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=2 kq su 10°C-dən 30°C-yə qədər qızdırılır (c=4200 C/(kq·°C)). Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "168 kC",
+   "84 kC",
+   "336 kC",
+   "16,8 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=0,5 kq su 20°C-dən 70°C-yə qızdırılır. Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "210 kC",
+   "52,5 kC",
+   "105 kC",
+   "10,5 kC"
+  ],
+  "duzgun": 2,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=1 kq su 0°C-dən 100°C-yə qızdırılır. Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "420 kC",
+   "42 kC",
+   "840 kC",
+   "210 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=2 kq alüminium 20°C isidilir (c=920 C/(kq·°C)). Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "36,8 kC",
+   "18,4 kC",
+   "73,6 kC",
+   "3,68 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=5 kq dəmir 10°C isidilir (c=460 C/(kq·°C)). Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "23 kC",
+   "46 kC",
+   "11,5 kC",
+   "2,3 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=3 kq suya Q=252 kC istilik verilib. Suyun temperaturu neçə dərəcə artar?",
+  "secimler": [
+   "10°C",
+   "20°C",
+   "30°C",
+   "40°C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "c=4200 C/(kq·°C), Δt=25°C, Q=210 kC verilib. Suyun kütləsi nə qədərdir?",
+  "secimler": [
+   "1 kq",
+   "2 kq",
+   "4 kq",
+   "0,5 kq"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Eyni kütləli və eyni Δt-li su ilə dəmirdən hansı daha çox istilik udar?",
+  "secimler": [
+   "Dəmir",
+   "Su",
+   "İkisi bərabər",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Xüsusi istilik tutumu fiziki mənaca nəyi göstərir?",
+  "secimler": [
+   "Cismin kütləsini istilik ötürmədən dəyişdirən əmsaldır",
+   "1 kq maddənin temperaturunu 1°C artırmaq üçün lazım olan istilik miqdarıdır",
+   "Cismin ərimə temperaturudur",
+   "Cismin sıxlığı ilə bağlı əmsaldır"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=4 kq su 15°C-dən 45°C-yə qədər qızdırılır. Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "504 kC",
+   "252 kC",
+   "1008 kC",
+   "50,4 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik miqdarı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=2 kq buz 0°C-də tam əriyir (λ=340 kC/kq). Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "680 kC",
+   "340 kC",
+   "170 kC",
+   "1360 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=0,5 kq buz tam əriyir. Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "85 kC",
+   "170 kC",
+   "340 kC",
+   "680 kC"
+  ],
+  "duzgun": 1,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=5 kq su donaraq buza çevrilir. Ətraf mühitə verilən istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "1700 kC",
+   "850 kC",
+   "3400 kC",
+   "170 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Ərimə prosesi zamanı (buz-su qarışığında) cismin temperaturu necə dəyişir?",
+  "secimler": [
+   "Davamlı artır",
+   "Davamlı azalır",
+   "Sabit qalır",
+   "Əvvəl artır, sonra azalır"
+  ],
+  "duzgun": 2,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=3 kq buzu (0°C-də) tam əritmək üçün lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "1020 kC",
+   "510 kC",
+   "2040 kC",
+   "102 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Bərkimə (donma) prosesində cisim istiliyi udur, yoxsa ətrafa verir?",
+  "secimler": [
+   "Udur",
+   "Verir",
+   "Nə udur, nə verir",
+   "Əvvəl udur, sonra verir"
+  ],
+  "duzgun": 1,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "λ=340 kC/kq, Q=1700 kC istilik sərf olunub buzu tam əritmək üçün. Buzun kütləsi nə qədərdir?",
+  "secimler": [
+   "3 kq",
+   "5 kq",
+   "7 kq",
+   "10 kq"
+  ],
+  "duzgun": 1,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Ərimə zamanı verilən istilik cismin temperaturunu artırmadığı halda hara sərf olunur?",
+  "secimler": [
+   "Temperaturu artırmağa",
+   "Molekullararası bağların qırılmasına",
+   "Cismin kütləsini artırmağa",
+   "Cismin rənginin dəyişməsinə"
+  ],
+  "duzgun": 1,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "0°C-dən aşağı temperaturda olan buzu əvvəlcə 0°C-yə çatdırıb, sonra tam əritmək üçün hansı hesablama aparılmalıdır?",
+  "secimler": [
+   "Yalnız Q=λm",
+   "Əvvəl Q=cmΔt, sonra Q=λm",
+   "Yalnız Q=cmΔt",
+   "Heç bir istilik lazım deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=2 kq buzu 0°C-də tam əritmək üçün lazım olan istilik miqdarını hesabla.",
+  "secimler": [
+   "680 kC",
+   "340 kC",
+   "1020 kC",
+   "170 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Aqreqat halının dəyişməsi (ərimə və bərkimə)",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=1 kq su 100°C-də tam buxarlanır (L=2300 kC/kq). Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "2300 kC",
+   "1150 kC",
+   "4600 kC",
+   "230 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=0,2 kq su tam buxarlanır. Lazım olan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "230 kC",
+   "460 kC",
+   "920 kC",
+   "46 kC"
+  ],
+  "duzgun": 1,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Qaynama prosesi zamanı mayenin temperaturu necə dəyişir?",
+  "secimler": [
+   "Artır",
+   "Azalır",
+   "Sabit qalır",
+   "Tərəddüd edir"
+  ],
+  "duzgun": 2,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Buxarlanma yalnız mayenin səthində, qaynama isə harada baş verir?",
+  "secimler": [
+   "Yalnız səthdə",
+   "Mayenin bütün həcmində",
+   "Yalnız qabın dibində",
+   "Fərq yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=2 kq su buxarı 100°C-də kondensasiya olunur. Ətrafa verilən istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "4600 kC",
+   "2300 kC",
+   "9200 kC",
+   "1150 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Temperatur artdıqca sərbəst buxarlanma sürəti necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Əvvəl artır, sonra azalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Küləyin (hava axınının) buxarlanma sürətinə təsiri necədir?",
+  "secimler": [
+   "Azaldır",
+   "Artırır",
+   "Təsir etmir",
+   "Yalnız qaynamada təsir edir"
+  ],
+  "duzgun": 1,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "L=2300 kC/kq, Q=1150 kC su tam buxara çevrilib. Suyun kütləsi nə qədərdir?",
+  "secimler": [
+   "0,25 kq",
+   "0,5 kq",
+   "1 kq",
+   "2 kq"
+  ],
+  "duzgun": 1,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Normal atmosfer təzyiqində açıq qabda su neçə dərəcədə qaynayır?",
+  "secimler": [
+   "90°C",
+   "100°C",
+   "110°C",
+   "120°C"
+  ],
+  "duzgun": 1,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Dağın zirvəsində (atmosfer təzyiqi aşağı olduqda) suyun qaynama temperaturu necə dəyişir?",
+  "secimler": [
+   "Yüksəlir",
+   "Aşağı düşür",
+   "Dəyişmir",
+   "Həmişə 100°C-də qalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Buxarlanma və qaynama",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=2 kq taxta tam yanır (q=10 000 kC/kq). Ayrılan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "20 000 kC",
+   "10 000 kC",
+   "40 000 kC",
+   "5000 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=0,5 kq daş kömür tam yanır (q=27 000 kC/kq). Ayrılan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "27 000 kC",
+   "13 500 kC",
+   "6750 kC",
+   "54 000 kC"
+  ],
+  "duzgun": 1,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=1 kq benzin tam yanır (q=46 000 kC/kq). Ayrılan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "46 000 kC",
+   "23 000 kC",
+   "92 000 kC",
+   "4600 kC"
+  ],
+  "duzgun": 0,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Yanma istiliyi (q) fiziki mənaca nəyi göstərir?",
+  "secimler": [
+   "1 kq yanacağın tam yanmasında ayrılan istilik miqdarını",
+   "Yanacağın ərimə temperaturunu",
+   "Yanacağın kütləsini",
+   "Yanacağın alovlanma temperaturunu"
+  ],
+  "duzgun": 0,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "q=10 000 kC/kq taxtadan Q=50 000 kC istilik alınıb. Yandırılan taxtanın kütləsi nə qədərdir?",
+  "secimler": [
+   "2 kq",
+   "5 kq",
+   "10 kq",
+   "50 kq"
+  ],
+  "duzgun": 1,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Eyni kütləli taxta və benzindən hansı yanarkən daha çox istilik ayırar (q_benzin > q_taxta)?",
+  "secimler": [
+   "Taxta",
+   "Benzin",
+   "Bərabər",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Yanma zamanı ayrılan istilik hansı enerji çevrilməsi nəticəsində alınır?",
+  "secimler": [
+   "Kimyəvi enerjinin istilik enerjisinə çevrilməsi",
+   "Mexaniki enerjinin istiliyə çevrilməsi",
+   "Elektrik enerjisinin kimyəviyə çevrilməsi",
+   "Nüvə enerjisinin istiliyə çevrilməsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m=3 kq daş kömür yandırılıb Q=81 000 kC alınıb. Yanma istiliyi q nə qədərdir?",
+  "secimler": [
+   "9000 kC/kq",
+   "27 000 kC/kq",
+   "54 000 kC/kq",
+   "13 500 kC/kq"
+  ],
+  "duzgun": 1,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Yanma istiliyinin SI sistemindəki vahidi hansıdır?",
+  "secimler": [
+   "C",
+   "C/kq",
+   "C/°C",
+   "C·kq"
+  ],
+  "duzgun": 1,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Yanma zamanı ətraf mühitə ən az zərərli sayılan yanacaq növü adətən hansıdır?",
+  "secimler": [
+   "Daş kömür",
+   "Təbii qaz",
+   "Mazut",
+   "Taxta"
+  ],
+  "duzgun": 1,
+  "movzu": "Yanacağın yanma istiliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m1=2 kq su t1=80°C ilə m2=3 kq su t2=20°C qarışdırılır. Son temperatur nə qədər olar?",
+  "secimler": [
+   "44°C",
+   "50°C",
+   "40°C",
+   "36°C"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m1=1 kq su t1=90°C ilə m2=1 kq su t2=10°C qarışdırılır. Son temperatur nə qədər olar?",
+  "secimler": [
+   "40°C",
+   "50°C",
+   "60°C",
+   "45°C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m1=4 kq su t1=60°C ilə m2=2 kq su t2=0°C qarışdırılır. Son temperatur nə qədər olar?",
+  "secimler": [
+   "30°C",
+   "40°C",
+   "20°C",
+   "50°C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İstilik balansı tənliyinin əsas prinsipi hansıdır?",
+  "secimler": [
+   "İsti cismin verdiyi istilik soyuq cismin aldığı istiliyə bərabərdir",
+   "Hər iki cismin temperaturu bərabərləşmir",
+   "İstilik itkisiz sistemdə yaranır",
+   "Kütlə saxlanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m1=5 kq su t1=30°C ilə m2=5 kq su t2=70°C qarışdırılır. Son temperatur nə qədər olar?",
+  "secimler": [
+   "40°C",
+   "45°C",
+   "50°C",
+   "55°C"
+  ],
+  "duzgun": 2,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m1=3 kq su t1=100°C ilə m2=1 kq su t2=20°C qarışdırılır. Son temperatur nə qədər olar?",
+  "secimler": [
+   "70°C",
+   "80°C",
+   "90°C",
+   "60°C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Fərqli maddədən olan iki cisim qarışdırılanda son temperaturu tapmaq üçün nəyi bilmək lazımdır?",
+  "secimler": [
+   "Yalnız kütlələri",
+   "Kütlə və xüsusi istilik tutumlarını",
+   "Yalnız temperaturları",
+   "Yalnız həcmləri"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m1=2 kq su t1=50°C ilə m2=8 kq su t2=10°C qarışdırılır. Son temperatur nə qədər olar?",
+  "secimler": [
+   "15°C",
+   "18°C",
+   "20°C",
+   "25°C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İstilik itkisi olmayan qapalı sistemdə ümumi enerji necə davranır?",
+  "secimler": [
+   "Yalnız isti cismdə saxlanır",
+   "Yalnız soyuq cismdə saxlanır",
+   "Sistemin ümumi enerjisi sabit qalır",
+   "Enerji itir"
+  ],
+  "duzgun": 2,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "m1=1 kq su t1=40°C ilə m2=3 kq su t2=20°C qarışdırılır. Son temperatur nə qədər olar?",
+  "secimler": [
+   "25°C",
+   "30°C",
+   "22°C",
+   "28°C"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik balansı tənliyi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Mühərrik A=1000 C faydalı iş görür, buna görə Q=4000 C istilik sərf edir. FAE nə qədərdir?",
+  "secimler": [
+   "25%",
+   "40%",
+   "10%",
+   "50%"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "FAE=30%, Q=5000 C istilik sərf olunub. Faydalı iş nə qədərdir?",
+  "secimler": [
+   "1000 C",
+   "1500 C",
+   "2000 C",
+   "3000 C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İstilik mühərrikinin faydalı iş əmsalı 100%-dən böyük ola bilərmi?",
+  "secimler": [
+   "Bəli, güclü mühərriklərdə",
+   "Xeyr, enerjinin saxlanma qanununa görə",
+   "Yalnız buxar mühərriklərində",
+   "Yalnız daxiliyanma mühərriklərində"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A=2000 C faydalı iş görülüb, FAE=20%. Sərf olunan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "4000 C",
+   "10 000 C",
+   "400 C",
+   "40 000 C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İstilik mühərriklərində \"faydasız\" hesab olunan istilik əsasən hara ötürülür?",
+  "secimler": [
+   "Tamamilə yox olur",
+   "Ətraf mühitə (soyuducuya)",
+   "Yenidən mexaniki işə çevrilir",
+   "Yanacaqda saxlanılır"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Q_sərf=8000 C, itirilən istilik 6000 C-dir. Mühərrikin FAE-si nə qədərdir?",
+  "secimler": [
+   "25%",
+   "75%",
+   "33%",
+   "12,5%"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İstilik mühərrikinin FAE-sini artırmaq üçün ən çox istifadə olunan üsul hansıdır?",
+  "secimler": [
+   "Sürtünməni artırmaq",
+   "Sürtünməni azaltmaq və istilik itkisini minimuma endirmək",
+   "Kütləni artırmaq",
+   "Temperaturu azaltmaq"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "FAE=40%, faydalı iş A=4000 C. Sərf olunan istilik miqdarı nə qədərdir?",
+  "secimler": [
+   "8000 C",
+   "10 000 C",
+   "16 000 C",
+   "1600 C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Real istilik mühərriklərinin FAE-si niyə həmişə 100%-dən kiçikdir?",
+  "secimler": [
+   "Sürtünmə və istilik itkiləri olduğu üçün",
+   "Yanacaq bahalı olduğu üçün",
+   "Fizika qanunu tələb etmədiyi üçün",
+   "Mühərriklər kiçik olduğu üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Q_sərf=12 000 C, FAE=25%. Faydalı iş nə qədərdir?",
+  "secimler": [
+   "2000 C",
+   "3000 C",
+   "4000 C",
+   "6000 C"
+  ],
+  "duzgun": 1,
+  "movzu": "İstilik mühərrikləri və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Temperatur artdıqda bərk cisimlərin xətti ölçüləri adətən necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Əvvəl artır, sonra azalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Dəmir yol relslərinin arasında niyə boşluq qoyulur?",
+  "secimler": [
+   "Estetik görünüş üçün",
+   "İstidən genişlənməyə imkan vermək üçün",
+   "Səs-küyü azaltmaq üçün",
+   "Material qənaəti üçün"
+  ],
+  "duzgun": 1,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Mayelər qızdırıldıqda həcmləri, ümumi qaydaya görə, necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Yalnız suda azalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Suyun 0°C-4°C aralığındakı anomal xüsusiyyəti hansıdır?",
+  "secimler": [
+   "Bu aralıqda qızdıqca həcmi azalır",
+   "Bu aralıqda birbaşa buxarlanır",
+   "Bu aralıqda rəngini dəyişir",
+   "Bu aralıqda elektrik keçirir"
+  ],
+  "duzgun": 0,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Bimetal lövhələr hansı fiziki prinsiplə əyilir?",
+  "secimler": [
+   "Rəng fərqi ilə",
+   "Fərqli genişlənmə əmsallı metalların qeyri-bərabər genişlənməsi ilə",
+   "Elektrik keçiriciliyi ilə",
+   "Maqnit xassəsi ilə"
+  ],
+  "duzgun": 1,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Yüksək istilikdə elektrik naqillərinin bir qədər sallanmasının səbəbi nədir?",
+  "secimler": [
+   "Naqilin çəkisi artır",
+   "Naqil istidən genişlənir",
+   "Cərəyan şiddəti azalır",
+   "Küləyin təsiri"
+  ],
+  "duzgun": 1,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sabit təzyiqdə qazlar qızdıqda həcmcə necə dəyişir?",
+  "secimler": [
+   "Çox az dəyişir",
+   "Əhəmiyyətli dərəcədə artır",
+   "Azalır",
+   "Dəyişmir"
+  ],
+  "duzgun": 1,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İstidən genişlənmə hansı aqreqat halında ən çox nəzərə çarpır?",
+  "secimler": [
+   "Bərk",
+   "Maye",
+   "Qaz",
+   "Hamısında eyni dərəcədə"
+  ],
+  "duzgun": 2,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Şüşə termometrlərdə civənin istifadə olunmasının səbəbi nədir?",
+  "secimler": [
+   "Ucuz olması",
+   "Temperaturla nizamlı şəkildə genişlənməsi",
+   "Rəngli olması",
+   "Bərk halda olması"
+  ],
+  "duzgun": 1,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Bağlı şüşə qabda suyu dondurmaq niyə təhlükəli sayılır?",
+  "secimler": [
+   "Su donarkən genişlənir və qab çata bilər",
+   "Qab ağırlaşır",
+   "Suyun rəngi dəyişir",
+   "Heç bir təhlükə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Cisimlərin istidən genişlənməsi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İstiliyin maddə hissəciklərinin özü ilə bir yerdən başqa yerə köçməsi ilə ötürülməsinə nə deyilir?",
+  "secimler": [
+   "Keçiricilik",
+   "Konveksiya",
+   "Şüalanma",
+   "Sürtünmə"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Metal qaşığın bir ucu qızdırıldıqda digər ucun da qızması hansı üsulla baş verir?",
+  "secimler": [
+   "Konveksiya",
+   "Keçiricilik",
+   "Şüalanma",
+   "Buxarlanma"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Günəşdən Yerə istiliyin ötürülməsi hansı üsulla baş verir?",
+  "secimler": [
+   "Keçiricilik",
+   "Konveksiya",
+   "Şüalanma",
+   "Ötürülmə mümkün deyil"
+  ],
+  "duzgun": 2,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Otaqda isti havanın yuxarı, soyuq havanın aşağı hərəkət etməsi hansı prosesə aiddir?",
+  "secimler": [
+   "Keçiricilik",
+   "Konveksiya",
+   "Şüalanma",
+   "Diffuziya"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Vakuumda (boşluqda) hansı istilik ötürülməsi üsulu mümkündür?",
+  "secimler": [
+   "Yalnız keçiricilik",
+   "Yalnız konveksiya",
+   "Yalnız şüalanma",
+   "Heç biri mümkün deyil"
+  ],
+  "duzgun": 2,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Metallar niyə yaxşı istilik keçiricisidir?",
+  "secimler": [
+   "Rəngləri tünd olduğu üçün",
+   "Sərbəst elektronların hərəkəti sayəsində",
+   "Ağır olduqları üçün",
+   "Bərk olduqları üçün"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Termosun divarları arasındakı vakuum boşluğunun məqsədi nədir?",
+  "secimler": [
+   "Yüngüllük təmin etmək",
+   "Keçiricilik və konveksiya ilə istilik itkisini azaltmaq",
+   "Qiyməti artırmaq",
+   "Estetik görünüş"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Cismin daxili enerjisi nədən ibarətdir?",
+  "secimler": [
+   "Yalnız molekulların kinetik enerjisindən",
+   "Molekulların kinetik və qarşılıqlı təsir potensial enerjisinin cəmindən",
+   "Yalnız cismin sürətindən asılı kinetik enerjidən",
+   "Yalnız cismin hündürlüyündən asılı enerjidən"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Cismin daxili enerjisini dəyişdirmək üçün iki əsas yol hansılardır?",
+  "secimler": [
+   "Yalnız iş görməklə",
+   "İş görməklə və istilik mübadiləsi ilə",
+   "Yalnız rəngini dəyişməklə",
+   "Yalnız kütləsini dəyişməklə"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Qara səthlər açıq rəngli səthlərlə müqayisədə istilik şüalanmasını necə udur?",
+  "secimler": [
+   "Daha az",
+   "Daha çox",
+   "Eyni səviyyədə",
+   "Heç udmur"
+  ],
+  "duzgun": 1,
+  "movzu": "Daxili enerji və istiliyin ötürülməsi üsulları",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F=50 N qüvvə cismi s=4 m yerdəyişdirir. Görülən iş nə qədərdir?",
+  "secimler": [
+   "200 C",
+   "54 C",
+   "12,5 C",
+   "400 C"
+  ],
+  "duzgun": 0,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A=600 C iş t=30 s müddətində görülür. Güc nə qədərdir?",
+  "secimler": [
+   "10 Vt",
+   "20 Vt",
+   "30 Vt",
+   "18 000 Vt"
+  ],
+  "duzgun": 1,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "N=100 Vt güclə t=5 s işləyən mexanizmin gördüyü iş nə qədərdir?",
+  "secimler": [
+   "500 C",
+   "20 C",
+   "105 C",
+   "50 C"
+  ],
+  "duzgun": 0,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F=20 N qüvvə cismi s=10 m yerdəyişdirir. Görülən iş nə qədərdir?",
+  "secimler": [
+   "2 C",
+   "200 C",
+   "20 C",
+   "2000 C"
+  ],
+  "duzgun": 1,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A=1000 C iş görülür, N=50 Vt güc sərf olunur. Bu iş neçə saniyəyə görülüb?",
+  "secimler": [
+   "10 s",
+   "20 s",
+   "50 s",
+   "5 s"
+  ],
+  "duzgun": 1,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Cismə qüvvə tətbiq olunur, lakin cisim yerini dəyişmir. Görülən mexaniki iş nə qədərdir?",
+  "secimler": [
+   "A=0",
+   "A qüvvədən asılıdır",
+   "A həmişə müsbətdir",
+   "A=F"
+  ],
+  "duzgun": 0,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F=200 N qüvvə N=400 Vt güclə iş görür. Cismin sürəti nə qədərdir?",
+  "secimler": [
+   "1 m/s",
+   "2 m/s",
+   "4 m/s",
+   "0,5 m/s"
+  ],
+  "duzgun": 1,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Gücün SI sistemindəki vahidi hansıdır?",
+  "secimler": [
+   "Coul",
+   "Vatt",
+   "Nyuton",
+   "Saniyə"
+  ],
+  "duzgun": 1,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A=3000 C iş 1 dəqiqədə (60 s) görülür. Güc nə qədərdir?",
+  "secimler": [
+   "30 Vt",
+   "50 Vt",
+   "180 Vt",
+   "3000 Vt"
+  ],
+  "duzgun": 1,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Eyni işi daha qısa zamanda görən mexanizmin gücü, digərinə nisbətdə necədir?",
+  "secimler": [
+   "Daha kiçik",
+   "Daha böyük",
+   "Eyni",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "İş və güc",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F1=100 N, l1=0,5 m, l2=2 m. Qaldıracın tarazlığı üçün F2 nə qədər olmalıdır?",
+  "secimler": [
+   "25 N",
+   "50 N",
+   "100 N",
+   "400 N"
+  ],
+  "duzgun": 0,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F1=40 N, l1=1 m, F2=20 N. Tarazlıq üçün l2 nə qədər olmalıdır?",
+  "secimler": [
+   "0,5 m",
+   "1 m",
+   "2 m",
+   "4 m"
+  ],
+  "duzgun": 2,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Qaldıracda qüvvədən uduş edilirsə, hansı fiziki qanuna görə əvəzində məsafədən itki olur?",
+  "secimler": [
+   "Enerjinin saxlanma qanunu",
+   "Nyutonun III qanunu",
+   "Arximed qanunu",
+   "Kulon qanunu"
+  ],
+  "duzgun": 0,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "l1=3 m, l2=1 m, F2=90 N. Tarazlıq üçün F1 nə qədər olmalıdır?",
+  "secimler": [
+   "30 N",
+   "270 N",
+   "90 N",
+   "10 N"
+  ],
+  "duzgun": 0,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Qaldıracın tarazlıq şərtində qüvvə ilə qüvvə çiyninin hasilinə fizikada nə deyilir?",
+  "secimler": [
+   "Qüvvə momenti",
+   "İş",
+   "Təcil",
+   "Təzyiq"
+  ],
+  "duzgun": 0,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F1=60 N, qüvvə çiyinləri bərabərdir (l1=l2). F2 nə qədər olmalıdır?",
+  "secimler": [
+   "30 N",
+   "60 N",
+   "120 N",
+   "0 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Az qüvvə ilə ağır yükü qaldırmaq üçün qüvvə çiyni yük çiyninə nisbətdə necə olmalıdır?",
+  "secimler": [
+   "Kiçik",
+   "Böyük",
+   "Bərabər",
+   "Fərq etməz"
+  ],
+  "duzgun": 1,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "l1=2 m, F1=150 N, l2=3 m. Tarazlıq üçün F2 nə qədər olmalıdır?",
+  "secimler": [
+   "75 N",
+   "100 N",
+   "150 N",
+   "225 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Qaldıracdan istifadə edərkən qüvvədən qazanc əldə edildikdə əvəzində nədən itki olur?",
+  "secimler": [
+   "Enerjidən",
+   "Yerdəyişmə məsafəsindən",
+   "Kütlədən",
+   "Çəkidən"
+  ],
+  "duzgun": 1,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F1=25 N, l1=4 m, l2=2 m. Tarazlıq üçün F2 nə qədər olmalıdır?",
+  "secimler": [
+   "25 N",
+   "50 N",
+   "100 N",
+   "12,5 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Qaldıracın tarazlıq şərti",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sabit blokdan istifadə edildikdə qüvvədə qazanc əldə olunurmu?",
+  "secimler": [
+   "Bəli, 2 dəfə qazanc olur",
+   "Xeyr, yalnız qüvvənin istiqaməti dəyişir",
+   "Bəli, 4 dəfə qazanc olur",
+   "Yalnız yükün çəkisindən asılıdır"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İdeal hərəkətli blokda yükü qaldırmaq üçün lazım olan qüvvə yükün çəkisi ilə necə əlaqədardır?",
+  "secimler": [
+   "F=P",
+   "F=P/2",
+   "F=2P",
+   "F=4P"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "P=200 N çəkidə yük ideal hərəkətli blokla qaldırılır. Lazım olan qüvvə nə qədərdir?",
+  "secimler": [
+   "50 N",
+   "100 N",
+   "200 N",
+   "400 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Hərəkətli blokda ipin çəkilmə məsafəsi yükün qalxma məsafəsindən neçə dəfə çoxdur?",
+  "secimler": [
+   "2 dəfə",
+   "4 dəfə",
+   "Eynidir",
+   "Yarısı qədərdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sabit blok əsasən hansı məqsədlə istifadə olunur?",
+  "secimler": [
+   "Qüvvəni azaltmaq üçün",
+   "Qüvvənin istiqamətini əlverişli dəyişmək üçün",
+   "Sürəti artırmaq üçün",
+   "Kütləni azaltmaq üçün"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "P=500 N çəkidə yük ideal hərəkətli blokla qaldırılır. Lazım olan qüvvə nə qədərdir?",
+  "secimler": [
+   "125 N",
+   "250 N",
+   "500 N",
+   "1000 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sabit və hərəkətli blokun birlikdə istifadə olunduğu sistemin (polispastın) əsas üstünlüyü nədir?",
+  "secimler": [
+   "Yalnız istiqamət dəyişir",
+   "Həm qüvvədən qazanc, həm əlverişli istiqamət seçimi mümkün olur",
+   "İş azalır",
+   "Enerji itmir"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İdeal hərəkətli blokla F=150 N qüvvə tətbiq edilir. Hansı çəkidə yük tarazlıqda saxlanılar?",
+  "secimler": [
+   "150 N",
+   "300 N",
+   "450 N",
+   "600 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Blok sistemlərində \"qızıl qayda\"ya görə qüvvədən qazanc olduqda əvəzində nə itirilir?",
+  "secimler": [
+   "Enerji itmir, amma yerdəyişmə məsafəsi artır",
+   "İş azalır",
+   "Enerji artır",
+   "Heç nə itirilmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "P=1000 N çəkidə yük ideal hərəkətli blokla qaldırılır. Lazım olan qüvvə nə qədərdir?",
+  "secimler": [
+   "250 N",
+   "500 N",
+   "1000 N",
+   "2000 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Bloklar",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sürtünmə nəzərə alınmadıqda, mail müstəvi ilə yükü qaldırmaq üçün lazım olan qüvvə şaquli qaldırmaya nisbətdə necədir?",
+  "secimler": [
+   "Daha böyük",
+   "Daha kiçik",
+   "Eynidir",
+   "Sıfırdır"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Hündürlük sabit qalmaq şərtilə mail müstəvinin uzunluğu artdıqca lazım olan qüvvə necə dəyişir?",
+  "secimler": [
+   "Artır",
+   "Azalır",
+   "Dəyişmir",
+   "Əvvəl artır, sonra azalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "h=2 m, l=8 m mail müstəvi, P=400 N yük (sürtünməsiz). Lazım olan qüvvə nə qədərdir?",
+  "secimler": [
+   "50 N",
+   "100 N",
+   "200 N",
+   "400 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Mail müstəvidə sürtünmə mövcud olduqda faydalı iş əmsalı necə olur?",
+  "secimler": [
+   "100%-dən böyük olur",
+   "100%-dən kiçik olur",
+   "Həmişə tam 100% olur",
+   "Sürtünmədən asılı deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "h=1 m, l=5 m, sürtünməsiz halda F=60 N. Yükün çəkisi nə qədərdir?",
+  "secimler": [
+   "150 N",
+   "300 N",
+   "600 N",
+   "60 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Vint (bolt) fiziki baxımdan hansı sadə mexanizmin bir formasıdır?",
+  "secimler": [
+   "Qaldıracın",
+   "Mail müstəvinin sarğı (dolanmış) formasının",
+   "Blokun",
+   "Çəkinin"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sürtünməsiz mail müstəvi ilə görülən iş şaquli qaldırma işi ilə necə müqayisə olunur?",
+  "secimler": [
+   "Daha çoxdur",
+   "Bərabərdir",
+   "Daha azdır",
+   "Müqayisə mümkün deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "h=3 m, l=12 m, P=800 N (sürtünməsiz). Lazım olan qüvvə nə qədərdir?",
+  "secimler": [
+   "100 N",
+   "200 N",
+   "400 N",
+   "800 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Dağlıq yollarda düz deyil, zolaqlı (serpantin) yol çəkilməsinin fiziki əsası nədir?",
+  "secimler": [
+   "Mənzərəni gözəlləşdirmək",
+   "Mail müstəvinin uzunluğunu artırıb lazımi qüvvəni azaltmaq",
+   "Yolun uzunluğunu qısaltmaq",
+   "Sürəti artırmaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "h=4 m, l=10 m, sürtünməsiz halda F=120 N. Yükün çəkisi nə qədərdir?",
+  "secimler": [
+   "150 N",
+   "300 N",
+   "480 N",
+   "1200 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Mail müstəvi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Mexanikanın qızıl qaydasına görə sadə mexanizmlərdən istifadə edərkən nəyi qazanmaq mümkün deyil?",
+  "secimler": [
+   "Qüvvəni",
+   "Məsafəni",
+   "İşi (enerjini)",
+   "İstiqaməti"
+  ],
+  "duzgun": 2,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A_faydalı=400 C, A_tam=500 C. FAE nə qədərdir?",
+  "secimler": [
+   "80%",
+   "125%",
+   "20%",
+   "50%"
+  ],
+  "duzgun": 0,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "FAE=75%, A_tam=800 C. Faydalı iş nə qədərdir?",
+  "secimler": [
+   "500 C",
+   "600 C",
+   "700 C",
+   "200 C"
+  ],
+  "duzgun": 1,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sürtünmə olan real sadə mexanizmlərdə FAE niyə 100%-dən kiçikdir?",
+  "secimler": [
+   "Sürtünməyə əlavə iş sərf olunduğu üçün",
+   "Qüvvə itdiyi üçün",
+   "Kütlə dəyişdiyi üçün",
+   "Enerji yarandığı üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A_faydalı=250 C, FAE=50%. Ümumi (tam) sərf olunan iş nə qədərdir?",
+  "secimler": [
+   "125 C",
+   "375 C",
+   "500 C",
+   "1000 C"
+  ],
+  "duzgun": 2,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Real sadə mexanizmdə tam sərf olunan iş faydalı işlə müqayisədə necədir?",
+  "secimler": [
+   "Həmişə kiçikdir",
+   "Həmişə böyük və ya bərabərdir",
+   "Həmişə bərabərdir",
+   "Əlaqəsi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A_tam=1000 C, A_faydalı=900 C. FAE nə qədərdir?",
+  "secimler": [
+   "80%",
+   "90%",
+   "100%",
+   "111%"
+  ],
+  "duzgun": 1,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sadə mexanizmlərdə FAE-ni artırmaq üçün ən çox istifadə olunan üsul hansıdır?",
+  "secimler": [
+   "Sürtünməni artırmaq",
+   "Sürtünməni azaltmaq (yağlama və s.)",
+   "Kütləni artırmaq",
+   "Qüvvəni azaltmaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "A_tam=600 C, FAE=60%. Faydalı iş nə qədərdir?",
+  "secimler": [
+   "240 C",
+   "360 C",
+   "400 C",
+   "480 C"
+  ],
+  "duzgun": 1,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "İdeal (sürtünməsiz) sadə mexanizmin faydalı iş əmsalı nəzəri olaraq nəyə bərabərdir?",
+  "secimler": [
+   "50%",
+   "100%",
+   "0%",
+   "Mexanizmdən asılıdır"
+  ],
+  "duzgun": 1,
+  "movzu": "Mexanikanın qızıl qaydası və faydalı iş əmsalı",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F=100 N qüvvə S=0,5 m² səthə düşür. Təzyiq nə qədərdir?",
+  "secimler": [
+   "50 Pa",
+   "200 Pa",
+   "500 Pa",
+   "20 Pa"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F=50 N qüvvə S=0,02 m² səthə düşür. Təzyiq nə qədərdir?",
+  "secimler": [
+   "1000 Pa",
+   "2500 Pa",
+   "25 Pa",
+   "5000 Pa"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Eyni qüvvə daha kiçik səth sahəsinə tətbiq olunduqda təzyiq necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Sıfır olur"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Bıçağın iti olması kəsmə prosesini nə üçün asanlaşdırır?",
+  "secimler": [
+   "Çəkisi az olduğu üçün",
+   "Kiçik səth sahəsi ilə böyük təzyiq yaratdığı üçün",
+   "Rəngi tünd olduğu üçün",
+   "Uzun olduğu üçün"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "P=1000 Pa, F=200 N. Səth sahəsi nə qədərdir?",
+  "secimler": [
+   "0,1 m²",
+   "0,2 m²",
+   "0,5 m²",
+   "2 m²"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Qarda gəzərkən geniş taban (xizək) niyə batmağın qarşısını alır?",
+  "secimler": [
+   "Çəkini azaltdığı üçün",
+   "Səthi artıraraq təzyiqi azaltdığı üçün",
+   "Sürtünməni artırdığı üçün",
+   "İstiliyi azaltdığı üçün"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "P=500 Pa, S=4 m². Qüvvə nə qədərdir?",
+  "secimler": [
+   "1000 N",
+   "2000 N",
+   "500 N",
+   "125 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Paskal vahidi (Pa) hansı əsas vahidlərin nisbəti kimi ifadə olunur?",
+  "secimler": [
+   "N/m²",
+   "kq/m³",
+   "N·m",
+   "N/s"
+  ],
+  "duzgun": 0,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "F=300 N, S=1,5 m². Təzyiq nə qədərdir?",
+  "secimler": [
+   "100 Pa",
+   "200 Pa",
+   "450 Pa",
+   "50 Pa"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Bərabər çəki ilə yerə basan geniş oturacaqlı və nazik ayaqlı stullardan hansı daha çox təzyiq yaradar?",
+  "secimler": [
+   "Geniş oturacaqlı stul",
+   "Nazik ayaqlı stul",
+   "İkisi eyni təzyiq yaradar",
+   "Çəkidən asılı deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Bərk cismin təzyiqi",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Paskal qanununa görə mayeyə verilən xarici təzyiq necə yayılır?",
+  "secimler": [
+   "Yalnız aşağı istiqamətdə",
+   "Bütün istiqamətlərə bərabər ötürülür",
+   "Yalnız yuxarı istiqamətdə",
+   "Yalnız yan divarlara"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Hidravlik presdə kiçik porşenə F1=100 N tətbiq olunur (S1=0,01 m², S2=0,5 m²). Böyük porşendə alınan qüvvə nə qədərdir?",
+  "secimler": [
+   "500 N",
+   "5000 N",
+   "50 N",
+   "50 000 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Mayenin dərinliyi artdıqca hidrostatik təzyiq necə dəyişir?",
+  "secimler": [
+   "Azalır",
+   "Artır",
+   "Dəyişmir",
+   "Əvvəl artır, sonra azalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Suda h=2 m dərinlikdə hidrostatik təzyiq nə qədərdir? (ρ=1000 kq/m³, g=10 m/s²)",
+  "secimler": [
+   "10 000 Pa",
+   "20 000 Pa",
+   "2000 Pa",
+   "200 Pa"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Hidravlik presdə qüvvədən qazanc əldə olunduqda böyük porşenin yerdəyişmə məsafəsi necə olur?",
+  "secimler": [
+   "Kiçik porşenlə müqayisədə itki olur",
+   "Böyük porşen daha çox yerini dəyişir",
+   "Dəyişmir",
+   "Sıfır olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Atmosfer təzyiqi hansı cihazla ölçülür?",
+  "secimler": [
+   "Termometr",
+   "Barometr",
+   "Areometr",
+   "Dinamometr"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Civədə h=5 m dərinlikdə təzyiq nə qədərdir? (ρ=13 600 kq/m³, g=10 m/s²)",
+  "secimler": [
+   "68 000 Pa",
+   "680 000 Pa",
+   "6800 Pa",
+   "6 800 000 Pa"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Eyni maye ilə dolu qabda müəyyən dərinlikdəki təzyiq hansı amildən asılı DEYİL?",
+  "secimler": [
+   "Dərinlikdən",
+   "Qabın en kəsiyinin formasından",
+   "Mayenin sıxlığından",
+   "Sərbəst düşmə təcilindən"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Hidravlik pres hansı fiziki qanuna əsaslanır?",
+  "secimler": [
+   "Arximed qanunu",
+   "Paskal qanunu",
+   "Kulon qanunu",
+   "Nyutonun III qanunu"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Suda h=10 m dərinlikdə hidrostatik təzyiq nə qədərdir?",
+  "secimler": [
+   "10 000 Pa",
+   "100 000 Pa",
+   "1000 Pa",
+   "1 000 000 Pa"
+  ],
+  "duzgun": 1,
+  "movzu": "Mayelərdə və qazlarda təzyiq",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "V=0,02 m³ həcmli cisim suya tam batırılıb (ρ_su=1000 kq/m³, g=10 m/s²). Arximed qüvvəsi nə qədərdir?",
+  "secimler": [
+   "100 N",
+   "200 N",
+   "400 N",
+   "20 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Cismin orta sıxlığı mayenin sıxlığından böyükdürsə, cisim mayedə necə davranar?",
+  "secimler": [
+   "Üzər",
+   "Batar",
+   "Mayenin ortasında qalar",
+   "Qismən batar"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Cismin sıxlığı mayeninkinə tam bərabərdirsə, cisim necə davranar?",
+  "secimler": [
+   "Üzər",
+   "Batar",
+   "Mayenin istənilən dərinliyində tarazlıqda qala bilər",
+   "Qismən batar"
+  ],
+  "duzgun": 2,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "V=0,5 m³ həcmli cisim civəyə (ρ=13 600 kq/m³) batırılıb. Arximed qüvvəsi nə qədərdir?",
+  "secimler": [
+   "6800 N",
+   "68 000 N",
+   "680 N",
+   "680 000 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Polad gəmilərin batmayıb üzməsinin əsas fiziki səbəbi nədir?",
+  "secimler": [
+   "Polad yüngül materialdır",
+   "Gəminin forması suyun çox həcmini itələyir və orta sıxlığı sudan az olur",
+   "Suyun sıxlığı çox böyükdür",
+   "Gəmi maqnitlənir"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Cismin havada çəkisi P=50 N, suya batırıldıqda çəkisi P'=30 N ölçülür. Arximed qüvvəsi nə qədərdir?",
+  "secimler": [
+   "20 N",
+   "30 N",
+   "50 N",
+   "80 N"
+  ],
+  "duzgun": 0,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "V=0,1 m³ cismə maye tərəfindən F=800 N Arximed qüvvəsi təsir edir. Mayenin sıxlığı nə qədərdir?",
+  "secimler": [
+   "400 kq/m³",
+   "800 kq/m³",
+   "1000 kq/m³",
+   "1600 kq/m³"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Ölü dənizdə insanların çətinlik çəkmədən üzə bilməsinin fiziki səbəbi nədir?",
+  "secimler": [
+   "Suyun temperaturu yüksəkdir",
+   "Suyun duzluluğu yüksək olduğundan sıxlığı böyükdür",
+   "Su az dərindir",
+   "Axın yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Suda qismən batmış vəziyyətdə üzən cisim üçün Arximed qüvvəsi cismin çəkisinə necə münasibətdədir?",
+  "secimler": [
+   "Çəkidən böyükdür",
+   "Çəkiyə bərabərdir",
+   "Çəkidən kiçikdir",
+   "Əlaqəsi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "V=0,03 m³ cisim yağa (ρ=900 kq/m³) tam batırılıb. Arximed qüvvəsi nə qədərdir?",
+  "secimler": [
+   "200 N",
+   "270 N",
+   "300 N",
+   "90 N"
+  ],
+  "duzgun": 1,
+  "movzu": "Arximed qüvvəsi və üzmə şərtləri",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Şüşə çubuğu ipəklə sürtdükdə şüşə hansı işarəli yüklə yüklənir?",
+  "secimler": [
+   "Mənfi",
+   "Müsbət",
+   "Neytral",
+   "Həm müsbət, həm mənfi"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Ebonit çubuğu yunla sürtdükdə ebonit hansı işarəli yüklə yüklənir?",
+  "secimler": [
+   "Müsbət",
+   "Mənfi",
+   "Neytral",
+   "Dəyişmir"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Eyni işarəli iki elektrik yükü bir-birinə necə təsir göstərir?",
+  "secimler": [
+   "Cəzb edir",
+   "İtələyir",
+   "Təsir etmir",
+   "Yalnız toxunduqda təsir edir"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Fərqli işarəli iki elektrik yükü bir-birinə necə təsir göstərir?",
+  "secimler": [
+   "Cəzb edir",
+   "İtələyir",
+   "Təsir etmir",
+   "Tarazlaşır və yox olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Sadə elektrik dövrəsində cərəyan mənbəyinin rolu nədir?",
+  "secimler": [
+   "Dövrədə müqavimət yaratmaq",
+   "Dövrədə elektronların istiqamətli hərəkətini təmin etmək",
+   "İşığı udmaq",
+   "Yükü neytrallaşdırmaq"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Elektrik dövrəsində açar (açacaq) hansı funksiyanı yerinə yetirir?",
+  "secimler": [
+   "Gərginliyi artırır",
+   "Dövrəni açıb-bağlayır",
+   "Cərəyanı ölçür",
+   "Enerji istehsal edir"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Elektroskop cihazı nəyi aşkar etmək üçün istifadə olunur?",
+  "secimler": [
+   "Temperaturu",
+   "Cismin elektrikləşib-elektrikləşmədiyini",
+   "Havanın təzyiqini",
+   "Cismin sürətini"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Ampermetr dövrəyə necə qoşulur?",
+  "secimler": [
+   "Paralel",
+   "Ardıcıl",
+   "Həm ardıcıl, həm paralel",
+   "Heç birinə uyğun deyil"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Voltmetr dövrəyə necə qoşulur?",
+  "secimler": [
+   "Ardıcıl",
+   "Paralel",
+   "Fərq etməz",
+   "Yalnız mənbəyə bilavasitə"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
+ },
+ {
+  "sual": "Metalların yaxşı elektrik keçiricisi olmasının əsas səbəbi nədir?",
+  "secimler": [
+   "Ağır olmaları",
+   "Tərkiblərində çoxlu sərbəst elektronun olması",
+   "Rənglərinin tünd olması",
+   "Bərk halda olmaları"
+  ],
+  "duzgun": 1,
+  "movzu": "Elektrik yükü, elektrikləşmə və sadə dövrə",
+  "sinif": "8",
+  "fenn": "Fizika"
  }
 ]
