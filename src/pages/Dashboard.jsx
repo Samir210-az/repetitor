@@ -1125,11 +1125,7 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
             </div>
           )}
           {(test.suallar || []).map((q, i) => {
-            const options = Array.isArray(q["seçimler"])
-              ? q["seçimler"]
-              : Array.isArray(q.secimler)
-              ? q.secimler
-              : [];
+            const options = Array.isArray(q.secimler) ? q.secimler : [];
             return (
               <div key={i} className="card p-4">
                 <p className="font-medium text-slateink mb-3">{i + 1}. {q.sual}</p>

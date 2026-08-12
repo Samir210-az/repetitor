@@ -20,8 +20,7 @@ function obfuscateFile(path) {
     selfDefending: false, // ESM modulları qıra bilər, deaktiv saxlanılır
     disableConsoleOutput: false,
     numbersToExpressions: false,
-    splitStrings: true,
-    splitStringsChunkLength: 8,
+    splitStrings: false, // Çoxlu Azərbaycan hərfli (qeyri-ASCII) mətnlə birləşərək sətirləri korlayırdı — deaktiv edildi
   })
   writeFileSync(path, result.getObfuscatedCode())
 }
