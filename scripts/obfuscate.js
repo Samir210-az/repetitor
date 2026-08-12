@@ -12,15 +12,12 @@ function obfuscateFile(path) {
     compact: true,
     controlFlowFlattening: false, // Firebase SDK-nın daxili dinamik metod çağırışlarını sındırır
     deadCodeInjection: false, // eyni səbəbdən deaktiv
-    stringArray: true,
-    stringArrayEncoding: ['base64'],
-    stringArrayThreshold: 0.75,
+    stringArray: false, // İki ayrı hadisədə sətirləri korlayaraq "is not a function" xətası yaratdı — deaktiv edildi
     identifierNamesGenerator: 'hexadecimal',
     renameGlobals: false,
     selfDefending: false, // ESM modulları qıra bilər, deaktiv saxlanılır
     disableConsoleOutput: false,
     numbersToExpressions: false,
-    splitStrings: false, // Çoxlu Azərbaycan hərfli (qeyri-ASCII) mətnlə birləşərək sətirləri korlayırdı — deaktiv edildi
   })
   writeFileSync(path, result.getObfuscatedCode())
 }
