@@ -10,10 +10,8 @@ function obfuscateFile(path) {
   const code = readFileSync(path, 'utf8')
   const result = JavaScriptObfuscator.obfuscate(code, {
     compact: true,
-    controlFlowFlattening: true,
-    controlFlowFlatteningThreshold: 0.5,
-    deadCodeInjection: true,
-    deadCodeInjectionThreshold: 0.2,
+    controlFlowFlattening: false, // Firebase SDK-nın daxili dinamik metod çağırışlarını sındırır
+    deadCodeInjection: false, // eyni səbəbdən deaktiv
     stringArray: true,
     stringArrayEncoding: ['base64'],
     stringArrayThreshold: 0.75,
@@ -21,7 +19,7 @@ function obfuscateFile(path) {
     renameGlobals: false,
     selfDefending: false, // ESM modulları qıra bilər, deaktiv saxlanılır
     disableConsoleOutput: false,
-    numbersToExpressions: true,
+    numbersToExpressions: false,
     splitStrings: true,
     splitStringsChunkLength: 8,
   })
