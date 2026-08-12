@@ -1,4 +1,4 @@
-const CACHE_NAME = "repetitor-v1";
+const CACHE_NAME = "repetitor-v2";
 const APP_SHELL = ["/", "/index.html", "/favicon.svg", "/manifest.json"];
 
 self.addEventListener("install", (event) => {
