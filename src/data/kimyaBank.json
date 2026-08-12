@@ -3118,5 +3118,3125 @@
   "movzu": "Maddə miqdarı (mol) və molyar kütlə",
   "sinif": "8",
   "fenn": "Kimya"
+ },
+ {
+  "sual": "Üzvi kimya hansı elementin birləşmələrini əsas tədqiqat obyekti kimi öyrənir?",
+  "secimler": [
+   "Oksigenin",
+   "Karbonun",
+   "Azotun",
+   "Kükürdün"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon atomunun üzvi birləşmələrdə əsas valentliyi neçədir?",
+  "secimler": [
+   "II",
+   "III",
+   "IV",
+   "I"
+  ],
+  "duzgun": 2,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon atomlarının bir-biri ilə zəncir (uzun silsilə) əmələ gətirmə qabiliyyətinə nə deyilir?",
+  "secimler": [
+   "İzomeriya",
+   "Katenasiya (zəncirvarilik)",
+   "Polimerləşmə",
+   "Hibridləşmə"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üzvi birləşmələrin qeyri-üzvi birləşmələrdən əsas fərqi nədir?",
+  "secimler": [
+   "Tərkibində mütləq karbon olması və əksəriyyətinin yanıcı olması",
+   "Heç bir fərqi yoxdur",
+   "Yalnız qazlardan ibarət olması",
+   "Yalnız suda həll olması"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon atomunun üzvi birləşmələrdə sp³ hibridləşməsi hansı həndəsi formaya uyğundur?",
+  "secimler": [
+   "Xətti",
+   "Tetraedrik",
+   "Müstəvi üçbucaq",
+   "Kvadrat"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanlarda karbon atomu hansı hibridləşmə tipindədir?",
+  "secimler": [
+   "sp",
+   "sp²",
+   "sp³",
+   "sp³d"
+  ],
+  "duzgun": 2,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İkiqat rabitəli (C=C) birləşmələrdə karbon atomu hansı hibridləşmə tipindədir?",
+  "secimler": [
+   "sp",
+   "sp²",
+   "sp³",
+   "sp³d"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üçqat rabitəli (C≡C) birləşmələrdə karbon atomu hansı hibridləşmə tipindədir?",
+  "secimler": [
+   "sp",
+   "sp²",
+   "sp³",
+   "sp³d"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni molekulyar formula malik, lakin fərqli struktura malik birləşmələrə nə deyilir?",
+  "secimler": [
+   "Homoloqlar",
+   "İzomerlər",
+   "Allotroplar",
+   "İzotoplar"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Eyni funksional qrupa malik, tərkibcə CH₂ qrupu ilə fərqlənən birləşmələr sırasına nə deyilir?",
+  "secimler": [
+   "İzomer sırası",
+   "Homoloji sıra",
+   "Polimer sırası",
+   "İon sırası"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi kimyaya giriş: karbon atomunun xüsusiyyətləri",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yalnız karbon və hidrogendən ibarət üzvi birləşmələrə nə deyilir?",
+  "secimler": [
+   "Karbohidratlar",
+   "Karbohidrogenlər",
+   "Karbonatlar",
+   "Karbidlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində yalnız sadə (tək) rabitə olan karbohidrogenlərə nə deyilir?",
+  "secimler": [
+   "Doymamış karbohidrogenlər",
+   "Doymuş karbohidrogenlər",
+   "Aromatik karbohidrogenlər",
+   "Tsiklik karbohidrogenlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində ikiqat və ya üçqat rabitə olan karbohidrogenlərə nə deyilir?",
+  "secimler": [
+   "Doymuş karbohidrogenlər",
+   "Doymamış karbohidrogenlər",
+   "Alkanlar",
+   "Parafinlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon skeletinin quruluşuna görə yaranan izomeriyaya nə deyilir?",
+  "secimler": [
+   "Struktur (skelet) izomeriyası",
+   "Fəza izomeriyası",
+   "Optik izomeriya",
+   "Tavtomeriya"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Funksional qrupun molekuldakı yerinə görə yaranan izomeriyaya nə deyilir?",
+  "secimler": [
+   "Vəziyyət izomeriyası",
+   "Skelet izomeriyası",
+   "Fəza izomeriyası",
+   "Metameriya"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Butanın (C₄H₁₀) neçə struktur izomeri var?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Funksional qrup nədir?",
+  "secimler": [
+   "Molekulun kimyəvi xassələrini müəyyən edən atom və ya atomlar qrupu",
+   "Yalnız karbon atomu",
+   "Yalnız hidrogen atomu",
+   "Molekulun kütləsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Spirtlərin funksional qrupu hansıdır?",
+  "secimler": [
+   "-COOH",
+   "-OH",
+   "-CHO",
+   "-NH₂"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon turşularının funksional qrupu hansıdır?",
+  "secimler": [
+   "-OH",
+   "-COOH",
+   "-CHO",
+   "-NH₂"
+  ],
+  "duzgun": 1,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminlərin funksional qrupu hansıdır?",
+  "secimler": [
+   "-OH",
+   "-COOH",
+   "-NH₂",
+   "-CHO"
+  ],
+  "duzgun": 2,
+  "movzu": "Üzvi birləşmələrin təsnifatı və izomeriya",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların ümumi formulu hansıdır?",
+  "secimler": [
+   "CₙH₂ₙ",
+   "CₙH₂ₙ₊₂",
+   "CₙH₂ₙ₋₂",
+   "CₙH₂ₙ₋₆"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə alkan hansıdır?",
+  "secimler": [
+   "Etan",
+   "Metan",
+   "Propan",
+   "Butan"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın molekulyar formulu hansıdır?",
+  "secimler": [
+   "CH₄",
+   "C₂H₆",
+   "C₃H₈",
+   "CH₂"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanlar üçün hansı reaksiya növü daha xarakterikdir?",
+  "secimler": [
+   "Əvəzetmə (substitusiya) reaksiyaları",
+   "Birləşmə reaksiyaları",
+   "Polimerləşmə",
+   "Hidratlaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metanın xlorla (işıq iştirakı ilə) reaksiyası hansı reaksiya növünə aiddir?",
+  "secimler": [
+   "Əvəzetmə",
+   "Birləşmə",
+   "Ayrılma",
+   "Polimerləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların tam yanması nəticəsində hansı məhsullar alınır?",
+  "secimler": [
+   "CO₂ və H₂O",
+   "Yalnız CO₂",
+   "Yalnız H₂O",
+   "CO və H₂"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "n=5 olan alkanın adı və formulu hansıdır?",
+  "secimler": [
+   "C₅H₁₀, penten",
+   "C₅H₁₂, pentan",
+   "C₅H₈, pentin",
+   "C₅H₁₀, siklopentan"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metan təbiətdə əsasən harada geniş yayılıb?",
+  "secimler": [
+   "Təbii qazın əsas komponentidir",
+   "Yalnız neftdə",
+   "Yalnız kömürdə",
+   "Heç yerdə yayılmayıb"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların adlarının sonluğu hansıdır?",
+  "secimler": [
+   "-en",
+   "-in",
+   "-an",
+   "-ol"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkanların suda həllolma qabiliyyəti necədir?",
+  "secimler": [
+   "Yaxşı həll olurlar",
+   "Suda praktik olaraq həll olmurlar",
+   "Tam qarışırlar",
+   "Partlayıcı reaksiya verirlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkanlar (doymuş karbohidrogenlər)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin ümumi formulu hansıdır?",
+  "secimler": [
+   "CₙH₂ₙ₊₂",
+   "CₙH₂ₙ",
+   "CₙH₂ₙ₋₂",
+   "CₙH₂ₙ₋₆"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə alken hansıdır?",
+  "secimler": [
+   "Metan",
+   "Etilen",
+   "Propan",
+   "Asetilen"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₂H₆",
+   "C₂H₄",
+   "C₂H₂",
+   "CH₄"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlər üçün ən xarakterik reaksiya növü hansıdır?",
+  "secimler": [
+   "Əvəzetmə",
+   "Birləşmə (əlavəetmə)",
+   "Neytrallaşma",
+   "Hidroliz"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin hidrogenlə reaksiyası (hidrogenləşmə) nəticəsində nə alınır?",
+  "secimler": [
+   "Etan",
+   "Metan",
+   "Asetilen",
+   "Etanol"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin suyla reaksiyası (hidratlaşma) nəticəsində nə alınır?",
+  "secimler": [
+   "Etan",
+   "Etil spirti (etanol)",
+   "Sirkə turşusu",
+   "Metanol"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilendən polietilen alınması hansı proses adlanır?",
+  "secimler": [
+   "Polimerləşmə",
+   "Hidroliz",
+   "Nitrləmə",
+   "Sulfolaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkenlərin adlarının sonluğu hansıdır?",
+  "secimler": [
+   "-an",
+   "-en",
+   "-in",
+   "-ol"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bromlu suyun alkenlə reaksiyada rənginin getməsi nəyi sübut edir?",
+  "secimler": [
+   "Doymamış (ikiqat) rabitənin olduğunu",
+   "Doymuş rabitənin olduğunu",
+   "Heç nəyi sübut etmir",
+   "Turşuluğu"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etilenin polimerləşməsi nəticəsində hansı sənaye məhsulu alınır?",
+  "secimler": [
+   "Polietilen",
+   "Polipropilen",
+   "Polistirol",
+   "Kapron"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkenlər (etilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin ümumi formulu hansıdır?",
+  "secimler": [
+   "CₙH₂ₙ₊₂",
+   "CₙH₂ₙ",
+   "CₙH₂ₙ₋₂",
+   "CₙH₂ₙ₋₆"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə alkin hansıdır?",
+  "secimler": [
+   "Etilen",
+   "Asetilen",
+   "Metan",
+   "Propan"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₂H₂",
+   "C₂H₄",
+   "C₂H₆",
+   "CH₄"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin sənaye əhəmiyyəti əsasən nə ilə bağlıdır?",
+  "secimler": [
+   "Qaynaq işlərində (yüksək temperaturlu alov)",
+   "Yalnız qida sənayesində",
+   "Yalnız tibbdə",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kalsium karbiddən (CaC₂) su ilə reaksiya nəticəsində hansı qaz alınır?",
+  "secimler": [
+   "Metan",
+   "Etilen",
+   "Asetilen",
+   "Etan"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin adlarının sonluğu hansıdır?",
+  "secimler": [
+   "-an",
+   "-en",
+   "-in",
+   "-ol"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin hidratlaşması (Kutserov reaksiyası) nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Etanol",
+   "Sirkə aldehidi (asetaldehid)",
+   "Sirkə turşusu",
+   "Etan"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərdə iki karbon atomu arasındakı üçqat rabitə hansı rabitələrdən ibarətdir?",
+  "secimler": [
+   "1 σ-rabitə",
+   "1 σ və 1 π-rabitə",
+   "1 σ və 2 π-rabitə",
+   "3 σ-rabitə"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkinlərin tam hidrogenləşməsi üçün alkenlərlə müqayisədə nə qədər hidrogen molekulu tələb olunur?",
+  "secimler": [
+   "Eyni miqdar",
+   "İki dəfə çox",
+   "Yarı qədər",
+   "Heç bir hidrogen tələb etmir"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetilenin polimerləşməsi kimya sənayesində hansı sahədə aralıq məhsul kimi əhəmiyyətlidir?",
+  "secimler": [
+   "Sintetik kauçuk və s. istehsalında",
+   "Yalnız su istehsalında",
+   "Yalnız duz istehsalında",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkinlər (asetilen sırası)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekulunda iki ikiqat rabitə olan karbohidrogenlərə nə deyilir?",
+  "secimler": [
+   "Alkanlar",
+   "Alkadienlər (dienlər)",
+   "Alkinlər",
+   "Aromatik karbohidrogenlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkadienlərin ümumi formulu alkinlərlə necə üst-üstə düşür?",
+  "secimler": [
+   "CₙH₂ₙ₋₂ (eynidir)",
+   "CₙH₂ₙ₊₂",
+   "CₙH₂ₙ",
+   "Heç vaxt üst-üstə düşmür"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Təbii kauçukun əsas monomeri hansıdır?",
+  "secimler": [
+   "Etilen",
+   "İzopren",
+   "Metan",
+   "Benzol"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik kauçuk istehsalında geniş istifadə olunan dien hansıdır?",
+  "secimler": [
+   "Butadien",
+   "Etilen",
+   "Asetilen",
+   "Propan"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kauçukun vulkanlaşdırılması hansı elementlə aparılır?",
+  "secimler": [
+   "Oksigenlə",
+   "Kükürdlə",
+   "Azotla",
+   "Xlorla"
+  ],
+  "duzgun": 1,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Vulkanlaşdırılmış kauçuk (rezin) təbii kauçukla müqayisədə hansı xüsusiyyətə malikdir?",
+  "secimler": [
+   "Daha az elastik, lakin daha davamlıdır",
+   "Heç bir fərqi yoxdur",
+   "Daha yumşaqdır",
+   "Suda həll olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Butadienin molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₄H₆",
+   "C₄H₈",
+   "C₄H₁₀",
+   "C₄H₄"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkadienlərdə ikiqat rabitələrin yerləşməsinə görə neçə əsas növ dien fərqləndirilir?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "duzgun": 2,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kauçukun əsas tətbiq sahələrindən biri hansıdır?",
+  "secimler": [
+   "Şin (təkər) istehsalı",
+   "Yalnız qida sənayesi",
+   "Yalnız dərman istehsalı",
+   "Heç bir tətbiqi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik kauçukun təbii kauçuk üzərində üstünlüyü nədir?",
+  "secimler": [
+   "Daha ucuz və tənzimlənə bilən xassələrlə istehsal olunması",
+   "Heç bir üstünlüyü yoxdur",
+   "Yalnız rəngi fərqlidir",
+   "Yalnız qoxusu fərqlidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Alkadienlər və kauçuk",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aromatik karbohidrogenlərin ən sadə nümayəndəsi hansıdır?",
+  "secimler": [
+   "Metan",
+   "Benzol",
+   "Etilen",
+   "Asetilen"
+  ],
+  "duzgun": 1,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₆H₆",
+   "C₆H₁₂",
+   "C₆H₁₄",
+   "C₆H₈"
+  ],
+  "duzgun": 0,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasında karbon atomları arasındakı rabitə xarakteri necədir?",
+  "secimler": [
+   "Bütün rabitələr eyni uzunluqda, delokalizə olunmuş π-elektron sistemi",
+   "Növbələşən sadə-ikiqat rabitələr",
+   "Yalnız üçqat rabitələr",
+   "Heç bir xüsusi rabitə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasının xüsusi sabitliyinə nə deyilir?",
+  "secimler": [
+   "Aromatiklik",
+   "İzomeriya",
+   "Polimerləşmə",
+   "Hibridləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol üçün ən xarakterik reaksiya növü hansıdır?",
+  "secimler": [
+   "Əvəzetmə (substitusiya)",
+   "Birləşmə (əlavəetmə)",
+   "Polimerləşmə",
+   "Hidroliz"
+  ],
+  "duzgun": 0,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun nitrləmə reaksiyası nəticəsində hansı maddə alınır?",
+  "secimler": [
+   "Nitrobenzol",
+   "Anilin",
+   "Toluol",
+   "Fenol"
+  ],
+  "duzgun": 0,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol halqasına bir metil qrupu (-CH₃) birləşdikdə hansı maddə əmələ gəlir?",
+  "secimler": [
+   "Fenol",
+   "Toluol",
+   "Anilin",
+   "Stirol"
+  ],
+  "duzgun": 1,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolla işləyərkən hansı ehtiyat tədbiri vacibdir?",
+  "secimler": [
+   "Havalandırma və qoruyucu vasitələrdən istifadə (toksikdir)",
+   "Heç bir ehtiyat lazım deyil",
+   "Yalnız əlcək kifayətdir",
+   "Heç bir təsiri yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzol sənayedə əsasən hansı məqsədlə istifadə olunur?",
+  "secimler": [
+   "Digər üzvi maddələrin sintezi üçün xammal kimi",
+   "Yalnız yanacaq kimi",
+   "Yalnız qida əlavəsi kimi",
+   "Heç bir istifadəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Benzolun quruluşunu ilk dəfə təklif edən alim kimdir?",
+  "secimler": [
+   "Mendeleyev",
+   "Kekule",
+   "Lavuazye",
+   "Berselius"
+  ],
+  "duzgun": 1,
+  "movzu": "Aromatik karbohidrogenlər (benzol)",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft əsasən hansı üzvi maddələrin qarışığından ibarətdir?",
+  "secimler": [
+   "Karbohidrogenlərin",
+   "Yalnız spirtlərin",
+   "Yalnız turşuların",
+   "Yalnız duzların"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin komponentlərə ayrılması hansı üsulla aparılır?",
+  "secimler": [
+   "Fraksiyalı distillə (rektifikasiya)",
+   "Süzmə",
+   "Kristallaşma",
+   "Maqnitlə ayırma"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin distilləsindən alınan, əsasən yanacaq kimi istifadə olunan yüngül fraksiya hansıdır?",
+  "secimler": [
+   "Mazut",
+   "Benzin",
+   "Bitum",
+   "Qudron"
+  ],
+  "duzgun": 1,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Təbii qazın əsas tərkib hissəsi hansı maddədir?",
+  "secimler": [
+   "Etan",
+   "Metan",
+   "Propan",
+   "Butan"
+  ],
+  "duzgun": 1,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft məhsullarının krekinq prosesi nəyə xidmət edir?",
+  "secimler": [
+   "Böyük molekulların kiçik molekullara parçalanmasına",
+   "Yalnız rəngi dəyişdirməyə",
+   "Yalnız qoxunu aradan qaldırmağa",
+   "Heç bir məqsədə xidmət etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft məhsullarının yanması nəticəsində ətraf mühitə hansı problem yarana bilər?",
+  "secimler": [
+   "Hava çirklənməsi və istixana effekti",
+   "Heç bir problem yaranmır",
+   "Yalnız suyun təmizlənməsi",
+   "Yalnız torpağın münbitləşməsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neft emalından alınan, yol örtüyündə istifadə olunan qalıq məhsul hansıdır?",
+  "secimler": [
+   "Benzin",
+   "Bitum (asfalt)",
+   "Kerosin",
+   "Dizel yanacağı"
+  ],
+  "duzgun": 1,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alternativ (bərpa olunan) enerji mənbələrinin əhəmiyyəti nə ilə bağlıdır?",
+  "secimler": [
+   "Neft ehtiyatlarının məhdudluğu və ekoloji problemlər",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız modaya görə",
+   "Neftin qiymətinin ucuzluğu ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Azərbaycanda neft-kimya sənayesinin inkişafı üçün əsas xammal mənbəyi nədir?",
+  "secimler": [
+   "Xəzər dənizinin neft-qaz yataqları",
+   "Yalnız idxal xammal",
+   "Yalnız kömür",
+   "Heç bir mənbə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Neftin tərkibindəki kükürd birləşmələri emal prosesində niyə problem yaradır?",
+  "secimler": [
+   "Korroziyaya səbəb olur və zərərli qazlar (SO₂) yarada bilər",
+   "Heç bir problem yaratmır",
+   "Yalnız rəng dəyişikliyi yaradır",
+   "Yalnız qoxu problemi yaradır"
+  ],
+  "duzgun": 0,
+  "movzu": "Neft və təbii qaz",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində -OH funksional qrupu olan üzvi birləşmələrə nə deyilir?",
+  "secimler": [
+   "Turşular",
+   "Spirtlər",
+   "Aldehidlər",
+   "Aminlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə birattomlu spirt hansıdır?",
+  "secimler": [
+   "Etanol",
+   "Metanol",
+   "Propanol",
+   "Qliserin"
+  ],
+  "duzgun": 1,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etil spirtinin (etanolun) molekulyar formulu hansıdır?",
+  "secimler": [
+   "CH₃OH",
+   "C₂H₅OH",
+   "C₃H₇OH",
+   "C₂H₆"
+  ],
+  "duzgun": 1,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Metil spirtinin (metanolun) orqanizm üçün təhlükəsi nədən ibarətdir?",
+  "secimler": [
+   "Çox zəhərlidir, korluğa və ölümə səbəb ola bilər",
+   "Heç bir zərəri yoxdur",
+   "Yalnız yüngül baş ağrısı yaradır",
+   "Yalnız dəri qıcıqlanması yaradır"
+  ],
+  "duzgun": 0,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üç -OH qrupu olan spirtə nümunə hansıdır?",
+  "secimler": [
+   "Etanol",
+   "Qliserin (qliserol)",
+   "Metanol",
+   "Fenol"
+  ],
+  "duzgun": 1,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Spirtlərin natrium metalı ilə reaksiyası nəticəsində hansı qaz ayrılır?",
+  "secimler": [
+   "Oksigen",
+   "Hidrogen",
+   "Azot",
+   "Karbon qazı"
+  ],
+  "duzgun": 1,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etanolun ardıcıl oksidləşməsi nəticəsində hansı maddələr alınır?",
+  "secimler": [
+   "Sirkə aldehidi, sonra sirkə turşusu",
+   "Yalnız su",
+   "Yalnız karbon qazı",
+   "Metan"
+  ],
+  "duzgun": 0,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Spirtlərin sənaye istehsalında (qıcqırma yolu ilə) əsas xammal hansıdır?",
+  "secimler": [
+   "Şəkər tərkibli maddələr (qlükoza)",
+   "Yalnız neft",
+   "Yalnız duz",
+   "Yalnız su"
+  ],
+  "duzgun": 0,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etil spirtinin tibbi əhəmiyyəti nədən ibarətdir?",
+  "secimler": [
+   "Dezinfeksiyaedici xüsusiyyəti",
+   "Heç bir tibbi əhəmiyyəti yoxdur",
+   "Yalnız dərman qablaşdırılmasında",
+   "Yalnız qoxu üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Spirtlərin adlarının sonluğu hansıdır?",
+  "secimler": [
+   "-al",
+   "-ol",
+   "-in",
+   "-at"
+  ],
+  "duzgun": 1,
+  "movzu": "Spirtlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aromatik halqaya birbaşa bağlı -OH qrupu olan birləşmələrə nə deyilir?",
+  "secimler": [
+   "Spirtlər",
+   "Fenollar",
+   "Aldehidlər",
+   "Turşular"
+  ],
+  "duzgun": 1,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə fenol hansıdır?",
+  "secimler": [
+   "Krezol",
+   "Fenol (karbol turşusu)",
+   "Rezorsin",
+   "Hidroxinon"
+  ],
+  "duzgun": 1,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenolun molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₆H₅OH",
+   "C₆H₆",
+   "C₆H₅CH₃",
+   "C₆H₅COOH"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenol turşuluq xassəsinə görə adi spirtlərlə müqayisədə necədir?",
+  "secimler": [
+   "Daha güclü turşudur (NaOH ilə reaksiyaya girir)",
+   "Daha zəif turşudur",
+   "Turşuluq xassəsi yoxdur",
+   "Eyni dərəcədə turşudur"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenolun natrium hidroksidlə reaksiyası nəticəsində nə alınır?",
+  "secimler": [
+   "Natrium fenolyat və su",
+   "Yalnız su",
+   "Yalnız oksigen",
+   "Heç bir reaksiya baş vermir"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenol dezinfeksiyaedici xüsusiyyətinə görə tarixən hansı sahədə istifadə olunub?",
+  "secimler": [
+   "Tibbdə antiseptik kimi",
+   "Yalnız qida sənayesində",
+   "Yalnız tekstil sənayesində",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenol-formaldehid qatranları hansı sənaye sahəsində geniş istifadə olunur?",
+  "secimler": [
+   "Plastik kütlələr istehsalında",
+   "Yalnız qida sənayesində",
+   "Yalnız dərman istehsalında",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenolun dəri ilə təması zamanı hansı təhlükə var?",
+  "secimler": [
+   "Kimyəvi yanıq yarada bilər (zəhərlidir)",
+   "Heç bir təhlükə yoxdur",
+   "Yalnız rəng dəyişikliyi yaradır",
+   "Yalnız yüngül qaşınma yaradır"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenol molekulunda -OH qrupu ilə benzol halqası arasındakı qarşılıqlı təsir nəyə səbəb olur?",
+  "secimler": [
+   "Fenolun turşuluq xassəsinin güclənməsinə",
+   "Heç bir təsiri yoxdur",
+   "Turşuluğun zəifləməsinə",
+   "Yalnız rəng dəyişikliyinə"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fenolun brom suyu ilə reaksiyası hansı əlaməti göstərir?",
+  "secimler": [
+   "Ağ çöküntü (tribromfenol) əmələ gəlməsi",
+   "Heç bir dəyişiklik olmur",
+   "Qaz ayrılması",
+   "Rəngin göyərməsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Fenollar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində -CHO funksional qrupu olan birləşmələrə nə deyilir?",
+  "secimler": [
+   "Spirtlər",
+   "Aldehidlər",
+   "Turşular",
+   "Efirlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə aldehid hansıdır?",
+  "secimler": [
+   "Asetaldehid",
+   "Formaldehid (metanal)",
+   "Propanal",
+   "Benzaldehid"
+  ],
+  "duzgun": 1,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sirkə aldehidinin (asetaldehidin) molekulyar formulu hansıdır?",
+  "secimler": [
+   "HCHO",
+   "CH₃CHO",
+   "C₂H₅CHO",
+   "CH₃COOH"
+  ],
+  "duzgun": 1,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aldehidlərin \"gümüş güzgü reaksiyası\" nəyi aşkar etmək üçün istifadə olunur?",
+  "secimler": [
+   "Aldehid qrupunun mövcudluğunu",
+   "Spirt qrupunun mövcudluğunu",
+   "Turşu qrupunun mövcudluğunu",
+   "Amin qrupunun mövcudluğunu"
+  ],
+  "duzgun": 0,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Gümüş güzgü reaksiyasında aldehid hansı maddəyə oksidləşir?",
+  "secimler": [
+   "Müvafiq spirtə",
+   "Müvafiq turşuya",
+   "Müvafiq efirə",
+   "Müvafiq aminə"
+  ],
+  "duzgun": 1,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Formaldehidin sənaye əhəmiyyəti əsasən nə ilə bağlıdır?",
+  "secimler": [
+   "Fenol-formaldehid qatranlarının istehsalında",
+   "Yalnız ətir istehsalında",
+   "Yalnız qida sənayesində",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aldehidlərin reduksiyası (hidrogenləşməsi) nəticəsində hansı maddələr alınır?",
+  "secimler": [
+   "Müvafiq spirtlər",
+   "Müvafiq turşular",
+   "Müvafiq efirlər",
+   "Müvafiq aminlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aldehidlərin adlarının sonluğu hansıdır?",
+  "secimler": [
+   "-ol",
+   "-al",
+   "-in",
+   "-at"
+  ],
+  "duzgun": 1,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fehling reaktivi ilə aldehidlərin reaksiyası zamanı hansı çöküntü müşahidə olunur?",
+  "secimler": [
+   "Ağ çöküntü",
+   "Qırmızı-kərpic rəngli mis(I) oksid çöküntüsü",
+   "Qara çöküntü",
+   "Heç bir çöküntü olmur"
+  ],
+  "duzgun": 1,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aldehid qrupunun quruluş xüsusiyyəti nədir?",
+  "secimler": [
+   "Karbonil karbonuna mütləq bir hidrogen atomu bağlıdır",
+   "Heç bir xüsusiyyəti yoxdur",
+   "Tərkibində oksigen yoxdur",
+   "Yalnız aromatikdə olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aldehidlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində karbonil qrupu (C=O) iki karbon atomu arasında yerləşən birləşmələrə nə deyilir?",
+  "secimler": [
+   "Aldehidlər",
+   "Ketonlar",
+   "Spirtlər",
+   "Turşular"
+  ],
+  "duzgun": 1,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə keton hansıdır?",
+  "secimler": [
+   "Formaldehid",
+   "Aseton (propanon)",
+   "Asetaldehid",
+   "Metanol"
+  ],
+  "duzgun": 1,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetonun molekulyar formulu hansıdır?",
+  "secimler": [
+   "CH₃COCH₃",
+   "CH₃CHO",
+   "CH₃COOH",
+   "C₂H₅OH"
+  ],
+  "duzgun": 0,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ketonlar aldehidlərdən fərqli olaraq gümüş güzgü reaksiyası verirmi?",
+  "secimler": [
+   "Bəli, verir",
+   "Xeyr, vermir",
+   "Yalnız qızdırıldıqda verir",
+   "Yalnız katalizatorla verir"
+  ],
+  "duzgun": 1,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aseton sənayedə əsasən hansı məqsədlə istifadə olunur?",
+  "secimler": [
+   "Həlledici kimi (lak, boya sənayesində)",
+   "Yalnız yanacaq kimi",
+   "Yalnız qida əlavəsi kimi",
+   "Heç bir istifadəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ketonların adlarının sonluğu hansıdır?",
+  "secimler": [
+   "-al",
+   "-on",
+   "-ol",
+   "-in"
+  ],
+  "duzgun": 1,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ketonların reduksiyası nəticəsində hansı maddələr alınır?",
+  "secimler": [
+   "İkinci dərəcəli spirtlər",
+   "Birinci dərəcəli spirtlər",
+   "Turşular",
+   "Aldehidlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ketonlar aldehidlərlə müqayisədə oksidləşməyə qarşı necədir?",
+  "secimler": [
+   "Daha davamlıdır",
+   "Daha az davamlıdır",
+   "Eynidir",
+   "Ümumiyyətlə oksidləşmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Asetonun orqanizmdə aşkarlanması hansı vəziyyətin göstəricisi ola bilər?",
+  "secimler": [
+   "Maddələr mübadiləsi pozğunluğunun",
+   "Heç bir vəziyyətin göstəricisi deyil",
+   "Yalnız normal vəziyyətin",
+   "Yalnız yaxşı sağlamlığın"
+  ],
+  "duzgun": 0,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ketonların karbonil qrupu aldehidlərinkindən struktur baxımdan nə ilə fərqlənir?",
+  "secimler": [
+   "Ketonda karbonil karbonuna iki karbohidrogen radikalı bağlıdır",
+   "Heç bir fərqi yoxdur",
+   "Ketonda oksigen yoxdur",
+   "Aldehiddə karbonil qrupu yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Ketonlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Tərkibində -COOH funksional qrupu olan birləşmələrə nə deyilir?",
+  "secimler": [
+   "Spirtlər",
+   "Karbon turşuları",
+   "Aldehidlər",
+   "Aminlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə karbon turşusu hansıdır?",
+  "secimler": [
+   "Sirkə turşusu",
+   "Qarışqa turşusu (metan turşusu)",
+   "Propion turşusu",
+   "Yağ turşusu"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sirkə turşusunun (etan turşusunun) molekulyar formulu hansıdır?",
+  "secimler": [
+   "HCOOH",
+   "CH₃COOH",
+   "C₂H₅COOH",
+   "CH₃CHO"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon turşularının turşuluq xassəsi hansı funksional qrupla bağlıdır?",
+  "secimler": [
+   "-OH",
+   "-COOH",
+   "-CHO",
+   "-NH₂"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sirkə turşusunun sənayedə əsas istifadə sahəsi hansıdır?",
+  "secimler": [
+   "Qida sənayesi (sirkə) və kimya sənayesi",
+   "Yalnız tibb",
+   "Yalnız tekstil",
+   "Heç bir istifadəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon turşularının metallarla reaksiyası nəticəsində hansı qaz ayrılır?",
+  "secimler": [
+   "Oksigen",
+   "Hidrogen",
+   "Azot",
+   "Karbon qazı"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon turşularının adlarının ümumi ifadəsi hansıdır?",
+  "secimler": [
+   "-ol",
+   "...turşusu (-oy turşusu)",
+   "-on",
+   "-al"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağ turşuları (palmitin, stearin turşusu) hansı üzvi maddələrin tərkib hissəsidir?",
+  "secimler": [
+   "Karbohidratların",
+   "Yağların",
+   "Zülalların",
+   "Nuklein turşularının"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon turşularının karbonatlarla (Na₂CO₃) reaksiyası nəticəsində hansı qaz ayrılır?",
+  "secimler": [
+   "Hidrogen",
+   "Karbon qazı (CO₂)",
+   "Oksigen",
+   "Azot"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Süd turşusu hansı prosesin nəticəsində əmələ gəlir?",
+  "secimler": [
+   "Şəkərlərin süd turşusu qıcqırması ilə",
+   "Yalnız kimyəvi sintezlə",
+   "Yalnız fiziki proseslə",
+   "Heç bir prosesin nəticəsi deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbon turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Karbon turşusu ilə spirtin reaksiyası (su ayrılması ilə) nəticəsində alınan maddəyə nə deyilir?",
+  "secimler": [
+   "Aldehid",
+   "Mürəkkəb efir",
+   "Keton",
+   "Amin"
+  ],
+  "duzgun": 1,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Turşu ilə spirtin mürəkkəb efir əmələ gətirmə reaksiyasına nə deyilir?",
+  "secimler": [
+   "Hidroliz",
+   "Esterifikasiya",
+   "Neytrallaşma",
+   "Polimerləşmə"
+  ],
+  "duzgun": 1,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mürəkkəb efirlərin xoş qoxusu onların hansı sahədə istifadəsinə səbəb olur?",
+  "secimler": [
+   "Ətriyyat və qida sənayesində (aromatizatorlar)",
+   "Yalnız tikinti sənayesində",
+   "Yalnız metallurgiyada",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mürəkkəb efirlərin su ilə parçalanma reaksiyasına nə deyilir?",
+  "secimler": [
+   "Esterifikasiya",
+   "Hidroliz",
+   "Oksidləşmə",
+   "Reduksiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mürəkkəb efirin qələvi mühitdə hidrolizinə (sabun istehsalı prosesi) nə deyilir?",
+  "secimler": [
+   "Esterifikasiya",
+   "Sabunlaşma",
+   "Nitrləmə",
+   "Sulfolaşma"
+  ],
+  "duzgun": 1,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Etil asetat hansı turşu və spirtdən əmələ gəlib?",
+  "secimler": [
+   "Sirkə turşusu və etil spirti",
+   "Qarışqa turşusu və metil spirti",
+   "Sirkə turşusu və metil spirti",
+   "Propion turşusu və etil spirti"
+  ],
+  "duzgun": 0,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Esterifikasiya reaksiyası hansı tip reaksiyadır?",
+  "secimler": [
+   "Geriyə dönən (tarazlıq) reaksiyadır",
+   "Tam dönməz reaksiyadır",
+   "Partlayış reaksiyasıdır",
+   "Heç bir reaksiya baş vermir"
+  ],
+  "duzgun": 0,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Esterifikasiya reaksiyasını sürətləndirmək üçün adətən hansı katalizatordan istifadə olunur?",
+  "secimler": [
+   "Qatı sulfat turşusu",
+   "Natrium hidroksid",
+   "Xörək duzu",
+   "Heç bir katalizator lazım deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Mürəkkəb efirlərin sənaye əhəmiyyəti hansı sahələrdə özünü göstərir?",
+  "secimler": [
+   "Ətriyyat, boya-lak, plastik kütlə istehsalında",
+   "Yalnız tibbdə",
+   "Yalnız kənd təsərrüfatında",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Meyvələrin təbii ətrini əsasən hansı üzvi birləşmələr yaradır?",
+  "secimler": [
+   "Mürəkkəb efirlər",
+   "Karbon turşuları",
+   "Aldehidlər",
+   "Aminlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Mürəkkəb efirlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağlar kimyəvi tərkibinə görə hansı birləşmə sinfinə aiddir?",
+  "secimler": [
+   "Karbon turşuları",
+   "Qliserin və yağ turşularının mürəkkəb efirləri",
+   "Sadə spirtlər",
+   "Karbohidratlar"
+  ],
+  "duzgun": 1,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Normal şəraitdə maye halında olan yağlara nə deyilir?",
+  "secimler": [
+   "Bərk yağlar",
+   "Duru (maye) yağlar",
+   "Mumlar",
+   "Zülallar"
+  ],
+  "duzgun": 1,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bitki yağları əsasən hansı yağ turşularına daha çox malikdir?",
+  "secimler": [
+   "Doymuş turşulara",
+   "Doymamış turşulara",
+   "Yalnız qeyri-üzvi turşulara",
+   "Yalnız amin turşularına"
+  ],
+  "duzgun": 1,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bitki yağlarının hidrogenləşdirilməsi (margarin istehsalı) nəyə əsaslanır?",
+  "secimler": [
+   "Doymamış rabitələrin hidrogenlə doyurulmasına",
+   "Yalnız qızdırılmaya",
+   "Yalnız soyudulmaya",
+   "Heç bir kimyəvi prosesə əsaslanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağların qələvi ilə hidrolizi (sabunlaşma) nəticəsində hansı maddələr alınır?",
+  "secimler": [
+   "Sabun (yağ turşusunun duzu) və qliserin",
+   "Yalnız su",
+   "Yalnız karbon qazı",
+   "Yalnız oksigen"
+  ],
+  "duzgun": 0,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağların orqanizmdəki əsas funksiyası nədir?",
+  "secimler": [
+   "Ehtiyat enerji mənbəyi olmaq",
+   "Yalnız dad vermək",
+   "Yalnız rəng vermək",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Heyvan yağları otaq temperaturunda adətən hansı haldadır?",
+  "secimler": [
+   "Bərk",
+   "Maye",
+   "Qaz",
+   "Plazma"
+  ],
+  "duzgun": 0,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağların iy vermə (acılaşma) prosesi hansı reaksiya ilə bağlıdır?",
+  "secimler": [
+   "Oksidləşmə",
+   "Reduksiya",
+   "Neytrallaşma",
+   "Polimerləşmə"
+  ],
+  "duzgun": 0,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sabun molekulunun quruluşunda hansı iki hissə fərqləndirilir?",
+  "secimler": [
+   "Hidrofil və hidrofob hissələr",
+   "Yalnız hidrofil hissə",
+   "Yalnız hidrofob hissə",
+   "Heç bir fərqli hissə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yağların hidrolizi nəticəsində alınan qliserinin sənaye əhəmiyyəti hansı sahədədir?",
+  "secimler": [
+   "Kosmetika, dərman, partlayıcı maddə istehsalında",
+   "Yalnız qida sənayesində",
+   "Yalnız tikintidə",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Yağlar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Daha sadə şəkərlərə parçalana bilməyən karbohidratlara nə deyilir?",
+  "secimler": [
+   "Disaxaridlər",
+   "Monosaxaridlər",
+   "Polisaxaridlər",
+   "Oliqosaxaridlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qlükozanın molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₆H₁₂O₆",
+   "C₁₂H₂₂O₁₁",
+   "(C₆H₁₀O₅)ₙ",
+   "C₂H₆O"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qlükoza hansı funksional qrupları özündə birləşdirir?",
+  "secimler": [
+   "Aldehid və çoxlu hidroksil (-OH) qruplarını",
+   "Yalnız karbon turşusu qrupunu",
+   "Yalnız amin qrupunu",
+   "Heç bir funksional qrupu yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qlükoza gümüş güzgü reaksiyası verirmi?",
+  "secimler": [
+   "Bəli, çünki tərkibində aldehid qrupu var",
+   "Xeyr, heç vaxt vermir",
+   "Yalnız fruktoza verir",
+   "Heç bir şəkər vermir"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fotosintez prosesində bitkilər qlükozanı hansı maddələrdən sintez edir?",
+  "secimler": [
+   "Karbon qazı və sudan",
+   "Yalnız sudan",
+   "Yalnız azotdan",
+   "Yalnız oksigendən"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qlükozanın orqanizmdəki əsas rolu nədir?",
+  "secimler": [
+   "Əsas enerji mənbəyi olmaq",
+   "Yalnız struktur funksiyası",
+   "Yalnız dad vermək",
+   "Heç bir rolu yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Fruktoza qlükoza ilə eyni molekulyar formula (C₆H₁₂O₆) malikdirsə, onlar bir-birinə necə münasibətdədir?",
+  "secimler": [
+   "İzomerdirlər",
+   "Eyni maddədirlər",
+   "Heç bir əlaqəsi yoxdur",
+   "Polimerdirlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qlükozanın spirt qıcqırması nəticəsində hansı maddələr alınır?",
+  "secimler": [
+   "Etil spirti və karbon qazı",
+   "Yalnız su",
+   "Sirkə turşusu",
+   "Süd turşusu"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qlükozanın süd turşusu qıcqırması hansı sahədə əhəmiyyətlidir?",
+  "secimler": [
+   "Süd məhsulları (qatıq, kəsmik) istehsalında",
+   "Yalnız plastikdə",
+   "Yalnız tekstildə",
+   "Heç bir sahədə"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Qlükoza tibbdə hansı məqsədlə istifadə olunur?",
+  "secimler": [
+   "Xəstələrə enerji mənbəyi kimi damar yolu ilə vurulur",
+   "Yalnız xarici istifadə üçün",
+   "Heç bir tibbi istifadəsi yoxdur",
+   "Yalnız dezinfeksiya üçün"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: monosaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İki monosaxarid qalığının birləşməsindən əmələ gələn karbohidratlara nə deyilir?",
+  "secimler": [
+   "Monosaxaridlər",
+   "Disaxaridlər",
+   "Polisaxaridlər",
+   "Aminturşular"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Saxarozanın (adi şəkərin) hidrolizi nəticəsində hansı monosaxaridlər alınır?",
+  "secimler": [
+   "Yalnız qlükoza",
+   "Qlükoza və fruktoza",
+   "Yalnız fruktoza",
+   "Yalnız qalaktoza"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Saxarozanın molekulyar formulu hansıdır?",
+  "secimler": [
+   "C₆H₁₂O₆",
+   "C₁₂H₂₂O₁₁",
+   "(C₆H₁₀O₅)ₙ",
+   "C₂H₆O"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Çoxlu monosaxarid qalıqlarının birləşməsindən əmələ gələn yüksəkmolekullu karbohidratlara nə deyilir?",
+  "secimler": [
+   "Monosaxaridlər",
+   "Disaxaridlər",
+   "Polisaxaridlər",
+   "Efirlər"
+  ],
+  "duzgun": 2,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nişastanın molekulyar formulu hansı ümumi formada yazılır?",
+  "secimler": [
+   "C₆H₁₂O₆",
+   "C₁₂H₂₂O₁₁",
+   "(C₆H₁₀O₅)ₙ",
+   "C₂H₆O"
+  ],
+  "duzgun": 2,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nişastanın bitkilərdəki əsas funksiyası nədir?",
+  "secimler": [
+   "Ehtiyat qida maddəsi kimi saxlanılması",
+   "Yalnız struktur funksiyası",
+   "Heç bir funksiyası yoxdur",
+   "Yalnız dad vermək"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sellülozanın (kletçatkanın) bitkilərdəki əsas funksiyası nədir?",
+  "secimler": [
+   "Hüceyrə divarının struktur komponenti olmaq",
+   "Enerji mənbəyi olmaq",
+   "Heç bir funksiyası yoxdur",
+   "Yalnız rəng vermək"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "İnsan orqanizmi sellülozanı həzm edə bilirmi?",
+  "secimler": [
+   "Bəli, tam həzm edir",
+   "Xeyr, insanın həzm sistemi sellülozanı parçalaya bilmir",
+   "Yalnız qismən həzm edir",
+   "Yalnız uşaqlarda həzm olunur"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nişasta ilə yod reaksiyası nəticəsində (nişastanın aşkarlanması) hansı rəng alınır?",
+  "secimler": [
+   "Qırmızı rəng",
+   "Göy-bənövşəyi rəng",
+   "Sarı rəng",
+   "Heç bir rəng dəyişikliyi olmur"
+  ],
+  "duzgun": 1,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sellülozadan sənayedə hansı məhsullar istehsal olunur?",
+  "secimler": [
+   "Kağız, süni liflər (viskoza)",
+   "Yalnız şəkər",
+   "Yalnız spirt",
+   "Heç bir məhsul istehsal olunmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Karbohidratlar: di- və polisaxaridlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ammonyakın (NH₃) hidrogen atomlarının karbohidrogen radikalları ilə əvəzlənməsindən alınan birləşmələrə nə deyilir?",
+  "secimler": [
+   "Aminturşular",
+   "Aminlər",
+   "Amidlər",
+   "Nitrillər"
+  ],
+  "duzgun": 1,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə amin hansıdır?",
+  "secimler": [
+   "Anilin",
+   "Metilamin",
+   "Etilamin",
+   "Difenilamin"
+  ],
+  "duzgun": 1,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminlərin əsaslıq xassəsi hansı elementin cütləşməmiş elektron cütü ilə bağlıdır?",
+  "secimler": [
+   "Karbon",
+   "Azot",
+   "Oksigen",
+   "Hidrogen"
+  ],
+  "duzgun": 1,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminlərin turşularla reaksiyası nəticəsində hansı maddələr alınır?",
+  "secimler": [
+   "Duzlar",
+   "Efirlər",
+   "Aldehidlər",
+   "Spirtlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aromatik amin olan anilinin sənaye əhəmiyyəti əsasən hansı sahədədir?",
+  "secimler": [
+   "Boya sənayesi",
+   "Yalnız qida sənayesi",
+   "Yalnız tikinti",
+   "Heç bir əhəmiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Alkil qrupların elektron effekti nəzərə alınanda aminlərin əsaslıq xassəsi ammonyakla müqayisədə necə olur?",
+  "secimler": [
+   "Adətən bir qədər güclü",
+   "Həmişə daha zəif",
+   "Heç bir fərqi yoxdur",
+   "Turşu xassəsi göstərir"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminlərin adlandırılmasında hansı sonluq istifadə olunur?",
+  "secimler": [
+   "-amin",
+   "-ol",
+   "-al",
+   "...turşusu"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminlər zülalların hansı struktur vahidinin tərkibində iştirak edir?",
+  "secimler": [
+   "Aminturşuların",
+   "Yalnız karbohidratların",
+   "Yalnız yağların",
+   "Heç bir birləşmənin tərkibində yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Birincili, ikincili və üçüncülü aminlər arasındakı fərq nədən ibarətdir?",
+  "secimler": [
+   "Azot atomuna bağlı karbohidrogen radikallarının sayından",
+   "Heç bir fərqi yoxdur",
+   "Molekul kütləsindən",
+   "Yalnız rəngdən"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminlərin xarakterik iyi necədir?",
+  "secimler": [
+   "Adətən kəskin, balıq iyinə bənzər",
+   "Xoş, gül ətri",
+   "İysizdir",
+   "Şirin qoxuludur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminlər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Molekulunda həm amin (-NH₂), həm karbon turşusu (-COOH) qrupu olan birləşmələrə nə deyilir?",
+  "secimler": [
+   "Aminlər",
+   "Aminturşular",
+   "Karbohidratlar",
+   "Yağlar"
+  ],
+  "duzgun": 1,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların əsas struktur vahidləri hansılardır?",
+  "secimler": [
+   "Monosaxaridlər",
+   "Aminturşular",
+   "Yağ turşuları",
+   "Nukleotidlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ən sadə aminturşu hansıdır?",
+  "secimler": [
+   "Alanin",
+   "Qlisin",
+   "Sistein",
+   "Valin"
+  ],
+  "duzgun": 1,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminturşuların bir-biri ilə birləşməsi nəticəsində yaranan rabitəyə nə deyilir?",
+  "secimler": [
+   "Efir rabitəsi",
+   "Peptid rabitəsi",
+   "Qlikozid rabitəsi",
+   "İon rabitəsi"
+  ],
+  "duzgun": 1,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Peptid rabitəsi hansı iki funksional qrup arasında əmələ gəlir?",
+  "secimler": [
+   "Bir aminturşunun -COOH qrupu ilə digərinin -NH₂ qrupu arasında",
+   "Yalnız iki -OH qrupu arasında",
+   "Yalnız iki -CHO qrupu arasında",
+   "Heç bir funksional qrup arasında deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminturşuların amfoter xassəyə malik olmasının səbəbi nədir?",
+  "secimler": [
+   "Molekulda həm turşu, həm əsas xassəli qrupun olması",
+   "Heç bir səbəbi yoxdur",
+   "Yalnız rəngi ilə bağlıdır",
+   "Yalnız iyi ilə bağlıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Orqanizmdə sintez oluna bilməyən, qida ilə qəbul olunmalı aminturşulara nə deyilir?",
+  "secimler": [
+   "Əvəzolunmaz (essensial) aminturşular",
+   "Sadə aminturşular",
+   "Mürəkkəb aminturşular",
+   "Heç bir xüsusi adı yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminturşular əsasən hansı qida məhsullarında zəngin miqdarda olur?",
+  "secimler": [
+   "Zülal tərkibli qidalarda (ət, süd, paxlalılar)",
+   "Yalnız şəkərdə",
+   "Yalnız yağda",
+   "Heç bir qidada yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminturşuların izoelektrik nöqtəsi nəyi ifadə edir?",
+  "secimler": [
+   "Molekulun ümumi yükünün sıfır olduğu pH qiymətini",
+   "Molekulun ərimə temperaturunu",
+   "Molekulun rəngini",
+   "Heç nəyi ifadə etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Aminturşuların sayı və ardıcıllığı zülalın hansı xüsusiyyətini müəyyən edir?",
+  "secimler": [
+   "Onun quruluşunu və funksiyasını",
+   "Heç bir xüsusiyyətini müəyyən etmir",
+   "Yalnız rəngini",
+   "Yalnız iyini"
+  ],
+  "duzgun": 0,
+  "movzu": "Aminturşular",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Çoxlu aminturşu qalığının peptid rabitəsi ilə birləşməsindən əmələ gələn yüksəkmolekullu birləşmələrə nə deyilir?",
+  "secimler": [
+   "Karbohidratlar",
+   "Zülallar (proteinlər)",
+   "Yağlar",
+   "Nuklein turşuları"
+  ],
+  "duzgun": 1,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların ilkin (birincili) strukturu nəyi ifadə edir?",
+  "secimler": [
+   "Aminturşuların polipeptid zəncirindəki ardıcıllığını",
+   "Molekulun fəza formasını",
+   "Yalnız molekul kütləsini",
+   "Yalnız rəngini"
+  ],
+  "duzgun": 0,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların istilik təsiri ilə öz təbii strukturunu itirməsinə nə deyilir?",
+  "secimler": [
+   "Hidroliz",
+   "Denaturasiya",
+   "Polimerləşmə",
+   "Esterifikasiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların denaturasiyası zamanı hansı struktur səviyyələr adətən pozulur?",
+  "secimler": [
+   "Yalnız birincili struktur",
+   "İkincili, üçüncülü (bəzən dördüncülü) struktur",
+   "Heç bir struktur pozulmur",
+   "Yalnız kimyəvi tərkib dəyişir"
+  ],
+  "duzgun": 1,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların biuret reaksiyası hansı rəngi verir?",
+  "secimler": [
+   "Bənövşəyi-göy rəng",
+   "Sarı rəng",
+   "Qırmızı rəng",
+   "Heç bir rəng dəyişikliyi olmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Ksantoprotein reaksiyası zülalların tərkibində hansı komponentin olmasını aşkarlayır?",
+  "secimler": [
+   "Aromatik halqalı aminturşuların",
+   "Yalnız karbohidratların",
+   "Yalnız yağların",
+   "Heç bir komponentin"
+  ],
+  "duzgun": 0,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların orqanizmdəki funksiyalarından biri hansıdır?",
+  "secimler": [
+   "Ferment (fermentativ) funksiyası",
+   "Yalnız enerji mənbəyi olmaq",
+   "Yalnız dad vermək",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların hidrolizi nəticəsində hansı maddələr alınır?",
+  "secimler": [
+   "Aminturşular",
+   "Monosaxaridlər",
+   "Yağ turşuları",
+   "Nukleotidlər"
+  ],
+  "duzgun": 0,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların orqanizmdə həzmi hansı fermentlərin təsiri ilə baş verir?",
+  "secimler": [
+   "Proteazalar (pepsin, tripsin)",
+   "Amilazalar",
+   "Lipazalar",
+   "Heç bir ferment iştirak etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Zülalların dördüncülü strukturu nəyi ifadə edir?",
+  "secimler": [
+   "Bir neçə polipeptid zəncirinin birləşərək vahid funksional kompleks əmələ gətirməsini",
+   "Yalnız aminturşu ardıcıllığını",
+   "Yalnız molekul kütləsini",
+   "Heç nəyi ifadə etmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Zülallar",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Hüceyrələrdə irsi məlumatı daşıyan yüksəkmolekullu birləşmələrə nə deyilir?",
+  "secimler": [
+   "Zülallar",
+   "Nuklein turşuları",
+   "Karbohidratlar",
+   "Yağlar"
+  ],
+  "duzgun": 1,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nuklein turşularının struktur vahidinə nə deyilir?",
+  "secimler": [
+   "Aminturşu",
+   "Nukleotid",
+   "Monosaxarid",
+   "Yağ turşusu"
+  ],
+  "duzgun": 1,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "DNT-nin tam adı nədir?",
+  "secimler": [
+   "Dezoksiribonuklein turşusu",
+   "Ribonuklein turşusu",
+   "Fosfor turşusu",
+   "Amin turşusu"
+  ],
+  "duzgun": 0,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "RNT-nin tam adı nədir?",
+  "secimler": [
+   "Dezoksiribonuklein turşusu",
+   "Ribonuklein turşusu",
+   "Fosfor turşusu",
+   "Amin turşusu"
+  ],
+  "duzgun": 1,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "DNT molekulunun məşhur məkan quruluşuna nə deyilir?",
+  "secimler": [
+   "İkiqat spiral",
+   "Tək zəncir",
+   "Halqa",
+   "Şəbəkə"
+  ],
+  "duzgun": 0,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "DNT-də hansı azotlu əsas cütləri komplementardır?",
+  "secimler": [
+   "Adenin-Timin və Qanin-Sitozin",
+   "Adenin-Sitozin",
+   "Timin-Qanin",
+   "Heç bir cütlük yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nukleotid hansı üç əsas komponentdən ibarətdir?",
+  "secimler": [
+   "Azotlu əsas, şəkər və fosfat qalığı",
+   "Yalnız şəkər",
+   "Yalnız fosfat",
+   "Yalnız azotlu əsas"
+  ],
+  "duzgun": 0,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "RNT-də DNT-dən fərqli olaraq timin əvəzinə hansı azotlu əsas iştirak edir?",
+  "secimler": [
+   "Urasil",
+   "Adenin",
+   "Qanin",
+   "Sitozin"
+  ],
+  "duzgun": 0,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "DNT-nin əsas funksiyası hansıdır?",
+  "secimler": [
+   "İrsi məlumatın saxlanması və ötürülməsi",
+   "Yalnız enerji istehsalı",
+   "Yalnız struktur funksiya",
+   "Heç bir funksiyası yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Nuklein turşularının kəşfi elmə hansı sahədə mühüm töhfə vermişdir?",
+  "secimler": [
+   "Genetika və molekulyar biologiya",
+   "Yalnız üzvi kimya sənayesi",
+   "Yalnız metallurgiya",
+   "Heç bir sahəyə"
+  ],
+  "duzgun": 0,
+  "movzu": "Nuklein turşuları",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Çoxlu sayda eyni (və ya oxşar) monomer molekullarının birləşməsindən əmələ gələn yüksəkmolekullu birləşmələrə nə deyilir?",
+  "secimler": [
+   "Monomerlər",
+   "Polimerlər",
+   "Oliqomerlər",
+   "İzomerlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Polimer zəncirini təşkil edən təkrarlanan struktur vahidə nə deyilir?",
+  "secimler": [
+   "Polimer",
+   "Monomer",
+   "Katalizator",
+   "İnhibitor"
+  ],
+  "duzgun": 1,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Polietilen hansı monomerdən alınır?",
+  "secimler": [
+   "Propilen",
+   "Etilen",
+   "Stirol",
+   "Vinilxlorid"
+  ],
+  "duzgun": 1,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Polivinilxlorid (PVC) hansı monomerdən alınır?",
+  "secimler": [
+   "Etilen",
+   "Vinilxlorid",
+   "Stirol",
+   "Propilen"
+  ],
+  "duzgun": 1,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Polistirol hansı monomerdən alınır?",
+  "secimler": [
+   "Etilen",
+   "Stirol",
+   "Vinilxlorid",
+   "Propilen"
+  ],
+  "duzgun": 1,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Termoplastik polimerlərin əsas xüsusiyyəti nədir?",
+  "secimler": [
+   "Qızdırıldıqda yumşalıb formasını dəyişə bilir, soyuduqda bərkiyir",
+   "Heç vaxt yumşalmır",
+   "Yalnız bir dəfə formalaşdırıla bilir",
+   "Su ilə həll olur"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Termoreaktiv polimerlərin əsas xüsusiyyəti nədir?",
+  "secimler": [
+   "Bir dəfə formalaşdırıldıqdan sonra yenidən əridilə bilmir",
+   "Sonsuz sayda yenidən formalaşdırıla bilir",
+   "Yalnız suda həll olur",
+   "Heç bir xüsusiyyəti yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik kütlələrin ətraf mühitə əsas mənfi təsiri nədir?",
+  "secimler": [
+   "Təbiətdə çox yavaş parçalanaraq uzunmüddətli çirklənməyə səbəb olması",
+   "Heç bir mənfi təsiri yoxdur",
+   "Yalnız rəng çirkinliyi",
+   "Yalnız qoxu problemi"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Polimerləşmə reaksiyası hansı əsas mexanizmlə gedə bilər?",
+  "secimler": [
+   "Zəncirvari (əlavəetmə) və pillə-pillə (polikondensasiya) polimerləşmə",
+   "Yalnız bir mexanizmlə",
+   "Heç bir mexanizmlə getmir",
+   "Yalnız hidroliz yolu ilə"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Polietilenin gündəlik həyatda geniş istifadəsinin səbəbi nədir?",
+  "secimler": [
+   "Ucuz, davamlı, kimyəvi cəhətdən inert olması",
+   "Heç bir üstünlüyü yoxdur",
+   "Yalnız gözəl rəngi",
+   "Yalnız yüngül qoxusu"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: plastik kütlələr",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Təbii mənşəli, sellülozadan ibarət lifə nümunə hansıdır?",
+  "secimler": [
+   "Pambıq",
+   "Neylon",
+   "Kapron",
+   "Lavsan"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Süni liflər hansı mənbədən (təbii xammalın kimyəvi emalı yolu ilə) alınır?",
+  "secimler": [
+   "Sellülozadan (məsələn viskoza)",
+   "Yalnız neftdən",
+   "Yalnız kömürdən",
+   "Heç bir mənbədən"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik liflərə (tam kimyəvi sintez yolu ilə alınan) nümunə hansıdır?",
+  "secimler": [
+   "Pambıq",
+   "Yun",
+   "Kapron (neylon)",
+   "İpək"
+  ],
+  "duzgun": 2,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Kapron (poliamid lifi) hansı reaksiya növü ilə alınır?",
+  "secimler": [
+   "Polikondensasiya",
+   "Yalnız hidroliz",
+   "Yalnız oksidləşmə",
+   "Yalnız neytrallaşma"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik liflərin təbii liflərlə müqayisədə üstünlüyü nədən ibarətdir?",
+  "secimler": [
+   "Daha davamlı, aşınmaya davamlı və ucuz istehsal olunması",
+   "Heç bir üstünlüyü yoxdur",
+   "Yalnız rəngi gözəldir",
+   "Yalnız qoxusu xoşdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Liflərin toxuculuq sənayesindəki əhəmiyyəti nədən ibarətdir?",
+  "secimler": [
+   "Parça, geyim istehsalının əsasını təşkil etməsi",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız bəzək məqsədi",
+   "Yalnız tibbi istifadə"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Lavsan (poliester lifi) hansı əsas kimyəvi sinifə aiddir?",
+  "secimler": [
+   "Poliamidlər",
+   "Poliesterlər",
+   "Polivinillər",
+   "Poliolefinlər"
+  ],
+  "duzgun": 1,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik liflərin əsas ekoloji dezavantajı nədir?",
+  "secimler": [
+   "Təbiətdə çətin parçalanması",
+   "Heç bir dezavantajı yoxdur",
+   "Yalnız baha olması",
+   "Yalnız az davamlı olması"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Yun və ipək hansı təbii lif qrupuna aiddir?",
+  "secimler": [
+   "Bitki mənşəli",
+   "Heyvan mənşəli",
+   "Mineral mənşəli",
+   "Sintetik mənşəli"
+  ],
+  "duzgun": 1,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Liflərin möhkəmliyi əsasən nədən asılıdır?",
+  "secimler": [
+   "Polimer zəncirlərinin uzunluğundan və aralarındakı qarşılıqlı təsirdən",
+   "Yalnız rəngindən",
+   "Yalnız qoxusundan",
+   "Heç bir amildən asılı deyil"
+  ],
+  "duzgun": 0,
+  "movzu": "Polimerlər: kauçuk və liflər",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üzvi kimyanın kənd təsərrüfatındakı ən mühüm tətbiq sahəsi hansıdır?",
+  "secimler": [
+   "Pestisidlər, gübrələr və böyümə tənzimləyicilərinin istehsalı",
+   "Heç bir tətbiqi yoxdur",
+   "Yalnız dekorativ məqsəd",
+   "Yalnız qida rənglənməsi"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Dərman preparatlarının əksəriyyəti hansı elm sahəsinin nailiyyətlərinə əsaslanır?",
+  "secimler": [
+   "Üzvi kimyaya",
+   "Yalnız fizikaya",
+   "Yalnız biologiyaya",
+   "Heç bir elmə əsaslanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik kütlələrin geniş istifadəsi hansı sənaye sahələrinə töhfə vermişdir?",
+  "secimler": [
+   "Qablaşdırma, tikinti, avtomobil sənayesi və s.",
+   "Heç bir sahəyə",
+   "Yalnız kənd təsərrüfatına",
+   "Yalnız energetikaya"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Sintetik boyaların kəşfi hansı sənaye sahəsinə böyük təkan vermişdir?",
+  "secimler": [
+   "Tekstil sənayesinə",
+   "Yalnız qida sənayesinə",
+   "Yalnız metallurgiyaya",
+   "Heç bir sahəyə"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üzvi kimyanın enerji sektorundakı əhəmiyyəti nədən ibarətdir?",
+  "secimler": [
+   "Neft-qaz emalı və biyoyanacaqların istehsalı",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız günəş enerjisi",
+   "Yalnız külək enerjisi"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üzvi kimya biotexnologiya ilə hansı sahədə kəsişir?",
+  "secimler": [
+   "Fermentasiya prosesləri və dərman istehsalında",
+   "Heç bir sahədə",
+   "Yalnız mexanikada",
+   "Yalnız astronomiyada"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Plastik tullantıların təkrar emalının (resiklinqin) əhəmiyyəti nədən ibarətdir?",
+  "secimler": [
+   "Ətraf mühitin çirklənməsinin azaldılması və resursların qənaəti",
+   "Heç bir əhəmiyyəti yoxdur",
+   "Yalnız iqtisadi ziyan",
+   "Yalnız estetik məsələ"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Bioparçalanan plastiklərin yaradılmasının məqsədi nədir?",
+  "secimler": [
+   "Ənənəvi plastiklərin ekoloji problemini azaltmaq",
+   "Heç bir məqsədi yoxdur",
+   "Yalnız qiyməti artırmaq",
+   "Yalnız görünüşü dəyişdirmək"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üzvi kimya sənayesinin Azərbaycan iqtisadiyyatındakı yeri necə qiymətləndirilir?",
+  "secimler": [
+   "Neft-kimya sənayesi mühüm sahələrdən biridir",
+   "Heç bir yeri yoxdur",
+   "Yalnız kənd təsərrüfatı ilə bağlıdır",
+   "Yalnız turizmlə bağlıdır"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
+ },
+ {
+  "sual": "Üzvi kimyanın gələcək inkişaf istiqamətlərindən biri hansıdır?",
+  "secimler": [
+   "\"Yaşıl kimya\" prinsiplərinə əsaslanan istehsal üsullarının inkişafı",
+   "Heç bir inkişaf istiqaməti yoxdur",
+   "Yalnız köhnə üsulların saxlanması",
+   "Heç bir dəyişiklik nəzərdə tutulmur"
+  ],
+  "duzgun": 0,
+  "movzu": "Üzvi kimyanın həyatda və sənayedə tətbiqi",
+  "sinif": "11",
+  "fenn": "Kimya"
  }
 ]
