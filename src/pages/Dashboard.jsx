@@ -832,13 +832,21 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
           `⚠️ Diqqət: ${suallar.requestedCount} sual istənmişdi, amma Groq-un kvotası/limiti bitdiyi üçün yalnız ${suallar.length} sual hazırlandı. Test yenə də yadda saxlanıldı (${suallar.length} sualla) — bir neçə dəqiqə gözləyib yenidən sınaya bilərsən ki, tam say alasan.${suallar.truncatedReason ? ` (Səbəb: ${suallar.truncatedReason.slice(0, 150)})` : ""}`
         );
       }
+      // generateTest() metaməlumatları (truncated/requestedCount/truncatedReason) birbaşa massiv
+      // obyektinin üzərinə əlavə edir. Massivi olduğu kimi Firebase-ə yazsaq, bu adi olmayan
+      // sahələr də massivin "içinə" yazılır və geri oxunanda saxta əlavə suallar kimi görünür.
+      // Ona görə əvvəlcə təmiz massivə çeviririk, metaməlumatları ayrıca sahə kimi saxlayırıq.
+      const cleanSuallar = Array.from(suallar);
+      const wasTruncated = !!suallar.truncated;
+      const requestedCount = suallar.requestedCount;
       const r = push(ref(db, tenantPath(tenantId, "testler")));
       await set(r, {
-        baslik: `${sinif}-ci sinif ${fenn} — ${suallar.length} sual${suallar.truncated ? " (yarımçıq)" : ""}`,
+        baslik: `${sinif}-ci sinif ${fenn} — ${cleanSuallar.length} sual${wasTruncated ? " (yarımçıq)" : ""}`,
         sinif,
         fenn,
         yaradilib: Date.now(),
-        suallar,
+        suallar: cleanSuallar,
+        ...(wasTruncated ? { truncated: true, requestedCount } : {}),
       });
       setOpenId(r.key);
       setSinif("");
