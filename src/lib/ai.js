@@ -223,6 +223,10 @@ async function critiqueAndFix(fenn, sinif, suallar) {
   });
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress, onStage }) {
   const target = Number(sualSayi) || 60;
   let suallar = [];
