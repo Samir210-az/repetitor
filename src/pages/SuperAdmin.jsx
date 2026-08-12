@@ -341,6 +341,7 @@ export default function SuperAdmin() {
 import fizikaBank from "../data/fizikaBank.json";
 import azDiliBank from "../data/azDiliBank.json";
 import kimyaBank from "../data/kimyaBank.json";
+import riyaziyyatBank from "../data/riyaziyyatBank.json";
 
 function SeedBankTool() {
   const [status, setStatus] = useState("");
@@ -395,6 +396,23 @@ function SeedBankTool() {
     }
   }
 
+  const [status4, setStatus4] = useState("");
+  async function seedRiyaziyyat() {
+    setStatus4("Köhnə qeydlər təmizlənir və yenidən yazılır...");
+    try {
+      await remove(ref(db, "repetitor/sualBanki/riyaziyyat"));
+      const updates = {};
+      riyaziyyatBank.forEach((q) => {
+        const key = push(ref(db, "repetitor/sualBanki/riyaziyyat")).key;
+        updates[`repetitor/sualBanki/riyaziyyat/${key}`] = { ...q, yaradilib: Date.now() };
+      });
+      await update(ref(db), updates);
+      setStatus4(`✅ Təmizləndi və ${riyaziyyatBank.length} sual əlavə olundu.`);
+    } catch (err) {
+      setStatus4("❌ Xəta: " + err.message);
+    }
+  }
+
   return (
     <div className="card-dark p-5 mt-6 space-y-4">
       <div>
@@ -417,6 +435,13 @@ function SeedBankTool() {
           Kimya bankını doldur
         </button>
         {status3 && <p className="text-xs font-mono text-white/70 mt-3">{status3}</p>}
+      </div>
+      <div className="pt-3 border-t border-white/10">
+        <p className="text-white/60 text-sm mb-3">📚 Riyaziyyat-8 dəstini əlavə et ({riyaziyyatBank.length} sual, 24 mövzu — cəbr + həndəsə)</p>
+        <button onClick={seedRiyaziyyat} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+          Riyaziyyat bankını doldur
+        </button>
+        {status4 && <p className="text-xs font-mono text-white/70 mt-3">{status4}</p>}
       </div>
     </div>
   );

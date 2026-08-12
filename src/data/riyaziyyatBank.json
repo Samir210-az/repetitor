@@ -1,0 +1,3122 @@
+[
+ {
+  "sual": "3x²y·(-2xy³) hasilini tapın.",
+  "secimler": [
+   "-6x³y⁴",
+   "6x³y⁴",
+   "-6x²y³",
+   "-5x³y⁴"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2a³b²)³ ifadəsini sadələşdirin.",
+  "secimler": [
+   "8a⁹b⁶",
+   "6a⁹b⁶",
+   "8a⁶b⁵",
+   "2a⁹b⁶"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "4x²(3x-5)-2x(x+7) ifadəsini sadələşdirin.",
+  "secimler": [
+   "12x³-22x²-14x",
+   "12x³-20x²-14x",
+   "10x³-22x²-14x",
+   "12x³-22x²-7x"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(-3x²y)²·2xy³ hasilini tapın.",
+  "secimler": [
+   "18x⁵y⁵",
+   "-18x⁵y⁵",
+   "18x⁶y⁵",
+   "6x⁵y⁵"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "5a²b-3ab²+2a²b-ab² ifadəsini ixtisar edin.",
+  "secimler": [
+   "7a²b-4ab²",
+   "7a²b-2ab²",
+   "3a²b-4ab²",
+   "7a²b+4ab²"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2x(3x-1)-(x-2)(x+3) ifadəsini sadələşdirin.",
+  "secimler": [
+   "5x²-3x+6",
+   "5x²-3x-6",
+   "6x²-3x+6",
+   "5x²-x+6"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "-4x³y²:2xy bölməsinin nəticəsini tapın.",
+  "secimler": [
+   "-2x²y",
+   "-2x³y",
+   "2x²y",
+   "-2xy²"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2x-3)(x²+2x-1) hasilini açın.",
+  "secimler": [
+   "2x³+x²-8x+3",
+   "2x³-x²-8x+3",
+   "2x³+x²-8x-3",
+   "2x³+x²+8x+3"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "6x⁴y³ ilə 4x²y⁵ ifadələrinin ƏBOB-unu (ortaq vuruğunu) tapın.",
+  "secimler": [
+   "2x²y³",
+   "2x⁴y⁵",
+   "12x²y³",
+   "2x²y⁵"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a=2, b=-1 olduqda 3a²b-2ab²+a ifadəsinin qiymətini tapın.",
+  "secimler": [
+   "-14",
+   "-10",
+   "-6",
+   "-18"
+  ],
+  "duzgun": 0,
+  "movzu": "Cəbri ifadələrin vurulması və sadələşdirilməsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x+5)² ifadəsini açın.",
+  "secimler": [
+   "x²+10x+25",
+   "x²+25",
+   "x²+5x+25",
+   "x²-10x+25"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(3x-2y)² ifadəsini açın.",
+  "secimler": [
+   "9x²-12xy+4y²",
+   "9x²-6xy+4y²",
+   "9x²-12xy-4y²",
+   "3x²-12xy+4y²"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2a+3b)(2a-3b) hasilini tapın.",
+  "secimler": [
+   "4a²-9b²",
+   "4a²+9b²",
+   "4a²-6ab-9b²",
+   "2a²-9b²"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²-16 ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(x-4)(x+4)",
+   "(x-8)(x+8)",
+   "(x-4)²",
+   "(x+4)²"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "49-x² ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(7-x)(7+x)",
+   "(7+x)²",
+   "(x-7)²",
+   "7²-x"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²+6x+9 ifadəsini tam kvadrat şəklində göstərin.",
+  "secimler": [
+   "(x+3)²",
+   "(x+9)²",
+   "(x-3)²",
+   "(x+6)²"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "4x²-12x+9 ifadəsini tam kvadrat şəklində göstərin.",
+  "secimler": [
+   "(2x-3)²",
+   "(2x+3)²",
+   "(4x-3)²",
+   "(2x-9)²"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(a-b)²=25 və ab=6 olduqda a²+b² neçəyə bərabərdir?",
+  "secimler": [
+   "37",
+   "25",
+   "31",
+   "43"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x+1/x=3 olduqda x²+1/x² neçəyə bərabərdir?",
+  "secimler": [
+   "7",
+   "9",
+   "5",
+   "11"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x-4)(x+4)-(x-3)² ifadəsini sadələşdirin.",
+  "secimler": [
+   "6x-25",
+   "6x-7",
+   "-6x-25",
+   "6x+25"
+  ],
+  "duzgun": 0,
+  "movzu": "İxtisar (qısaldılmış) vurma düsturları",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x+2)(x+3)(x-1) hasilinin açılışında sabit hədd (x-dan asılı olmayan hədd) neçədir?",
+  "secimler": [
+   "-6",
+   "6",
+   "-1",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2x-1)(x+4) hasilini tapın.",
+  "secimler": [
+   "2x²+7x-4",
+   "2x²+9x-4",
+   "2x²+7x+4",
+   "2x²-7x-4"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x-3)(x²+3x+9) hasilini tapın.",
+  "secimler": [
+   "x³-27",
+   "x³+27",
+   "x³-9",
+   "x³-3x²-27"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x+2)(x²-2x+4) hasilini tapın.",
+  "secimler": [
+   "x³+8",
+   "x³-8",
+   "x³+2x²+8",
+   "x³+6x+8"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2x+y)(x-3y) hasilini tapın.",
+  "secimler": [
+   "2x²-5xy-3y²",
+   "2x²-7xy-3y²",
+   "2x²-5xy+3y²",
+   "2x²+5xy-3y²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x-1)(x-2)(x-3) hasilinin açılışında x² əmsalı neçədir?",
+  "secimler": [
+   "-6",
+   "6",
+   "-3",
+   "-1"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x+a)(x+b)=x²+7x+12 münasibətindən a·b hasilini tapın.",
+  "secimler": [
+   "12",
+   "7",
+   "5",
+   "19"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(3x-2)(2x+5) hasilini tapın.",
+  "secimler": [
+   "6x²+11x-10",
+   "6x²+7x-10",
+   "6x²+11x+10",
+   "6x²-11x-10"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x²+x+1)(x-1) hasilini tapın.",
+  "secimler": [
+   "x³-1",
+   "x³+1",
+   "x³-x-1",
+   "x³+x-1"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x+5)(x-5)(x²+25) hasilini tapın.",
+  "secimler": [
+   "x⁴-625",
+   "x⁴+625",
+   "x⁴-25",
+   "x⁴-50"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vurulması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "6x³-9x² ifadəsini ortaq vuruq çıxararaq vuruqlara ayırın.",
+  "secimler": [
+   "3x²(2x-3)",
+   "3x(2x²-3x)",
+   "3x²(2x+3)",
+   "3(2x³-3x²)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²-5x+6 ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(x-2)(x-3)",
+   "(x+2)(x+3)",
+   "(x-1)(x-6)",
+   "(x-2)(x+3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²+7x+10 ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(x+2)(x+5)",
+   "(x-2)(x-5)",
+   "(x+1)(x+10)",
+   "(x+2)(x-5)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2x²-x-3 ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(2x-3)(x+1)",
+   "(2x+3)(x-1)",
+   "(x-3)(2x+1)",
+   "(2x-1)(x+3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x³-x ifadəsini tam vuruqlara ayırın.",
+  "secimler": [
+   "x(x-1)(x+1)",
+   "x(x-1)²",
+   "x²(x-1)",
+   "x(x+1)²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "ax+ay+bx+by ifadəsini qruplaşdıraraq vuruqlara ayırın.",
+  "secimler": [
+   "(a+b)(x+y)",
+   "(a-b)(x+y)",
+   "(a+b)(x-y)",
+   "ab(x+y)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²-2x+1-y² ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(x-1-y)(x-1+y)",
+   "(x-y-1)²",
+   "(x+1-y)(x-1+y)",
+   "(x-1)²-y"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3x²+10x+3 ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(3x+1)(x+3)",
+   "(3x+3)(x+1)",
+   "(x+1)(3x+3)",
+   "(3x-1)(x-3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x⁴-16 ifadəsini tam vuruqlara ayırın.",
+  "secimler": [
+   "(x-2)(x+2)(x²+4)",
+   "(x-2)²(x+2)²",
+   "(x²-4)²",
+   "(x-4)(x+4)(x-4)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²+2x-15 ifadəsini vuruqlara ayırın.",
+  "secimler": [
+   "(x+5)(x-3)",
+   "(x-5)(x+3)",
+   "(x+15)(x-1)",
+   "(x-15)(x+1)"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxhədlilərin vuruqlara ayrılması",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x²-9)/(x+3) kəsrini sadələşdirin (x≠-3).",
+  "secimler": [
+   "x-3",
+   "x+3",
+   "x²-3",
+   "x-9"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x²-4x+4)/(x-2) kəsrini sadələşdirin (x≠2).",
+  "secimler": [
+   "x-2",
+   "x+2",
+   "(x-2)²",
+   "1"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2/x+3/(2x) cəmini sadələşdirin.",
+  "secimler": [
+   "7/(2x)",
+   "5/(2x)",
+   "5/(3x)",
+   "7/x"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x/(x-1)-1/(x-1) fərqini sadələşdirin (x≠1).",
+  "secimler": [
+   "1",
+   "x-1",
+   "0",
+   "x"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x²-1)/(x²+2x+1) kəsrini sadələşdirin.",
+  "secimler": [
+   "(x-1)/(x+1)",
+   "(x+1)/(x-1)",
+   "x-1",
+   "1/(x+1)"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3/(x-2)·(x-2)/(x+1) hasilini sadələşdirin.",
+  "secimler": [
+   "3/(x+1)",
+   "3/(x-2)",
+   "(x-2)/(x+1)",
+   "3(x-2)/(x+1)"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x²-25)/(x+5):(x-5)/3 bölməsini sadələşdirin.",
+  "secimler": [
+   "3",
+   "x-5",
+   "x+5",
+   "(x-5)²/3"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "1/(x-1)+1/(x+1) cəmini ortaq məxrəcdə birləşdirin.",
+  "secimler": [
+   "2x/(x²-1)",
+   "2/(x²-1)",
+   "2x/(x²+1)",
+   "2/x"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Hansı qiymətdə (x²-4)/(x-2) kəsri təyin olunmur?",
+  "secimler": [
+   "x=2",
+   "x=-2",
+   "x=0",
+   "x=4"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x+3)/(x²-9) kəsrini sadələşdirin (x≠3, x≠-3).",
+  "secimler": [
+   "1/(x-3)",
+   "1/(x+3)",
+   "x-3",
+   "(x+3)/x"
+  ],
+  "duzgun": 0,
+  "movzu": "Rasional kəsrlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√72 ifadəsini ən sadə şəklə gətirin.",
+  "secimler": [
+   "6√2",
+   "8√2",
+   "6√3",
+   "36√2"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√50+√8 cəmini sadələşdirin.",
+  "secimler": [
+   "7√2",
+   "7√10",
+   "58",
+   "5√8"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√3·√12 hasilini tapın.",
+  "secimler": [
+   "6",
+   "√15",
+   "36",
+   "15"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(√5+√3)(√5-√3) hasilini tapın.",
+  "secimler": [
+   "2",
+   "15",
+   "8",
+   "2√15"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√(x²) ifadəsi x<0 olduqda nəyə bərabərdir?",
+  "secimler": [
+   "-x",
+   "x",
+   "x²",
+   "1"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3√2+2√2 cəmini tapın.",
+  "secimler": [
+   "5√2",
+   "5√4",
+   "6√2",
+   "5√2²"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√0,04 ifadəsinin qiymətini tapın.",
+  "secimler": [
+   "0,2",
+   "0,02",
+   "2",
+   "0,4"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(2√3)² ifadəsini tapın.",
+  "secimler": [
+   "12",
+   "6",
+   "4√3",
+   "9"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√8/√2 nisbətini sadələşdirin.",
+  "secimler": [
+   "2",
+   "√16",
+   "4",
+   "√6"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "√98-√32 fərqini sadələşdirin.",
+  "secimler": [
+   "3√2",
+   "66",
+   "3√66",
+   "4√2"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat kök",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²-5x+6=0 tənliyinin köklərini tapın.",
+  "secimler": [
+   "x=2, x=3",
+   "x=-2, x=-3",
+   "x=1, x=6",
+   "x=2, x=-3"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²-9=0 tənliyinin köklərini tapın.",
+  "secimler": [
+   "x=3, x=-3",
+   "x=9, x=-9",
+   "x=3 (yalnız)",
+   "Kökü yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2x²-8=0 tənliyinin köklərini tapın.",
+  "secimler": [
+   "x=2, x=-2",
+   "x=4, x=-4",
+   "x=8, x=-8",
+   "x=√8"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²-4x+4=0 tənliyinin kökünü tapın.",
+  "secimler": [
+   "x=2 (ikiqat kök)",
+   "x=-2",
+   "x=4",
+   "Kökü yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²+2x-3=0 tənliyinin diskriminantını tapın.",
+  "secimler": [
+   "16",
+   "4",
+   "-8",
+   "8"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²+x-6=0 tənliyinin köklərini tapın.",
+  "secimler": [
+   "x=2, x=-3",
+   "x=-2, x=3",
+   "x=1, x=-6",
+   "x=6, x=-1"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vyet teoreminə görə x²-7x+12=0 tənliyinin köklərinin cəmi neçədir?",
+  "secimler": [
+   "7",
+   "12",
+   "-7",
+   "5"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vyet teoreminə görə x²-7x+12=0 tənliyinin köklərinin hasili neçədir?",
+  "secimler": [
+   "12",
+   "7",
+   "-12",
+   "5"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x²-6x+9=0 tənliyinin diskriminantı neçədir?",
+  "secimler": [
+   "0",
+   "36",
+   "-36",
+   "9"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3x²-12=0 tənliyinin köklərini tapın.",
+  "secimler": [
+   "x=2, x=-2",
+   "x=4, x=-4",
+   "x=6, x=-6",
+   "x=12, x=-12"
+  ],
+  "duzgun": 0,
+  "movzu": "Kvadrat tənliklər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2x-3>5 bərabərsizliyini həll edin.",
+  "secimler": [
+   "x>4",
+   "x<4",
+   "x>1",
+   "x>8"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "-3x+6<0 bərabərsizliyini həll edin.",
+  "secimler": [
+   "x>2",
+   "x<2",
+   "x<-2",
+   "x>-2"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "5-2x≥1 bərabərsizliyini həll edin.",
+  "secimler": [
+   "x≤2",
+   "x≥2",
+   "x≤-2",
+   "x≥-2"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3(x-2)<x+4 bərabərsizliyini həll edin.",
+  "secimler": [
+   "x<5",
+   "x>5",
+   "x<10",
+   "x<2"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2x+1>0 və x-3<0 sisteminin həllini tapın.",
+  "secimler": [
+   "-1/2<x<3",
+   "x<-1/2",
+   "x>3",
+   "Kəsişmə yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "-1≤2x-3≤5 ikili bərabərsizliyini həll edin.",
+  "secimler": [
+   "1≤x≤4",
+   "-1≤x≤5",
+   "2≤x≤8",
+   "0≤x≤4"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x/2-1>2 bərabərsizliyini həll edin.",
+  "secimler": [
+   "x>6",
+   "x<6",
+   "x>3",
+   "x>1"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabərsizliyin hər iki tərəfi mənfi ədədə vurulduqda işarə necə dəyişir?",
+  "secimler": [
+   "Dəyişmir",
+   "Əksinə çevrilir",
+   "Sıfır olur",
+   "Yalnız böyükdür işarəsi qalır"
+  ],
+  "duzgun": 1,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "4-x≤2x+1 bərabərsizliyini həll edin.",
+  "secimler": [
+   "x≥1",
+   "x≤1",
+   "x≥3",
+   "x≤3"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(x-1)(x-4)>0 bərabərsizliyinin həll çoxluğunu tapın.",
+  "secimler": [
+   "x<1 və ya x>4",
+   "1<x<4",
+   "x>1 və x<4",
+   "Bütün x-lər üçün doğrudur"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti bərabərsizliklər və sistemləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=3x-2 funksiyasının qrafiki Oy oxunu hansı nöqtədə kəsir?",
+  "secimler": [
+   "(0, -2)",
+   "(-2, 0)",
+   "(0, 3)",
+   "(2, 0)"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=3x-2 funksiyasının qrafiki Ox oxunu hansı nöqtədə kəsir?",
+  "secimler": [
+   "(2/3, 0)",
+   "(0, 2/3)",
+   "(-2/3, 0)",
+   "(3, 0)"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=kx+b funksiyasında k>0 olduqda funksiya necə davranır?",
+  "secimler": [
+   "Artır",
+   "Azalır",
+   "Sabit qalır",
+   "Əvvəl artır sonra azalır"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=-2x+5 funksiyasında x=3 olduqda y neçədir?",
+  "secimler": [
+   "-1",
+   "11",
+   "1",
+   "-11"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "(1,2) və (3,6) nöqtələrindən keçən xəttin bucaq əmsalı (k) neçədir?",
+  "secimler": [
+   "2",
+   "4",
+   "1",
+   "3"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=2x-3 və y=-x+3 funksiyalarının qrafikləri hansı nöqtədə kəsişir?",
+  "secimler": [
+   "(2, 1)",
+   "(1, 2)",
+   "(3, 3)",
+   "(0, -3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=4x+7 və y=4x-1 funksiyalarının qrafikləri bir-birinə necə yerləşir?",
+  "secimler": [
+   "Paraleldir",
+   "Kəsişir",
+   "Üst-üstə düşür",
+   "Perpendikulyardır"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=kx funksiyasının qrafiki hər zaman hansı nöqtədən keçir?",
+  "secimler": [
+   "(1,1)",
+   "(0,0)",
+   "(0,1)",
+   "(k,0)"
+  ],
+  "duzgun": 1,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bucaq əmsalı k=-3 olan və (0,4) nöqtəsindən keçən xətti funksiyanı yazın.",
+  "secimler": [
+   "y=-3x+4",
+   "y=3x+4",
+   "y=-3x-4",
+   "y=4x-3"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "5x-10=0 tənliyinin kökünü tapın.",
+  "secimler": [
+   "2",
+   "-2",
+   "10",
+   "5"
+  ],
+  "duzgun": 0,
+  "movzu": "Xətti funksiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=k/x funksiyasında x=2 olduqda y=6 isə, k neçədir?",
+  "secimler": [
+   "12",
+   "3",
+   "8",
+   "6"
+  ],
+  "duzgun": 0,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=12/x funksiyasında x=4 olduqda y neçədir?",
+  "secimler": [
+   "3",
+   "48",
+   "8",
+   "4"
+  ],
+  "duzgun": 0,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=k/x funksiyasının qrafiki necə adlanır?",
+  "secimler": [
+   "Parabola",
+   "Hiperbola",
+   "Düz xətt",
+   "Çevrə"
+  ],
+  "duzgun": 1,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərs mütənasib kəmiyyətlərdə bir kəmiyyət 2 dəfə artarsa, digəri necə dəyişər?",
+  "secimler": [
+   "2 dəfə artar",
+   "2 dəfə azalar",
+   "Dəyişməz",
+   "4 dəfə artar"
+  ],
+  "duzgun": 1,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=k/x funksiyasında k>0 olduqda qrafik hansı rüblərdə yerləşir?",
+  "secimler": [
+   "I və III rüblərdə",
+   "II və IV rüblərdə",
+   "Yalnız I rübdə",
+   "Bütün rüblərdə"
+  ],
+  "duzgun": 0,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "6 fəhlə bir işi 8 gündə görürsə, eyni işi 4 fəhlə neçə gündə görər?",
+  "secimler": [
+   "12",
+   "16",
+   "6",
+   "24"
+  ],
+  "duzgun": 0,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=k/x funksiyasında x iki dəfə azalarsa, y necə dəyişər?",
+  "secimler": [
+   "İki dəfə artar",
+   "İki dəfə azalar",
+   "Dəyişməz",
+   "Dörd dəfə artar"
+  ],
+  "duzgun": 0,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=10/x funksiyasında y=5 olduqda x neçədir?",
+  "secimler": [
+   "2",
+   "50",
+   "5",
+   "0,5"
+  ],
+  "duzgun": 0,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Maşının sürəti ilə mənzilə çatma vaxtı arasındakı asılılıq hansı növ mütənasiblikdir?",
+  "secimler": [
+   "Düz mütənasiblik",
+   "Tərs mütənasiblik",
+   "Heç bir asılılıq yoxdur",
+   "Kvadratik asılılıq"
+  ],
+  "duzgun": 1,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "y=k/x hiperbolasının simmetriya mərkəzi hansı nöqtədir?",
+  "secimler": [
+   "(1,1)",
+   "(0,0)",
+   "(k,0)",
+   "(0,k)"
+  ],
+  "duzgun": 1,
+  "movzu": "Tərs mütənasiblik",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x+y=7 və x-y=3 sistemini həll edin.",
+  "secimler": [
+   "x=5, y=2",
+   "x=2, y=5",
+   "x=4, y=3",
+   "x=7, y=3"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "2x+y=8 və x-y=1 sistemini həll edin.",
+  "secimler": [
+   "x=3, y=2",
+   "x=2, y=3",
+   "x=4, y=0",
+   "x=5, y=-2"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x+2y=10 və 2x-y=5 sistemini həll edin.",
+  "secimler": [
+   "x=4, y=3",
+   "x=3, y=4",
+   "x=5, y=2,5",
+   "x=6, y=2"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3x+2y=12 tənliyində x=2 olduqda y neçədir?",
+  "secimler": [
+   "3",
+   "6",
+   "2",
+   "4"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x+y=10, xy=21 şərtlərini ödəyən köklərdən biri hansıdır (x>y)?",
+  "secimler": [
+   "x=7, y=3",
+   "x=6, y=4",
+   "x=8, y=2",
+   "x=5, y=5"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki xətti tənlikdən ibarət sistemin həlli olmadıqda hansı şərt ödənməlidir?",
+  "secimler": [
+   "Bucaq əmsalları bərabər, sərbəst hədlər fərqli",
+   "Bucaq əmsalları fərqli",
+   "Hər iki tənlik eynidir",
+   "Sərbəst hədlər bərabər"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "4x-2y=6 və 2x-y=3 sisteminin həlli haqqında hansı fikir doğrudur?",
+  "secimler": [
+   "Sonsuz sayda həlli var",
+   "Heç bir həlli yoxdur",
+   "Yeganə həlli var",
+   "Yalnız x=0 həllidir"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x-y=4 və x+y=10 sistemində x·y hasili neçədir?",
+  "secimler": [
+   "21",
+   "14",
+   "40",
+   "10"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "5x+3y=19 tənliyində x=2 olduqda y neçədir?",
+  "secimler": [
+   "3",
+   "5",
+   "2",
+   "9"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "x+3y=11 və 2x-y=1 sistemini həll edin.",
+  "secimler": [
+   "x=2, y=3",
+   "x=3, y=2",
+   "x=5, y=2",
+   "x=1, y=3,33"
+  ],
+  "duzgun": 0,
+  "movzu": "İki dəyişənli xətti tənliklər sistemi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "250-nin 20%-i neçədir?",
+  "secimler": [
+   "50",
+   "25",
+   "500",
+   "5"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir məhsulun qiyməti 400 manatdan 460 manata qalxıb. Qiymət neçə faiz artıb?",
+  "secimler": [
+   "15%",
+   "60%",
+   "20%",
+   "10%"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir malın qiyməti 20% endirimlə 320 manat olub. Malın ilkin qiyməti neçə idi?",
+  "secimler": [
+   "400",
+   "384",
+   "340",
+   "350"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "3:5 nisbətində olan iki ədədin cəmi 40-dır. Böyük ədəd neçədir?",
+  "secimler": [
+   "25",
+   "15",
+   "24",
+   "16"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bankda 1000 manat 10% illik faizlə qoyulub. 1 ildən sonra hesabda neçə manat olar?",
+  "secimler": [
+   "1100",
+   "1010",
+   "1090",
+   "1200"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir sinifdə 30 şagirddən 12-si qızdır. Qızların faizi neçədir?",
+  "secimler": [
+   "40%",
+   "12%",
+   "60%",
+   "25%"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Malın qiyməti əvvəlcə 25% artırılıb, sonra 20% endirilib. Nəticədə qiymət ilkin qiymətlə müqayisədə necə dəyişib?",
+  "secimler": [
+   "Dəyişməyib",
+   "5% artıb",
+   "5% azalıb",
+   "45% artıb"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a:b=2:3 və a+b=25 olduqda b neçədir?",
+  "secimler": [
+   "15",
+   "10",
+   "20",
+   "12,5"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "500 manatlıq malın qiymətinə əvvəlcə 15% ƏDV əlavə edilir. Son qiymət neçə manat olar?",
+  "secimler": [
+   "575",
+   "515",
+   "585",
+   "550"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki kəmiyyət düz mütənasibdir. Birinci kəmiyyət 3 dəfə artarsa, ikinci necə dəyişər?",
+  "secimler": [
+   "3 dəfə artar",
+   "3 dəfə azalar",
+   "Dəyişməz",
+   "9 dəfə artar"
+  ],
+  "duzgun": 0,
+  "movzu": "Faiz və nisbət məsələləri",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paralelogramın qarşılıqlı tərəfləri necədir?",
+  "secimler": [
+   "Bərabər və paralel",
+   "Bərabər, lakin paralel deyil",
+   "Paralel, lakin bərabər deyil",
+   "Nə bərabər, nə paralel"
+  ],
+  "duzgun": 0,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paralelogramın diaqonalları kəsişmə nöqtəsində necə bölünür?",
+  "secimler": [
+   "Bərabər hissələrə",
+   "1:2 nisbətində",
+   "1:3 nisbətində",
+   "Kəsişmir"
+  ],
+  "duzgun": 0,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paralelogramın qonşu bucaqlarının cəmi neçə dərəcədir?",
+  "secimler": [
+   "90°",
+   "180°",
+   "270°",
+   "360°"
+  ],
+  "duzgun": 1,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərəfləri 8 sm və 5 sm olan paraleloqramın perimetri neçədir?",
+  "secimler": [
+   "26 sm",
+   "13 sm",
+   "40 sm",
+   "20 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paraleloqramın sahəsi hansı düsturla hesablanır?",
+  "secimler": [
+   "Tərəf × bitişik tərəf",
+   "Əsas × hündürlük",
+   "Diaqonalların hasili/2",
+   "Tərəflərin cəmi"
+  ],
+  "duzgun": 1,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əsası 10 sm, hündürlüyü 6 sm olan paraleloqramın sahəsi neçədir?",
+  "secimler": [
+   "60 sm²",
+   "16 sm²",
+   "30 sm²",
+   "32 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paraleloqramın qarşı bucaqları necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Tamamlayıcıdır (90°-yə)",
+   "Əlavədir (180°-yə), lakin bərabər deyil",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Diaqonalları bir-birinə perpendikulyar olan paraleloqram hansı fiqurdur?",
+  "secimler": [
+   "Düzbucaqlı",
+   "Romb",
+   "İxtiyari paraleloqram",
+   "Trapesiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paraleloqramın diaqonalları bərabərdirsə, o hansı xüsusi fiqurdur?",
+  "secimler": [
+   "Romb",
+   "Düzbucaqlı",
+   "Yalnız kvadrat",
+   "Trapesiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paraleloqramın bir bucağı 70° isə, ona qonşu bucaq neçədir?",
+  "secimler": [
+   "110°",
+   "70°",
+   "90°",
+   "20°"
+  ],
+  "duzgun": 0,
+  "movzu": "Paralelogram",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlının bütün bucaqları neçə dərəcədir?",
+  "secimler": [
+   "60°",
+   "90°",
+   "120°",
+   "180°"
+  ],
+  "duzgun": 1,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərəfləri 6 sm və 8 sm olan düzbucaqlının diaqonalı neçə sm-dir?",
+  "secimler": [
+   "10",
+   "14",
+   "48",
+   "7"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Rombun bütün tərəfləri necədir?",
+  "secimler": [
+   "Bərabər",
+   "Yalnız qarşı tərəflər bərabər",
+   "Heç biri bərabər deyil",
+   "Yalnız iki tərəf bərabər"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Rombun diaqonalları necə kəsişir?",
+  "secimler": [
+   "Perpendikulyar və bərabər hissələrə bölünərək",
+   "Yalnız bərabər hissələrə",
+   "Heç bir xüsusiyyəti yoxdur",
+   "Paralel olaraq"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Diaqonalları 6 sm və 8 sm olan rombun sahəsi neçədir?",
+  "secimler": [
+   "24 sm²",
+   "48 sm²",
+   "14 sm²",
+   "20 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kvadratın tərəfi 5 sm-dirsə, sahəsi neçədir?",
+  "secimler": [
+   "25 sm²",
+   "20 sm²",
+   "10 sm²",
+   "15 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kvadratın diaqonalı tərəfi ilə necə əlaqədardır?",
+  "secimler": [
+   "d=a√2",
+   "d=2a",
+   "d=a/2",
+   "d=a√3"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərəfi 4 sm olan kvadratın diaqonalı neçə sm-dir?",
+  "secimler": [
+   "4√2 sm",
+   "8 sm",
+   "4 sm",
+   "2√2 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlının tərəfləri 5 sm və 12 sm-dirsə, perimetri neçədir?",
+  "secimler": [
+   "34 sm",
+   "17 sm",
+   "60 sm",
+   "30 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bütün tərəfləri bərabər VƏ bütün bucaqları 90° olan dördbucaqlı hansıdır?",
+  "secimler": [
+   "Romb",
+   "Düzbucaqlı",
+   "Kvadrat",
+   "Trapesiya"
+  ],
+  "duzgun": 2,
+  "movzu": "Düzbucaqlı, romb və kvadrat",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Trapesiyanın paralel tərəflərinə nə deyilir?",
+  "secimler": [
+   "Yan tərəflər",
+   "Əsaslar",
+   "Diaqonallar",
+   "Hündürlüklər"
+  ],
+  "duzgun": 1,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əsasları 8 sm və 12 sm, hündürlüyü 5 sm olan trapesiyanın sahəsi neçədir?",
+  "secimler": [
+   "50 sm²",
+   "100 sm²",
+   "20 sm²",
+   "40 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yan tərəfləri bərabər olan trapesiyaya nə deyilir?",
+  "secimler": [
+   "Düzbucaqlı trapesiya",
+   "Bərabəryanlı trapesiya",
+   "İxtiyari trapesiya",
+   "Kvadrat trapesiya"
+  ],
+  "duzgun": 1,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabəryanlı trapesiyanın əsasında olan bucaqlar necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Tamamlayıcıdır",
+   "Fərqlidir",
+   "90°-dir"
+  ],
+  "duzgun": 0,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Trapesiyanın orta xətti nəyə bərabərdir?",
+  "secimler": [
+   "Əsasların cəminə",
+   "Əsasların cəminin yarısına",
+   "Əsasların hasilinə",
+   "Əsasların fərqinə"
+  ],
+  "duzgun": 1,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əsasları 6 sm və 10 sm olan trapesiyanın orta xətti neçədir?",
+  "secimler": [
+   "8 sm",
+   "16 sm",
+   "4 sm",
+   "60 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir bucağı 90° olan trapesiyaya nə deyilir?",
+  "secimler": [
+   "Bərabəryanlı trapesiya",
+   "Düzbucaqlı trapesiya",
+   "İxtiyari trapesiya",
+   "Kvadrat"
+  ],
+  "duzgun": 1,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Trapesiyanın sahə düsturunda hansı kəmiyyətlər iştirak edir?",
+  "secimler": [
+   "Yalnız əsaslar",
+   "Əsasların cəmi və hündürlük",
+   "Yalnız hündürlük",
+   "Diaqonallar"
+  ],
+  "duzgun": 1,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əsasları 4 sm və 14 sm, sahəsi 45 sm² olan trapesiyanın hündürlüyü neçədir?",
+  "secimler": [
+   "5 sm",
+   "9 sm",
+   "10 sm",
+   "4,5 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabəryanlı trapesiyanın diaqonalları necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Perpendikulyardır",
+   "Fərqlidir",
+   "Paraleldir"
+  ],
+  "duzgun": 0,
+  "movzu": "Trapesiya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucaqların bərabərliyinin əsas əlamətlərindən biri hansıdır?",
+  "secimler": [
+   "Bir tərəf bərabərdir (yalnız)",
+   "İki tərəf və aralarındakı bucaq bərabərdir",
+   "Yalnız bir bucaq bərabərdir",
+   "Sahələri bərabərdir"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucaqların bərabərliyinin ikinci əlaməti hansıdır?",
+  "secimler": [
+   "Tərəf-tərəf-tərəf",
+   "Yalnız bucaq",
+   "Yalnız tərəf",
+   "Sahə-perimetr"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucaqların bərabərliyinin üçüncü əlaməti hansıdır?",
+  "secimler": [
+   "Bir tərəf və iki bitişik bucaq",
+   "Üç bucaq",
+   "İki tərəf (bucaqsız)",
+   "Sahə bərabərliyi"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üç bucağı uyğun olaraq bərabər olan iki üçbucaq həmişə bərabərdirmi?",
+  "secimler": [
+   "Bəli, həmişə bərabərdir",
+   "Xeyr, oxşar ola bilər, lakin bərabər olmaya bilər",
+   "Yalnız düzbucaqlı üçbucaqlarda bərabərdir",
+   "Heç vaxt bərabər olmur"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabəryanlı üçbucağın oturacağındakı bucaqlar necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Tamamlayıcıdır",
+   "Fərqlidir",
+   "90°-dir"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabərtərəfli üçbucağın hər bir bucağı neçə dərəcədir?",
+  "secimler": [
+   "90°",
+   "60°",
+   "45°",
+   "120°"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucağın bucaqlarının cəmi neçə dərəcədir?",
+  "secimler": [
+   "90°",
+   "180°",
+   "270°",
+   "360°"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucağın tərəfləri 5 sm, 5 sm, 8 sm-dirsə, bu hansı üçbucaqdır?",
+  "secimler": [
+   "Bərabərtərəfli",
+   "Bərabəryanlı",
+   "Müxtəlif tərəfli",
+   "Düzbucaqlı"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir üçbucağın bucaqları 50° və 60°-dirsə, üçüncü bucaq neçədir?",
+  "secimler": [
+   "70°",
+   "60°",
+   "50°",
+   "110°"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucağın xarici bucağı ona qonşu olmayan iki daxili bucağın cəminə necə bərabərdir?",
+  "secimler": [
+   "Bərabərdir",
+   "Yarısına bərabərdir",
+   "İki qat böyükdür",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların bərabərliyi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Oxşar üçbucaqların uyğun bucaqları necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Tamamlayıcıdır",
+   "Fərqlidir",
+   "Cəmi 90°-dir"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Oxşar üçbucaqların uyğun tərəfləri necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Mütənasibdir",
+   "Perpendikulyardır",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Oxşarlıq əmsalı k=2 olan iki üçbucaqdan böyüyünün sahəsi kiçiyinin sahəsindən neçə dəfə böyükdür?",
+  "secimler": [
+   "2 dəfə",
+   "4 dəfə",
+   "8 dəfə",
+   "Dəyişmir"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir üçbucağın tərəfləri 3, 4, 5 sm, oxşar üçbucağın ən kiçik tərəfi 6 sm-dirsə, oxşarlıq əmsalı neçədir?",
+  "secimler": [
+   "2",
+   "3",
+   "1,5",
+   "4"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Yuxarıdakı şərtdə (əmsal=2) kiçik üçbucağın perimetri 12 sm-dirsə, böyük üçbucağın perimetri neçədir?",
+  "secimler": [
+   "24 sm",
+   "12 sm",
+   "6 sm",
+   "48 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucaqların oxşarlığının əsas əlamətlərindən biri hansıdır?",
+  "secimler": [
+   "İki bucaq bərabərdir",
+   "Yalnız bir tərəf bərabərdir",
+   "Sahələr bərabərdir",
+   "Perimetrlər bərabərdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucaqda bir tərəfə paralel çəkilən düz xətt digər iki tərəfi kəsərsə, əmələ gələn kiçik üçbucaq böyük üçbucağa necə münasibətdədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Oxşardır",
+   "Heç bir əlaqəsi yoxdur",
+   "Perpendikulyardır"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Oxşar üçbucaqlarda hündürlüklərin nisbəti nəyə bərabərdir?",
+  "secimler": [
+   "Tərəflərin nisbətinə (oxşarlıq əmsalına)",
+   "Sahələrin nisbətinə",
+   "Bucaqların cəminə",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kölgə üsulu ilə hündürlük tapmaq məsələləri hansı prinsipə əsaslanır?",
+  "secimler": [
+   "Üçbucaqların oxşarlığına",
+   "Pifagor teoreminə",
+   "Üçbucaqların bərabərliyinə",
+   "Heç bir prinsipə əsaslanmır"
+  ],
+  "duzgun": 0,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Oxşarlıq əmsalı k olan üçbucaqların sahələr nisbəti nəyə bərabərdir?",
+  "secimler": [
+   "k",
+   "k²",
+   "2k",
+   "k/2"
+  ],
+  "duzgun": 1,
+  "movzu": "Üçbucaqların oxşarlığı",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Katetləri 6 sm və 8 sm olan düzbucaqlı üçbucağın hipotenuzu neçədir?",
+  "secimler": [
+   "10",
+   "14",
+   "48",
+   "7"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Hipotenuzu 13 sm, bir kateti 5 sm olan düzbucaqlı üçbucağın digər kateti neçədir?",
+  "secimler": [
+   "12",
+   "8",
+   "18",
+   "14"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Katetləri 9 sm və 12 sm olan düzbucaqlı üçbucağın hipotenuzu neçədir?",
+  "secimler": [
+   "15",
+   "21",
+   "10,5",
+   "13"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərəfləri 3, 4, 5 olan üçbucaq hansı üçbucaqdır?",
+  "secimler": [
+   "İtibucaqlı",
+   "Düzbucaqlı",
+   "Kütbucaqlı",
+   "Bərabərtərəfli"
+  ],
+  "duzgun": 1,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərəfləri 5, 6, 7 olan üçbucaq düzbucaqlı üçbucaqdırmı?",
+  "secimler": [
+   "Xeyr, düzbucaqlı deyil",
+   "Bəli, düzbucaqlıdır",
+   "Məlumat kifayət deyil",
+   "Bərabərtərəflidir"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kvadratın diaqonalını tapmaq üçün Pifagor teoremindən necə istifadə olunur?",
+  "secimler": [
+   "d²=a²+a²",
+   "d=a+a",
+   "d²=a²",
+   "d=2a"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabəryanlı üçbucağın oturacağı 10 sm, yan tərəfi 13 sm-dirsə, hündürlüyü neçədir?",
+  "secimler": [
+   "12",
+   "8",
+   "18",
+   "5"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlının tərəfləri 8 sm və 15 sm-dirsə, diaqonalı neçədir?",
+  "secimler": [
+   "17",
+   "23",
+   "13",
+   "12"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir kateti hipotenuzun yarısına bərabər olan düzbucaqlı üçbucaqda ona qarşı olan bucaq neçə dərəcədir?",
+  "secimler": [
+   "30°",
+   "45°",
+   "60°",
+   "15°"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Pifagor teoreminin ifadəsi hansıdır?",
+  "secimler": [
+   "Hipotenuzun kvadratı katetlərin kvadratları cəminə bərabərdir",
+   "Katetlərin cəmi hipotenuza bərabərdir",
+   "Katetlərin hasili hipotenuza bərabərdir",
+   "Hipotenuz katetlərdən böyük ola bilməz"
+  ],
+  "duzgun": 0,
+  "movzu": "Pifagor teoremi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlı üçbucaqda bir kəskin bucağın sinusu necə təyin olunur?",
+  "secimler": [
+   "Qarşı katetin hipotenuzaya nisbəti",
+   "Bitişik katetin hipotenuzaya nisbəti",
+   "Qarşı katetin bitişik katetə nisbəti",
+   "Hipotenuzanın katetə nisbəti"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlı üçbucaqda bir kəskin bucağın kosinusu necə təyin olunur?",
+  "secimler": [
+   "Qarşı katetin hipotenuzaya nisbəti",
+   "Bitişik katetin hipotenuzaya nisbəti",
+   "Qarşı katetin bitişik katetə nisbəti",
+   "Hipotenuzanın katetə nisbəti"
+  ],
+  "duzgun": 1,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlı üçbucaqda bir kəskin bucağın tangensi necə təyin olunur?",
+  "secimler": [
+   "Qarşı katetin bitişik katetə nisbəti",
+   "Bitişik katetin hipotenuzaya nisbəti",
+   "Hipotenuzanın katetə nisbəti",
+   "İki katetin cəmi"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "sin30° neçəyə bərabərdir?",
+  "secimler": [
+   "0,5",
+   "1",
+   "√3/2",
+   "√2/2"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "cos60° neçəyə bərabərdir?",
+  "secimler": [
+   "0,5",
+   "1",
+   "√3/2",
+   "0"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "sin45° neçəyə bərabərdir?",
+  "secimler": [
+   "0,5",
+   "√2/2",
+   "√3/2",
+   "1"
+  ],
+  "duzgun": 1,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir kateti hipotenuzun yarısına bərabər olan düzbucaqlı üçbucaqda qarşı bucağın sinusu neçədir?",
+  "secimler": [
+   "0,5",
+   "1",
+   "0,25",
+   "0,75"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Hipotenuzu 10 sm, bir bucağı 30° olan düzbucaqlı üçbucaqda bu bucağa qarşı olan katet neçədir?",
+  "secimler": [
+   "5 sm",
+   "10 sm",
+   "8,66 sm",
+   "7,5 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "sin²α+cos²α cəmi hər zaman neçəyə bərabərdir?",
+  "secimler": [
+   "0",
+   "1",
+   "2",
+   "α-dan asılıdır"
+  ],
+  "duzgun": 1,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlı üçbucaqda kəskin bucaqlardan birinin sinusu digərinin kosinusuna necə münasibətdədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Tamamlayıcıdır",
+   "Heç bir əlaqəsi yoxdur",
+   "Əksdir"
+  ],
+  "duzgun": 0,
+  "movzu": "Düzbucaqlı üçbucaqda triqonometrik nisbətlər",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çevrənin mərkəzindən keçən və onu iki nöqtədə kəsən parçaya nə deyilir?",
+  "secimler": [
+   "Radius",
+   "Diametr",
+   "Xorda",
+   "Toxunan"
+  ],
+  "duzgun": 1,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çevrənin mərkəzini onun üzərindəki istənilən nöqtə ilə birləşdirən parçaya nə deyilir?",
+  "secimler": [
+   "Diametr",
+   "Radius",
+   "Xorda",
+   "Toxunan"
+  ],
+  "duzgun": 1,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çevrənin iki nöqtəsini birləşdirən, mərkəzdən keçməyən parçaya nə deyilir?",
+  "secimler": [
+   "Radius",
+   "Diametr",
+   "Xorda",
+   "Toxunan"
+  ],
+  "duzgun": 2,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çevrə ilə yalnız bir ümumi nöqtəsi olan düz xəttə nə deyilir?",
+  "secimler": [
+   "Kəsən",
+   "Toxunan (tangens)",
+   "Xorda",
+   "Diametr"
+  ],
+  "duzgun": 1,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Mərkəzi bucağın qiyməti onun söykəndiyi qövsün qiyməti ilə necə münasibətdədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Yarısına bərabərdir",
+   "İki qat böyükdür",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Daxili bucağın qiyməti onun söykəndiyi qövsün qiyməti ilə necə münasibətdədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Yarısına bərabərdir",
+   "İki qat böyükdür",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Diametrə söykənən daxili bucaq neçə dərəcədir?",
+  "secimler": [
+   "45°",
+   "90°",
+   "180°",
+   "60°"
+  ],
+  "duzgun": 1,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 7 sm olan çevrənin diametri neçədir?",
+  "secimler": [
+   "14 sm",
+   "7 sm",
+   "21 sm",
+   "3,5 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Toxunan çevrənin radiusuna toxunma nöqtəsində necə münasibətdədir?",
+  "secimler": [
+   "Paraleldir",
+   "Perpendikulyardır",
+   "45° bucaq əmələ gətirir",
+   "Üst-üstə düşür"
+  ],
+  "duzgun": 1,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir çevrədə bərabər qövslərə söykənən xordalar necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Fərqlidir",
+   "Paraleldir",
+   "Perpendikulyardır"
+  ],
+  "duzgun": 0,
+  "movzu": "Çevrə və dairə: əsas anlayışlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əsası 10 sm, hündürlüyü 6 sm olan üçbucağın sahəsi neçədir?",
+  "secimler": [
+   "30 sm²",
+   "60 sm²",
+   "16 sm²",
+   "20 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərəfləri 6 və 8 sm, aralarındakı bucaq 90° olan paraleloqramın sahəsi neçədir?",
+  "secimler": [
+   "48 sm²",
+   "24 sm²",
+   "14 sm²",
+   "28 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Diaqonalları 10 sm və 12 sm olan rombun sahəsi neçədir?",
+  "secimler": [
+   "60 sm²",
+   "120 sm²",
+   "22 sm²",
+   "30 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Tərəfi 6 sm olan bərabərtərəfli üçbucağın sahəsi neçədir?",
+  "secimler": [
+   "9√3 sm²",
+   "18√3 sm²",
+   "36√3 sm²",
+   "6√3 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bir üçbucağın sahəsi 24 sm², əsası 8 sm-dirsə, hündürlüyü neçədir?",
+  "secimler": [
+   "6 sm",
+   "3 sm",
+   "12 sm",
+   "48 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki üçbucağın oxşarlıq əmsalı 3-dürsə, sahələrinin nisbəti neçədir?",
+  "secimler": [
+   "9",
+   "3",
+   "6",
+   "27"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kvadratın perimetri 24 sm-dirsə, sahəsi neçədir?",
+  "secimler": [
+   "36 sm²",
+   "24 sm²",
+   "48 sm²",
+   "144 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Sahəsi 50 sm² olan kvadratın tərəfi neçədir?",
+  "secimler": [
+   "5√2 sm",
+   "25 sm",
+   "10 sm",
+   "5 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Əsasları 5 sm və 9 sm, hündürlüyü 4 sm olan trapesiyanın sahəsi neçədir?",
+  "secimler": [
+   "28 sm²",
+   "56 sm²",
+   "36 sm²",
+   "14 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Üçbucağın bütün tərəflərini 2 dəfə artırsaq, sahəsi neçə dəfə artar?",
+  "secimler": [
+   "4 dəfə",
+   "2 dəfə",
+   "8 dəfə",
+   "Dəyişməz"
+  ],
+  "duzgun": 0,
+  "movzu": "Çoxbucaqlıların sahəsi",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu r olan çevrənin uzunluğu hansı düsturla hesablanır?",
+  "secimler": [
+   "πr²",
+   "2πr",
+   "πr",
+   "4πr"
+  ],
+  "duzgun": 1,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu r olan dairənin sahəsi hansı düsturla hesablanır?",
+  "secimler": [
+   "2πr",
+   "πr²",
+   "πr",
+   "πd"
+  ],
+  "duzgun": 1,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 5 sm olan çevrənin uzunluğu neçədir? (π≈3,14)",
+  "secimler": [
+   "31,4 sm",
+   "15,7 sm",
+   "78,5 sm",
+   "62,8 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 5 sm olan dairənin sahəsi neçədir? (π≈3,14)",
+  "secimler": [
+   "78,5 sm²",
+   "31,4 sm²",
+   "15,7 sm²",
+   "157 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Diametri 10 sm olan çevrənin uzunluğu neçədir? (π≈3,14)",
+  "secimler": [
+   "31,4 sm",
+   "15,7 sm",
+   "62,8 sm",
+   "78,5 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Çevrənin uzunluğu 62,8 sm-dirsə, radiusu neçədir? (π≈3,14)",
+  "secimler": [
+   "10 sm",
+   "20 sm",
+   "5 sm",
+   "31,4 sm"
+  ],
+  "duzgun": 0,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Mərkəzi bucağı 90° olan sektorun sahəsi bütöv dairənin sahəsinin neçə hissəsidir?",
+  "secimler": [
+   "1/4",
+   "1/2",
+   "1/3",
+   "1/8"
+  ],
+  "duzgun": 0,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 6 sm olan dairənin mərkəzi bucağı 60° olan sektorunun sahəsi neçədir? (π≈3,14)",
+  "secimler": [
+   "18,84 sm²",
+   "37,68 sm²",
+   "9,42 sm²",
+   "56,52 sm²"
+  ],
+  "duzgun": 0,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 2 dəfə artırılan çevrənin uzunluğu necə dəyişər?",
+  "secimler": [
+   "2 dəfə artar",
+   "4 dəfə artar",
+   "Dəyişməz",
+   "Yarıya azalar"
+  ],
+  "duzgun": 0,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Radiusu 2 dəfə artırılan dairənin sahəsi necə dəyişər?",
+  "secimler": [
+   "2 dəfə artar",
+   "4 dəfə artar",
+   "Dəyişməz",
+   "Yarıya azalar"
+  ],
+  "duzgun": 1,
+  "movzu": "Dairənin sahəsi və çevrə uzunluğu",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vektor hansı iki əsas xüsusiyyətlə xarakterizə olunur?",
+  "secimler": [
+   "Uzunluq və istiqamət",
+   "Yalnız uzunluq",
+   "Yalnız istiqamət",
+   "Rəng və forma"
+  ],
+  "duzgun": 0,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vektorun uzunluğuna nə deyilir?",
+  "secimler": [
+   "Modul",
+   "Layihə",
+   "Koordinat",
+   "Toplananlar"
+  ],
+  "duzgun": 0,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Eyni uzunluqda və eyni istiqamətdə olan vektorlara nə deyilir?",
+  "secimler": [
+   "Əks vektorlar",
+   "Bərabər vektorlar",
+   "Perpendikulyar vektorlar",
+   "Sıfır vektorlar"
+  ],
+  "duzgun": 1,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(2,3) və b(-1,4) vektorlarının cəmini tapın.",
+  "secimler": [
+   "(1,7)",
+   "(3,-1)",
+   "(-2,12)",
+   "(1,-1)"
+  ],
+  "duzgun": 0,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(5,2) vektorunun uzunluğu neçədir?",
+  "secimler": [
+   "√29",
+   "7",
+   "29",
+   "√7"
+  ],
+  "duzgun": 0,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(3,4) vektorunun uzunluğu neçədir?",
+  "secimler": [
+   "5",
+   "7",
+   "25",
+   "√7"
+  ],
+  "duzgun": 0,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(4,-2) və b(1,3) vektorlarının fərqini (a-b) tapın.",
+  "secimler": [
+   "(3,-5)",
+   "(5,-5)",
+   "(3,1)",
+   "(-3,5)"
+  ],
+  "duzgun": 0,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Vektorun 2 skalyarına vurulması nəyə təsir edir?",
+  "secimler": [
+   "Yalnız istiqamətinə",
+   "Yalnız uzunluğuna (2 dəfə artırır)",
+   "Heç nəyə təsir etmir",
+   "Vektoru sıfıra çevirir"
+  ],
+  "duzgun": 1,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "İki vektorun cəmi sıfır vektora bərabərdirsə, bu vektorlar necədir?",
+  "secimler": [
+   "Bərabərdir",
+   "Əks (əks istiqamətli, bərabər uzunluqlu) vektorlardır",
+   "Perpendikulyardır",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 1,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "a(-3,5) vektorunun əks vektorunu tapın.",
+  "secimler": [
+   "(3,-5)",
+   "(-3,-5)",
+   "(3,5)",
+   "(5,-3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Vektorlar",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Fiqurun özü-özünə üst-üstə düşməsini təmin edən düz xəttə nə deyilir?",
+  "secimler": [
+   "Simmetriya oxu",
+   "Simmetriya mərkəzi",
+   "Median",
+   "Bissektris"
+  ],
+  "duzgun": 0,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Dairənin neçə simmetriya oxu var?",
+  "secimler": [
+   "1",
+   "4",
+   "Sonsuz sayda",
+   "Heç biri"
+  ],
+  "duzgun": 2,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Kvadratın neçə simmetriya oxu var?",
+  "secimler": [
+   "2",
+   "4",
+   "1",
+   "8"
+  ],
+  "duzgun": 1,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabəryanlı üçbucağın (bərabərtərəfli olmayan) neçə simmetriya oxu var?",
+  "secimler": [
+   "0",
+   "1",
+   "2",
+   "3"
+  ],
+  "duzgun": 1,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Bərabərtərəfli üçbucağın neçə simmetriya oxu var?",
+  "secimler": [
+   "1",
+   "2",
+   "3",
+   "0"
+  ],
+  "duzgun": 2,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Mərkəzi simmetriyada bir nöqtənin təsviri mərkəzə olan məsafə baxımından necə olur?",
+  "secimler": [
+   "Mərkəzdən eyni məsafədə, əks tərəfdə yerləşir",
+   "Mərkəzə yaxınlaşır",
+   "Mərkəzdən uzaqlaşır",
+   "Heç bir əlaqəsi yoxdur"
+  ],
+  "duzgun": 0,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Paraleloqramın simmetriya mərkəzi varmı?",
+  "secimler": [
+   "Bəli, diaqonalların kəsişmə nöqtəsi",
+   "Xeyr, heç vaxt yoxdur",
+   "Yalnız kvadratda var",
+   "Yalnız rombda var"
+  ],
+  "duzgun": 0,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "Düzbucaqlının (kvadrat olmayan) neçə simmetriya oxu var?",
+  "secimler": [
+   "1",
+   "2",
+   "4",
+   "0"
+  ],
+  "duzgun": 1,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "A(3,2) nöqtəsinin Ox oxuna görə simmetrik təsvirini tapın.",
+  "secimler": [
+   "(3,-2)",
+   "(-3,2)",
+   "(-3,-2)",
+   "(2,3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ },
+ {
+  "sual": "A(3,2) nöqtəsinin koordinat başlanğıcına görə simmetrik təsvirini tapın.",
+  "secimler": [
+   "(-3,-2)",
+   "(3,-2)",
+   "(-3,2)",
+   "(2,3)"
+  ],
+  "duzgun": 0,
+  "movzu": "Simmetriya",
+  "sinif": "8",
+  "fenn": "Riyaziyyat"
+ }
+]
