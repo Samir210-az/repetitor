@@ -870,7 +870,19 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
                     return;
                   }
                   setBankLoading(true);
-                  const suallarFromBank = matched.map(([, q]) => ({
+
+                  // Fisher–Yates qarışdırma — kitabdakı mövzu ardıcıllığı testdə görünməsin
+                  const shuffled = [...matched];
+                  for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                  }
+
+                  const istenilen = Number(sualSayi) || 60;
+                  const secilmis = shuffled.slice(0, istenilen);
+                  const az = secilmis.length < istenilen;
+
+                  const suallarFromBank = secilmis.map(([, q]) => ({
                     sual: q.sual,
                     secimler: q.secimler,
                     duzgun: q.duzgun,
@@ -885,7 +897,11 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
                     suallar: suallarFromBank,
                   });
                   setBankLoading(false);
-                  setBankMsg("");
+                  setBankMsg(
+                    az
+                      ? `⚠️ Sən ${istenilen} sual istəmişdin, amma bankda uyğun cəmi ${matched.length} sual var idi — hamısı istifadə olundu.`
+                      : ""
+                  );
                   setOpenId(r.key);
                 }}
                 disabled={bankLoading}
