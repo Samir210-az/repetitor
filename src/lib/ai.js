@@ -133,11 +133,15 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
     if (res.status === 429) {
       const waitMatch = errText.match(/try again in ([\d.]+)(s|m)/i);
       const waitStr = waitMatch ? ` (~${waitMatch[1]}${waitMatch[2] === "m" ? " dəqiqə" : " saniyə"} sonra)` : "";
-      throw new Error(
+      const e = new Error(
         `Günlük AI kvotası dolub${waitStr}. Bu kvota bütün istifadəçilər arasında ortaqdır — bir az sonra yenidən sına.`
       );
+      e.status = 429;
+      throw e;
     }
-    throw new Error(`AI xətası (${res.status}): ${errText.slice(0, 300)}`);
+    const e = new Error(`AI xətası (${res.status}): ${errText.slice(0, 300)}`);
+    e.status = res.status;
+    throw e;
   }
 
   const data = await res.json();
@@ -265,11 +269,11 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
     } catch (err) {
       lastError = err;
       consecutiveFailures += 1;
-      if (String(err.message).includes("429")) {
+      if (err.status === 429) {
         rotateKey();
         if (consecutiveFailures >= _keys.length * 2) break;
         await sleep(consecutiveFailures >= _keys.length ? 2500 : 300);
-      } else if (String(err.message).includes("413")) {
+      } else if (err.status === 413) {
         if (consecutiveFailures >= 3) break;
         await sleep(2500);
       } else if (consecutiveFailures >= 3) {
