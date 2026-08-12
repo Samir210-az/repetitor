@@ -83,14 +83,22 @@ function stripOptionPrefix(text) {
   return text.replace(/^\s*[A-D]\s*[).:-]\s*/i, "").trim();
 }
 
-// Embedded API access
-const _d = "dmJ6Tn8hJkNUekd3ZWRBJnJDJEAkIXVoRlZ1aHMiV0h3KWRWQlNYenljJlNoXHR4IydQJlJzZWI=";
-const _k = 17;
-const GK = () =>
-  atob(_d)
+// Embedded API access — bir neçə açar arasında növbələşir ki, bir hesabın
+// gündəlik kvotası bitəndə avtomatik növbətiyə keçsin.
+const _keys = [
+  { d: "dmJ6Tn8hJkNUekd3ZWRBJnJDJEAkIXVoRlZ1aHMiV0h3KWRWQlNYenljJlNoXHR4IydQJlJzZWI=", k: 17 },
+];
+let _keyIdx = 0;
+const GK = () => {
+  const { d, k } = _keys[_keyIdx % _keys.length];
+  return atob(d)
     .split("")
-    .map((c) => String.fromCharCode(c.charCodeAt(0) ^ _k))
+    .map((c) => String.fromCharCode(c.charCodeAt(0) ^ k))
     .join("");
+};
+function rotateKey() {
+  _keyIdx = (_keyIdx + 1) % _keys.length;
+}
 
 async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
   const priorNote =
@@ -200,7 +208,10 @@ async function critiqueAndFix(fenn, sinif, suallar) {
     }),
   });
 
-  if (!res.ok) throw new Error(`Tənqid mərhələsi uğursuz (${res.status})`);
+  if (!res.ok) {
+    if (res.status === 429) rotateKey();
+    throw new Error(`Tənqid mərhələsi uğursuz (${res.status})`);
+  }
 
   const data = await res.json();
   const raw = data.choices?.[0]?.message?.content || "{}";
@@ -252,9 +263,15 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
     } catch (err) {
       lastError = err;
       consecutiveFailures += 1;
-      if (consecutiveFailures >= 3) break;
-      if (String(err.message).includes("429") || String(err.message).includes("413")) {
+      if (String(err.message).includes("429")) {
+        rotateKey();
+        if (consecutiveFailures >= _keys.length * 2) break;
+        await sleep(consecutiveFailures >= _keys.length ? 2500 : 300);
+      } else if (String(err.message).includes("413")) {
+        if (consecutiveFailures >= 3) break;
         await sleep(2500);
+      } else if (consecutiveFailures >= 3) {
+        break;
       }
     }
     attempts += 1;
