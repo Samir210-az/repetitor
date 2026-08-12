@@ -111,7 +111,7 @@ export default function Auth() {
           <span className="w-8 h-8 rounded-full bg-gold/90 flex items-center justify-center text-ink">
             <GraduationCap size={18} />
           </span>
-          Repetitor
+          REPETİTOR
         </Link>
 
         <div className="bg-white/[0.06] backdrop-blur-xl border border-white/10 rounded-3xl p-8 shadow-2xl">

@@ -276,7 +276,7 @@ export default function ExamTake() {
           <span className="w-8 h-8 rounded-full bg-gold/90 flex items-center justify-center text-ink">
             <GraduationCap size={18} />
           </span>
-          Repetitor İmtahan
+          REPETİTOR İmtahan
         </div>
         <p className="text-white/50 text-sm text-center mb-1">{test?.baslik}</p>
         <p className="text-white/30 text-xs text-center mb-1 font-mono">

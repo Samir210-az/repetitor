@@ -109,7 +109,7 @@ export default function Dashboard() {
             <span className="w-8 h-8 rounded-full bg-gold/90 flex items-center justify-center text-ink">
               <GraduationCap size={16} />
             </span>
-            Repetitor
+            REPETİTOR
             <span className="text-white/40 font-body text-sm font-normal ml-2">/ {session.profile?.ad}</span>
           </div>
           <button onClick={handleLogout} className="flex items-center gap-1.5 text-white/60 hover:text-white text-sm transition-colors">

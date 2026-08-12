@@ -30,7 +30,7 @@ export default function Nav({ dark = true }) {
         <span className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-gold/90 flex items-center justify-center text-ink shrink-0">
           <GraduationCap size={20} />
         </span>
-        Repetitor
+        REPETİTOR
       </Link>
       <Link to="/giris" className="btn-primary !px-4 sm:!px-5 !py-2 sm:!py-2.5 text-xs sm:text-sm whitespace-nowrap">
         Daxil ol

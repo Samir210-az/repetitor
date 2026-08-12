@@ -160,7 +160,7 @@ export default function SuperAdmin() {
           <span className="w-8 h-8 rounded-full bg-gold/90 flex items-center justify-center text-ink">
             <GraduationCap size={16} />
           </span>
-          Repetitor — Ustad Panel
+          REPETİTOR — Ustad Panel
           <span className="text-white/40 font-body text-sm font-normal ml-2">{list.length} repetitor</span>
         </div>
       </header>
