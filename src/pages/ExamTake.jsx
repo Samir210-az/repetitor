@@ -99,7 +99,7 @@ export default function ExamTake() {
     let correctCount = 0;
     const cavablar = suallar.map((q, i) => {
       const secilen = answers[i];
-      const opts = q["seçimler"] || q.secimler || [];
+      const opts = Array.isArray(q["seçimler"]) ? q["seçimler"] : Array.isArray(q.secimler) ? q.secimler : [];
       const isCorrect = secilen === q.duzgun;
       if (isCorrect) correctCount += 1;
       return { sual: q.sual, secimler: opts, duzgun: q.duzgun, secilen: secilen ?? null, isCorrect };
@@ -164,7 +164,7 @@ export default function ExamTake() {
               <div key={i} className="card p-4">
                 <p className="font-medium text-slateink mb-2">{i + 1}. {c.sual}</p>
                 <div className="grid sm:grid-cols-2 gap-2">
-                  {c.secimler.map((opt, oi) => {
+                  {(Array.isArray(c.secimler) ? c.secimler : []).map((opt, oi) => {
                     const isPicked = oi === c.secilen;
                     const isRight = oi === c.duzgun;
                     const wrongPick = isPicked && !isRight;
@@ -217,7 +217,7 @@ export default function ExamTake() {
 
           <div className="space-y-5 mb-8">
             {suallar.map((q, i) => {
-              const opts = q["seçimler"] || q.secimler || [];
+              const opts = Array.isArray(q["seçimler"]) ? q["seçimler"] : Array.isArray(q.secimler) ? q.secimler : [];
               return (
                 <div key={i} className="card p-4">
                   <p className="font-medium text-slateink mb-3">{i + 1}. {q.sual}</p>

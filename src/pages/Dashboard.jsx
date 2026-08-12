@@ -1111,29 +1111,36 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
           Cavab açarı yalnız bu ekranda görünür — çap edəndə gizlənir.
         </p>
         <div className="space-y-5">
-          {(test.suallar || []).map((q, i) => (
-            <div key={i} className="card p-4">
-              <p className="font-medium text-slateink mb-3">{i + 1}. {q.sual}</p>
-              <div className="grid sm:grid-cols-2 gap-2">
-                {(q["seçimler"] || q.secimler || []).map((opt, oi) => {
-                  const isCorrect = oi === q.duzgun;
-                  return (
-                    <div
-                      key={oi}
-                      className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
-                        isCorrect ? "border-emerald/40 bg-emerald/5 correct-answer" : "border-black/10"
-                      }`}
-                    >
-                      <span className="text-slateink/80">
-                        {String.fromCharCode(65 + oi)}) {opt}
-                      </span>
-                      {isCorrect && <Check size={14} className="text-emerald shrink-0 no-print" />}
-                    </div>
-                  );
-                })}
+          {(test.suallar || []).map((q, i) => {
+            const options = Array.isArray(q["seçimler"])
+              ? q["seçimler"]
+              : Array.isArray(q.secimler)
+              ? q.secimler
+              : [];
+            return (
+              <div key={i} className="card p-4">
+                <p className="font-medium text-slateink mb-3">{i + 1}. {q.sual}</p>
+                <div className="grid sm:grid-cols-2 gap-2">
+                  {options.map((opt, oi) => {
+                    const isCorrect = oi === Number(q.duzgun);
+                    return (
+                      <div
+                        key={oi}
+                        className={`text-sm rounded-lg px-3 py-2 border flex items-center justify-between gap-2 ${
+                          isCorrect ? "border-emerald/40 bg-emerald/5 correct-answer" : "border-black/10"
+                        }`}
+                      >
+                        <span className="text-slateink/80">
+                          {String.fromCharCode(65 + oi)}) {opt}
+                        </span>
+                        {isCorrect && <Check size={14} className="text-emerald shrink-0 no-print" />}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

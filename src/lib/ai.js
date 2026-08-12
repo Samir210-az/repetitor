@@ -138,14 +138,24 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
     throw new Error(`AI cavabında "suallar" array-i yoxdur.`);
   }
 
-  return parsed.suallar.map((q) => ({
-    ...q,
-    secimler: Array.isArray(q.secimler) ? q.secimler.map(stripOptionPrefix) : q.secimler,
-    sual: typeof q.sual === "string" ? q.sual.trim() : q.sual,
-  }));
-}
-
-function sleep(ms) {
+  return parsed.suallar
+    .map((q) => ({
+      ...q,
+      secimler: Array.isArray(q.secimler) ? q.secimler.map(stripOptionPrefix) : q.secimler,
+      sual: typeof q.sual === "string" ? q.sual.trim() : q.sual,
+      duzgun: Number(q.duzgun),
+    }))
+    .filter(
+      (q) =>
+        typeof q.sual === "string" &&
+        q.sual.length > 0 &&
+        Array.isArray(q.secimler) &&
+        q.secimler.length >= 2 &&
+        q.secimler.every((s) => typeof s === "string" && s.length > 0) &&
+        Number.isInteger(q.duzgun) &&
+        q.duzgun >= 0 &&
+        q.duzgun < q.secimler.length
+    );
   return new Promise((r) => setTimeout(r, ms));
 }
 
@@ -193,11 +203,24 @@ async function critiqueAndFix(fenn, sinif, suallar) {
   if (!Array.isArray(parsed.suallar) || parsed.suallar.length !== suallar.length) {
     throw new Error("Tənqid mərhələsi say uyğunsuzluğu");
   }
-  return parsed.suallar.map((q) => ({
-    ...q,
-    secimler: Array.isArray(q.secimler) ? q.secimler.map(stripOptionPrefix) : q.secimler,
-    sual: typeof q.sual === "string" ? q.sual.trim() : q.sual,
-  }));
+  return parsed.suallar.map((q, i) => {
+    const fixed = {
+      ...q,
+      secimler: Array.isArray(q.secimler) ? q.secimler.map(stripOptionPrefix) : q.secimler,
+      sual: typeof q.sual === "string" ? q.sual.trim() : q.sual,
+      duzgun: Number(q.duzgun),
+    };
+    const valid =
+      typeof fixed.sual === "string" &&
+      fixed.sual.length > 0 &&
+      Array.isArray(fixed.secimler) &&
+      fixed.secimler.length >= 2 &&
+      fixed.secimler.every((s) => typeof s === "string" && s.length > 0) &&
+      Number.isInteger(fixed.duzgun) &&
+      fixed.duzgun >= 0 &&
+      fixed.duzgun < fixed.secimler.length;
+    return valid ? fixed : suallar[i];
+  });
 }
 
 export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress, onStage }) {
