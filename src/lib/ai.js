@@ -95,7 +95,7 @@ const GK = () =>
 async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
   const priorNote =
     priorSuallar && priorSuallar.length > 0
-      ? `\n\nBUNLAR ARTIQ YAZILIB — eyni sual/variantları TƏKRARLAMA, tam fərqli, yeni ${count} sual yaz:\n${JSON.stringify(priorSuallar.map((q) => ({ sual: q.sual, secimler: q.secimler })))}`
+      ? `\n\nBUNLAR ARTIQ YAZILIB — eyni sual/variantları TƏKRARLAMA, tam fərqli, yeni ${count} sual yaz:\n${JSON.stringify(priorSuallar.map((q) => q.sual))}`
       : "";
 
   const user = `Azərbaycan Təhsil Nazirliyinin ${sinif}-ci sinif kurikulumuna uyğun, ${fenn} fənni üzrə DİM (abituriyent) səviyyəsində tam olaraq ${count} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün. Təbii Azərbaycan dilində yaz.${priorNote}`;
@@ -120,6 +120,13 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
 
   if (!res.ok) {
     const errText = await res.text();
+    if (res.status === 429) {
+      const waitMatch = errText.match(/try again in ([\d.]+)(s|m)/i);
+      const waitStr = waitMatch ? ` (~${waitMatch[1]}${waitMatch[2] === "m" ? " dəqiqə" : " saniyə"} sonra)` : "";
+      throw new Error(
+        `Günlük AI kvotası dolub${waitStr}. Bu kvota bütün istifadəçilər arasında ortaqdır — bir az sonra yenidən sına.`
+      );
+    }
     throw new Error(`AI xətası (${res.status}): ${errText.slice(0, 300)}`);
   }
 
@@ -158,7 +165,7 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
     );
 }
 
-const BATCH_SIZE = 8;
+const BATCH_SIZE = 15;
 
 function buildCritiquePrompt(fenn, sinif, suallar) {
   return `Sən ciddi, tənqidi bir metodik-redaktorsan. Aşağıda ${sinif}-ci sinif ${fenn} fənni üzrə hazırlanmış test sualları JSON formatında verilib. Hər sualı diqqətlə yoxla:
@@ -262,13 +269,17 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
   const wasTruncated = finalSuallar.length < target;
   const truncatedReason = wasTruncated ? (lastError?.message || "") : "";
 
-  // Özünü tənqid mərhələsi — uğursuz olsa, orijinal nəticə ilə davam et (test bloklanmır)
-  if (onStage) onStage("checking");
-  let result;
-  try {
-    result = await critiqueAndFix(fenn, sinif, finalSuallar);
-  } catch {
-    result = finalSuallar;
+  // Özünü tənqid mərhələsi — yalnız kiçik testlərdə (bütün testi yenidən göndərdiyi üçün
+  // bahalıdır); böyük testlərdə token qənaəti üçün keçilir, test yenə də etibarlıdır
+  // (callGroq artıq hər sualı sanitizasiya edib).
+  let result = finalSuallar;
+  if (finalSuallar.length <= 20) {
+    if (onStage) onStage("checking");
+    try {
+      result = await critiqueAndFix(fenn, sinif, finalSuallar);
+    } catch {
+      result = finalSuallar;
+    }
   }
   result.truncated = wasTruncated;
   result.requestedCount = target;
