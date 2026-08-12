@@ -815,6 +815,9 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         onProgress: (done, total) => setProgress({ done, total }),
         onStage: (s) => setStage(s),
       });
+      if (!Array.isArray(suallar) || suallar.length === 0) {
+        throw new Error("AI heç bir düzgün formatda sual qaytarmadı. Zəhmət olmasa yenidən sına.");
+      }
       if (suallar.truncated) {
         setError(
           `⚠️ Diqqət: ${suallar.requestedCount} sual istənmişdi, amma Groq-un kvotası/limiti bitdiyi üçün yalnız ${suallar.length} sual hazırlandı. Test yenə də yadda saxlanıldı (${suallar.length} sualla) — bir neçə dəqiqə gözləyib yenidən sınaya bilərsən ki, tam say alasan.${suallar.truncatedReason ? ` (Səbəb: ${suallar.truncatedReason.slice(0, 150)})` : ""}`
@@ -1111,6 +1114,16 @@ function TestDetail({ test, tenantId, testId, repetitorAd, onBack, onDelete }) {
           Cavab açarı yalnız bu ekranda görünür — çap edəndə gizlənir.
         </p>
         <div className="space-y-5">
+          {(!test.suallar || test.suallar.length === 0) && (
+            <div className="card p-6 text-center">
+              <p className="text-slateink/70 text-sm mb-3">
+                Bu testdə heç bir sual yoxdur — yaradılma zamanı xəta baş vermiş ola bilər.
+              </p>
+              <button onClick={onDelete} className="text-coral text-sm font-semibold underline">
+                Testi sil
+              </button>
+            </div>
+          )}
           {(test.suallar || []).map((q, i) => {
             const options = Array.isArray(q["seçimler"])
               ? q["seçimler"]
