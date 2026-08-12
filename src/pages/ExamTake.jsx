@@ -168,7 +168,7 @@ export default function ExamTake() {
           </div>
           <p className="text-slateink/50 text-sm mb-4">Cavab açarı:</p>
           <div className="space-y-3">
-            {(result.cavablar || []).map((c, i) => (
+            {toArray(result.cavablar).map((c, i) => (
               <div key={i} className="card p-4">
                 <p className="font-medium text-slateink mb-2">{i + 1}. {c.sual}</p>
                 <div className="grid sm:grid-cols-2 gap-2">
