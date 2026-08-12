@@ -125,7 +125,7 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
       ],
       response_format: { type: "json_object" },
       temperature: 0.6,
-      max_tokens: Math.min(6000, count * 220 + 500),
+      max_tokens: Math.min(7500, count * 320 + 600),
     }),
   });
 
@@ -180,7 +180,7 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
     );
 }
 
-const BATCH_SIZE = 15;
+const BATCH_SIZE = 10;
 
 function buildCritiquePrompt(fenn, sinif, suallar) {
   return `Sən ciddi, tənqidi bir metodik-redaktorsan. Aşağıda ${sinif}-ci sinif ${fenn} fənni üzrə hazırlanmış test sualları JSON formatında verilib. Hər sualı diqqətlə yoxla:
