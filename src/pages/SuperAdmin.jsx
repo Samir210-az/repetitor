@@ -351,7 +351,8 @@ function SeedBankTool() {
       import("../data/kimyaBank.json"),
       import("../data/riyaziyyatBank.json"),
       import("../data/biologiyaBank.json"),
-    ]).then(([fizika, azDili, kimya, riyaziyyat, biologiya]) => {
+      import("../data/edebiyyatBank.json"),
+    ]).then(([fizika, azDili, kimya, riyaziyyat, biologiya, edebiyyat]) => {
       if (cancelled) return;
       setBanks({
         fizika: fizika.default,
@@ -359,6 +360,7 @@ function SeedBankTool() {
         kimya: kimya.default,
         riyaziyyat: riyaziyyat.default,
         biologiya: biologiya.default,
+        edebiyyat: edebiyyat.default,
       });
     });
     return () => {
@@ -371,8 +373,9 @@ function SeedBankTool() {
   const kimyaBank = banks.kimya || [];
   const riyaziyyatBank = banks.riyaziyyat || [];
   const biologiyaBank = banks.biologiya || [];
+  const edebiyyatBank = banks.edebiyyat || [];
 
-  const banksLoading = Object.keys(banks).length < 5;
+  const banksLoading = Object.keys(banks).length < 6;
 
   async function seedFizika() {
     if (fizikaBank.length === 0) return;
@@ -462,6 +465,24 @@ function SeedBankTool() {
     }
   }
 
+  const [status6, setStatus6] = useState("");
+  async function seedEdebiyyat() {
+    if (edebiyyatBank.length === 0) return;
+    setStatus6("Köhnə qeydlər təmizlənir və yenidən yazılır...");
+    try {
+      await remove(ref(db, "repetitor/sualBanki/ədəbiyyat"));
+      const updates = {};
+      edebiyyatBank.forEach((q) => {
+        const key = push(ref(db, "repetitor/sualBanki/ədəbiyyat")).key;
+        updates[`repetitor/sualBanki/ədəbiyyat/${key}`] = { ...q, yaradilib: Date.now() };
+      });
+      await update(ref(db), updates);
+      setStatus6(`✅ Təmizləndi və ${edebiyyatBank.length} sual əlavə olundu.`);
+    } catch (err) {
+      setStatus6("❌ Xəta: " + err.message);
+    }
+  }
+
   return (
     <div className="card-dark p-5 mt-6 space-y-4">
       <div>
@@ -498,6 +519,13 @@ function SeedBankTool() {
           Biologiya bankını doldur
         </button>
         {status5 && <p className="text-xs font-mono text-white/70 mt-3">{status5}</p>}
+      </div>
+      <div className="pt-3 border-t border-white/10">
+        <p className="text-white/60 text-sm mb-3">📚 Ədəbiyyat dəstini əlavə et ({edebiyyatBank.length} sual — 8, 9 və 10-cu sinif)</p>
+        <button onClick={seedEdebiyyat} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
+          Ədəbiyyat bankını doldur
+        </button>
+        {status6 && <p className="text-xs font-mono text-white/70 mt-3">{status6}</p>}
       </div>
     </div>
   );

@@ -8498,5 +8498,1136 @@
     "movzu": "Kök və dərəcəli ifadələr",
     "sinif": "9",
     "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Üçbucaqda ∠B=52°, ∠C=29°, BC=43 sm verilib. Üçbucağı həll edərək AB tərəfini tapın.",
+    "secimler": [
+      "≈21,11 sm",
+      "≈34,31 sm",
+      "≈18,45 sm",
+      "≈25,60 sm"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Üçbucaqda ∠B=18,7°, ∠C=124,1°, AC=94,6 m verilib. Üçbucağı həll edərək BC tərəfini tapın.",
+    "secimler": [
+      "≈178,39 m",
+      "≈244,33 m",
+      "≈150,20 m",
+      "≈200,45 m"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Üçbucaqda ∠B=20°, BC=10 mm, CA=15 mm verilib. Üçbucağı həll edərək ∠A-nı tapın.",
+    "secimler": [
+      "≈13,18°",
+      "≈20,00°",
+      "≈26,36°",
+      "≈33,50°"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Üçbucaqda ∠A=40°, BC=16 km, AB=10 km verilib. Üçbucağı həll edərək ∠C-ni tapın.",
+    "secimler": [
+      "≈23,69°",
+      "≈40,00°",
+      "≈30,15°",
+      "≈50,00°"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Üçbucaqda CA=9,2 m, CB=8,5 m, AB=10,8 m verilib (SSS). Üçbucağın ən böyük bucağını (∠C) tapın.",
+    "secimler": [
+      "≈75,09°",
+      "≈65,40°",
+      "≈80,20°",
+      "≈70,00°"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Üçbucaqda AB=12 sm, AC=18 sm, BC=8 sm verilib (SSS). Üçbucağın ən böyük bucağını (∠B) tapın.",
+    "secimler": [
+      "≈127,17°",
+      "≈110,50°",
+      "≈135,00°",
+      "≈120,74°"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "a=6, b=8, c=12 verilənlərinə görə üçbucağı həll edərək ən böyük bucağı (∠C) tapın.",
+    "secimler": [
+      "≈117,28°",
+      "≈110,00°",
+      "≈120,74°",
+      "≈105,50°"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "∠A=50°, b=3, c=11 verilənlərinə görə üçbucağı həll edərək a tərəfini tapın.",
+    "secimler": [
+      "≈9,36",
+      "≈8,50",
+      "≈10,20",
+      "≈7,80"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "∠A=36°, a=8, b=5 verilənlərinə görə üçbucağı həll edərək ∠B-ni tapın.",
+    "secimler": [
+      "≈21,55°",
+      "≈25,00°",
+      "≈18,30°",
+      "≈30,00°"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucaqların həlli (Sinuslar və Kosinuslar teoremi)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hansı halda qurulan üçbucaq yeganə deyil?",
+    "secimler": [
+      "∠A=40°, ∠B=60°, ∠C=80°",
+      "a=5, b=12, c=13",
+      "∠A=40°, ∠B=20°, ∠C=30°",
+      "a=2, b=2, c=2"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucağın qurulması (yeganəlik)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hansı halda yeganə üçbucaq qurulur?",
+    "secimler": [
+      "∠A=50°, ∠B=50°, ∠C=80°",
+      "a=3, b=5, c=20",
+      "∠A=40°, ∠B=20°, ∠C=30°",
+      "a=7, b=24, c=25"
+    ],
+    "duzgun": 3,
+    "movzu": "Üçbucağın qurulması (yeganəlik)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Meşədə yanğının baş verdiyi yer A və B məntəqələrinə görə (AB=10 km, ∠A=56,23°, ∠B=56,47°) müəyyən edilir. Yanğın ən yaxın məntəqədən (B-dən) təqribən nə qədər məsafədədir?",
+    "secimler": [
+      "≈9,01 km",
+      "≈9,04 km",
+      "≈10,00 km",
+      "≈8,50 km"
+    ],
+    "duzgun": 0,
+    "movzu": "Sinuslar teoreminin tətbiqi (praktik məsələlər)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hava şarında uçan şəxs eyni düz xətt üzərində yerləşən kəndlərdən birinə eniş bucağının 35°, digərinə isə 31° olduğunu müəyyən etdi. Bu kəndlər arasındakı məsafə 1,5 km olarsa, şar yerdən neçə metr hündürlükdədir?",
+    "secimler": [
+      "≈485 m",
+      "≈450 m",
+      "≈520 m",
+      "≈500 m"
+    ],
+    "duzgun": 0,
+    "movzu": "Sinuslar teoreminin tətbiqi (praktik məsələlər)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Müşahidəçi A və B nöqtələri arasındakı məsafəni müəyyən etmək istəyir. C nöqtəsindən CA=259 m, CB=423 m ölçülüb, ∠C=132° olduğu bəllidir. A və B nöqtələri arasındakı məsafəni tapın.",
+    "secimler": [
+      "≈626,60 m",
+      "≈600,00 m",
+      "≈650,25 m",
+      "≈580,40 m"
+    ],
+    "duzgun": 0,
+    "movzu": "Sinuslar teoreminin tətbiqi (praktik məsələlər)",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "BC=34 sm, BA=42 sm, ∠B=55° olan üçbucağın sahəsini tapın.",
+    "secimler": [
+      "≈584,87 sm²",
+      "≈550,00 sm²",
+      "≈600,25 sm²",
+      "≈570,40 sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucağın sahəsi",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Tərəfləri 7, 5 və 9 olan üçbucağın sahəsini tapın (Heron düsturu ilə).",
+    "secimler": [
+      "≈17,41",
+      "≈16,50",
+      "≈18,20",
+      "≈15,75"
+    ],
+    "duzgun": 0,
+    "movzu": "Üçbucağın sahəsi",
+    "sinif": "10",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "f(x)={3−x, x<2; 2, x≥2} funksiyasının x→2 olduqda limiti var mı?",
+    "secimler": [
+      "Limit yoxdur (sol limit 1, sağ limit 2)",
+      "Limit var və 1-ə bərabərdir",
+      "Limit var və 2-yə bərabərdir",
+      "Limit var və 1,5-ə bərabərdir"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "lim(x→3) f(x)=4, lim(x→3) g(x)=−3 olarsa, lim(x→3)(2f(x)−3g(x))-ni tapın.",
+    "secimler": [
+      "17",
+      "−1",
+      "11",
+      "5"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "lim(x→3) f(x)=4, lim(x→3) g(x)=−3 olarsa, lim(x→3) (f(x)+2)/(1−g(x))-i tapın.",
+    "secimler": [
+      "1,5",
+      "6",
+      "0,5",
+      "2"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hesablayın: lim(x→3) (x²+3)/(x+1)",
+    "secimler": [
+      "3",
+      "4",
+      "2,5",
+      "3,5"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hesablayın: lim(x→3) (x²+3x+2)/(x+1)",
+    "secimler": [
+      "5",
+      "4",
+      "6",
+      "4,5"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "f(x)=|x+2|/(x+2) funksiyasının x=−2 kəsilmə nöqtəsində sağ limitini tapın.",
+    "secimler": [
+      "1",
+      "−1",
+      "0",
+      "limit yoxdur"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "f(x)=|x+2|/(x+2) funksiyasının x=−2 kəsilmə nöqtəsində sol limitini tapın.",
+    "secimler": [
+      "−1",
+      "1",
+      "0",
+      "limit yoxdur"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "f(x)=(3−x²)/x² funksiyasının şaquli asimptotunu göstərin.",
+    "secimler": [
+      "x=0",
+      "x=3",
+      "y=0",
+      "x=−1"
+    ],
+    "duzgun": 0,
+    "movzu": "Asimptotlar",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "f(x)=(3−x²)/x² funksiyasının üfüqi asimptotunu göstərin.",
+    "secimler": [
+      "y=−1",
+      "y=0",
+      "y=1",
+      "y=3"
+    ],
+    "duzgun": 0,
+    "movzu": "Asimptotlar",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "2; 1/2; 1/8; ... həndəsi ardıcıllığının n→∞ olduqda limitini tapın.",
+    "secimler": [
+      "0",
+      "2",
+      "1/4",
+      "∞"
+    ],
+    "duzgun": 0,
+    "movzu": "Ədədi ardıcıllığın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "aₙ=(2n−1)/(n+1) ardıcıllığının n→∞ olduqda limitini tapın.",
+    "secimler": [
+      "2",
+      "1",
+      "0",
+      "∞"
+    ],
+    "duzgun": 0,
+    "movzu": "Ədədi ardıcıllığın limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hesablayın: lim(x→π/4)(sinx+cosx)",
+    "secimler": [
+      "√2",
+      "1",
+      "√2/2",
+      "2"
+    ],
+    "duzgun": 0,
+    "movzu": "Triqonometrik funksiyaların limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hesablayın: lim(x→0) sinx/(x·cosx)",
+    "secimler": [
+      "1",
+      "0",
+      "sinx",
+      "∞"
+    ],
+    "duzgun": 0,
+    "movzu": "Triqonometrik funksiyaların limiti",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Verilmiş funksiyalardan hansının [−2;2] parçasında sıfırı var? (a: f(x)=(x−3)/(x²+1), b: g(x)=x³+x+2)",
+    "secimler": [
+      "g(x) (g(−2)=−8<0, g(2)=12>0, işarə dəyişir)",
+      "f(x) (f(−2) və f(2) əks işarəlidir)",
+      "hər ikisinin",
+      "heç birinin"
+    ],
+    "duzgun": 0,
+    "movzu": "Funksiyanın kökü (Bolsano teoremi)",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "lim(x→1) (x¹⁰−1)/(x−1)=10 olduğunu bilərək, lim(x→1) (x²⁰−1)/(x−1)-i hesablayın.",
+    "secimler": [
+      "20",
+      "10",
+      "2",
+      "200"
+    ],
+    "duzgun": 0,
+    "movzu": "Limit hesablamaları (verilmiş limitdən istifadə)",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "lim(x→1) (x¹⁰−1)/(x−1)=10 olduğunu bilərək, lim(x→1) (x¹⁰−1)/(x²−1)-i hesablayın.",
+    "secimler": [
+      "5",
+      "10",
+      "20",
+      "2,5"
+    ],
+    "duzgun": 0,
+    "movzu": "Limit hesablamaları (verilmiş limitdən istifadə)",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Oturacağının tərəfi 3 m, yan üzünün apofemi (sl. hündürlüyü) 4 m olan düzgün dördbucaqlı piramidanın tam səthinin sahəsini tapın.",
+    "secimler": [
+      "33 m²",
+      "36 m²",
+      "30 m²",
+      "24 m²"
+    ],
+    "duzgun": 0,
+    "movzu": "Cisimlərin səthinin sahəsi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Oturacağı katetləri 16 m və 12 m olan düzbucaqlı üçbucaq olan, hündürlüyü (uzunluğu) 30 m olan düz prizmanın tam səthinin sahəsini tapın.",
+    "secimler": [
+      "1632 m²",
+      "1584 m²",
+      "1440 m²",
+      "1536 m²"
+    ],
+    "duzgun": 0,
+    "movzu": "Cisimlərin səthinin sahəsi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Radiusu 5 sm, hündürlüyü 4 sm olan silindrin tam səthinin sahəsini tapın.",
+    "secimler": [
+      "90π sm²",
+      "80π sm²",
+      "100π sm²",
+      "70π sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Cisimlərin səthinin sahəsi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Radiusu 7 sm, doğuranı 15 sm olan konusun tam səthinin sahəsini tapın.",
+    "secimler": [
+      "154π sm²",
+      "140π sm²",
+      "165π sm²",
+      "147π sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Cisimlərin səthinin sahəsi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Açılış şəklində hündürlüyü 4 sm, düzbucaqlının eni (əsası) 4π sm olan silindrin tam səthinin sahəsini tapın.",
+    "secimler": [
+      "24π sm²",
+      "20π sm²",
+      "16π sm²",
+      "28π sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Cisimlərin səthinin sahəsi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Oturacaqlarının sahələri cəmi 1256 sm² olan silindrin hündürlüyü 60 sm-dir. Silindrin yan səthinin sahəsini tapın. (π≈3,14)",
+    "secimler": [
+      "≈5328,76 sm²",
+      "≈5000 sm²",
+      "≈4800 sm²",
+      "≈5600 sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Cisimlərin səthinin sahəsi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Oturacağının çevrə uzunluğu 62,8 sm, doğuranı 15 sm olan konusun yan səthinin sahəsini tapın. (π≈3,14)",
+    "secimler": [
+      "471 sm²",
+      "450 sm²",
+      "500 sm²",
+      "440 sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Cisimlərin səthinin sahəsi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "İki tərəfindən konus (doğuranları 3 sm və 4 sm), ortasında silindr (hündürlüyü 3 sm) olan, radiusu 2 sm olan \"məkik\" fiqurunun səthinin sahəsini tapın.",
+    "secimler": [
+      "26π sm²",
+      "24π sm²",
+      "28π sm²",
+      "22π sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Kombinə olunmuş fiqurların səthi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "İki konusdan (hər ikisinin doğuranı 10 sm, radiusu 4 sm) ibarət \"ikitərəfli konus\" (bikonus) fiqurunun səthinin sahəsini tapın.",
+    "secimler": [
+      "80π sm²",
+      "70π sm²",
+      "90π sm²",
+      "100π sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Kombinə olunmuş fiqurların səthi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Radiusu 4, hündürlüyü 6 olan silindr üzərində yarımkürə olan fiqurun səthinin sahəsini tapın (silindrin alt oturacağı daxil olmaqla).",
+    "secimler": [
+      "96π",
+      "88π",
+      "104π",
+      "80π"
+    ],
+    "duzgun": 0,
+    "movzu": "Kombinə olunmuş fiqurların səthi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hər bir qatı silindrşəkilli olan 3 qatlı tortun ən geniş alt qatının diametri 64 sm, sonrakı qatları uyğun olaraq 48 sm və 20 sm diametrindədir. Hər qat 15 sm hündürlüyündə olarsa, tortun bəzədilməli olan (görünən) səthinin sahəsi nə qədərdir?",
+    "secimler": [
+      "3004π sm²",
+      "2800π sm²",
+      "3200π sm²",
+      "2950π sm²"
+    ],
+    "duzgun": 0,
+    "movzu": "Kombinə olunmuş fiqurların səthi",
+    "sinif": "11",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Ədədlərin neçəsi irrasionaldır? 2√9; 1,2(3); 1/3; √3; (√2)²; π; 0,(1)",
+    "secimler": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "duzgun": 1,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "İfadənin qiymətini tapın: 24 − 2√49",
+    "secimler": [
+      "−74",
+      "−25",
+      "10",
+      "25"
+    ],
+    "duzgun": 2,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hesablayın: (2√0,25)² − √(2 1/4)",
+    "secimler": [
+      "1",
+      "−1",
+      "0,5",
+      "−0,5"
+    ],
+    "duzgun": 3,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hansı ifadənin qiyməti yoxdur?",
+    "secimler": [
+      "−√25",
+      "√((−5)²)",
+      "√(−4·(−25))",
+      "√(−25²)"
+    ],
+    "duzgun": 3,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Sahəsi düzbucaqlının sahəsinə bərabər olan (düzbucaqlının tərəfləri 4√2 sm və √8 sm-dir) kvadratın tərəfinin uzunluğunu tapın.",
+    "secimler": [
+      "4 sm",
+      "4√2 sm",
+      "√8 sm",
+      "8 sm"
+    ],
+    "duzgun": 0,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "a<0 olduqda √(a²)+2a ifadəsini sadələşdirin.",
+    "secimler": [
+      "0",
+      "a",
+      "−a",
+      "3a"
+    ],
+    "duzgun": 1,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "√19 ədədi hansı iki ardıcıl natural ədəd arasında yerləşir?",
+    "secimler": [
+      "3 və 4",
+      "5 və 6",
+      "2 və 3",
+      "4 və 5"
+    ],
+    "duzgun": 3,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "İfadənin qiymətini tapın: √3·√27 − √32·√2",
+    "secimler": [
+      "3",
+      "−1",
+      "1",
+      "−2"
+    ],
+    "duzgun": 2,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "√3−1=a olarsa, (1+√3) ifadəsini a ilə ifadə edin.",
+    "secimler": [
+      "a+2",
+      "a+1",
+      "2a+2",
+      "a−1"
+    ],
+    "duzgun": 0,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "a=8,5 olarsa, √(8+2a) ifadəsinin qiymətini hesablayın.",
+    "secimler": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "duzgun": 2,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hesablayın: 3√8 − √50 + 6√2 − √98",
+    "secimler": [
+      "√2",
+      "0",
+      "12√2",
+      "12"
+    ],
+    "duzgun": 1,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hesablayın: √((46²−18²)/28)",
+    "secimler": [
+      "8",
+      "2√7",
+      "7√2",
+      "32"
+    ],
+    "duzgun": 0,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Kəsrin məxrəcini irrasionallıqdan azad edin: 8/√2",
+    "secimler": [
+      "2√2",
+      "√2",
+      "8√2",
+      "4√2"
+    ],
+    "duzgun": 3,
+    "movzu": "Rasional və irrasional ədədlər",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "ABCD paraleloqramdır (x+2y — üst tərəf, 3x — sol tərəf, 2y — sağ tərəf, 8 — alt tərəf). x və y-i tapın.",
+    "secimler": [
+      "3; 3",
+      "3; 4",
+      "2; 3",
+      "4; 2"
+    ],
+    "duzgun": 2,
+    "movzu": "Paraleloqram",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "ABCD düzbucaqlısının perimetri 28 sm-ə, ABC üçbucağının perimetri 24 sm olarsa, AO-nun (diaqonalların kəsişmə nöqtəsindən təpəyə qədər) uzunluğunu tapın.",
+    "secimler": [
+      "10 sm",
+      "12 sm",
+      "14 sm",
+      "5 sm"
+    ],
+    "duzgun": 3,
+    "movzu": "Paraleloqram",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "\"Romb bütün tərəfləri konqruyent olan paraleloqramdır\" təklifi ilə onun tərsi \"Bütün tərəfləri konqruyent olan paraleloqram rombdur\" təklifləri haqqında hansı fikir doğrudur?",
+    "secimler": [
+      "təklif doğru deyil, tərsi doğrudur",
+      "təklif doğru deyil, tərsi də doğru deyil",
+      "təklif də doğrudur, tərsi də doğrudur",
+      "təklif doğrudur, tərsi doğru deyil"
+    ],
+    "duzgun": 2,
+    "movzu": "Paraleloqram",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Bir tərəfinə bitişik bucaqlarının dərəcə ölçüləri nisbəti 4:5 kimi olan rombun bucaqlarını tapın.",
+    "secimler": [
+      "80° və 100°",
+      "72° və 90°",
+      "60° və 120°",
+      "90° və 90°"
+    ],
+    "duzgun": 0,
+    "movzu": "Paraleloqram",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Düzbucaqlının diaqonalları arasındakı bucaq 60°, diaqonalın uzunluğu 12 sm olarsa, düzbucaqlının kiçik tərəfini tapın.",
+    "secimler": [
+      "6 sm",
+      "8 sm",
+      "6√3 sm",
+      "10 sm"
+    ],
+    "duzgun": 0,
+    "movzu": "Paraleloqram",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Diaqonalları 6 sm və 8 sm olan rombun perimetrini tapın.",
+    "secimler": [
+      "20 sm",
+      "24 sm",
+      "28 sm",
+      "16 sm"
+    ],
+    "duzgun": 0,
+    "movzu": "Paraleloqram",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Təkliflərdən neçəsi doğrudur? (Bərabəryanlı trapesiyanın diaqonalları konqruyentdir; Rombun diaqonalları konqruyentdir; Kvadratın diaqonalları düz bucaq altında kəsişir; Paraleloqramın diaqonallarının kəsişmə nöqtəsi onun simmetriya mərkəzidir)",
+    "secimler": [
+      "biri",
+      "ikisi",
+      "üçü",
+      "dördü"
+    ],
+    "duzgun": 2,
+    "movzu": "Dördbucaqlıların xassələri",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Hansı dördbucaqlının 4 simmetriya oxu var?",
+    "secimler": [
+      "istənilən dördbucaqlı",
+      "kvadrat",
+      "düzbucaqlı",
+      "romb"
+    ],
+    "duzgun": 1,
+    "movzu": "Dördbucaqlıların xassələri",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Trapesiyanın diaqonalı onun orta xəttini 2:5 nisbətində bölür. Trapesiyanın orta xətti 21 olarsa, onun oturacaqlarını tapın.",
+    "secimler": [
+      "12; 30",
+      "10; 32",
+      "20; 22",
+      "14; 28"
+    ],
+    "duzgun": 0,
+    "movzu": "Trapesiya",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Trapesiyanın oturacaqları 18 sm və 30 sm-dir. Orta xəttin diaqonallar arasında qalan parçasının uzunluğunu tapın.",
+    "secimler": [
+      "12 sm",
+      "8 sm",
+      "10 sm",
+      "6 sm"
+    ],
+    "duzgun": 3,
+    "movzu": "Trapesiya",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "GK, KH və HG parçaları △DEF-in orta xətləridir. DG=8, DE=24, EH=10,6 olduğuna görə △GKH-ın perimetrini tapın.",
+    "secimler": [
+      "32,4",
+      "42,6",
+      "30,6",
+      "31"
+    ],
+    "duzgun": 2,
+    "movzu": "Üçbucağın orta xətti",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "ABCD paraleloqramında ∠A-nın tənböləni BC tərəfini T nöqtəsində kəsir. TC=3 sm, CD=6 sm olarsa, ABCD paraleloqramının perimetrini tapın.",
+    "secimler": [
+      "30 sm",
+      "24 sm",
+      "36 sm",
+      "27 sm"
+    ],
+    "duzgun": 0,
+    "movzu": "Paraleloqram və bucaq tənbölən",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "ABCD paraleloqramında ∠A-nın tənböləni BC tərəfini T nöqtəsində kəsir. TC=3 sm, CD=6 sm olarsa, ATCD trapesiyasının orta xəttini tapın.",
+    "secimler": [
+      "6 sm",
+      "7,5 sm",
+      "9 sm",
+      "4,5 sm"
+    ],
+    "duzgun": 0,
+    "movzu": "Paraleloqram və bucaq tənbölən",
+    "sinif": "8",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "y=2x²+6x−3 parabolası A(1;b) nöqtəsindən keçirsə, b-ni tapın.",
+    "secimler": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "duzgun": 3,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "f(x)=x²+px+q funksiyası üçün f(1)=−1 olarsa, p+q cəmini tapın.",
+    "secimler": [
+      "−2",
+      "2",
+      "0",
+      "1"
+    ],
+    "duzgun": 0,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "y=x²−4x+6 funksiyasının qiymətlər çoxluğunu tapın.",
+    "secimler": [
+      "[0;+∞)",
+      "[2;+∞)",
+      "[1;+∞)",
+      "[6;+∞)"
+    ],
+    "duzgun": 1,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "A(2;3) nöqtəsi y=x²+2x+c parabolasının üzərindədir. Bu parabolanın təpə nöqtəsini tapın.",
+    "secimler": [
+      "(−1;6)",
+      "(2;4)",
+      "(−1;−6)",
+      "(−2;3)"
+    ],
+    "duzgun": 2,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "y=−x²+bx+6 parabolasının təpə nöqtəsinin absisi 2 olarsa, b-ni tapın.",
+    "secimler": [
+      "−4",
+      "4",
+      "2",
+      "−2"
+    ],
+    "duzgun": 1,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "y=(x−2)(x+3) parabolası Oy oxunu hansı nöqtədə kəsir?",
+    "secimler": [
+      "(0;2)",
+      "(0;−3)",
+      "(0;−6)",
+      "(−6;0)"
+    ],
+    "duzgun": 2,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "c-nin hansı qiymətində y=x²−2x+c funksiyasının ən kiçik qiyməti 5-ə bərabərdir?",
+    "secimler": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "duzgun": 1,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "y=x² parabolasını üfüqi istiqamətdə 2 vahid sağa, şaquli istiqamətdə 3 vahid aşağı sürüşdürdükdə hansı kvadratik funksiyanın qrafiki alınar?",
+    "secimler": [
+      "y=(x−2)²+3",
+      "y=(x+2)²−3",
+      "y=(x−2)²−3",
+      "y=(x+2)²+3"
+    ],
+    "duzgun": 2,
+    "movzu": "Kvadratik funksiya",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "x²+y²−12x=0 tənliyi ilə verilmiş çevrənin radiusunu tapın.",
+    "secimler": [
+      "6",
+      "12",
+      "3",
+      "4"
+    ],
+    "duzgun": 0,
+    "movzu": "Çevrənin tənliyi",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Tənliyi x²+y²=169 olan çevrə üzərində absisi 12 olan nöqtənin ordinatını tapın.",
+    "secimler": [
+      "5 (və ya −5)",
+      "13",
+      "7",
+      "12"
+    ],
+    "duzgun": 0,
+    "movzu": "Çevrənin tənliyi",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Koordinat başlanğıcından (x−3)²+(y+4)²=9 çevrəsinin mərkəzinə qədər məsafəni tapın.",
+    "secimler": [
+      "5",
+      "3",
+      "4",
+      "9"
+    ],
+    "duzgun": 0,
+    "movzu": "Çevrənin tənliyi",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Koordinat başlanğıcından x²−6x+y²−8y+9=0 çevrəsinə qədər məsafəni tapın.",
+    "secimler": [
+      "1",
+      "5",
+      "4",
+      "9"
+    ],
+    "duzgun": 0,
+    "movzu": "Çevrənin tənliyi",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Diametrin ucları A(−2;8) və B(4;−2) olan dairənin sahəsini hesablayın.",
+    "secimler": [
+      "34π",
+      "17π",
+      "68π",
+      "36π"
+    ],
+    "duzgun": 0,
+    "movzu": "Çevrənin tənliyi",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "A(1;9) və B(6;−3) nöqtələri diametrin uc nöqtələridir. Çevrənin uzunluğunu hesablayın.",
+    "secimler": [
+      "13π",
+      "26π",
+      "6,5π",
+      "169π"
+    ],
+    "duzgun": 0,
+    "movzu": "Çevrənin tənliyi",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Təpə nöqtələri A(1;3), B(3;6), C(−5;2) olan △ABC-dən AM medianının uzunluğunu tapın.",
+    "secimler": [
+      "√5",
+      "√10",
+      "5",
+      "√13"
+    ],
+    "duzgun": 0,
+    "movzu": "Analitik həndəsə",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "A(1;6) və B(7;2) nöqtələri arasındakı məsafəni hesablayın.",
+    "secimler": [
+      "2√13",
+      "10",
+      "8",
+      "6"
+    ],
+    "duzgun": 0,
+    "movzu": "Analitik həndəsə",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "m-in hansı qiymətində A(5;m) və B(3;4) nöqtələri koordinat başlanğıcından eyni məsafədədir?",
+    "secimler": [
+      "0",
+      "±3",
+      "4",
+      "±4"
+    ],
+    "duzgun": 0,
+    "movzu": "Analitik həndəsə",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
+  },
+  {
+    "sual": "Təpə nöqtələri A(3;4), B(3;−4), C(−2;−4) nöqtələrində yerləşən üçbucağın sahəsini hesablayın.",
+    "secimler": [
+      "20",
+      "16",
+      "24",
+      "18"
+    ],
+    "duzgun": 0,
+    "movzu": "Analitik həndəsə",
+    "sinif": "9",
+    "fenn": "Riyaziyyat"
   }
 ]

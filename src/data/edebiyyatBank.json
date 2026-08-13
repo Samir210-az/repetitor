@@ -1,0 +1,170 @@
+[
+  {
+    "sual": "M.P.Vaqifin \"Hayf ki, yoxdur\" şeiri hansı janrda yazılmışdır?",
+    "secimler": [
+      "qəzəl",
+      "qəsidə",
+      "məsnəvi",
+      "gəraylı",
+      "qoşma"
+    ],
+    "duzgun": 4,
+    "movzu": "M.P.Vaqif yaradıcılığı",
+    "sinif": "8",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "\"Ucu əşrəfili, bulut kimi saç...\" misrasında hansı bədii təsvir vasitəsi işlənmişdir?",
+    "secimler": [
+      "epitet",
+      "təşbeh",
+      "metafor",
+      "metonimiya",
+      "simvol"
+    ],
+    "duzgun": 1,
+    "movzu": "M.P.Vaqif yaradıcılığı",
+    "sinif": "8",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "Ədəbiyyatımızda yeni tipli bədii nəsrin — povest janrının əsasını kim qoymuşdur?",
+    "secimler": [
+      "Q.Zakir",
+      "B.Şakir",
+      "A.Bakıxanov",
+      "N.Vəzirov",
+      "M.F.Axundzadə"
+    ],
+    "duzgun": 4,
+    "movzu": "Ədəbi janrların tarixi",
+    "sinif": "8",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "XIX əsrdə əsasları qoyulmuş janrları müəyyənləşdirin. (1-Qoşma, 2-Povest, 3-Qəzəl, 4-Roman, 5-Bayatı, 6-Faciə, 7-Poema)",
+    "secimler": [
+      "1;3;5",
+      "2;4;6",
+      "3;5;7",
+      "1;5;6",
+      "4;6;7"
+    ],
+    "duzgun": 1,
+    "movzu": "Ədəbi janrların tarixi",
+    "sinif": "8",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "Ə.Kürçaylının \"Şəhid meşə\" şeiri hansı mövzuda yazılıb?",
+    "secimler": [
+      "Vətən",
+      "Təbiət",
+      "Əmək",
+      "Qəhrəmanlıq",
+      "Dostluq"
+    ],
+    "duzgun": 0,
+    "movzu": "Ə.Kürçaylı — \"Şəhid meşə\"",
+    "sinif": "9",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "\"Ağaclar yıxıldı qollu-budaqlı, Yuvalar dağıldı çolpalarıyla...\" misralarının ifadəli oxusunda səsdə hansı çalar duyulmalıdır?",
+    "secimler": [
+      "Qorxu, çaşqınlıq",
+      "Fərəh, heyranlıq",
+      "Laqeydlik, soyuqqanlılıq",
+      "Kədər, təəssüf",
+      "Mübarizlik, çağırış"
+    ],
+    "duzgun": 3,
+    "movzu": "Ə.Kürçaylı — \"Şəhid meşə\"",
+    "sinif": "9",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "\"Elat\" sözünün mənası hansı variantda düzgün verilib?",
+    "secimler": [
+      "Bir yurdda yaşayan el, camaat, xalq",
+      "Eli, camaatı idarə edən şəxs",
+      "Qəbilə, tayfa başçısı",
+      "Elin qayğısını çəkən, xeyrində-şərində iştirak edən",
+      "Eli düşmərdən qoruyan igid"
+    ],
+    "duzgun": 0,
+    "movzu": "Ə.Kürçaylı — \"Şəhid meşə\"",
+    "sinif": "9",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "M.Füzulinin hansı əsəri məktub şəklində yazılmışdır?",
+    "secimler": [
+      "\"Səhhət və Mərəz\"",
+      "\"Şikayətnamə\"",
+      "\"Rindü Zahid\"",
+      "\"Söhbətül-əsmar\"",
+      "\"Bəngü Badə\""
+    ],
+    "duzgun": 1,
+    "movzu": "M.Füzuli yaradıcılığı",
+    "sinif": "10",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "M.Füzulinin nəsr əsərlərindən ibarət cərgəni müəyyən edin.",
+    "secimler": [
+      "\"Söhbətül-əsmar\", \"Şikayətnamə\"",
+      "\"Səhhət və Mərəz\", \"Həft cam\"",
+      "\"Şikayətnamə\", \"Bəngü Badə\"",
+      "\"Hədiqətüs-süəda\", \"Həft cam\"",
+      "\"Rindü Zahid\", \"Səhhət və Mərəz\""
+    ],
+    "duzgun": 0,
+    "movzu": "M.Füzuli yaradıcılığı",
+    "sinif": "10",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "M.Füzulinin \"Leyli və Məcnun\" poemasında Qeysin doğularkən ağlaması epizodu ilə nəyə işarə edirdi?",
+    "secimler": [
+      "Qeys gələcəkdə dövrün yox, dövrlərin obrazı olacağına",
+      "Bu, simvolik bir başlanğıcdır; Qeysin gələcəkdə öz səadət və azadlığı üçün bəlalar çəkəcəyinə",
+      "Bu uşağın gələcəkdə şair olacağına",
+      "Uşağın anadangəlmə aşıq olacağına",
+      "Bu uşağın valideynlərinə olmazın müsibətlər gətirəcəyinə"
+    ],
+    "duzgun": 1,
+    "movzu": "M.Füzuli yaradıcılığı",
+    "sinif": "10",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "XVII əsrdə yaşayıb-yaratmış sənətkarlar sırasını göstərin.",
+    "secimler": [
+      "İ.Nəsimi, Ş.İ.Xətayi, Həbibi",
+      "Məsihi, Ş.İ.Təbrizi, Qövsi Təbrizi",
+      "İ.Həsənoğlu, İ.Nəsimi, Kişvəri",
+      "Ş.İ.Xətayi, Həbibi, M.Füzuli",
+      "M.P.Vaqif, M.V.Vidadi, Xəstə Qasım"
+    ],
+    "duzgun": 1,
+    "movzu": "M.Füzuli yaradıcılığı",
+    "sinif": "10",
+    "fenn": "Ədəbiyyat"
+  },
+  {
+    "sual": "Göstərilənlərdən biri M.P.Vaqifin yaradıcılığına aid edilə bilməz. Hansı?",
+    "secimler": [
+      "Şairin lirikasında bütün yaradıcılığı boyu bədbinlik, küskünlük, həyatdan narazılıq motivləri güclüdür.",
+      "Şairin yaradıcılığına xəlqilik, sadəlik, təbiilik xasdır.",
+      "Yaradıcılığında realizm güclüdür.",
+      "Vaqifin qüdrətli və orijinal poeziyası ilə ədəbiyyatımıza yeni nəfəs gətirdi.",
+      "Qoşmalarının dili sadə və anlaşıqlıdır."
+    ],
+    "duzgun": 0,
+    "movzu": "M.P.Vaqif yaradıcılığı",
+    "sinif": "10",
+    "fenn": "Ədəbiyyat"
+  }
+]

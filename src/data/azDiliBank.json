@@ -6113,5 +6113,883 @@
     "movzu": "Ara sözlər",
     "sinif": "8",
     "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Yüksək gərginlikli elektrik şəbəkəsinin üstündən çəkilən kəllə şəkli hansı yazı növünə aiddir?",
+    "secimler": [
+      "hərfi yazı",
+      "şəkli yazı",
+      "fikri yazı",
+      "hecavi yazı",
+      "əşyəvi yazı"
+    ],
+    "duzgun": 2,
+    "movzu": "Yazının növləri və dilin təbiəti",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Dil haqqındakı fikirlərdən biri səhvdir. Hansı?",
+    "secimler": [
+      "Cəmiyyətdə baş verən dəyişikliklər dilə təsir edir",
+      "İrqi və irsi cəhətlərlə bağlı deyil",
+      "İctimai hadisədir",
+      "Dil insanlar arasında yeganə ünsiyyət vasitəsidir",
+      "Dil yalnız insanlara məxsusdur, heyvanlarda səs dili olmur"
+    ],
+    "duzgun": 3,
+    "movzu": "Yazının növləri və dilin təbiəti",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "İnsanların bir-biri ilə ilk yazılı əlaqəsi nəyin köməyi ilə olub?",
+    "secimler": [
+      "əşyaların",
+      "şəkillərin",
+      "rəmzlərin",
+      "hərflərin",
+      "işarələrin"
+    ],
+    "duzgun": 0,
+    "movzu": "Yazının növləri və dilin təbiəti",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Bədii üslubun təzahür formalarından olan şeir dilinə aid olmayanı göstərin.",
+    "secimler": [
+      "ahəng",
+      "vəzn",
+      "bölgü",
+      "qafiyə",
+      "təhkiyə"
+    ],
+    "duzgun": 4,
+    "movzu": "Yazının növləri və dilin təbiəti",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Yazının bu növündə bir neçə səs bir işarə ilə ifadə olunur?",
+    "secimler": [
+      "şəkli",
+      "hərfi",
+      "fikri",
+      "hecavi",
+      "əşyəvi"
+    ],
+    "duzgun": 3,
+    "movzu": "Yazının növləri və dilin təbiəti",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Bir əsərin, nitqin qısaca məzmununu, nəticəsini əks etdirən hissə nə adlanır?",
+    "secimler": [
+      "sonluq",
+      "xülasə",
+      "hekayə",
+      "təhkiyə",
+      "başlıq"
+    ],
+    "duzgun": 1,
+    "movzu": "Üslubiyyat",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Nə tökərsən aşına, o çıxar qaşığına\" nümunəsində obrazlılığın hansı səviyyədə göstəricisi var? (1-fonetik, 2-leksik, 3-qrammatik)",
+    "secimler": [
+      "yalnız 3",
+      "1, 2",
+      "2, 3",
+      "1, 3",
+      "yalnız 2"
+    ],
+    "duzgun": 1,
+    "movzu": "Üslubiyyat",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Cümlədə söz sırasına əməl olunmasa ədəbi dilin hansı norması pozular?",
+    "secimler": [
+      "orfoqrafik",
+      "orfoepik",
+      "leksik",
+      "qrammatik",
+      "fonetik"
+    ],
+    "duzgun": 3,
+    "movzu": "Üslubiyyat",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Aşağıdakılardan biri bədii üslubun leksik səviyyədə göstəricilərinə aid deyil.",
+    "secimler": [
+      "mübaliğə",
+      "təzad",
+      "inversiya",
+      "təşbeh",
+      "sinekdoxa"
+    ],
+    "duzgun": 2,
+    "movzu": "Üslubiyyat",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Dilə aid edilən əlamətlərdən biri səhvdir:",
+    "secimler": [
+      "Mücərrəd işarələr sistemindən ibarətdir",
+      "Dil əsasdır",
+      "Özünəməxsus quruluşu, ifadə imkanları yoxdur",
+      "Tarixən çox az dəyişikliyə məruz qalır",
+      "Ünsiyyət vasitəsidir"
+    ],
+    "duzgun": 2,
+    "movzu": "Dilin təbiəti",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Yazının ən mükəmməl, ən çevik forması:",
+    "secimler": [
+      "hərfi",
+      "şəkli",
+      "fikri",
+      "əşyəvi",
+      "şəkli və fikri"
+    ],
+    "duzgun": 0,
+    "movzu": "Dilin təbiəti",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Bunların bir qismi çoxdan yerlə yeksan olmuş, bir qismi isə xarabalıqlara çevrilmişdir\" cümləsini hansı rəqəmdən sonra yerləşdirmək olar? (Mətn: 1-Bir vaxtlar Nil çayının sahilində çoxlu piramida olmuşdur, 2-Deyilənə görə fironların gücünü göstərmək üçün tikilmişdir, 3-İlk ehram firon Cosera məxsusdur, 4-Amma Qahirə yaxınlığındakı üç nəhəng ehram olduğu kimi qalmaqdadır, 5-Onların ən hündürü Xeops ehramıdır)",
+    "secimler": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "duzgun": 2,
+    "movzu": "Mətnin dərki (Sirli Piramidalar)",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətndə işarələnmiş sözlərdən hansının yazılışı düzgündür? (a-əsrin, b-isdifadə, c-qəbri, d-dəfin, e-mürəkgəb)",
+    "secimler": [
+      "(c)",
+      "(d)",
+      "(e)",
+      "(b)",
+      "(a)"
+    ],
+    "duzgun": 0,
+    "movzu": "Mətnin dərki (Sirli Piramidalar)",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətndə bu barədə məlumat verilmir:",
+    "secimler": [
+      "Misir piramidaları hansı məqsədlə tikilmişdir?",
+      "Dünyanın yeddi möcüzəsindən biri hesab olunan piramida kimə məxsusdur?",
+      "Hansı piramidalar dağıdılıb yerlə yeksan olmuşdur?",
+      "Nə üçün piramidaların içi labirint quruluşa malikdir?",
+      "Nə üçün fironları dəfn edərkən qiymətli əşyaları da onlarla birgə ehrama qoyurdular?"
+    ],
+    "duzgun": 2,
+    "movzu": "Mətnin dərki (Sirli Piramidalar)",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətnin üslubunu müəyyən edin.",
+    "secimler": [
+      "publisistik",
+      "məişət",
+      "bədii",
+      "rəsmi",
+      "elmi"
+    ],
+    "duzgun": 0,
+    "movzu": "Mətnin dərki (Sirli Piramidalar)",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Onların ən hündürü dünyanın yeddi möcüzəsindən biri sayılan müasir 'göydələn'lərlə müqayisə edilə bilən Xeops ehramıdır\" cümləsində vergül işarəsi hansı sözdən sonra qoyulmalıdır?",
+    "secimler": [
+      "hündürü",
+      "sayılan",
+      "müasir",
+      "göydələnlərlə",
+      "biri"
+    ],
+    "duzgun": 0,
+    "movzu": "Mətnin dərki (Sirli Piramidalar)",
+    "sinif": "10",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"İsti su\" birləşməsində \"isti\" sözü hansı funksiyanı daşıyır?",
+    "secimler": [
+      "poetik",
+      "poetik və məcazi",
+      "informativ",
+      "məcazi",
+      "elmi"
+    ],
+    "duzgun": 2,
+    "movzu": "Söz mənası və üslubiyyat",
+    "sinif": "11",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Fikirlərdən biri elmi üslub üçün yanlışdır.",
+    "secimler": [
+      "Elmi təfəkkürün ifadəsidir",
+      "Məntiqilik, ardıcıllıq, konkretlik, əsaslandırma, sübut və dəlil gətirmə tələb olunur",
+      "Obrazlılıq, emosionallıq, çoxmənalılıq, mətnaltı məna bu üslub üçün istisnadır",
+      "Bu üslub müxtəlif elm sahələrinin özünəməxsus dilidir",
+      "Bu üslubda modallıq bildirən söz və ifadələr, mürəkkəb cümlələr az işlənir"
+    ],
+    "duzgun": 4,
+    "movzu": "Elmi üslub",
+    "sinif": "11",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Nümunədə (\"Dərdlini dindirmə, özü dillənər.\") obrazlılıq göstəricisinin tam sırasını göstərin.",
+    "secimler": [
+      "Fonetik",
+      "leksik",
+      "fonetik, leksik",
+      "qrammatik",
+      "fonetik, leksik, qrammatik"
+    ],
+    "duzgun": 2,
+    "movzu": "Obrazlılıq",
+    "sinif": "11",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Publisistik üslubun əsası qoyulmuşdur:",
+    "secimler": [
+      "XX əsrin 70-ci illərində",
+      "XIX əsrin əvvəllərində",
+      "XVI əsrin əvvəllərində",
+      "XX əsrin əvvəllərində",
+      "XIX əsrin 70-ci illərində"
+    ],
+    "duzgun": 4,
+    "movzu": "Publisistik üslub",
+    "sinif": "11",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Hansı cərgədə verilmiş üslublarda dialoqlardan istifadə olunur?",
+    "secimler": [
+      "elmi və məişət",
+      "məişət və rəsmi",
+      "bədii və elmi",
+      "məişət və bədii",
+      "rəsmi və elmi"
+    ],
+    "duzgun": 3,
+    "movzu": "Publisistik üslub",
+    "sinif": "11",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Hərəkət dili (jest-mimika) barədə verilənlərdən biri yanlışdır.",
+    "secimler": [
+      "Məişət dilinin tərkib hissəsidir",
+      "İfadə olunacaq məzmunu dürüstləşdirir, dəqiqləşdirir, qavrayışı tezləşdirir və emosionallaşdırır",
+      "Dialoqun qarşı tərəfini təşkil edə bilər",
+      "Jestlərdən, hərəkət və işarə-siqnallardan kod kimi də istifadə etmək olar",
+      "Hərəkət dilinin bir komponenti də intonasiyadır"
+    ],
+    "duzgun": 2,
+    "movzu": "Hərəkət dili (jest-mimika)",
+    "sinif": "11",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Cərgələrdən birində yalnız dilçilik elminə aid terminlər verilmişdir.",
+    "secimler": [
+      "təyin, katet, təcil",
+      "üslub, morfologiya, mutasiya",
+      "xəbər, adat, benzol",
+      "sifət, orfoepiya, süjet",
+      "sintaksis, fonetika, leksem"
+    ],
+    "duzgun": 4,
+    "movzu": "Terminologiya",
+    "sinif": "11",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Keçmiş zaman\" ifadəsi neçənci növ təyini söz birləşməsidir?",
+    "secimler": [
+      "II növ",
+      "I növ",
+      "III növ",
+      "Həm I, həm də II növ"
+    ],
+    "duzgun": 1,
+    "movzu": "Söz birləşmələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Şahın bir nəfərə acığı tutanda onu itlərə atdırmış\" cümləsindəki feili birləşmənin növünü müəyyənləşdirin.",
+    "secimler": [
+      "feili bağlama tərkibi",
+      "feili sifət tərkibi",
+      "məsdər tərkibi",
+      "I növ təyini söz birləşməsi"
+    ],
+    "duzgun": 0,
+    "movzu": "Söz birləşmələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Şagirdlərin hamısı\" birləşməsi ilə bağlı doğru fikri müəyyənləşdirin.",
+    "secimler": [
+      "Tərəfləri isimlə ifadə olunub",
+      "II növ təyini söz birləşməsidir",
+      "İkinci tərəf ikinci şəxsin təkinin mənsubiyyət şəkilçisini qəbul edib",
+      "III növ təyini söz birləşməsidir"
+    ],
+    "duzgun": 3,
+    "movzu": "Söz birləşmələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Güclə dayanmaq, bərkdən gülmək, evdən qayıtmaq, sınağa çəkmək, qulaq asmaq, dərslərini öyrənmək, ayaq izi, oxumaq həvəsi — yuxarıda verilənlərdən neçəsində idarə əlaqəsi var?",
+    "secimler": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "duzgun": 2,
+    "movzu": "Söz birləşmələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Uzlaşma əlaqəsi hansı cümlə üzvləri arasında olur?",
+    "secimler": [
+      "mübtəda və xəbər",
+      "zərflik və xəbər",
+      "tamamlıq və xəbər",
+      "təyin və mübtəda"
+    ],
+    "duzgun": 0,
+    "movzu": "Söz birləşmələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Məktəb həyatı\" söz birləşməsinin birinci tərəfi ismin hansı halı ilə ifadə olunmuşdur?",
+    "secimler": [
+      "adlıq",
+      "yiyəlik",
+      "yönlük",
+      "təsirlik"
+    ],
+    "duzgun": 0,
+    "movzu": "Söz birləşmələri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Vətəni sevmək imandandır\" cümləsində mübtədanın ifadə vasitəsini tapın.",
+    "secimler": [
+      "I növ təyini söz birləşməsilə",
+      "feili sifətlə",
+      "məsdər tərkibi ilə",
+      "məsdərlə"
+    ],
+    "duzgun": 2,
+    "movzu": "Cümlə üzvləri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Bunlardan biri söz birləşməsidir. Hansı?",
+    "secimler": [
+      "sənin üçün",
+      "qədim şəhər",
+      "lap yaxşı",
+      "dünəndən bəri"
+    ],
+    "duzgun": 1,
+    "movzu": "Cümlə üzvləri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mübtədası isimlə ifadə olunan cümlə hansıdır?",
+    "secimler": [
+      "Birincilər yarışa həvəslə hazırlaşdırdılar.",
+      "Onun həyatı keşməkeşlərlə dolu idi.",
+      "Kitabxanaçı şagirdlərə yeni kitablar haqqında məlumat verdi.",
+      "İrəlidəkilər bizi gözlədilər."
+    ],
+    "duzgun": 2,
+    "movzu": "Cümlə üzvləri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Yalnız xəbərdən ibarət olan cümlə hansıdır?",
+    "secimler": [
+      "Kitab bilik mənbəyidir.",
+      "Qarşıda böyük izdiham var.",
+      "Mənim ona yazığım gəlir.",
+      "Həyatını yenidən qur."
+    ],
+    "duzgun": 3,
+    "movzu": "Cümlə üzvləri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Dəmir qapı, daş divar, qızıl üzük\" birləşmələrində tabe tərəf hansı nitq hissəsinə aiddir?",
+    "secimler": [
+      "isim",
+      "sifət",
+      "fel",
+      "zərf"
+    ],
+    "duzgun": 0,
+    "movzu": "Cümlə üzvləri",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Feili birləşmələrin cərgəsini göstərin.",
+    "secimler": [
+      "keçmiş günlər, görülən iş, yazdığım məktub",
+      "gün çıxanda, sakit oturmuş, evə getmək",
+      "solmuş yarpaq, gözəl söz, iti bıçaq",
+      "açılan sabah, gördüyüm hadisə, yorğun"
+    ],
+    "duzgun": 0,
+    "movzu": "Feili birləşmələr",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Bunlardan biri feili birləşmə deyil. Hansı?",
+    "secimler": [
+      "uzun-uzadı danışmaq",
+      "uzun-uzadı danışan",
+      "uzun-uzadı danışarkən",
+      "uzun-uzadı danışıq"
+    ],
+    "duzgun": 3,
+    "movzu": "Feili birləşmələr",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Hekayədə: sentyabr günündə alaçıqda uzanarkən toyuq qaqqıldayır, bir quş yükün altına soxulur, ailə çölə çıxıb böyük quşun (qızılquşun) dövrə vurduğunu görür; ana qızılquşu tanıyıb qovalamağa çalışır; qardaş yükün altındakı quşu (kəkliyi) tapır; hamı çölə çıxanda qızılquşlar uçub getmiş olur; qardaş kəkliyi havaya atır, o meşəyə qaçıb gizlənir. — Hansı başlıq mətnin ideya məzmununa daha çox uyğundur?",
+    "secimler": [
+      "kəklik",
+      "bir hadisə",
+      "qızılquş",
+      "meşədə",
+      "mənim qardaşım"
+    ],
+    "duzgun": 0,
+    "movzu": "Mətnin dərki (Kəklik hekayəsi)",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətndəki hadisələri düzgün ardıcıllıqla düzün (paraqraflar: 1-Anam qızılquşu tanıdı..., 2-Hamımız alaçıqdan çıxdıq, qızılquşlar uçub getmişdi..., 3-Biz alaçığa girən quşu axtarmağa başladıq..., 4-Qardaşım quşu havaya atdı..., 5-Sentyabrın isti günlərindən biri idi...).",
+    "secimler": [
+      "3.4.2.1.5",
+      "5.1.3.2.4",
+      "4.2.3.1.5",
+      "1.3.2.4.5",
+      "3.5.1.2.4"
+    ],
+    "duzgun": 1,
+    "movzu": "Mətnin dərki (Kəklik hekayəsi)",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Anam cücələri qorumaq üçün ...\" cümləsini mətnin məzmununa əsasən tamamlayın.",
+    "secimler": [
+      "qızılquşu öldürdü",
+      "əlinə böyük bir ağac alıb qovalamağa çalışdı",
+      "cücələri gizlətdi",
+      "köməyə adam çağırdı",
+      "göyə gülə atdı"
+    ],
+    "duzgun": 1,
+    "movzu": "Mətnin dərki (Kəklik hekayəsi)",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətnin məzmununa əsasən: Quş (kəklik) alaçıqdakı yükün altına niyə girdi?",
+    "secimler": [
+      "üşüyürdü",
+      "balasını orada gizlətmək istəyirdi",
+      "qızılquşdan qorunmaq istəyirdi",
+      "yem axtarırdı",
+      "qanadları zədələnmişdir"
+    ],
+    "duzgun": 2,
+    "movzu": "Mətnin dərki (Kəklik hekayəsi)",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Hansı cümlələr mətnin məzmununa uyğun deyil? (1-Qardaşım quşu azad etdi, 2-Kəklik balalarını tez gizlətdi, 3-Kəklik uçub getdi, 4-Quş yükün altında gizləndi, 5-Onu tutmaq istəyən qızılquş idi, 6-Qızılquş həyətdəki cücələrə hücum elədi)",
+    "secimler": [
+      "3, 4",
+      "1, 5",
+      "2, 6",
+      "4, 6",
+      "1, 3"
+    ],
+    "duzgun": 2,
+    "movzu": "Mətnin dərki (Kəklik hekayəsi)",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Hansı cümlədə mübtəda yoxdur?",
+    "secimler": [
+      "Elməddin dördüncü mərtəbədə yaşayır.",
+      "O, VII sırada əyləşmişdir.",
+      "7-ci sinif şagirdləri çox sevindilər.",
+      "Qardaşım II sinifdə oxuyur.",
+      "Avqustun 1-də Azərbaycan dili və Əlifbası günüdür."
+    ],
+    "duzgun": 4,
+    "movzu": "Sintaksis",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mürəkkəb adların yazılışında hansı variantda səhvə yol verilmişdir?",
+    "secimler": [
+      "\"Tərəqqi\" medalı",
+      "\"Azərbaycan müəllimi\" qəzeti",
+      "Doqquz May",
+      "Dövlət İmtahan Mərkəzi",
+      "Atlantik okeanı"
+    ],
+    "duzgun": 2,
+    "movzu": "İmla (mürəkkəb adların yazılışı)",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətndə (Yusif kişi 60 yaşında, sinəsində Vətən və oğul dərdi gəzdirir; oğlu Saleh universiteti bitirən il düşmən Qarabağa təcavüz edir, Saleh cəbhəyə könüllü gedir, Şuşa uğrunda döyüşlərdən məktub yazır, bir gün poçtalyon hüznlü halda qapını döyür) hansı suala cavab yoxdur?",
+    "secimler": [
+      "Yusif kişi niyə qocalmışdı?",
+      "Xarı bülbül harada bitirdi?",
+      "Nə üçün Xarı bülbül Şuşada bitir?",
+      "Poçtalyonun siması niyə hüznlü idi?",
+      "Saleh nə üçün cəbhəyə yollandı?"
+    ],
+    "duzgun": 2,
+    "movzu": "Mətnin dərki (Yusif kişi və Saleh hekayəsi)",
+    "sinif": "8",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətndə (Dünyanın yeddi möcüzəsi haqqında: Misir ehramları, Babilistanın asma bağları, Artemida məbədi, Zevsin heykəli, Kari şahlığındakı sərdabə, Rodos heykəli, İskəndəriyyə mayakı) hansı suala cavab yoxdur?",
+    "secimler": [
+      "Olimpiya oyunlarının vətəni haradır?",
+      "Yüz iyirmi ilə tikilmiş məbəd hansıdır?",
+      "Ehramların inşasına nə vaxtdan başlanıldı?",
+      "Ən böyük ehram hansıdır?"
+    ],
+    "duzgun": 2,
+    "movzu": "Mətnin dərki (Dünyanın yeddi möcüzəsi)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətnə uyğun olmayan fikir hansıdır?",
+    "secimler": [
+      "İki heykəltəraşın adı çəkilir.",
+      "İskəndəriyyə mayakı 280-ci ildə tikilmişdir.",
+      "Dünyanın beşinci möcüzəsi Kari şahlığının paytaxtında idi.",
+      "Artemida yunan ilahəsi idi."
+    ],
+    "duzgun": 1,
+    "movzu": "Mətnin dərki (Dünyanın yeddi möcüzəsi)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətndəki məlumata görə hansı mülahizə yanlışdır?",
+    "secimler": [
+      "Dünyanın ikinci möcüzəsi Faros adasında yerləşmir.",
+      "Dünyanın beşinci möcüzəsi Misir ehramları deyil.",
+      "Artemida heykəltəraş deyil.",
+      "Dünyanın dördüncü möcüzəsini Fidiy yaratmamışdır."
+    ],
+    "duzgun": 3,
+    "movzu": "Mətnin dərki (Dünyanın yeddi möcüzəsi)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətndə \"eramızdan əvvəl XXVIII əsrdə\" ifadəsindəki \"XXVIII\" roma rəqəmi hansı ərəb rəqəminə uyğundur?",
+    "secimler": [
+      "28",
+      "22",
+      "32",
+      "18"
+    ],
+    "duzgun": 0,
+    "movzu": "Mətnin dərki (Dünyanın yeddi möcüzəsi)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Mətnin I abzasının sonuncu cümləsində (\"Ən böyük ehram olan firon Xeops ehramı eramızdan əvvəl XXVIII əsrdə tikilmişdir\") ilk cümlə üzvü nədir və nə ilə ifadə olunub?",
+    "secimler": [
+      "mübtəda, feili sifət tərkibi ilə",
+      "təyin, çoxaltma dərəcəli sifətlə",
+      "təyin, feili sifət tərkibi ilə",
+      "təyin, düzəltmə sifətlə"
+    ],
+    "duzgun": 2,
+    "movzu": "Mətnin dərki (Dünyanın yeddi möcüzəsi)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Gücümüzü bir yerə toplaya bilməsək, məhv olacağıq\" cümləsində budaq cümlə baş cümləyə hansı vasitə ilə bağlanıb?",
+    "secimler": [
+      "yalnız intonasiya ilə",
+      "ədatla",
+      "tabelilik bağlayıcısı ilə",
+      "bağlayıcı sözlə",
+      "şərt şəkilçisi ilə"
+    ],
+    "duzgun": 4,
+    "movzu": "Tabeli mürəkkəb cümlə (budaq cümlələr)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Bağlayıcı sözlər daha çox nə ilə ifadə olunur?",
+    "secimler": [
+      "qeyri-müəyyən əvəzliklərlə",
+      "sual əvəzlikləri ilə",
+      "işarə əvəzlikləri ilə",
+      "isimlərlə",
+      "şəxs əvəzlikləri ilə"
+    ],
+    "duzgun": 1,
+    "movzu": "Tabeli mürəkkəb cümlə (budaq cümlələr)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Nə görübsə, desin\" nümunəsində budaq cümlənin növünü müəyyənləşdirin.",
+    "secimler": [
+      "mübtəda budaq cümləsi",
+      "tamamlıq budaq cümləsi",
+      "xəbər budaq cümləsi",
+      "məqsəd budaq cümləsi",
+      "şərt budaq cümləsi"
+    ],
+    "duzgun": 1,
+    "movzu": "Tabeli mürəkkəb cümlə (budaq cümlələr)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"O yerə ki göndərirlər, mütləq getməlisən\" nümunəsində budaq cümləni baş cümləyə bağlayan vasitə hansıdır?",
+    "secimler": [
+      "bağlayıcı söz",
+      "tabesizlik bağlayıcısı",
+      "tabelilik bağlayıcısı",
+      "şəkilçi",
+      "yalnız intonasiya"
+    ],
+    "duzgun": 2,
+    "movzu": "Tabeli mürəkkəb cümlə (budaq cümlələr)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Kərim çox yavaş-yavaş gedirdi, çünki ayaqları ağrıyırdı\" tabeli mürəkkəb cümləsinin növünü müəyyənləşdirin.",
+    "secimler": [
+      "qarşılaşdırma budaq cümləsi",
+      "zaman budaq cümləsi",
+      "məqsəd budaq cümləsi",
+      "səbəb budaq cümləsi",
+      "xəbər budaq cümləsi"
+    ],
+    "duzgun": 3,
+    "movzu": "Tabeli mürəkkəb cümlə (budaq cümlələr)",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Əli gəlib çıxanda gecədən xeyli keçmişdi\" cümləsinin şəxsə görə növünü müəyyənləşdirin.",
+    "secimler": [
+      "müəyyən şəxsli cümlə",
+      "adlıq cümlə",
+      "qeyri-müəyyən şəxsli cümlə",
+      "ümumi şəxsli cümlə",
+      "şəxssiz cümlə"
+    ],
+    "duzgun": 4,
+    "movzu": "Cümlənin şəxsə görə növləri",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Feildən düzələn sifəti göstərin.",
+    "secimler": [
+      "Basqın",
+      "sürgün",
+      "yaraqlı",
+      "yanğın",
+      "gərgin"
+    ],
+    "duzgun": 4,
+    "movzu": "Söz yaradıcılığı",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Bunlardan biri mürəkkəb sifət deyil. Hansı?",
+    "secimler": [
+      "gəlimli-gedimli",
+      "enişli-yoxuşlu",
+      "təkbətək",
+      "ağzıbağlı",
+      "gözüqırpıq"
+    ],
+    "duzgun": 2,
+    "movzu": "Söz yaradıcılığı",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Sifətdən düzələn ismi göstərin.",
+    "secimler": [
+      "birlik",
+      "mənlik",
+      "başlıq",
+      "orucluq",
+      "mərdlik"
+    ],
+    "duzgun": 4,
+    "movzu": "Söz yaradıcılığı",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Əvəzliklərdən biri məna növünə görə digərlərindən fərqlənir. Hansı?",
+    "secimler": [
+      "filan",
+      "hamı",
+      "kimsə",
+      "nə isə",
+      "hərə"
+    ],
+    "duzgun": 1,
+    "movzu": "Əvəzliklər",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Hansı söz birləşmələri sərbəst söz birləşməsi deyil (frazeoloji birləşmədir)? (1-Arana gəlmək, 2-Can almaq, 3-Uzaqdan gəlmək, 4-Xörək hazırlamaq, 5-dil tökmək)",
+    "secimler": [
+      "2;3",
+      "1;2",
+      "2;5",
+      "4;5",
+      "1;4"
+    ],
+    "duzgun": 2,
+    "movzu": "Frazeologizmlər və sərbəst söz birləşmələri",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Qızım, Cəmalə, çox narahat olma\" cümləsində əlavə nəyə aiddir?",
+    "secimler": [
+      "tamamlığa",
+      "mübtədaya",
+      "xəbərə",
+      "zərfliyə",
+      "xitaba"
+    ],
+    "duzgun": 4,
+    "movzu": "Cümlə üzvləri",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "Aşağıdakılardan hansında yanaşma əlaqəsi vardır?",
+    "secimler": [
+      "Sualın cavabı",
+      "kitabın üzü",
+      "çiskinli hava",
+      "bizlərdən birimiz",
+      "mahnını bəstələmək"
+    ],
+    "duzgun": 2,
+    "movzu": "Sintaktik əlaqə növləri",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "İsmi xəbərin ifadə vasitələrindən hansı doğru göstərilməyib?",
+    "secimler": [
+      "İsmi birləşmələr",
+      "Feili bağlama tərkibi",
+      "məsdər tərkibi",
+      "Feili sifət tərkibi",
+      "adlar (feil olmayan nitq hissələri)"
+    ],
+    "duzgun": 1,
+    "movzu": "Xəbər növləri",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
+  },
+  {
+    "sual": "\"Yaxınlaşdırmışdımsa\" feilinin morfoloji təhlilindəki səhvi tapın.",
+    "secimler": [
+      "−mış, -dır keçmiş zaman şəkilçiləridir, -m şəxs şəkilçisi, -sa hissəcikdir",
+      "sözün kökü sifət, başlanğıc forması feildir",
+      "−laş və -dır leksik şəkilçilərdir",
+      "−sa \"isə\" hissəciyidir, \"idi\" hissəciyinə artırılmışdır",
+      "Birinci şəxsin təkindədir"
+    ],
+    "duzgun": 0,
+    "movzu": "Feilin morfoloji təhlili",
+    "sinif": "9",
+    "fenn": "Azərbaycan dili"
   }
 ]

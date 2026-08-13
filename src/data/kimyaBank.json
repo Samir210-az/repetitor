@@ -12447,5 +12447,152 @@
     "movzu": "Molyar kütlə hesablamaları",
     "sinif": "9",
     "fenn": "Kimya"
+  },
+  {
+    "sual": "Hansı elementlər metallara aiddir?",
+    "secimler": [
+      "S, K, B",
+      "Si, Ca, Cu",
+      "Mg, Cr, N",
+      "Ba, Be, Mn",
+      "H, O, Fe"
+    ],
+    "duzgun": 3,
+    "movzu": "Metallar",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Alüminium haqqında səhv ifadəni müəyyən edin.",
+    "secimler": [
+      "Yüngül metaldır",
+      "Asanəriyən metaldır",
+      "s-elementidir",
+      "İonu qələvi məhlulla təyin edilir",
+      "Amfoter xassəli oksid və hidroksid əmələ gətirir"
+    ],
+    "duzgun": 2,
+    "movzu": "Metallar",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Be, Mg, Ca, Sr, Ba ardıcıllığında metalların ionlaşma enerjisi necə dəyişir?",
+    "secimler": [
+      "artır",
+      "azalır",
+      "dəyişmir",
+      "əvvəl artır, sonra azalır"
+    ],
+    "duzgun": 1,
+    "movzu": "Metallar",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Be, Mg, Ca, Sr, Ba ardıcıllığında metalların reduksiyaedicilik xassəsi necə dəyişir?",
+    "secimler": [
+      "artır",
+      "azalır",
+      "dəyişmir",
+      "əvvəl azalır, sonra artır"
+    ],
+    "duzgun": 0,
+    "movzu": "Metallar",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Aşağıdakı sxemlərdən hansı alüminotermiya üsuluna aid EDİLMİR: 1) AlCl₃+K→..., 2) Al+Cr₂O₃→..., 3) Al+Fe₃O₄→...",
+    "secimler": [
+      "1",
+      "2",
+      "3",
+      "2 və 3"
+    ],
+    "duzgun": 0,
+    "movzu": "Metallar",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Sink və xromun təbii (mineral) birləşmələrindən hansı sinkə aiddir? (1-ZnCO₃, 2-ZnS, 3-ZnCl₂, 4-Cr₂O₃, 5-CrBr₃, 6-FeO·Cr₂O₃)",
+    "secimler": [
+      "1, 2",
+      "3, 5",
+      "1, 6",
+      "2, 4",
+      "3, 4"
+    ],
+    "duzgun": 0,
+    "movzu": "Metallar",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Sink və xromun təbii (mineral) birləşmələrindən hansı xroma aiddir? (1-ZnCO₃, 2-ZnS, 3-ZnCl₂, 4-Cr₂O₃, 5-CrBr₃, 6-FeO·Cr₂O₃ — xromit)",
+    "secimler": [
+      "1",
+      "6",
+      "5",
+      "3"
+    ],
+    "duzgun": 1,
+    "movzu": "Metallar",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "HCl(məh), HBr(məh), HI(məh) sırasında daha güclü turşu hansıdır?",
+    "secimler": [
+      "HCl",
+      "HBr",
+      "HI",
+      "hamısı eyni güclüdür"
+    ],
+    "duzgun": 2,
+    "movzu": "Turşuların gücü",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "HClO₄, HBrO₄, HIO₄ sırasında daha güclü turşu hansıdır?",
+    "secimler": [
+      "HClO₄",
+      "HBrO₄",
+      "HIO₄",
+      "hamısı eyni güclüdür"
+    ],
+    "duzgun": 0,
+    "movzu": "Turşuların gücü",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Hansı birləşmədə hidrogenin kütlə payı (%) daha çoxdur?",
+    "secimler": [
+      "HF",
+      "HCl",
+      "HI",
+      "HBr"
+    ],
+    "duzgun": 0,
+    "movzu": "Kütlə payı hesablamaları",
+    "sinif": "9",
+    "fenn": "Kimya"
+  },
+  {
+    "sual": "Hansı birləşmədən suyun həm müvəqqəti, həm də daimi codluğunu aradan qaldırmaq üçün istifadə olunur?",
+    "secimler": [
+      "Na₂CO₃",
+      "NaHCO₃",
+      "Na₂SO₄",
+      "Ca(OH)₂",
+      "Ca(HCO₃)₂"
+    ],
+    "duzgun": 0,
+    "movzu": "Suyun codluğu",
+    "sinif": "9",
+    "fenn": "Kimya"
   }
 ]
