@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Lock, GraduationCap, Plus, Phone, Eye, MapPin, Monitor, Trash2, Pencil, Save, X } from "lucide-react";
+import { Lock, GraduationCap, Plus, Phone, Eye, MapPin, Monitor, Trash2, Pencil, Save, X, Loader2 } from "lucide-react";
 import { db, ref, onValue, set, remove, push, update } from "../lib/firebase.js";
 
 const ADMIN_PIN = "AL2026EA";
@@ -338,226 +338,118 @@ export default function SuperAdmin() {
   );
 }
 
-function SeedBankTool() {
+function SeedRow({ icon, title, hint, loader, removePath, buildUpdates, countLabel }) {
   const [status, setStatus] = useState("");
-  const [status2, setStatus2] = useState("");
-  const [banks, setBanks] = useState({});
+  const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    let cancelled = false;
-    Promise.all([
-      import("../data/fizikaBank.json"),
-      import("../data/azDiliBank.json"),
-      import("../data/kimyaBank.json"),
-      import("../data/riyaziyyatBank.json"),
-      import("../data/biologiyaBank.json"),
-      import("../data/edebiyyatBank.json"),
-      import("../data/hazirTestler.json"),
-    ]).then(([fizika, azDili, kimya, riyaziyyat, biologiya, edebiyyat, hazirTestler]) => {
-      if (cancelled) return;
-      setBanks({
-        fizika: fizika.default,
-        azDili: azDili.default,
-        kimya: kimya.default,
-        riyaziyyat: riyaziyyat.default,
-        biologiya: biologiya.default,
-        edebiyyat: edebiyyat.default,
-        hazirTestler: hazirTestler.default,
-      });
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  const fizikaBank = banks.fizika || [];
-  const azDiliBank = banks.azDili || [];
-  const kimyaBank = banks.kimya || [];
-  const riyaziyyatBank = banks.riyaziyyat || [];
-  const biologiyaBank = banks.biologiya || [];
-  const edebiyyatBank = banks.edebiyyat || [];
-  const hazirTestlerData = banks.hazirTestler || {};
-  const hazirTestSayi = Object.values(hazirTestlerData).reduce((sum, arr) => sum + (Array.isArray(arr) ? arr.length : 0), 0);
-
-  const banksLoading = Object.keys(banks).length < 7;
-
-  async function seedFizika() {
-    if (fizikaBank.length === 0) return;
-    setStatus("Köhnə qeydlər təmizlənir və yenidən yazılır...");
+  async function handleSeed() {
+    setLoading(true);
+    setStatus("Fayl yüklənir...");
     try {
-      await remove(ref(db, "repetitor/sualBanki/fizika"));
-      const updates = {};
-      fizikaBank.forEach((q) => {
-        const key = push(ref(db, "repetitor/sualBanki/fizika")).key;
-        updates[`repetitor/sualBanki/fizika/${key}`] = { ...q, yaradilib: Date.now() };
-      });
+      const mod = await loader();
+      const data = mod.default;
+      setStatus("Köhnə qeydlər təmizlənir və yenidən yazılır...");
+      await remove(ref(db, removePath));
+      const updates = buildUpdates(data);
       await update(ref(db), updates);
-      setStatus(`✅ Təmizləndi və ${fizikaBank.length} sual əlavə olundu.`);
+      setStatus(`✅ Təmizləndi və ${countLabel(data)} əlavə olundu.`);
     } catch (err) {
       setStatus("❌ Xəta: " + err.message);
-    }
-  }
-
-  async function seedAzDili() {
-    if (azDiliBank.length === 0) return;
-    setStatus2("Köhnə qeydlər təmizlənir və yenidən yazılır...");
-    try {
-      await remove(ref(db, "repetitor/sualBanki/azərbaycan dili"));
-      const updates = {};
-      azDiliBank.forEach((q) => {
-        const key = push(ref(db, "repetitor/sualBanki/azərbaycan dili")).key;
-        updates[`repetitor/sualBanki/azərbaycan dili/${key}`] = { ...q, yaradilib: Date.now() };
-      });
-      await update(ref(db), updates);
-      setStatus2(`✅ Təmizləndi və ${azDiliBank.length} sual əlavə olundu.`);
-    } catch (err) {
-      setStatus2("❌ Xəta: " + err.message);
-    }
-  }
-
-  const [status3, setStatus3] = useState("");
-  async function seedKimya() {
-    if (kimyaBank.length === 0) return;
-    setStatus3("Köhnə qeydlər təmizlənir və yenidən yazılır...");
-    try {
-      await remove(ref(db, "repetitor/sualBanki/kimya"));
-      const updates = {};
-      kimyaBank.forEach((q) => {
-        const key = push(ref(db, "repetitor/sualBanki/kimya")).key;
-        updates[`repetitor/sualBanki/kimya/${key}`] = { ...q, yaradilib: Date.now() };
-      });
-      await update(ref(db), updates);
-      setStatus3(`✅ Təmizləndi və ${kimyaBank.length} sual əlavə olundu.`);
-    } catch (err) {
-      setStatus3("❌ Xəta: " + err.message);
-    }
-  }
-
-  const [status4, setStatus4] = useState("");
-  async function seedRiyaziyyat() {
-    if (riyaziyyatBank.length === 0) return;
-    setStatus4("Köhnə qeydlər təmizlənir və yenidən yazılır...");
-    try {
-      await remove(ref(db, "repetitor/sualBanki/riyaziyyat"));
-      const updates = {};
-      riyaziyyatBank.forEach((q) => {
-        const key = push(ref(db, "repetitor/sualBanki/riyaziyyat")).key;
-        updates[`repetitor/sualBanki/riyaziyyat/${key}`] = { ...q, yaradilib: Date.now() };
-      });
-      await update(ref(db), updates);
-      setStatus4(`✅ Təmizləndi və ${riyaziyyatBank.length} sual əlavə olundu.`);
-    } catch (err) {
-      setStatus4("❌ Xəta: " + err.message);
-    }
-  }
-
-  const [status5, setStatus5] = useState("");
-  async function seedBiologiya() {
-    if (biologiyaBank.length === 0) return;
-    setStatus5("Köhnə qeydlər təmizlənir və yenidən yazılır...");
-    try {
-      await remove(ref(db, "repetitor/sualBanki/biologiya"));
-      const updates = {};
-      biologiyaBank.forEach((q) => {
-        const key = push(ref(db, "repetitor/sualBanki/biologiya")).key;
-        updates[`repetitor/sualBanki/biologiya/${key}`] = { ...q, yaradilib: Date.now() };
-      });
-      await update(ref(db), updates);
-      setStatus5(`✅ Təmizləndi və ${biologiyaBank.length} sual əlavə olundu.`);
-    } catch (err) {
-      setStatus5("❌ Xəta: " + err.message);
-    }
-  }
-
-  const [status6, setStatus6] = useState("");
-  async function seedEdebiyyat() {
-    if (edebiyyatBank.length === 0) return;
-    setStatus6("Köhnə qeydlər təmizlənir və yenidən yazılır...");
-    try {
-      await remove(ref(db, "repetitor/sualBanki/ədəbiyyat"));
-      const updates = {};
-      edebiyyatBank.forEach((q) => {
-        const key = push(ref(db, "repetitor/sualBanki/ədəbiyyat")).key;
-        updates[`repetitor/sualBanki/ədəbiyyat/${key}`] = { ...q, yaradilib: Date.now() };
-      });
-      await update(ref(db), updates);
-      setStatus6(`✅ Təmizləndi və ${edebiyyatBank.length} sual əlavə olundu.`);
-    } catch (err) {
-      setStatus6("❌ Xəta: " + err.message);
-    }
-  }
-
-  const [status7, setStatus7] = useState("");
-  async function seedHazirTestler() {
-    if (hazirTestSayi === 0) return;
-    setStatus7("Köhnə qeydlər təmizlənir və yenidən yazılır...");
-    try {
-      await remove(ref(db, "repetitor/hazirTestler"));
-      const updates = {};
-      Object.entries(hazirTestlerData).forEach(([fenn, tests]) => {
-        const fennKey = fenn.trim().toLowerCase();
-        (tests || []).forEach((t) => {
-          updates[`repetitor/hazirTestler/${fennKey}/${t.id}`] = { ...t, yaradilib: Date.now() };
-        });
-      });
-      await update(ref(db), updates);
-      setStatus7(`✅ Təmizləndi və ${hazirTestSayi} hazır test (${Object.keys(hazirTestlerData).length} fənn üzrə) əlavə olundu.`);
-    } catch (err) {
-      setStatus7("❌ Xəta: " + err.message);
+    } finally {
+      setLoading(false);
     }
   }
 
   return (
+    <div className="pt-3 border-t border-white/10 first:border-t-0 first:pt-0">
+      <p className="text-white/60 text-sm mb-3">{icon} {title} {hint && <span className="text-white/40">({hint})</span>}</p>
+      <button onClick={handleSeed} disabled={loading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40 flex items-center gap-2">
+        {loading && <Loader2 size={12} className="animate-spin" />} Doldur
+      </button>
+      {status && <p className="text-xs font-mono text-white/70 mt-3">{status}</p>}
+    </div>
+  );
+}
+
+function bankUpdates(fbKey) {
+  return (data) => {
+    const updates = {};
+    data.forEach((q) => {
+      const key = push(ref(db, `repetitor/sualBanki/${fbKey}`)).key;
+      updates[`repetitor/sualBanki/${fbKey}/${key}`] = { ...q, yaradilib: Date.now() };
+    });
+    return updates;
+  };
+}
+
+function SeedBankTool() {
+  return (
     <div className="card-dark p-5 mt-6 space-y-4">
-      <div>
-        <p className="text-white/60 text-sm mb-3">📚 Fizika dəstini əlavə et ({fizikaBank.length} sual — 8-ci və 11-ci sinif, mövzu üzrə etiketlənmiş)</p>
-        <button onClick={seedFizika} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
-          Fizika bankını doldur
-        </button>
-        {status && <p className="text-xs font-mono text-white/70 mt-3">{status}</p>}
-      </div>
-      <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">📚 Azərbaycan dili dəstini əlavə et ({azDiliBank.length} sual — 8-ci və 11-ci sinif)</p>
-        <button onClick={seedAzDili} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
-          Az.dili bankını doldur
-        </button>
-        {status2 && <p className="text-xs font-mono text-white/70 mt-3">{status2}</p>}
-      </div>
-      <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">📚 Kimya dəstini əlavə et ({kimyaBank.length} sual — 8, 10 və 11-ci sinif, 73 mövzu)</p>
-        <button onClick={seedKimya} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
-          Kimya bankını doldur
-        </button>
-        {status3 && <p className="text-xs font-mono text-white/70 mt-3">{status3}</p>}
-      </div>
-      <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">📚 Riyaziyyat dəstini əlavə et ({riyaziyyatBank.length} sual — 8-ci və 11-ci sinif, 34 mövzu)</p>
-        <button onClick={seedRiyaziyyat} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
-          Riyaziyyat bankını doldur
-        </button>
-        {status4 && <p className="text-xs font-mono text-white/70 mt-3">{status4}</p>}
-      </div>
-      <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">📚 Biologiya-8 dəstini əlavə et ({biologiyaBank.length} sual, 12 mövzu — İnsan biologiyası, 1-ci hissə)</p>
-        <button onClick={seedBiologiya} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
-          Biologiya bankını doldur
-        </button>
-        {status5 && <p className="text-xs font-mono text-white/70 mt-3">{status5}</p>}
-      </div>
-      <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">📚 Ədəbiyyat dəstini əlavə et ({edebiyyatBank.length} sual — 8, 9 və 10-cu sinif)</p>
-        <button onClick={seedEdebiyyat} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
-          Ədəbiyyat bankını doldur
-        </button>
-        {status6 && <p className="text-xs font-mono text-white/70 mt-3">{status6}</p>}
-      </div>
-      <div className="pt-3 border-t border-white/10">
-        <p className="text-white/60 text-sm mb-3">🗂️ Hazır Testlər dəstini əlavə et ({hazirTestSayi} sual, {Object.values(hazirTestlerData).reduce((s, a) => s + (a?.length || 0), 0)} test, mövzu üzrə ayrı-ayrı — Riyaziyyat, Kimya, Az.dili, Fizika, Biologiya)</p>
-        <button onClick={seedHazirTestler} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
-          Hazır Testlər dəstini doldur
-        </button>
-        {status7 && <p className="text-xs font-mono text-white/70 mt-3">{status7}</p>}
-      </div>
+      <p className="text-white/35 text-xs -mt-1 mb-1">
+        Hər dəst yalnız düyməni basanda yüklənir (səhifə açılışında heç nə endirilmir).
+      </p>
+      <SeedRow
+        icon="📚" title="Fizika dəstini əlavə et" hint="8-ci və 11-ci sinif, mövzu üzrə etiketlənmiş"
+        loader={() => import("../data/fizikaBank.json")}
+        removePath="repetitor/sualBanki/fizika"
+        buildUpdates={bankUpdates("fizika")}
+        countLabel={(d) => `${d.length} sual`}
+      />
+      <SeedRow
+        icon="📚" title="Azərbaycan dili dəstini əlavə et" hint="8-ci və 11-ci sinif"
+        loader={() => import("../data/azDiliBank.json")}
+        removePath="repetitor/sualBanki/azərbaycan dili"
+        buildUpdates={bankUpdates("azərbaycan dili")}
+        countLabel={(d) => `${d.length} sual`}
+      />
+      <SeedRow
+        icon="📚" title="Kimya dəstini əlavə et" hint="8, 10 və 11-ci sinif, 73 mövzu"
+        loader={() => import("../data/kimyaBank.json")}
+        removePath="repetitor/sualBanki/kimya"
+        buildUpdates={bankUpdates("kimya")}
+        countLabel={(d) => `${d.length} sual`}
+      />
+      <SeedRow
+        icon="📚" title="Riyaziyyat dəstini əlavə et" hint="8-ci və 11-ci sinif, 34 mövzu"
+        loader={() => import("../data/riyaziyyatBank.json")}
+        removePath="repetitor/sualBanki/riyaziyyat"
+        buildUpdates={bankUpdates("riyaziyyat")}
+        countLabel={(d) => `${d.length} sual`}
+      />
+      <SeedRow
+        icon="📚" title="Biologiya-8 dəstini əlavə et" hint="12 mövzu — İnsan biologiyası, 1-ci hissə"
+        loader={() => import("../data/biologiyaBank.json")}
+        removePath="repetitor/sualBanki/biologiya"
+        buildUpdates={bankUpdates("biologiya")}
+        countLabel={(d) => `${d.length} sual`}
+      />
+      <SeedRow
+        icon="📚" title="Ədəbiyyat dəstini əlavə et" hint="8, 9 və 10-cu sinif"
+        loader={() => import("../data/edebiyyatBank.json")}
+        removePath="repetitor/sualBanki/ədəbiyyat"
+        buildUpdates={bankUpdates("ədəbiyyat")}
+        countLabel={(d) => `${d.length} sual`}
+      />
+      <SeedRow
+        icon="🗂️" title="Hazır Testlər dəstini əlavə et" hint="mövzu üzrə ayrı-ayrı — Riyaziyyat, Kimya, Az.dili, Fizika, Biologiya"
+        loader={() => import("../data/hazirTestler.json")}
+        removePath="repetitor/hazirTestler"
+        buildUpdates={(data) => {
+          const updates = {};
+          Object.entries(data).forEach(([fenn, tests]) => {
+            const fennKey = fenn.trim().toLowerCase();
+            (tests || []).forEach((t) => {
+              updates[`repetitor/hazirTestler/${fennKey}/${t.id}`] = { ...t, yaradilib: Date.now() };
+            });
+          });
+          return updates;
+        }}
+        countLabel={(data) => {
+          const testSayi = Object.values(data).reduce((s, a) => s + (a?.length || 0), 0);
+          const sualSayi = Object.values(data).reduce((s, a) => s + (a || []).reduce((ss, t) => ss + (t.suallar?.length || 0), 0), 0);
+          return `${testSayi} hazır test (${sualSayi} sual)`;
+        }}
+      />
     </div>
   );
 }
