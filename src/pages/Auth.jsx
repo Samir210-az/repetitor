@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { GraduationCap, ArrowRight, Loader2 } from "lucide-react";
-import { db, ref, set, get, tenantPath } from "../lib/firebase.js";
+import { db, ref, set, get, tenantPath, signInTenant } from "../lib/firebase.js";
 import { saveSession, slugify } from "../lib/session.js";
 import { trackVisit } from "../lib/analytics.js";
 
@@ -54,6 +54,8 @@ export default function Auth() {
         plan: "sınaq",
       });
       await set(indexRef, tenantId);
+      // Faza 1: Firebase Auth-a da səssizcə qoşulmağa çalışırıq (uğursuz olsa belə axın davam edir)
+      await signInTenant(tenantId, pin);
       saveSession(tenantId, { ad, fenn });
       navigate("/panel");
     } catch (err) {
@@ -87,6 +89,8 @@ export default function Auth() {
         setLoading(false);
         return;
       }
+      // Faza 1: Firebase Auth-a da səssizcə qoşulmağa çalışırıq (uğursuz olsa belə axın davam edir)
+      await signInTenant(tenantId, pin);
       saveSession(tenantId, { ad: profil.ad, fenn: profil.fenn });
       navigate("/panel");
     } catch (err) {

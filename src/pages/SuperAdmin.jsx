@@ -459,6 +459,8 @@ function DiagnosticPing() {
   const [result2, setResult2] = useState("");
   const [loading, setLoading] = useState(false);
   const [loading2, setLoading2] = useState(false);
+  const [result3, setResult3] = useState("");
+  const [loading3, setLoading3] = useState(false);
 
   async function test() {
     setLoading(true);
@@ -496,6 +498,30 @@ function DiagnosticPing() {
     }
   }
 
+  async function testAuthToken() {
+    setLoading3(true);
+    setResult3("");
+    try {
+      const res = await fetch("/api/auth-token", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ tenantId: "___diagnostik-yoxlama___", pin: "0000" }),
+      });
+      const data = await res.json();
+      if (res.status === 404 && data.error === "Tenant tapılmadı") {
+        setResult3("✅ SERVICE ACCOUNT DÜZGÜN QURULUB (Admin SDK bazaya qoşuldu, gözlənildiyi kimi 'tenant tapılmadı' qaytardı — bu test tenant-ı həqiqətən yoxdur).");
+      } else if (res.status === 500 && /FIREBASE_SERVICE_ACCOUNT/.test(data.error || "")) {
+        setResult3("❌ FIREBASE_SERVICE_ACCOUNT env dəyişəni hələ qurulmayıb (Vercel Dashboard → Settings → Environment Variables).");
+      } else {
+        setResult3(`ℹ️ Status ${res.status}: ${JSON.stringify(data)}`);
+      }
+    } catch (err) {
+      setResult3("❌ XƏTA: " + (err.message || String(err)));
+    } finally {
+      setLoading3(false);
+    }
+  }
+
   return (
     <div className="card-dark p-5 mt-6 space-y-4">
       <div>
@@ -511,6 +537,13 @@ function DiagnosticPing() {
           {loading2 ? "Yoxlanılır..." : "Mock test et"}
         </button>
         {result2 && <p className="text-xs font-mono text-white/70 mt-3 break-all">{result2}</p>}
+      </div>
+      <div className="pt-3 border-t border-white/10">
+        <p className="text-white/60 text-sm mb-3">🔧 Test 3: Firebase Auth custom token (Admin SDK qurulub-qurulmadığını yoxlayır, real hesaba toxunmur)</p>
+        <button onClick={testAuthToken} disabled={loading3} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70">
+          {loading3 ? "Yoxlanılır..." : "Auth-token test et"}
+        </button>
+        {result3 && <p className="text-xs font-mono text-white/70 mt-3 break-all">{result3}</p>}
       </div>
     </div>
   );

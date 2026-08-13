@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, get, set, push, update, remove, onValue } from "firebase/database";
+import { getAuth, signInWithCustomToken, signOut as fbSignOut, onAuthStateChanged } from "firebase/auth";
 
 // TODO (Samir): Firebase Console-da yeni layihə yarat -> "repetitor"
 // Layihə Settings -> General -> "Your apps" -> Web app əlavə et -> config-i bura yapışdır.
@@ -32,6 +33,38 @@ const firebaseConfig = {
 
 export const app = initializeApp(firebaseConfig);
 export const db = getDatabase(app);
+export const auth = getAuth(app);
+
+// ---- Əsl Firebase Auth (custom token) — Faza 1: əlavə, mövcud PIN axınını pozmur ----
+// Login/Qeydiyyatdan sonra çağırılır. /api/auth-token PIN-i serverdə (Admin SDK ilə)
+// yoxlayır və tenantId-yə bağlı custom token qaytarır. Uğursuz olsa (məs. hələ
+// FIREBASE_SERVICE_ACCOUNT qurulmayıb), səssizcə keçilir — köhnə axın toxunulmaz qalır.
+export async function signInTenant(tenantId, pin) {
+  try {
+    const res = await fetch("/api/auth-token", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tenantId, pin }),
+    });
+    if (!res.ok) return { ok: false, reason: `http-${res.status}` };
+    const data = await res.json();
+    if (!data?.token) return { ok: false, reason: "no-token" };
+    await signInWithCustomToken(auth, data.token);
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, reason: err?.message || "unknown" };
+  }
+}
+
+export async function signOutTenant() {
+  try {
+    await fbSignOut(auth);
+  } catch {
+    /* səssiz — signOut heç vaxt UI-ı bloklamamalıdır */
+  }
+}
+
+export { onAuthStateChanged };
 
 const ROOT = "repetitor/tenants";
 
