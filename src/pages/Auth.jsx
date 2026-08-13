@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { GraduationCap, ArrowRight, Loader2 } from "lucide-react";
-import { db, ref, set, get, tenantPath, signInTenant } from "../lib/firebase.js";
+import { db, ref, set, get, tenantPath, signInTenant, registerTenant } from "../lib/firebase.js";
 import { saveSession, slugify } from "../lib/session.js";
 import { trackVisit } from "../lib/analytics.js";
 
@@ -44,6 +44,14 @@ export default function Auth() {
       }
       const tenantId = `${slugify(ad)}-${phoneKey.slice(-4)}`;
       const trialDays = 7;
+      // Faza 2: profil yazılmazdan ƏVVƏL Firebase Auth-a qoşuluruq (register rejimi) —
+      // əks halda "yalnız sahibi yaza bilsin" qaydası elə bu ilk yazını özü bloklayardı.
+      const authRes = await registerTenant(tenantId);
+      if (!authRes.ok) {
+        setError("Qeydiyyat mümkün olmadı (təhlükəsizlik xidməti cavab vermədi). Bir az sonra yenidən sına.");
+        setLoading(false);
+        return;
+      }
       await set(ref(db, tenantPath(tenantId, "profil")), {
         ad,
         fenn,
@@ -54,8 +62,6 @@ export default function Auth() {
         plan: "sınaq",
       });
       await set(indexRef, tenantId);
-      // Faza 1: Firebase Auth-a da səssizcə qoşulmağa çalışırıq (uğursuz olsa belə axın davam edir)
-      await signInTenant(tenantId, pin);
       saveSession(tenantId, { ad, fenn });
       navigate("/panel");
     } catch (err) {

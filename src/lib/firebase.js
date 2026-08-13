@@ -56,6 +56,26 @@ export async function signInTenant(tenantId, pin) {
   }
 }
 
+// Qeydiyyat üçün: profil yazılmazdan ƏVVƏL çağırılmalıdır ki, "tenants/$tenantId"
+// üzərində Firebase Auth tələb edən yazma qaydası qeydiyyatı bloklamasın.
+// Server (/api/auth-token, mode=register) yalnız tenantId hələ mövcud deyilsə token verir.
+export async function registerTenant(tenantId) {
+  try {
+    const res = await fetch("/api/auth-token", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tenantId, mode: "register" }),
+    });
+    if (!res.ok) return { ok: false, reason: `http-${res.status}` };
+    const data = await res.json();
+    if (!data?.token) return { ok: false, reason: "no-token" };
+    await signInWithCustomToken(auth, data.token);
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, reason: err?.message || "unknown" };
+  }
+}
+
 export async function signOutTenant() {
   try {
     await fbSignOut(auth);

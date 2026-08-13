@@ -31,15 +31,33 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { tenantId, pin } = req.body || {};
-    if (!tenantId || !pin) {
-      res.status(400).json({ error: "tenantId və pin lazımdır" });
+    const { tenantId, pin, mode } = req.body || {};
+    if (!tenantId) {
+      res.status(400).json({ error: "tenantId lazımdır" });
       return;
     }
 
     const adminApp = getAdminApp();
     const db = getDatabase(adminApp);
 
+    if (mode === "register") {
+      // Qeydiyyat rejimi: hələ PIN yoxdur (indi yaradılır). Yalnız bu tenantId
+      // artıq mövcud DEYİLSƏ token veririk — beləliklə kimsə mövcud bir tenantId-ni
+      // "qeydiyyatdan keçirərək" üstündən yaza bilməz.
+      const existing = await db.ref(`repetitor/tenants/${tenantId}/profil`).get();
+      if (existing.exists()) {
+        res.status(409).json({ error: "Bu tenant artıq mövcuddur" });
+        return;
+      }
+      const token = await getAuth(adminApp).createCustomToken(tenantId);
+      res.status(200).json({ token });
+      return;
+    }
+
+    if (!pin) {
+      res.status(400).json({ error: "pin lazımdır" });
+      return;
+    }
     const snap = await db.ref(`repetitor/tenants/${tenantId}/profil`).get();
     if (!snap.exists()) {
       res.status(404).json({ error: "Tenant tapılmadı" });
