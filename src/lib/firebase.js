@@ -2,24 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, get, set, push, update, remove, onValue } from "firebase/database";
 import { getAuth, signInWithCustomToken, signOut as fbSignOut, onAuthStateChanged } from "firebase/auth";
 
-// TODO (Samir): Firebase Console-da yeni layihə yarat -> "repetitor"
-// Layihə Settings -> General -> "Your apps" -> Web app əlavə et -> config-i bura yapışdır.
-// Realtime Database yaradanda REGION seç (məs. Europe) və rules-u aşağıdakı kimi et:
-//
-// {
-//   "rules": {
-//     "repetitor": {
-//       "tenants": {
-//         "$tenantId": {
-//           ".read": true,
-//           ".write": true
-//         }
-//       }
-//     }
-//   }
-// }
-//
-// (Sonra istəsən daha sərt PIN-əsaslı qaydalara keçirərik.)
+// Firebase Realtime Database qaydaları (2026 — Faza 2, təhlükəsizləşdirilib):
+// - repetitor/tenants/$tenantId yalnız auth.uid === $tenantId olan (yəni öz PIN-i ilə
+//   daxil olmuş müəllim) yaza bilər.
+// - İstisna: testler/$testId/neticeler/$sagirdId və sagirdler/$sagirdId/neticeler/$testId
+//   açıq saxlanılıb — şagirdlər login olmadan imtahan nəticəsi göndərə bilsin deyə.
+// - phone_index, analytics, sualBanki, hazirTestler ayrıca açıq node-lardır.
+// Qaydaların tam mətni: Firebase Console -> Realtime Database -> Rules.
 
 const firebaseConfig = {
   apiKey: "AIzaSyCyHPpvIuUZszE4krjv3bY4zfRBMr-U-bE",
