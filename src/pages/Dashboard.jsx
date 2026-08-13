@@ -6,7 +6,7 @@ import {
   LogOut, Plus, Trash2, Check, X, Lock, FileQuestion, Sparkles,
   Printer, ChevronLeft, Loader2, Share2, TrendingUp, Layers,
 } from "lucide-react";
-import { db, ref, onValue, push, set, remove, tenantPath } from "../lib/firebase.js";
+import { db, ref, onValue, push, set, remove, tenantPath, auth, onAuthStateChanged, signInTenant } from "../lib/firebase.js";
 import { getSession, clearSession } from "../lib/session.js";
 import { generateTest } from "../lib/ai.js";
 import StatusBoard from "../components/StatusBoard.jsx";
@@ -73,11 +73,79 @@ function useProfil(tenantId) {
   return profil;
 }
 
+// Faza 1 körpüsü: köhnə (PIN-only) sessiyalar Firebase Auth-a hələ qoşulmayıb.
+// Bu hook cari Firebase Auth istifadəçisinin tenantId ilə üst-üstə düşüb-düşmədiyini
+// izləyir. Düşmürsə, Dashboard bir dəfəlik PIN təsdiqi istəyir (ReauthGate) —
+// beləliklə hamı sərt qaydalara keçmədən əvvəl "körpüdən" keçmiş olur.
+function useFirebaseAuthBridge(tenantId) {
+  const [ok, setOk] = useState(null); // null = hələ yoxlanılır
+  useEffect(() => {
+    if (!tenantId) return;
+    const unsub = onAuthStateChanged(auth, (user) => {
+      setOk(!!user && user.uid === tenantId);
+    });
+    return () => unsub();
+  }, [tenantId]);
+  return ok === null ? true : ok; // yoxlanarkən (bir anlıq) bloklamırıq — çırpınma olmasın
+}
+
+function ReauthGate({ tenantId, onLogout }) {
+  const [pin, setPin] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    if (!pin) return;
+    setLoading(true);
+    setError("");
+    const res = await signInTenant(tenantId, pin);
+    setLoading(false);
+    if (!res.ok) {
+      setError("PIN yanlışdır və ya bağlantı xətası oldu. Yenidən yoxla.");
+      return;
+    }
+    // onAuthStateChanged özü Dashboard-ı yeniləyəcək, əlavə addım lazım deyil.
+  }
+
+  return (
+    <div className="min-h-screen bg-paper flex items-center justify-center container-px py-16">
+      <div className="w-full max-w-sm card p-6">
+        <div className="flex items-center gap-2 mb-3 text-slateink font-display text-lg font-semibold">
+          <Lock size={18} className="text-gold" /> Təhlükəsizlik yeniləməsi
+        </div>
+        <p className="text-slateink/60 text-sm mb-5">
+          Hesabını daha etibarlı qorumaq üçün bir dəfəlik PIN-ini təsdiqləməyini xahiş edirik. Bu, yalnız indi lazımdır.
+        </p>
+        <form onSubmit={handleSubmit} className="space-y-3">
+          <input
+            type="password"
+            inputMode="numeric"
+            value={pin}
+            onChange={(e) => setPin(e.target.value)}
+            placeholder="PIN"
+            autoFocus
+            className="w-full px-4 py-3 rounded-xl border border-black/10 bg-white text-slateink text-sm focus:outline-none focus:ring-2 focus:ring-gold/40"
+          />
+          {error && <p className="text-coral text-xs">{error}</p>}
+          <button type="submit" disabled={loading} className="btn-primary w-full justify-center !py-3">
+            {loading ? <Loader2 className="animate-spin" size={16} /> : "Təsdiqlə"}
+          </button>
+        </form>
+        <button onClick={onLogout} className="text-slateink/40 text-xs mt-4 hover:text-slateink/70 transition-colors">
+          Çıxış et
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function Dashboard() {
   const navigate = useNavigate();
   const [session, setSession] = useState(null);
   const [tab, setTab] = useState("qruplar");
   const profil = useProfil(session?.tenantId);
+  const firebaseAuthOk = useFirebaseAuthBridge(session?.tenantId);
 
   useEffect(() => {
     const s = getSession();
@@ -99,6 +167,10 @@ export default function Dashboard() {
 
   if (expired) {
     return <TrialExpired ad={profil.ad} onLogout={handleLogout} />;
+  }
+
+  if (!firebaseAuthOk) {
+    return <ReauthGate tenantId={session.tenantId} onLogout={handleLogout} />;
   }
 
   return (
