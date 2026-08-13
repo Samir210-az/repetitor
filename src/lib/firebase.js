@@ -65,6 +65,23 @@ export async function registerTenant(tenantId) {
   }
 }
 
+export async function signInAdmin(pin) {
+  try {
+    const res = await fetch("/api/admin-token", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ pin }),
+    });
+    if (!res.ok) return { ok: false, reason: `http-${res.status}` };
+    const data = await res.json();
+    if (!data?.token) return { ok: false, reason: "no-token" };
+    await signInWithCustomToken(auth, data.token);
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, reason: err?.message || "unknown" };
+  }
+}
+
 export async function signOutTenant() {
   try {
     await fbSignOut(auth);

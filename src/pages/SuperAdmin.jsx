@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Lock, GraduationCap, Plus, Phone, Eye, MapPin, Monitor, Trash2, Pencil, Save, X, Loader2 } from "lucide-react";
-import { db, ref, onValue, set, remove, push, update } from "../lib/firebase.js";
+import { db, ref, onValue, set, remove, push, update, signInAdmin } from "../lib/firebase.js";
 
 const ADMIN_PIN = "AL2026EA";
 const DAY = 24 * 60 * 60 * 1000;
@@ -41,6 +41,10 @@ export default function SuperAdmin() {
     if (pin === ADMIN_PIN) {
       setAuthed(true);
       setError("");
+      // Bütün tenant-ları idarə etmək (uzatma, silmə, redaktə) üçün ayrıca
+      // "admin" Firebase Auth şəxsiyyətinə də qoşuluruq (səssiz, uğursuz olsa
+      // yazma cəhdləri özləri xəta göstərəcək).
+      signInAdmin(pin);
     } else {
       setError("PIN yanlışdır.");
     }
