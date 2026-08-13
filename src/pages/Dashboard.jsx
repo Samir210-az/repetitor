@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   GraduationCap, Users, CalendarClock, Wallet, ClipboardCheck,
   LogOut, Plus, Trash2, Check, X, Lock, FileQuestion, Sparkles,
-  Printer, ChevronLeft, Loader2, Share2, TrendingUp,
+  Printer, ChevronLeft, Loader2, Share2, TrendingUp, Layers,
 } from "lucide-react";
 import { db, ref, onValue, push, set, remove, tenantPath } from "../lib/firebase.js";
 import { getSession, clearSession } from "../lib/session.js";
@@ -775,6 +775,10 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const bank = useSharedCollection(bankKey ? `repetitor/sualBanki/${bankKey}` : null);
   const [bankMsg, setBankMsg] = useState("");
   const [bankLoading, setBankLoading] = useState(false);
+  const hazirTestlerBank = useSharedCollection(bankKey ? `repetitor/hazirTestler/${bankKey}` : null);
+  const [hazirPickerOpen, setHazirPickerOpen] = useState(false);
+  const [hazirSinifFiltr, setHazirSinifFiltr] = useState("");
+  const [hazirLoading, setHazirLoading] = useState(false);
   const tests = useCollection(tenantId, "testler");
   const groups = useCollection(tenantId, "qruplar");
   const [sinif, setSinif] = useState("");
@@ -875,6 +879,27 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
     if (openId === id) setOpenId(null);
   }
 
+  async function assignHazirTest(t) {
+    setHazirLoading(true);
+    try {
+      const r = push(ref(db, tenantPath(tenantId, "testler")));
+      await set(r, {
+        baslik: t.baslik,
+        sinif: t.sinif,
+        fenn,
+        yaradilib: Date.now(),
+        mənbə: "hazir-test",
+        movzu: t.movzu,
+        ...(t["mətn"] ? { mətn: t["mətn"] } : {}),
+        suallar: t.suallar,
+      });
+      setHazirPickerOpen(false);
+      setOpenId(r.key);
+    } finally {
+      setHazirLoading(false);
+    }
+  }
+
   if (openId && tests[openId]) {
     return <TestDetail test={tests[openId]} tenantId={tenantId} testId={openId} repetitorAd={repetitorAd} onBack={() => setOpenId(null)} onDelete={() => del(openId)} />;
   }
@@ -944,6 +969,41 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
                 <p className="absolute left-0 top-full mt-2 w-[min(18rem,calc(100vw-3rem))] text-xs text-coral bg-coral/10 rounded-lg px-3 py-2">
                   {bankMsg}
                 </p>
+              )}
+            </div>
+          )}
+          {Object.keys(hazirTestlerBank).length > 0 && (
+            <div className="relative">
+              <button
+                onClick={() => setHazirPickerOpen((v) => !v)}
+                className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-semibold bg-slateink text-white hover:opacity-90 transition-opacity"
+              >
+                <Layers size={16} /> Hazır Testlər (mövzu üzrə)
+              </button>
+              {hazirPickerOpen && (
+                <div className="absolute left-0 sm:right-0 sm:left-auto top-full mt-2 w-[min(22rem,calc(100vw-3rem))] card p-3 z-20 shadow-2xl">
+                  <p className="text-xs text-slateink/40 px-1 pb-2">Hər test tək bir mövzunu əhatə edir, qarışdırılmır.</p>
+                  <Input label="Sinif ilə süz (məs. 9)" value={hazirSinifFiltr} onChange={setHazirSinifFiltr} placeholder="Boş — hamısı" />
+                  <div className="max-h-80 overflow-y-auto mt-2 space-y-1">
+                    {Object.values(hazirTestlerBank)
+                      .filter((t) => !hazirSinifFiltr.trim() || String(t.sinif) === hazirSinifFiltr.trim())
+                      .sort((a, b) => String(a.sinif).localeCompare(String(b.sinif)) || String(a.movzu).localeCompare(String(b.movzu)))
+                      .map((t) => (
+                        <button
+                          key={t.id}
+                          disabled={hazirLoading}
+                          onClick={() => assignHazirTest(t)}
+                          className="w-full text-left px-3 py-2.5 rounded-xl hover:bg-paper transition-colors text-sm text-slateink disabled:opacity-40 flex items-center justify-between gap-2"
+                        >
+                          <span>{t.baslik}</span>
+                          <span className="text-xs text-slateink/40 shrink-0">{(t.suallar || []).length} sual</span>
+                        </button>
+                      ))}
+                    {Object.values(hazirTestlerBank).filter((t) => !hazirSinifFiltr.trim() || String(t.sinif) === hazirSinifFiltr.trim()).length === 0 && (
+                      <p className="text-xs text-slateink/40 px-3 py-2">Bu sinif üçün hazır test yoxdur.</p>
+                    )}
+                  </div>
+                </div>
               )}
             </div>
           )}

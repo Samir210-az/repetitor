@@ -124,6 +124,7 @@ export default function ExamTake() {
       baslik: test?.baslik || "",
       testId,
       cavablar,
+      ...(test?.mətn ? { mətn: test.mətn } : {}),
     };
     try {
       await set(ref(db, tenantPath(tenantId, "testler", testId, "neticeler", sagirdId)), payload);
@@ -170,6 +171,12 @@ export default function ExamTake() {
               REPETİTOR: {profil?.ad || "—"} · {new Date(result.tarix).toLocaleDateString("az-AZ")} {new Date(result.tarix).toLocaleTimeString("az-AZ", { hour: "2-digit", minute: "2-digit" })}
             </p>
           </div>
+          {result.mətn && (
+            <div className="card p-4 mb-5 bg-gold/5 border-gold/20">
+              <p className="text-xs font-semibold text-[#B8862F] uppercase tracking-wide mb-2">Mətn</p>
+              <p className="text-sm text-slateink/80 whitespace-pre-line leading-relaxed">{result.mətn}</p>
+            </div>
+          )}
           <p className="text-slateink/50 text-sm mb-4">Cavab açarı:</p>
           <div className="space-y-3">
             {toArray(result.cavablar).map((c, i) => (
@@ -227,6 +234,12 @@ export default function ExamTake() {
             </div>
           </div>
 
+          {test.mətn && (
+            <div className="card p-4 mb-5 bg-gold/5 border-gold/20">
+              <p className="text-xs font-semibold text-[#B8862F] uppercase tracking-wide mb-2">Mətn</p>
+              <p className="text-sm text-slateink/80 whitespace-pre-line leading-relaxed">{test.mətn}</p>
+            </div>
+          )}
           <div className="space-y-5 mb-8">
             {suallar.map((q, i) => {
               const opts = Array.isArray(q.secimler) ? q.secimler : [];

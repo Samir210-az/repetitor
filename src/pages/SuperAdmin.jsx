@@ -352,7 +352,8 @@ function SeedBankTool() {
       import("../data/riyaziyyatBank.json"),
       import("../data/biologiyaBank.json"),
       import("../data/edebiyyatBank.json"),
-    ]).then(([fizika, azDili, kimya, riyaziyyat, biologiya, edebiyyat]) => {
+      import("../data/hazirTestler.json"),
+    ]).then(([fizika, azDili, kimya, riyaziyyat, biologiya, edebiyyat, hazirTestler]) => {
       if (cancelled) return;
       setBanks({
         fizika: fizika.default,
@@ -361,6 +362,7 @@ function SeedBankTool() {
         riyaziyyat: riyaziyyat.default,
         biologiya: biologiya.default,
         edebiyyat: edebiyyat.default,
+        hazirTestler: hazirTestler.default,
       });
     });
     return () => {
@@ -374,8 +376,10 @@ function SeedBankTool() {
   const riyaziyyatBank = banks.riyaziyyat || [];
   const biologiyaBank = banks.biologiya || [];
   const edebiyyatBank = banks.edebiyyat || [];
+  const hazirTestlerData = banks.hazirTestler || {};
+  const hazirTestSayi = Object.values(hazirTestlerData).reduce((sum, arr) => sum + (Array.isArray(arr) ? arr.length : 0), 0);
 
-  const banksLoading = Object.keys(banks).length < 6;
+  const banksLoading = Object.keys(banks).length < 7;
 
   async function seedFizika() {
     if (fizikaBank.length === 0) return;
@@ -483,6 +487,26 @@ function SeedBankTool() {
     }
   }
 
+  const [status7, setStatus7] = useState("");
+  async function seedHazirTestler() {
+    if (hazirTestSayi === 0) return;
+    setStatus7("Köhnə qeydlər təmizlənir və yenidən yazılır...");
+    try {
+      await remove(ref(db, "repetitor/hazirTestler"));
+      const updates = {};
+      Object.entries(hazirTestlerData).forEach(([fenn, tests]) => {
+        const fennKey = fenn.trim().toLowerCase();
+        (tests || []).forEach((t) => {
+          updates[`repetitor/hazirTestler/${fennKey}/${t.id}`] = { ...t, yaradilib: Date.now() };
+        });
+      });
+      await update(ref(db), updates);
+      setStatus7(`✅ Təmizləndi və ${hazirTestSayi} hazır test (${Object.keys(hazirTestlerData).length} fənn üzrə) əlavə olundu.`);
+    } catch (err) {
+      setStatus7("❌ Xəta: " + err.message);
+    }
+  }
+
   return (
     <div className="card-dark p-5 mt-6 space-y-4">
       <div>
@@ -526,6 +550,13 @@ function SeedBankTool() {
           Ədəbiyyat bankını doldur
         </button>
         {status6 && <p className="text-xs font-mono text-white/70 mt-3">{status6}</p>}
+      </div>
+      <div className="pt-3 border-t border-white/10">
+        <p className="text-white/60 text-sm mb-3">🗂️ Hazır Testlər dəstini əlavə et ({hazirTestSayi} sual, {Object.values(hazirTestlerData).reduce((s, a) => s + (a?.length || 0), 0)} test, mövzu üzrə ayrı-ayrı — Riyaziyyat, Kimya, Az.dili, Fizika, Biologiya)</p>
+        <button onClick={seedHazirTestler} disabled={banksLoading} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-white/70 disabled:opacity-40">
+          Hazır Testlər dəstini doldur
+        </button>
+        {status7 && <p className="text-xs font-mono text-white/70 mt-3">{status7}</p>}
       </div>
     </div>
   );
