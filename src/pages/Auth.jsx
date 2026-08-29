@@ -5,6 +5,7 @@ import { GraduationCap, ArrowRight, Loader2 } from "lucide-react";
 import { db, ref, set, get, tenantPath, signInTenant, registerTenant } from "../lib/firebase.js";
 import { saveSession, slugify } from "../lib/session.js";
 import { trackVisit } from "../lib/analytics.js";
+import { notifyTelegram } from "../lib/telegram.js";
 
 const cleanPhone = (p) => p.replace(/[^\d]/g, "");
 
@@ -62,6 +63,9 @@ export default function Auth() {
         plan: "sınaq",
       });
       await set(indexRef, tenantId);
+      notifyTelegram(
+        `👨‍🏫 Yeni qeydiyyat — Repetitor CRM\nAd: ${ad}\nFənn: ${fenn}\nTelefon: ${telefon}\nLink: https://repetitor-k.vercel.app`
+      );
       saveSession(tenantId, { ad, fenn });
       navigate("/panel");
     } catch (err) {
