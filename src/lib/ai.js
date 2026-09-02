@@ -118,7 +118,7 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
       Authorization: `Bearer ${GK()}`,
     },
     body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
+      model: "openai/gpt-oss-120b",
       messages: [
         { role: "system", content: buildSystemPrompt(count, fenn, sinif, movzular) },
         { role: "user", content: user },
@@ -207,7 +207,7 @@ async function critiqueAndFix(fenn, sinif, suallar) {
       Authorization: `Bearer ${GK()}`,
     },
     body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
+      model: "openai/gpt-oss-120b",
       messages: [{ role: "user", content: buildCritiquePrompt(fenn, sinif, suallar) }],
       response_format: { type: "json_object" },
       temperature: 0.4,
