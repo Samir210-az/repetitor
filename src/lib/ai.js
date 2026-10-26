@@ -84,24 +84,7 @@ function stripOptionPrefix(text) {
   return text.replace(/^\s*[A-D]\s*[).:-]\s*/i, "").trim();
 }
 
-// Embedded API access — bir neçə açar arasında növbələşir ki, bir hesabın
-// gündəlik kvotası bitəndə avtomatik növbətiyə keçsin.
-const _keys = [
-  { d: "dmJ6Tn8hJkNUekd3ZWRBJnJDJEAkIXVoRlZ1aHMiV0h3KWRWQlNYenljJlNoXHR4IydQJlJzZWI=", k: 17 },
-  { d: "cGR8SE4vfVNBcn9xdS9+RlInI1wmZEJdQFBzbnUkUU4iLlN5Q0NNWCZkeGUhQ3ZiQ2Z8WGFOdCU=", k: 23 },
-  { d: "TlpCdm1Pa3lkXhhDTE5eGlFFZkAQEU1rfm5NUEsab3B7WUVMWmdxTWBOZE5+SEhZHk0RRFBFHhE=", k: 41 },
-];
-let _keyIdx = 0;
-const GK = () => {
-  const { d, k } = _keys[_keyIdx % _keys.length];
-  return atob(d)
-    .split("")
-    .map((c) => String.fromCharCode(c.charCodeAt(0) ^ k))
-    .join("");
-};
-function rotateKey() {
-  _keyIdx = (_keyIdx + 1) % _keys.length;
-}
+const MAX_SLOTS = 3;
 
 async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
   const priorNote =
@@ -111,11 +94,10 @@ async function callGroq(fenn, sinif, count, movzular, priorSuallar) {
 
   const user = `Azərbaycan Təhsil Nazirliyinin ${sinif}-ci sinif kurikulumuna uyğun, ${fenn} fənni üzrə DİM (abituriyent) səviyyəsində tam olaraq ${count} suallıq test hazırla. Hər sualın 4 cavab variantı olsun, yalnız biri düzgün. Təbii Azərbaycan dilində yaz.${priorNote}`;
 
-  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+  const res = await fetch("https://aze-ai.az/api/groq", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${GK()}`,
     },
     body: JSON.stringify({
       model: "openai/gpt-oss-120b",
@@ -200,11 +182,10 @@ Yalnız düzəldilmiş tam JSON qaytar, başqa heç nə yazma. Format:
 }
 
 async function critiqueAndFix(fenn, sinif, suallar) {
-  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+  const res = await fetch("https://aze-ai.az/api/groq", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      Authorization: `Bearer ${GK()}`,
     },
     body: JSON.stringify({
       model: "openai/gpt-oss-120b",
@@ -216,7 +197,6 @@ async function critiqueAndFix(fenn, sinif, suallar) {
   });
 
   if (!res.ok) {
-    if (res.status === 429) rotateKey();
     throw new Error(`Tənqid mərhələsi uğursuz (${res.status})`);
   }
 
@@ -271,9 +251,8 @@ export async function generateTest({ fenn, sinif, sualSayi, movzular, onProgress
       lastError = err;
       consecutiveFailures += 1;
       if (err.status === 429) {
-        rotateKey();
-        if (consecutiveFailures >= _keys.length * 2) break;
-        await sleep(consecutiveFailures >= _keys.length ? 2500 : 300);
+        if (consecutiveFailures >= MAX_SLOTS * 2) break;
+        await sleep(consecutiveFailures >= MAX_SLOTS ? 2500 : 300);
       } else if (err.status === 413) {
         if (consecutiveFailures >= 3) break;
         await sleep(2500);
