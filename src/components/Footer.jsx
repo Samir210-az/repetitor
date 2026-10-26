@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex items-center gap-5">
           <InstallButton />
           <a
-            href="https://instagram.com/securtiy_group"
+            href="https://aze-ai.az"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gold hover:text-white transition-colors"
