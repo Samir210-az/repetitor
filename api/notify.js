@@ -20,8 +20,8 @@ export default async function handler(req, res) {
   recent.push(now);
   hits.set(ip, recent);
 
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID;
+  const token = process.env.TELEGRAM_BOT_TOKEN || process.env.VITE_TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID || process.env.VITE_TELEGRAM_CHAT_ID;
   if (!token || !chatId) return res.status(500).json({ ok: false });
 
   const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {};
