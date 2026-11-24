@@ -64,7 +64,7 @@ export default function Auth() {
       await set(indexRef, tenantId);
       if (window.notifyTelegram) {
         window.notifyTelegram(
-          `👨‍🏫 Yeni qeydiyyat — Repetitor CRM\nAd: ${ad}\nFənn: ${fenn}\nTelefon: ${telefon}\nLink: https://repetitor-k.vercel.app`
+          `👨‍🏫 Yeni qeydiyyat — Repetitor CRM\nAd: ${ad}\nFənn: ${fenn}\nTelefon: ${telefon}\nLink: https://repetitor.aze-ai.az`
         );
       }
       saveSession(tenantId, { ad, fenn });
