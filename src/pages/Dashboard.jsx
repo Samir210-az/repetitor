@@ -852,6 +852,13 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
   const [hazirSinifFiltr, setHazirSinifFiltr] = useState("");
   const [hazirLoading, setHazirLoading] = useState(false);
   const tests = useCollection(tenantId, "testler");
+
+  function bildirTest(baslik) {
+    if (!window.notifyTelegram) return;
+    window.notifyTelegram(
+      `📝 Yeni test — Repetitor CRM\nRepetitor: ${repetitorAd || "—"}\nFənn: ${fenn || "—"}\nTest: ${baslik}\nLink: https://repetitor.aze-ai.az`
+    );
+  }
   const groups = useCollection(tenantId, "qruplar");
   const [sinif, setSinif] = useState("");
   const [sualSayi, setSualSayi] = useState(60);
@@ -934,6 +941,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         suallar: cleanSuallar,
         ...(wasTruncated ? { truncated: true, requestedCount } : {}),
       });
+      bildirTest(`${sinif}-ci sinif ${fenn} (AI, ${cleanSuallar.length} sual)`);
       setOpenId(r.key);
       setSinif("");
     } catch (err) {
@@ -965,6 +973,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
         ...(t["mətn"] ? { mətn: t["mətn"] } : {}),
         suallar: t.suallar,
       });
+      bildirTest(t.baslik);
       setHazirPickerOpen(false);
       setOpenId(r.key);
     } finally {
@@ -1024,6 +1033,7 @@ function TestlerTab({ tenantId, fenn, repetitorAd }) {
                     mənbə: "bank",
                     suallar: suallarFromBank,
                   });
+                  bildirTest(`${sinif}-ci sinif ${fenn} (bank, ${suallarFromBank.length} sual)`);
                   setBankLoading(false);
                   setBankMsg(
                     az
